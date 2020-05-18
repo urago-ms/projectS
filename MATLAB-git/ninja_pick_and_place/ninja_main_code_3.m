@@ -1,3 +1,5 @@
+% A program to measure the time when it passes through the photoelectric sensor
+
 clear all
 close all
 clc
@@ -9,9 +11,12 @@ end_test=0;
 vrep=remApi('remoteApi');
 vrep.simxFinish(-1);
 clientID=vrep.simxStart('127.0.0.1',19999,true,true,5000,5);
-simtime=zeros(0;
+simtime=zeros(100,2);
+simtime2=zeros(100,2);
+
 number=0;
 cmdTime=0;
+id_num=0;
 
 if(clientID>-1)
     disp ('connected to remote API server');
@@ -49,21 +54,37 @@ if(clientID>-1)
     gripper (clientID,0,j1,j2);pause(1.5);  % open gripper
     moveL (clientID, motoman_target, fposition3, 2);
     
+    id_num=1;
     while(end_test==0)
-            	[number, cmdTime]=vrep.simxGetLastCmdTime(number, clientID)
+        
+%             	[number, cmdTime]=vrep.simxGetLastCmdTime(number, clientID)
+% %         simtime(id_num, 1) = id_num;
+% %         simtime(id_num, 2) = vrep.simxGetLastCmdTime(clientID)
+        
+%         simtime2(id_num, 1) = id_num;
+%         simtime2(id_num, 2) = vrep.simxGetLastCmdTime(clientID)
+        
+        [pingTime]=vrep.simxGetPingTime(clientID)
+        
         [res,PSsensor_distance, detectedPoint]=vrep.simxReadProximitySensor(clientID, Proximity_sensor, vrep.simx_opmode_blocking);
         if(PSsensor_distance > 0)
-            moveL(clientID, motoman_target, fposition4,2);
-            gripper (clientID,1,j1,j2);pause(2);  % close gripper and pickup the cube
-            moveL(clientID, motoman_target, fposition3,2);
-            moveL(clientID, motoman_target, fposition5,2);
-            moveL(clientID, motoman_target, fposition6,2);
-            gripper (clientID,0,j1,j2);pause(1);
-            moveL(clientID, motoman_target, fposition5,2);
-            moveL(clientID, motoman_target, fposition3,2);
+               simtime(id_num, 1) = id_num;
+               simtime(id_num, 2) = vrep.simxGetLastCmdTime(clientID)
+            
+%             moveL(clientID, motoman_target, fposition4,2);
+%             gripper (clientID,1,j1,j2);pause(2);  % close gripper and pickup the cube
+%             moveL(clientID, motoman_target, fposition3,2);
+%             moveL(clientID, motoman_target, fposition5,2);
+%             moveL(clientID, motoman_target, fposition6,2);
+%             gripper (clientID,0,j1,j2);pause(1);
+%             moveL(clientID, motoman_target, fposition5,2);
+%             moveL(clientID, motoman_target, fposition3,2);
             % refresh the place position
+                    id_num = id_num + 1;
+
             [end_test ,fposition6, fposition5, fposition3] = pick_and_place(origine_table, 3, 3, 3, cube_dimensions, width_offset, length_offset, fposition6, fposition5, fposition3);
         end
+%         id_num = id_num + 1;
     end
 vrep.delete();  % call the destructor
 disp('program ended');
