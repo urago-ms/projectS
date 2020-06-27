@@ -54,37 +54,53 @@ if(clientID>-1)
     gripper (clientID,0,j1,j2);pause(1.5);  % open gripper
     moveL (clientID, motoman_target, fposition3, 2);
     
+    
+    realtime=clock;
+    startTime=realtime(6);
+    currentTime=realtime(6);
+    
     id_num=1;
     while(end_test==0)
         
-%             	[number, cmdTime]=vrep.simxGetLastCmdTime(number, clientID)
-% %         simtime(id_num, 1) = id_num;
-% %         simtime(id_num, 2) = vrep.simxGetLastCmdTime(clientID)
+        %             	[number, cmdTime]=vrep.simxGetLastCmdTime(number, clientID)
+        % %         simtime(id_num, 1) = id_num;
+        % %         simtime(id_num, 2) = vrep.simxGetLastCmdTime(clientID)
         
-%         simtime2(id_num, 1) = id_num;
-%         simtime2(id_num, 2) = vrep.simxGetLastCmdTime(clientID)
+        %         simtime2(id_num, 1) = id_num;
+        %         simtime2(id_num, 2) = vrep.simxGetLastCmdTime(clientID)
         
-        [pingTime]=vrep.simxGetPingTime(clientID)
+        %         [pingTime]=vrep.simxGetPingTime(clientID)
         
         [res,PSsensor_distance, detectedPoint]=vrep.simxReadProximitySensor(clientID, Proximity_sensor, vrep.simx_opmode_blocking);
         if(PSsensor_distance > 0)
-               simtime(id_num, 1) = id_num;
-               simtime(id_num, 2) = vrep.simxGetLastCmdTime(clientID)
             
-%             moveL(clientID, motoman_target, fposition4,2);
-%             gripper (clientID,1,j1,j2);pause(2);  % close gripper and pickup the cube
-%             moveL(clientID, motoman_target, fposition3,2);
-%             moveL(clientID, motoman_target, fposition5,2);
-%             moveL(clientID, motoman_target, fposition6,2);
-%             gripper (clientID,0,j1,j2);pause(1);
-%             moveL(clientID, motoman_target, fposition5,2);
-%             moveL(clientID, motoman_target, fposition3,2);
+            realtime=clock;
+            currentTime=realtime(6);
+            currentTime - startTime
+            
+            simtime(id_num, 1) = id_num;
+            simtime(id_num, 2) = currentTime - startTime;
+%             simtime(id_num, 2) = vrep.simxGetLastCmdTime(clientID)
+            
+            %             moveL(clientID, motoman_target, fposition4,2);
+            %             gripper (clientID,1,j1,j2);pause(2);  % close gripper and pickup the cube
+            %             moveL(clientID, motoman_target, fposition3,2);
+            %             moveL(clientID, motoman_target, fposition5,2);
+            %             moveL(clientID, motoman_target, fposition6,2);
+            %             gripper (clientID,0,j1,j2);pause(1);
+            %             moveL(clientID, motoman_target, fposition5,2);
+            %             moveL(clientID, motoman_target, fposition3,2);
             % refresh the place position
-                    id_num = id_num + 1;
-
+            id_num = id_num + 1;
+            
             [end_test ,fposition6, fposition5, fposition3] = pick_and_place(origine_table, 3, 3, 3, cube_dimensions, width_offset, length_offset, fposition6, fposition5, fposition3);
+            
+            
         end
-%         id_num = id_num + 1;
+        
+        
+        
+        %         id_num = id_num + 1;
     end
 vrep.delete();  % call the destructor
 disp('program ended');

@@ -16,6 +16,16 @@ number=0;
 cmdTime=0;
 id_num=0;
 
+
+% From spawn_test
+disp('Program started');
+% sim=remApi('remoteApi','extApi.h'); % using the header (requires a compiler)
+sim=remApi('remoteApi'); % using the prototype file (remoteApiProto.m)
+sim.simxFinish(-1); % just in case, close all opened connections
+clientID=sim.simxStart('127.0.0.1',19999,true,true,5000,5);
+% From spawn_test end
+
+
 if(clientID>-1)
     disp ('connected to remote API server');
     % object handles
@@ -40,9 +50,9 @@ if(clientID>-1)
     fposition1=[0.08,    0.6,    0.6,    0,  0,  0];    % [x, y, z, alpha, beta, gamma] first position
     fposition2=[0.2,    0,      0.9,    0,  0,  0];
     fposition3=[0.34999,0.1587, 0.63,    0, 0,  0];    % above pickup position
-    fposition4=[0.34999,0.1587, 0.53,    0,  0,  0];    % pickup position
+    fposition4=[0.34999,0.1587, 0.561,    0,  0,  0];    % pickup position
     fposition5=[-0.2,   0.27,   0.63,    0,  0,  0];    % above place position
-    fposition6=[-0.2,   0.27,   0.53,    0,  0,  0];    % placeposition
+    fposition6=[-0.2,   0.27,   0.561,    0,  0,  0];    % placeposition
     
 %     fposition1=[0.2,    0.6,    0.6,    0,  0,  0];    % [x, y, z, alpha, beta, gamma]
 %     fposition2=[0.1,    0,      0.9,    0,  0,  0];
@@ -72,9 +82,26 @@ if(clientID>-1)
         if(PSsensor_distance > 0)
             moveL(clientID, motoman_target, fposition4,2);
             gripper (clientID,1,j1,j2);pause(2);  % close gripper and pickup the cube
+            vrep.simxSetIntegerSignal(clientID,'succtionActive',1, vrep.simx_opmode_oneshot);
+            
+            
+             [res retInts retFloats retStrings retBuffer]=vrep.simxCallScriptFunction(clientID, ...
+                                                                                'suctionPadLoopClosureDummy1', ...
+                                                                                sim.sim_scripttype_childscript, ...
+                                                                                'suction_function', ...
+                                                                                [0,0,1],[0.1,0.3,0.68], ...
+                                                                                'Hello world!', ...
+                                                                                [], ...
+                                                                                vrep.simx_opmode_blocking);
+            
             moveL(clientID, motoman_target, fposition3,2);
             moveL(clientID, motoman_target, fposition5,2);
             moveL(clientID, motoman_target, fposition6,2);
+            %             vrep.simxClearIntegerSignal(clientID,'succtionActive',vrep.simx_opmode_oneshot);
+            vrep.simxSetIntegerSignal(clientID,'succtionActive',0, vrep.simx_opmode_oneshot);
+            
+%             vrep.simxSetLinkDummy(l,-1);
+            
             gripper (clientID,0,j1,j2);pause(1);
             moveL(clientID, motoman_target, fposition5,2);
             moveL(clientID, motoman_target, fposition3,2);
