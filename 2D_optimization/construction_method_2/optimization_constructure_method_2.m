@@ -1,3 +1,5 @@
+% % % % % % % % % % % % % % % % % % % plot result only%%%%%%%%%%%%%%%
+
 %clear
 
 %rng(0,'twister');   % randam number initialization

@@ -1,3 +1,4 @@
+%%%%%%%%%% plot all results%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %clear
 
 %rng(0,'twister');   % randam number initialization
