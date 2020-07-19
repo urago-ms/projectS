@@ -19,85 +19,131 @@ function spawn_test()
     if (clientID>-1)
         disp('Connected to remote API server');
         
-        % 1. First send a command to display a specific message in a dialog box:
-        [res retInts retFloats retStrings retBuffer]=sim.simxCallScriptFunction(clientID, ...
-                                                                                'ResizableFloor_5_25', ...
-                                                                                sim.sim_scripttype_childscript, ...
-                                                                                'spawn_function', ...
-                                                                                [],[1.5,1.4,0], ...
-                                                                                'Hello world!', ...
-                                                                                [], ...
-                                                                                sim.simx_opmode_blocking);
-%     pause(3);
-        if (res==sim.simx_return_ok)
-            fprintf('Returned message: %s\n',retStrings);
-        else
-            fprintf('Remote function call failed\n');
-        end
         
-        % 2. First send a command to display a specific message in a dialog box:
-        [res retInts retFloats retStrings retBuffer]=sim.simxCallScriptFunction(clientID, ...
-                                                                                'ResizableFloor_5_25', ...
-                                                                                sim.sim_scripttype_childscript, ...
-                                                                                'spawn_function_con', ...
-                                                                                [0,0,1],[0.1,0.3,0.68], ...
-                                                                                'Hello world!', ...
-                                                                                [], ...
-                                                                                sim.simx_opmode_blocking);
-%         pause(3);
-        
-        if (res==sim.simx_return_ok)
-            fprintf('Returned message: %s\n',retStrings);
-        else
-            fprintf('RRRRRRRRRemote function call failed\n');
-        end
-        
-        % 2. First send a command to display a specific message in a dialog box:
-        [res retInts retFloats retStrings retBuffer]=sim.simxCallScriptFunction(clientID, ...
-                                                                                'ResizableFloor_5_25', ...
-                                                                                sim.sim_scripttype_childscript, ...
-                                                                                'spawn_function_tab', ...
-                                                                                [],[-1.0,1.0,0.68], ...
-                                                                                'Hello world!', ...
-                                                                                [], ...
-                                                                                sim.simx_opmode_blocking);
-        pause(1);
-        
-        
-         if (res==sim.simx_return_ok)
-            fprintf('Returned message: %s\n',retStrings);
-        else
-            fprintf('tttttttttttRRRemote function call failed\n');
-        end
-        
-        % 4. First send a command to display a specific message in a dialog box:
-        [res retInts retFloats retStrings retBuffer]=sim.simxCallScriptFunction(clientID, ...
-                                                                                'ResizableFloor_5_25', ...
-                                                                                sim.sim_scripttype_childscript, ...
-                                                                                'remove_function_rob', ...
-                                                                                [],[-1.0,1.0,0.68], ...
-                                                                                'Hello world!', ...
-                                                                                [], ...
-                                                                                sim.simx_opmode_blocking);
-                                                              
-%         sim.simxRemoveModel(clientID,number objectHandle,sim.simx_opmode_oneshot);
-                                                                            
-        [res1, rob]=sim.simxGetObjectHandle(clientID,'UR10_non_move.ttm',sim.simx_opmode_blocking);
-        [res1, tab]=sim.simxGetObjectHandle(clientID,'customizable table.ttm',sim.simx_opmode_blocking);
-                pause(1);
-%         codeA = sim.simxRemoveObject(clientID,rob,sim.simx_opmode_blocking);
-        fprintf('ddddd\n');
-        
-        [returnCode, prop] = sim.simxGetModelProperty(clientID, rob, sim.simx_opmode_blocking)
-        
-        
-%         codeAB = sim.simxSetModelProperty(clientID, tab, 61441, sim.simx_opmode_oneshot);
-        %         simxmodelproperty_not_visible
-%         [returnCode, prop] = sim.simxGetModelProperty(clientID, tab, sim.simx_opmode_blocking)
+        for count = 1:2
+            % 1. First send a command to display a specific message in a dialog box:
+            [res retInts retFloats retStrings retBuffer]=sim.simxCallScriptFunction(clientID, ...
+                'ResizableFloor_5_25', ...
+                sim.sim_scripttype_childscript, ...
+                'spawn_function', ...
+                [],[1.5,1.4,0], ...
+                'Hello world!', ...
+                [], ...
+                sim.simx_opmode_blocking);
+            %     pause(3);
+            if (res==sim.simx_return_ok)
+                fprintf('Returned message: %s\n',retStrings);
+            else
+                fprintf('Remote function call failed\n');
+            end
+            
+            % 2. First send a command to display a specific message in a dialog box:
+            [res retInts retFloats retStrings retBuffer]=sim.simxCallScriptFunction(clientID, ...
+                'ResizableFloor_5_25', ...
+                sim.sim_scripttype_childscript, ...
+                'spawn_function_con', ...
+                [0,0,1],[0.1,0.3,0.68], ...
+                'Hello world!', ...
+                [], ...
+                sim.simx_opmode_blocking);
+            %         pause(3);
+            
+            if (res==sim.simx_return_ok)
+                fprintf('Returned message: %s\n',retStrings);
+            else
+                fprintf('RRRRRRRRRemote function call failed\n');
+            end
+            
+            % 2. First send a command to display a specific message in a dialog box:
+            [res retInts retFloats retStrings retBuffer]=sim.simxCallScriptFunction(clientID, ...
+                'ResizableFloor_5_25', ...
+                sim.sim_scripttype_childscript, ...
+                'spawn_function_tab', ...
+                [],[-1.0,1.0,0.68], ...
+                'Hello world!', ...
+                [], ...
+                sim.simx_opmode_blocking);
+            pause(1);
+            
+            
+            if (res==sim.simx_return_ok)
+                fprintf('Returned message: %s\n',retStrings);
+            else
+                fprintf('tttttttttttRRRemote function call failed\n');
+            end
+            
+            % 4. First send a command to display a specific message in a dialog box:
+            %         [res retInts retFloats retStrings retBuffer]=sim.simxCallScriptFunction(clientID, ...
+            %                                                                                 'ResizableFloor_5_25', ...
+            %                                                                                 sim.sim_scripttype_childscript, ...
+            %                                                                                 'remove_function_rob', ...
+            %                                                                                 [],[-1.0,1.0,0.68], ...
+            %                                                                                 'Hello world!', ...
+            %                                                                                 [], ...
+            %                                                                                 sim.simx_opmode_blocking);
+            
+            pause(1);
+            %         Remove robot model
+            fprintf('remove ur10\n');
+            [res_rob_remove, rob] = sim.simxGetObjectHandle(clientID,'UR10',sim.simx_opmode_blocking);
+            [rob_remove_flag] = sim.simxRemoveModel(clientID, rob, sim.simx_opmode_blocking);
+            
+            disp(res_rob_remove);
+            disp(rob);
+            
+            fprintf('rob_remove_flag = \n');
+            disp(rob_remove_flag);
+            
+            
+            pause(1);
+            % % % % %         Remove table model
+            fprintf('remove customizableTable\n');
+            [res_tab_remove, tab] = sim.simxGetObjectHandle(clientID,'customizableTable',sim.simx_opmode_blocking);
+            [tab_remove_flag] = sim.simxRemoveModel(clientID, tab, sim.simx_opmode_blocking);
+            
+            disp(res_tab_remove);
+            disp(tab);
+            
+            fprintf('tab_remove_flag = \n');
+            disp(tab_remove_flag);
+            
+            
+            pause(1);
+            % % % %          %         Remove conveyor model
+            fprintf('remove customizableConveyor\n');
+            [res_con_remove, con] = sim.simxGetObjectHandle(clientID,'customizableConveyor',sim.simx_opmode_blocking);
+            [con_remove_flag] = sim.simxRemoveModel(clientID, con, sim.simx_opmode_blocking);
+            
+            disp(res_con_remove);
+            disp(con);
+            
+            fprintf('con_remove_flag = \n');
+            disp(con_remove_flag);
 
-[returnCode, position] = sim.simxGetObjectPosition(clientID,tab,-1,sim.simx_opmode_blocking)
+        end
+
+
         
-        codeAC = sim.simxSetObjectPosition(clientID,tab,-1,[-1,2,1],sim.simx_opmode_blocking)
+        
+        
+
+                                                                            
+%         
+%         [res1, tab]=sim.simxGetObjectHandle(clientID,'customizable table.ttm',sim.simx_opmode_blocking);
+%                 pause(1);
+% %         codeA = sim.simxRemoveObject(clientID,rob,sim.simx_opmode_blocking);
+%         fprintf('ddddd\n');
+%         
+%         [returnCode, prop] = sim.simxGetModelProperty(clientID, rob, sim.simx_opmode_blocking)
+%         
+%         
+% %         codeAB = sim.simxSetModelProperty(clientID, tab, 61441, sim.simx_opmode_oneshot);
+%         %         simxmodelproperty_not_visible
+% %         [returnCode, prop] = sim.simxGetModelProperty(clientID, tab, sim.simx_opmode_blocking)
+% 
+%         [returnCode, position] = sim.simxGetObjectPosition(clientID,tab,-1,sim.simx_opmode_blocking)
+%         
+%         codeAC = sim.simxSetObjectPosition(clientID,tab,-1,[-1,2,1],sim.simx_opmode_blocking)
 % 
 %         [res1, con]=sim.simxGetObjectHandle(clientID,'customizable conveyor belt.ttm',sim.simx_opmode_blocking);
 %         codeB = sim.simxRemoveModel(clientID,con,sim.simx_opmode_blocking);
@@ -105,7 +151,7 @@ function spawn_test()
 %         [res1, tab]=sim.simxGetObjectHandle(clientID,'customizable table.ttm',sim.simx_opmode_blocking);
 %         codeC = sim.simxRemoveModel(clientID,tab,sim.simx_opmode_blocking);
         
-        if (res==sim.simx_return_ok)
+        if (res == sim.simx_return_ok)
             fprintf('Returned message: %s\n',retStrings);
         else
             fprintf('3333333Remote function call failed\n');
