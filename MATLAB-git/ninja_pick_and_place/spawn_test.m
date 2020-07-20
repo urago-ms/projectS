@@ -83,9 +83,10 @@ function spawn_test()
             %                                                                                 sim.simx_opmode_blocking);
             
             pause(1);
-            %         Remove robot model
-            fprintf('remove ur10\n');
-            [res_rob_remove, rob] = sim.simxGetObjectHandle(clientID,'UR10',sim.simx_opmode_blocking);
+% % % % % % Remove model
+            % % % % % % Remove manipulator model
+            fprintf('remove manipulator\n');
+            [res_rob_remove, rob] = sim.simxGetObjectHandle(clientID,'motoman_HP3J_base_link_respondable',sim.simx_opmode_blocking);
             [rob_remove_flag] = sim.simxRemoveModel(clientID, rob, sim.simx_opmode_blocking);
             
             disp(res_rob_remove);
@@ -93,7 +94,6 @@ function spawn_test()
             
             fprintf('rob_remove_flag = \n');
             disp(rob_remove_flag);
-            
             
             pause(1);
             % % % % %         Remove table model
@@ -109,7 +109,7 @@ function spawn_test()
             
             
             pause(1);
-            % % % %          %         Remove conveyor model
+            % % % %          Remove conveyor model
             fprintf('remove customizableConveyor\n');
             [res_con_remove, con] = sim.simxGetObjectHandle(clientID,'customizableConveyor',sim.simx_opmode_blocking);
             [con_remove_flag] = sim.simxRemoveModel(clientID, con, sim.simx_opmode_blocking);
