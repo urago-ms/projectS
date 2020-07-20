@@ -19,9 +19,11 @@ function spawn_test()
     if (clientID>-1)
         disp('Connected to remote API server');
         
-        
+% % %         Repeated creation and deletion of the device.
         for count = 1:2
-            % 1. First send a command to display a specific message in a dialog box:
+            
+% % % % % %             Calling a function in the threaded child script of ResizableFloor_5_25 to create a facility
+            % % % Spawn a manipulator
             [res retInts retFloats retStrings retBuffer]=sim.simxCallScriptFunction(clientID, ...
                 'ResizableFloor_5_25', ...
                 sim.sim_scripttype_childscript, ...
@@ -37,7 +39,7 @@ function spawn_test()
                 fprintf('Remote function call failed\n');
             end
             
-            % 2. First send a command to display a specific message in a dialog box:
+            % % % Spawn a conveyor
             [res retInts retFloats retStrings retBuffer]=sim.simxCallScriptFunction(clientID, ...
                 'ResizableFloor_5_25', ...
                 sim.sim_scripttype_childscript, ...
@@ -54,7 +56,7 @@ function spawn_test()
                 fprintf('RRRRRRRRRemote function call failed\n');
             end
             
-            % 2. First send a command to display a specific message in a dialog box:
+            % % % Spawn a table
             [res retInts retFloats retStrings retBuffer]=sim.simxCallScriptFunction(clientID, ...
                 'ResizableFloor_5_25', ...
                 sim.sim_scripttype_childscript, ...
@@ -82,40 +84,55 @@ function spawn_test()
             %                                                                                 [], ...
             %                                                                                 sim.simx_opmode_blocking);
             
+            
+% % % % %             Generate facilities using MATLAB functions
+            [res_rob_genetate, rob_handle] = sim.simxLoadModel(clientID,'motoman_HP3J.ttm', 0, sim.simx_opmode_blocking)
+%                         [res_rob_genetate, rob_handle]=simxLoadModel(clientID, "motoman_HP3J.ttm", "", sim.simx_opmode_blocking)
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             pause(1);
 % % % % % % Remove model
             % % % % % % Remove manipulator model
             fprintf('remove manipulator\n');
-            [res_rob_remove, rob] = sim.simxGetObjectHandle(clientID,'motoman_HP3J_base_link_respondable',sim.simx_opmode_blocking);
-            [rob_remove_flag] = sim.simxRemoveModel(clientID, rob, sim.simx_opmode_blocking);
+%             [res_rob_remove, rob_handle] = sim.simxGetObjectHandle(clientID,'motoman_HP3J_base_link_respondable',sim.simx_opmode_blocking);
+            [rob_remove_flag] = sim.simxRemoveModel(clientID, rob_handle, sim.simx_opmode_blocking);
             
-            disp(res_rob_remove);
-            disp(rob);
+%             disp(res_rob_remove);
+            disp(rob_handle);
             
             fprintf('rob_remove_flag = \n');
             disp(rob_remove_flag);
             
-            pause(1);
+%             pause(1);
             % % % % %         Remove table model
             fprintf('remove customizableTable\n');
-            [res_tab_remove, tab] = sim.simxGetObjectHandle(clientID,'customizableTable',sim.simx_opmode_blocking);
-            [tab_remove_flag] = sim.simxRemoveModel(clientID, tab, sim.simx_opmode_blocking);
+            [res_tab_remove, tab_handle] = sim.simxGetObjectHandle(clientID,'customizableTable',sim.simx_opmode_blocking);
+            [tab_remove_flag] = sim.simxRemoveModel(clientID, tab_handle, sim.simx_opmode_blocking);
             
             disp(res_tab_remove);
-            disp(tab);
+            disp(tab_handle);
             
             fprintf('tab_remove_flag = \n');
             disp(tab_remove_flag);
             
             
-            pause(1);
+%             pause(1);
             % % % %          Remove conveyor model
             fprintf('remove customizableConveyor\n');
-            [res_con_remove, con] = sim.simxGetObjectHandle(clientID,'customizableConveyor',sim.simx_opmode_blocking);
-            [con_remove_flag] = sim.simxRemoveModel(clientID, con, sim.simx_opmode_blocking);
+            [res_con_remove, con_handle] = sim.simxGetObjectHandle(clientID,'customizableConveyor',sim.simx_opmode_blocking);
+            [con_remove_flag] = sim.simxRemoveModel(clientID, con_handle, sim.simx_opmode_blocking);
             
             disp(res_con_remove);
-            disp(con);
+            disp(con_handle);
             
             fprintf('con_remove_flag = \n');
             disp(con_remove_flag);
