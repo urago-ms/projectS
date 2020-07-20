@@ -76,10 +76,42 @@ if(clientID>-1)
 %         simtime2(id_num, 2) = vrep.simxGetLastCmdTime(clientID)
         
 %         [pingTime]=vrep.simxGetPingTime(clientID)
+
+
+
+
+
+
+% % % % % Read the properties of each device.
+% % %         [number returnCode,number prop]=simxGetModelProperty(number clientID,number objectHandle,number operationMode)
+        
         
         [res,PSsensor_distance, detectedPoint]=vrep.simxReadProximitySensor(clientID, Proximity_sensor, vrep.simx_opmode_blocking);
       
         if(PSsensor_distance > 0)
+            
+% % % Read the coordinates(position) of each device.
+% % %   [number returnCode,array position]=simxGetObjectPosition(number clientID,number objectHandle,number relativeToObjectHandle,number operationMode)        
+        [res_rob_handle, rob_handle] = vrep.simxGetObjectHandle(clientID,'base_link_respondable',vrep.simx_opmode_blocking)
+        [res_rob_pos, mani_pos] = vrep.simxGetObjectPosition(clientID, rob_handle, -1, vrep.simx_opmode_streaming)
+%         disp(mani_pos);
+        
+        [res_tab_handle, tab_handle] = vrep.simxGetObjectHandle(clientID,'customizableTable',vrep.simx_opmode_blocking)
+        [res_tab_pos, tab_pos] = vrep.simxGetObjectPosition(clientID, tab_handle, -1, vrep.simx_opmode_streaming)
+
+        [res_con_handle, con_handle] = vrep.simxGetObjectHandle(clientID,'customizableConveyor',vrep.simx_opmode_blocking)
+        [res_con_pos, con_pos] = vrep.simxGetObjectPosition(clientID, con_handle, -1, vrep.simx_opmode_streaming)
+        
+% % % Read the orientation of each device.
+% % %   [number returnCode,array eulerAngles]=simxGetObjectOrientation(number clientID,number objectHandle,number relativeToObjectHandle,number operationMode)        
+        [res_rob_orientation, mani_orientation] = vrep.simxGetObjectOrientation(clientID, rob_handle, -1, vrep.simx_opmode_streaming)
+
+        [res_tab_orientation, tab_orientation] = vrep.simxGetObjectOrientation(clientID, tab_handle, -1, vrep.simx_opmode_streaming)
+
+        [res_con_orientation, con_orientation] = vrep.simxGetObjectOrientation(clientID, con_handle, -1, vrep.simx_opmode_streaming)
+
+
+        
             moveL(clientID, motoman_target, fposition4,2);
             gripper (clientID,1,j1,j2);pause(2);  % close gripper and pickup the cube
             vrep.simxSetIntegerSignal(clientID,'succtionActive',1, vrep.simx_opmode_oneshot);
