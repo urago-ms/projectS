@@ -21,9 +21,10 @@ function spawn_test()
         
 % % %         Repeated creation and deletion of the device.
         for count = 1:2
-            
+
+%{            
 % % % % % %             Calling a function in the threaded child script of ResizableFloor_5_25 to create a facility
-            % % % Spawn a manipulator
+            % % % Genetate a manipulator
             [res retInts retFloats retStrings retBuffer]=sim.simxCallScriptFunction(clientID, ...
                 'ResizableFloor_5_25', ...
                 sim.sim_scripttype_childscript, ...
@@ -39,7 +40,7 @@ function spawn_test()
                 fprintf('Remote function call failed\n');
             end
             
-            % % % Spawn a conveyor
+            % % % Genetate a conveyor
             [res retInts retFloats retStrings retBuffer]=sim.simxCallScriptFunction(clientID, ...
                 'ResizableFloor_5_25', ...
                 sim.sim_scripttype_childscript, ...
@@ -56,7 +57,7 @@ function spawn_test()
                 fprintf('RRRRRRRRRemote function call failed\n');
             end
             
-            % % % Spawn a table
+            % % % Genetate a table
             [res retInts retFloats retStrings retBuffer]=sim.simxCallScriptFunction(clientID, ...
                 'ResizableFloor_5_25', ...
                 sim.sim_scripttype_childscript, ...
@@ -83,11 +84,33 @@ function spawn_test()
             %                                                                                 'Hello world!', ...
             %                                                                                 [], ...
             %                                                                                 sim.simx_opmode_blocking);
-            
+%}
             
 % % % % %             Generate facilities using MATLAB functions
-            [res_rob_genetate, rob_handle] = sim.simxLoadModel(clientID,'motoman_HP3J.ttm', 0, sim.simx_opmode_blocking)
-%                         [res_rob_genetate, rob_handle]=simxLoadModel(clientID, "motoman_HP3J.ttm", "", sim.simx_opmode_blocking)
+% % %             Genarate a robot
+            [res_rob_genetate, rob_handle] = sim.simxLoadModel(clientID,'motoman_HP3J_with_base.ttm', 0, sim.simx_opmode_blocking)
+%           [res_rob_genetate, rob_handle]=simxLoadModel(clientID, "motoman_HP3J.ttm", "", sim.simx_opmode_blocking)
+            [res_rob_setpos] = sim.simxSetObjectPosition(clientID, rob_handle, -1, [-0.6 0.65 0.15], sim.simx_opmode_oneshot)
+            
+% % %             Genarate a conveyor
+            [res_con_genetate, con_handle] = sim.simxLoadModel(clientID,'customizable conveyor belt.ttm', 0, sim.simx_opmode_blocking)
+            [res_con_setpos] = sim.simxSetObjectPosition(clientID, con_handle, -1, [0 0.5 0.45], sim.simx_opmode_oneshot)
+
+% % %             Genarate a table
+            [res_tab_genetate, tab_handle] = sim.simxLoadModel(clientID,'customizable table.ttm', 0, sim.simx_opmode_blocking)
+            [res_tab_setpos] = sim.simxSetObjectPosition(clientID, tab_handle, -1, [-0.6 0.65 0.45], sim.simx_opmode_oneshot)
+            
+            pause(5);
+
+% % %             Remove model (Matlab function)
+% % %             Remove a robot
+            [res_rob_remove] = sim.simxRemoveModel(clientID, rob_handle, sim.simx_opmode_blocking);
+            
+% % %             Remove a conveyor
+            [res_con_remove] = sim.simxRemoveModel(clientID, con_handle, sim.simx_opmode_blocking);
+
+% % %             Remove a table
+            [res_con_remove] = sim.simxRemoveModel(clientID, tab_handle, sim.simx_opmode_blocking);
 
             
             
@@ -95,12 +118,9 @@ function spawn_test()
             
             
             
-            
-            
-            
-            
-            pause(1);
-% % % % % % Remove model
+%{
+%             pause(1);
+% % % % % % Remove model (coppeliasim threaded child script function)
             % % % % % % Remove manipulator model
             fprintf('remove manipulator\n');
 %             [res_rob_remove, rob_handle] = sim.simxGetObjectHandle(clientID,'motoman_HP3J_base_link_respondable',sim.simx_opmode_blocking);
@@ -136,7 +156,7 @@ function spawn_test()
             
             fprintf('con_remove_flag = \n');
             disp(con_remove_flag);
-
+%}
         end
 
 

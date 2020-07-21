@@ -93,8 +93,8 @@ if(clientID>-1)
 % % % Read the coordinates(position) of each device.
 % % %   [number returnCode,array position]=simxGetObjectPosition(number clientID,number objectHandle,number relativeToObjectHandle,number operationMode)        
         [res_rob_handle, rob_handle] = vrep.simxGetObjectHandle(clientID,'base_link_respondable',vrep.simx_opmode_blocking)
-        [res_rob_pos, mani_pos] = vrep.simxGetObjectPosition(clientID, rob_handle, -1, vrep.simx_opmode_streaming)
-%         disp(mani_pos);
+        [res_rob_pos, rob_pos] = vrep.simxGetObjectPosition(clientID, rob_handle, -1, vrep.simx_opmode_streaming)
+%         disp(rob_pos);
         
         [res_tab_handle, tab_handle] = vrep.simxGetObjectHandle(clientID,'customizableTable',vrep.simx_opmode_blocking)
         [res_tab_pos, tab_pos] = vrep.simxGetObjectPosition(clientID, tab_handle, -1, vrep.simx_opmode_streaming)
@@ -104,7 +104,7 @@ if(clientID>-1)
         
 % % % Read the orientation of each device.
 % % %   [number returnCode,array eulerAngles]=simxGetObjectOrientation(number clientID,number objectHandle,number relativeToObjectHandle,number operationMode)        
-        [res_rob_orientation, mani_orientation] = vrep.simxGetObjectOrientation(clientID, rob_handle, -1, vrep.simx_opmode_streaming)
+        [res_rob_orientation, rob_orientation] = vrep.simxGetObjectOrientation(clientID, rob_handle, -1, vrep.simx_opmode_streaming)
 
         [res_tab_orientation, tab_orientation] = vrep.simxGetObjectOrientation(clientID, tab_handle, -1, vrep.simx_opmode_streaming)
 
