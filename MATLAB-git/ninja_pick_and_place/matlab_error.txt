@@ -1,0 +1,138 @@
+関数または変数 'res2' が未定義です。
+ 
+もしかして:
+>> [resi2, rob]> rob2
+関数または変数 'rob2' が未定義です。
+ con_remove_flag = 
+関数または変数
+'con_remove_flag' が未定
+義です。
+
+エラー: spawn_test (line
+131)
+            disp
+
+クラス 'remApi' のメソッド、プ
+ロパティまたはフィールド 'sim'
+が認識されません。
+
+エラー:
+ninja_main_code_2_suction
+(line 83)
+        [res_rob_remove,
+        rob_handle] =
+        vrep.simxGetObjectHandle(clientID,'base_link_respondable',vrep.sim.simx_opmode_blocking); 
+>> 
+mani_pos =
+
+  1×3 の single 行ベクトル
+
+  1 列から 2 列
+
+         0         0
+
+  3 列
+
+    0.3700
+
+  1 列から 2 列
+
+         0         0
+
+  3 列
+
+    0.3700
+
+>> spawn_test
+エラー: ファイル: spawn_test.m 行:89 列:57
+式が無効です。乗算演算子の不足、区切り文字の不足や不一致、またはその他の構文エラーをチェ
+ックしてください。行列を作成するには、小かっこの代わりに大かっこを使用してください。
+
+
+関数 'simxLoadModel' (タイプ'string' の入力引数) が未定義です。
+
+エラー: spawn_test (line 89)
+            [res_rob_genetate, rob_handle]=simxLoadModel(clientID,
+            "motoman_HP3J.ttm", sim.simx_opmode_blocking)
+ 
+>> spawn_test
+エラー: ファイル: spawn_test.m 行:89 列:88
+式が無効です。関数の呼び出しまたは変数のインデックス付けにはかっこを使用してください。そ
+うでない場合、区切り記号の不一致をチェックしてください。
+ 
+>> 関数 'simxLoadModel' (タイプ'string' の入力引数) が未定義です。
+
+エラー: spawn_test (line 89)
+            [res_rob_genetate, rob_handle]=simxLoadModel(clientID,
+            "motoman_HP3J.ttm", "", sim.simx_opmode_blocking)
+
+
+関数 'simxLoadModel' (タイプ'double' の入力引数) が未定義です。
+
+エラー: spawn_test (line 89)
+            [res_rob_genetate, rob_handle] = simxLoadModel(clientID,
+            'motoman_HP3J.ttm', 1, sim.simx_opmode_blocking)
+ 
+
+
+関数 'simxLoadModel' (タイプ'string' の入力引数) が未定義です。
+
+エラー: spawn_test (line 89)
+            [res_rob_genetate, rob_handle] = simxLoadModel(clientID,
+            "motoman_HP3J.ttm", 0, sim.simx_opmode_blocking)
+ 
+>> 
+
+
+エラー: int8
+string から int8 に変換できません。
+
+エラー: remApi/simxLoadModel (line 1390)
+            modelPathAndName_ =
+            libpointer('int8Ptr',[int8(modelPathAndName) 0]);
+
+エラー: spawn_test (line 89)
+            [res_rob_genetate, rob_handle] = sim.simxLoadModel(clientID,
+            "motoman_HP3J.ttm", 0, sim.simx_opmode_blocking)
+
+
+変数 "vrep" またはクラス "vrep.simxLoadModel" は未定義です。
+
+エラー: spawn_test (line 89)
+            [res_rob_genetate, rob_handle] =
+            vrep.simxLoadModel(clientID, "motoman_HP3J.ttm", 0,
+            sim.simx_opmode_blocking)
+ 
+>> 
+
+エラー: int8
+string から int8 に変換できません。
+
+エラー: remApi/simxLoadModel (line 1390)
+            modelPathAndName_ =
+            libpointer('int8Ptr',[int8(modelPathAndName) 0]);
+
+エラー: spawn_test (line 89)
+            [res_rob_genetate, rob_handle] = sim.simxLoadModel(clientID,
+            "motoman_HP3J.ttm", 0, sim.simx_opmode_blocking)
+
+
+
+エラー: int8
+string から int8 に変換できません。
+
+エラー: remApi/simxLoadModel (line 1390)
+            modelPathAndName_ =
+            libpointer('int8Ptr',[int8(modelPathAndName) 0]);
+
+エラー: spawn_test (line 89)
+            [res_rob_genetate, rob_handle] = sim.simxLoadModel(clientID,
+            "C:\Program
+            Files\CoppeliaRobotics\CoppeliaSimEdu\motoman_HP3J.ttm", 0,
+            sim.simx_opmode_blocking)
+
+エラー: ファイル: spawn_test.m 行:89 列:93
+式が無効です。関数の呼び出しまたは変数のインデックス付けにはかっこを使用してください。そ
+うでない場合、区切り記号の不一致をチェックしてください。
+ 
+>> 
