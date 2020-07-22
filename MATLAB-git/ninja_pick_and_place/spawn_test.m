@@ -88,19 +88,46 @@ function spawn_test()
             
 % % % % %             Generate facilities using MATLAB functions
 % % %             Genarate a robot
-            [res_rob_genetate, rob_handle] = sim.simxLoadModel(clientID,'motoman_HP3J_with_base.ttm', 0, sim.simx_opmode_blocking)
-%           [res_rob_genetate, rob_handle]=simxLoadModel(clientID, "motoman_HP3J.ttm", "", sim.simx_opmode_blocking)
-            [res_rob_setpos] = sim.simxSetObjectPosition(clientID, rob_handle, -1, [-0.6 0.65 0.15], sim.simx_opmode_oneshot)
+            [res_rob_genetate, rob_handle] = sim.simxLoadModel(clientID,'motoman_HP3J_with_base.ttm', 0, sim.simx_opmode_blocking);
+            [res_rob_setpos] = sim.simxSetObjectPosition(clientID, rob_handle, -1, [-0.6 0.15 0.15], sim.simx_opmode_oneshot);
             
 % % %             Genarate a conveyor
-            [res_con_genetate, con_handle] = sim.simxLoadModel(clientID,'customizable conveyor belt.ttm', 0, sim.simx_opmode_blocking)
-            [res_con_setpos] = sim.simxSetObjectPosition(clientID, con_handle, -1, [0 0.5 0.45], sim.simx_opmode_oneshot)
-
-% % %             Genarate a table
-            [res_tab_genetate, tab_handle] = sim.simxLoadModel(clientID,'customizable table.ttm', 0, sim.simx_opmode_blocking)
-            [res_tab_setpos] = sim.simxSetObjectPosition(clientID, tab_handle, -1, [-0.6 0.65 0.45], sim.simx_opmode_oneshot)
+            [res_con_genetate, con_handle] = sim.simxLoadModel(clientID,'customizable conveyor belt_03x1x05.ttm', 0, sim.simx_opmode_blocking);
+            [res_con_setpos] = sim.simxSetObjectPosition(clientID, con_handle, -1, [0 0.5 0.45], sim.simx_opmode_oneshot);
+            [res_con_setorien] = sim.simxSetObjectOrientation(clientID, con_handle, -1, [0 0 -pi/2], sim.simx_opmode_oneshot)
             
-            pause(5);
+% % %             Genarate a table
+            [res_tab_genetate, tab_handle] = sim.simxLoadModel(clientID,'customizable_table_with_create_cube_func.ttm', 0, sim.simx_opmode_blocking);
+            [res_tab_setpos] = sim.simxSetObjectPosition(clientID, tab_handle, -1, [-0.6 0.65 0.45], sim.simx_opmode_oneshot);
+            
+            pause(3);
+
+%             hndShape = sim.simxcreatePureShape(0,VISIBLE_EDGES+RESPONDABLE_SHAPE,tblSize,0.01,NULL)
+% tblSize={0.06,0.06,0.06}
+%                         hndShape = sim.simxCreatePureShape(0,10,tblSize,0.01,NULL)
+                        
+ [res, retInts, retFloats, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
+                'ResizableFloor_5_25', ...
+                sim.sim_scripttype_childscript, ...
+                'createcube_function', ...
+                [],[0,0.9,0.6], ...
+                '', ...
+                [], ...
+                sim.simx_opmode_blocking);
+            
+            disp(retInts);
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                        pause(7);
 
 % % %             Remove model (Matlab function)
 % % %             Remove a robot
@@ -188,8 +215,8 @@ function spawn_test()
 %         [res1, tab]=sim.simxGetObjectHandle(clientID,'customizable table.ttm',sim.simx_opmode_blocking);
 %         codeC = sim.simxRemoveModel(clientID,tab,sim.simx_opmode_blocking);
         
-        if (res == sim.simx_return_ok)
-            fprintf('Returned message: %s\n',retStrings);
+        if (res_rob_genetate == sim.simx_return_ok)
+%             fprintf('Returned message: %s\n',retStrings);
         else
             fprintf('3333333Remote function call failed\n');
         end
