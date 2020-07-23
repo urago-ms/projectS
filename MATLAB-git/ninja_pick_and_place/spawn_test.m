@@ -105,18 +105,31 @@ function spawn_test()
 %             hndShape = sim.simxcreatePureShape(0,VISIBLE_EDGES+RESPONDABLE_SHAPE,tblSize,0.01,NULL)
 % tblSize={0.06,0.06,0.06}
 %                         hndShape = sim.simxCreatePureShape(0,10,tblSize,0.01,NULL)
-                        
+
+
+% % % %     create rectangular on conveyor                     
  [res, retInts, retFloats, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
                 'ResizableFloor_5_25', ...
                 sim.sim_scripttype_childscript, ...
                 'createcube_function', ...
-                [],[0,0.9,0.6], ...
+                [1,1,1], ... %   [color_flag(0=NULL,1=green), 
+                [0, 0.9, 0.6, 0.1, 0.1, 0.05], ...  %   [posx, posy, posz, sizex, sizey, sizez]
                 '', ...
                 [], ...
                 sim.simx_opmode_blocking);
             
             disp(retInts);
             
+% % % %     create cube on table                     
+ [res, retInts, retFloats, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
+                'ResizableFloor_5_25', ...
+                sim.sim_scripttype_childscript, ...
+                'createcube_function', ...
+                [0,1,1], ... %   [color_flag(0=NULL,1=green), 
+                [-0.6 0.65 0.6, 0.05, 0.05, 0.05], ...  %   [posx, posy, posz, sizex, sizey, sizez]
+                '', ...
+                [], ...
+                sim.simx_opmode_blocking);
             
             
             
@@ -127,7 +140,8 @@ function spawn_test()
             
             
             
-                        pause(7);
+            
+             pause(2);
 
 % % %             Remove model (Matlab function)
 % % %             Remove a robot
