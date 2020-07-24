@@ -20,7 +20,7 @@ function spawn_test()
         disp('Connected to remote API server');
         
 % % %         Repeated creation and deletion of the device.
-        for count = 1:2
+        for count = 1:5
 
 %{            
 % % % % % %             Calling a function in the threaded child script of ResizableFloor_5_25 to create a facility
@@ -100,7 +100,7 @@ function spawn_test()
             [res_tab_genetate, tab_handle] = sim.simxLoadModel(clientID,'customizable_table_with_create_cube_func.ttm', 0, sim.simx_opmode_blocking);
             [res_tab_setpos] = sim.simxSetObjectPosition(clientID, tab_handle, -1, [-0.6 0.65 0.45], sim.simx_opmode_oneshot);
             
-            pause(3);
+            pause(1);
 
 %             hndShape = sim.simxcreatePureShape(0,VISIBLE_EDGES+RESPONDABLE_SHAPE,tblSize,0.01,NULL)
 % tblSize={0.06,0.06,0.06}
@@ -130,18 +130,56 @@ function spawn_test()
                 '', ...
                 [], ...
                 sim.simx_opmode_blocking);
+            [res_cube0_handle, cube0_handle] = sim.simxGetObjectHandle(clientID,'Cuboid0', sim.simx_opmode_blocking)
+            
+                         [res_cube1_handle, cube1_handle] = sim.simxGetObjectHandle(clientID,'Cuboid1', sim.simx_opmode_blocking)
+
+%                         [res_cube2_handle, cube2_handle] = sim.simxGetObjectHandle(clientID,'Cuboid2', sim.simx_opmode_blocking)
+
+            
+            
+% % % %     create rectangular on conveyor                     
+ [res, retInts, retFloats, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
+                'ResizableFloor_5_25', ...
+                sim.sim_scripttype_childscript, ...
+                'createcube_function', ...
+                [1,1,1], ... %   [color_flag(0=NULL,1=green), 
+                [1, 1, 0.3, 0.1, 0.1, 0.05], ...  %   [posx, posy, posz, sizex, sizey, sizez]
+                '', ...
+                [], ...
+                sim.simx_opmode_blocking);
+            
+            disp(retInts);
+            
+% % % %     create cube on table                     
+ [res, retInts, retFloats, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
+                'ResizableFloor_5_25', ...
+                sim.sim_scripttype_childscript, ...
+                'createcube_function', ...
+                [0,1,1], ... %   [color_flag(0=NULL,1=green), 
+                [1, 1, 0.3, 0.05, 0.05, 0.05], ...  %   [posx, posy, posz, sizex, sizey, sizez]
+                '', ...
+                [], ...
+                sim.simx_opmode_blocking);
+
             
             
             
             
             
+             pause(3);
             
+% % %             Remove a cube 
             
+            [res_cube0_remove] = sim.simxRemoveObject(clientID, cube0_handle, sim.simx_opmode_blocking)
             
-            
-            
-            
-             pause(2);
+            [res_cube1_remove] = sim.simxRemoveObject(clientID, cube1_handle, sim.simx_opmode_blocking)
+% 
+%             [res_cube2_remove] = sim.simxRemoveObject(clientID, cube2_handle, sim.simx_opmode_blocking)
+%             
+%              [res_cube3_handle, cube3_handle] = sim.simxGetObjectHandle(clientID,'Cuboid3', sim.simx_opmode_blocking)
+%             [res_cube3_remove] = sim.simxRemoveObject(clientID, cube3_handle, sim.simx_opmode_blocking)
+
 
 % % %             Remove model (Matlab function)
 % % %             Remove a robot
