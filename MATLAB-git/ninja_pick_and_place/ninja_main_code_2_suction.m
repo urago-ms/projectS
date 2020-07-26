@@ -90,41 +90,46 @@ if(clientID>-1)
       
         if(PSsensor_distance > 0)
             
-% % % Read the coordinates(position) of each device.
-% % %   [number returnCode,array position]=simxGetObjectPosition(number clientID,number objectHandle,number relativeToObjectHandle,number operationMode)        
-        [res_rob_handle, rob_handle] = vrep.simxGetObjectHandle(clientID,'base_link_respondable',vrep.simx_opmode_blocking)
-        [res_rob_pos, rob_pos] = vrep.simxGetObjectPosition(clientID, rob_handle, -1, vrep.simx_opmode_streaming)
-%         disp(rob_pos);
-        
-        [res_tab_handle, tab_handle] = vrep.simxGetObjectHandle(clientID,'customizableTable',vrep.simx_opmode_blocking)
-        [res_tab_pos, tab_pos] = vrep.simxGetObjectPosition(clientID, tab_handle, -1, vrep.simx_opmode_streaming)
-
-        [res_con_handle, con_handle] = vrep.simxGetObjectHandle(clientID,'customizableConveyor',vrep.simx_opmode_blocking)
-        [res_con_pos, con_pos] = vrep.simxGetObjectPosition(clientID, con_handle, -1, vrep.simx_opmode_streaming)
-        
-% % % Read the orientation of each device.
-% % %   [number returnCode,array eulerAngles]=simxGetObjectOrientation(number clientID,number objectHandle,number relativeToObjectHandle,number operationMode)        
-        [res_rob_orientation, rob_orientation] = vrep.simxGetObjectOrientation(clientID, rob_handle, -1, vrep.simx_opmode_streaming)
-
-        [res_tab_orientation, tab_orientation] = vrep.simxGetObjectOrientation(clientID, tab_handle, -1, vrep.simx_opmode_streaming)
-
-        [res_con_orientation, con_orientation] = vrep.simxGetObjectOrientation(clientID, con_handle, -1, vrep.simx_opmode_streaming)
-
-
-        
-            moveL(clientID, motoman_target, fposition4,2);
+            % % % Read the coordinates(position) of each device.
+            % % %   [number returnCode,array position]=simxGetObjectPosition(number clientID,number objectHandle,number relativeToObjectHandle,number operationMode)
+            [res_rob_handle, rob_handle] = vrep.simxGetObjectHandle(clientID,'base_link_respondable',vrep.simx_opmode_blocking)
+            [res_rob_pos, rob_pos] = vrep.simxGetObjectPosition(clientID, rob_handle, -1, vrep.simx_opmode_streaming)
+            %         disp(rob_pos);
+            
+            [res_tab_handle, tab_handle] = vrep.simxGetObjectHandle(clientID,'customizableTable',vrep.simx_opmode_blocking)
+            [res_tab_pos, tab_pos] = vrep.simxGetObjectPosition(clientID, tab_handle, -1, vrep.simx_opmode_streaming)
+            
+            [res_con_handle, con_handle] = vrep.simxGetObjectHandle(clientID,'customizableConveyor',vrep.simx_opmode_blocking)
+            [res_con_pos, con_pos] = vrep.simxGetObjectPosition(clientID, con_handle, -1, vrep.simx_opmode_streaming)
+            
+            % % % Read the orientation of each device.
+            % % %   [number returnCode,array eulerAngles]=simxGetObjectOrientation(number clientID,number objectHandle,number relativeToObjectHandle,number operationMode)
+            [res_rob_orientation, rob_orientation] = vrep.simxGetObjectOrientation(clientID, rob_handle, -1, vrep.simx_opmode_streaming)
+            
+            [res_tab_orientation, tab_orientation] = vrep.simxGetObjectOrientation(clientID, tab_handle, -1, vrep.simx_opmode_streaming)
+            
+            [res_con_orientation, con_orientation] = vrep.simxGetObjectOrientation(clientID, con_handle, -1, vrep.simx_opmode_streaming)
+            
+            
+            
+            moveL(clientID, motoman_target, fposition4,2);  % picking point
+            
+            
             gripper (clientID,1,j1,j2);pause(2);  % close gripper and pickup the cube
             vrep.simxSetIntegerSignal(clientID,'succtionActive',1, vrep.simx_opmode_oneshot);
             
             
-             [res retInts retFloats retStrings retBuffer]=vrep.simxCallScriptFunction(clientID, ...
-                                                                                'suctionPadLoopClosureDummy1', ...
-                                                                                sim.sim_scripttype_childscript, ...
-                                                                                'suction_function', ...
-                                                                                [0,0,1],[0.1,0.3,0.68], ...
-                                                                                'Hello world!', ...
-                                                                                [], ...
-                                                                                vrep.simx_opmode_blocking);
+%             [res_pick] = vrep.simxSetObjectParent(clientID,number objectHandle,number parentObject,boolean keepInPlace,number operationMode)
+            
+            
+            [res retInts retFloats retStrings retBuffer] = vrep.simxCallScriptFunction(clientID, ...
+                'suctionPad', ...
+                sim.sim_scripttype_childscript, ...
+                'suck_object', ...
+                [0,0,1],[0.1,0.3,0.68], ...
+                'Hello world!', ...
+                [], ...
+                vrep.simx_opmode_blocking);
             
             moveL(clientID, motoman_target, fposition3,2);
             moveL(clientID, motoman_target, fposition5,2);
@@ -132,7 +137,17 @@ if(clientID>-1)
             %             vrep.simxClearIntegerSignal(clientID,'succtionActive',vrep.simx_opmode_oneshot);
             vrep.simxSetIntegerSignal(clientID,'succtionActive',0, vrep.simx_opmode_oneshot);
             
-%             vrep.simxSetLinkDummy(l,-1);
+            %             vrep.simxSetLinkDummy(l,-1);
+            
+            
+            [res retInts retFloats retStrings retBuffer] = vrep.simxCallScriptFunction(clientID, ...
+                'suctionPad', ...
+                sim.sim_scripttype_childscript, ...
+                'release_object', ...
+                [0,0,1],[0.1,0.3,0.68], ...
+                'Hello world!', ...
+                [], ...
+                vrep.simx_opmode_blocking);
             
             gripper (clientID,0,j1,j2);pause(1);
             moveL(clientID, motoman_target, fposition5,2);
