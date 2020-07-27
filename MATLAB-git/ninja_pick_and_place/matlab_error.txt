@@ -78,6 +78,24 @@ mani_pos =
 関数 'simxLoadModel' (タイプ'string' の入力引数) が未定義です。
 
 エラー: spawn_test (line 89)
+
+1×3 の single 行ベクトル
+
+    0     0     0
+
+    0
+
+  0
+
+  1.0e+31 *
+
+   0.0000         0   -1.1454
+
+  -217017104
+
+  NaN   NaN     0
+
+K>>
             [res_rob_genetate, rob_handle] = simxLoadModel(clientID,
             "motoman_HP3J.ttm", 0, sim.simx_opmode_blocking)
 
@@ -149,10 +167,49 @@ string から int8 に変換できません。
                         hndShape =
                         sim.simxcreatePureShape(0,10,tblSize,0.01,NULL)
 
->> 
+>>
+
+ラー: remApi/simxReadProximitySensor
+出力引数が多すぎます。
+
+エラー: spawn_and_grasp (line 127)
+            [res_read_sensor, detectionState, detectedPoint,
+            detectedObjectHandle, dddddd, ggg] =
+            sim.simxReadProximitySensor(clientID,
+            Proximity_sensor_handle, sim.simx_opmode_blocking);
 
 
 関数または変数 'retStrings' が未定義です。
 
 エラー: spawn_test (line 191)
             fprintf('Returned message: %s\n',retStrings);
+
+            エラー: ファイル: spawn_and_grasp.m 行:15 列:10
+            "spawn_and_grasp" と同じ名前の関数は定義できません。
+
+            関数または変数 'fpositon6' が未定義です。
+
+            エラー: spawn_and_grasp (line 128)
+                        disp(fpositon6)
+                        関数または変数 'fpositon6' が未定義です。
+
+                エラー: spawn_and_grasp (line 128)
+                            disp(fpositon6)
+
+                >>
+
+
+
+
+
+
+
+
+
+
+                関数または変数 'fpositon6' が未定義です。
+
+エラー: spawn_and_grasp (line 128)
+            disp(fpositon6)
+
+>>
