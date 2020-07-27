@@ -54,7 +54,7 @@ if(clientID>-1)
     fposition5=[-0.2,   0.27,   0.63,    0,  0,  0];    % above place position
     fposition6=[-0.2,   0.27,   0.561,    0,  0,  0];    % placeposition
     
-%     fposition1=[0.2,    0.6,    0.6,    0,  0,  0];    % [x, y, z, alpha, beta, gamma]
+%     fposition1=[0.2,    0.6,    0.6,    0,  0,  0];    % [x, y, z,  alpha, beta, gamma]
 %     fposition2=[0.1,    0,      0.9,    0,  0,  0];
 %     fposition3=[-0.12,  -0.3,   0.75,   0,  0,  0];    % above pickup position
 %     fposition4=[-0.12,  -0.3,   0.65,   0,  0,  0];    % pickup position
@@ -86,7 +86,7 @@ if(clientID>-1)
 % % %         [number returnCode,number prop]=simxGetModelProperty(number clientID,number objectHandle,number operationMode)
         
         
-        [res,PSsensor_distance, detectedPoint]=vrep.simxReadProximitySensor(clientID, Proximity_sensor, vrep.simx_opmode_blocking);
+        [res_sensor, PSsensor_distance, detectedPoint, detectedObjectHandle] = vrep.simxReadProximitySensor(clientID, Proximity_sensor, vrep.simx_opmode_blocking);
       
         if(PSsensor_distance > 0)
             
@@ -110,7 +110,9 @@ if(clientID>-1)
             
             [res_con_orientation, con_orientation] = vrep.simxGetObjectOrientation(clientID, con_handle, -1, vrep.simx_opmode_streaming)
             
-            
+            % get cube handle test
+            [res_cuboid8_handle, con_handle] = vrep.simxGetObjectHandle(clientID,'Cuboid9',vrep.simx_opmode_blocking)
+
             
             moveL(clientID, motoman_target, fposition4,2);  % picking point
             
