@@ -27,9 +27,15 @@ function spawn_and_grasp()
 
             % % % % %             Generate facilities using MATLAB functions % % % % %
             % % %             Genarate a robot
-            [res_rob_genetate, rob_handle] = sim.simxLoadModel(clientID,'motoman_HP3J_with_base.ttm', 0, sim.simx_opmode_blocking);
+            [res_rob_genetate, rob_handle] = sim.simxLoadModel(clientID,'motoman_HP3J_with_base_and_targetDummy.ttm', 0, sim.simx_opmode_blocking);
             [res_rob_setpos] = sim.simxSetObjectPosition(clientID, rob_handle, -1, [-0.6 0.15 0.15], sim.simx_opmode_oneshot);
+            
+            % % %             Setting of target dummy
+            [res_target_handle, target_handle] = sim.simxGetObjectHandle(clientID,'target', sim.simx_opmode_blocking)
+            [res_target_handle2, target_handle2] = sim.simxGetObjectSelection(clientID, sim.simx_opmode_blocking)
+            [res_target_parent] = sim.simxSetObjectParent(clientID, target_handle, -1, 0, sim.simx_opmode_blocking)
 
+            
             % % %             Genarate a conveyor
             [res_con_genetate, con_handle] = sim.simxLoadModel(clientID,'customizable conveyor belt_03x1x05.ttm', 0, sim.simx_opmode_blocking);
             [res_con_setpos] = sim.simxSetObjectPosition(clientID, con_handle, -1, [0 0.5 0.45], sim.simx_opmode_oneshot);
@@ -39,7 +45,7 @@ function spawn_and_grasp()
             [res_tab_genetate, tab_handle] = sim.simxLoadModel(clientID,'customizable_table_with_create_cube_func.ttm', 0, sim.simx_opmode_blocking);
             [res_tab_setpos] = sim.simxSetObjectPosition(clientID, tab_handle, -1, [-0.6 0.65 0.45], sim.simx_opmode_oneshot);
 
-            pause(1);
+%             pause(5);
 
 
             % % % % %             Generate Objects using CoppeliaSim functions % % % % %
@@ -120,7 +126,7 @@ function spawn_and_grasp()
             % let's define now the target positions needed
             fposition1 = [0.08,    0.6,    0.6,    0,  0,  0];    % [x, y, z, alpha, beta, gamma] first position
             fposition2 = [0.2,    0,      0.9,    0,  0,  0];
-            fposition3 = [0.34999,0.1587, 0.63,    0, 0,  0];    % above pickup position
+            fposition3 = [0.34999,0.1587, 0.63,    0,   0,    0];    % above pickup position
             fposition4 = [0.34999,0.1587, 0.561,    0,  0,  0];    % pickup position
             fposition5 = [-0.2,   0.27,   0.63,    0,  0,  0];    % above place position
             fposition6 = [tab_pos,    0,  0,  0];    % placeposition
@@ -146,7 +152,16 @@ function spawn_and_grasp()
 
 
             if(detectionState > 0)
+                [res_cube0_pos, cube0_pos] = sim.simxGetObjectPosition(clientID, cube0_handle, -1, sim.simx_opmode_streaming)
                 
+                fposition4 = [cube0_pos,	0,	0,	0];    % place position
+                fposition3 = [cube0_pos(1), cube0_pos(2), cube0_pos(3)+0.1, 0,  0,	0];    % above place position
+
+                moveL (clientID, motoman_target, fposition3, 2);
+
+                
+
+
             end
 
             
