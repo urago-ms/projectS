@@ -22,18 +22,43 @@ function spawn_and_grasp()
         disp('Connected to remote API server');
 
         % % %         Repeated creation and deletion of the device.
-        for count = 1:3
+        for count = 1:1
 
 
             % % % % %             Generate facilities using MATLAB functions % % % % %
             % % %             Genarate a robot
-            [res_rob_genetate, rob_handle] = sim.simxLoadModel(clientID,'motoman_HP3J_with_base_and_targetDummy.ttm', 0, sim.simx_opmode_blocking);
+            [res_rob_genetate, rob_handle] = sim.simxLoadModel(clientID,'motoman_HP3J_with_base_2.ttm', 0, sim.simx_opmode_blocking);
+%             [res_rob_genetate, rob_handle] = sim.simxLoadModel(clientID,'motoman_HP3J_with_base_and_targetDummy.ttm', 0, sim.simx_opmode_blocking);
             [res_rob_setpos] = sim.simxSetObjectPosition(clientID, rob_handle, -1, [-0.6 0.15 0.15], sim.simx_opmode_oneshot);
             
-            % % %             Setting of target dummy
+            %{
+            % % %             Setting of target dummy (If generate target dummy with robot)
             [res_target_handle, target_handle] = sim.simxGetObjectHandle(clientID,'target', sim.simx_opmode_blocking)
-            [res_target_handle2, target_handle2] = sim.simxGetObjectSelection(clientID, sim.simx_opmode_blocking)
+%             [res_target_handle2, target_handle2] = sim.simxGetObjectSelection(clientID, sim.simx_opmode_blocking)   % What handle are you getting?
             [res_target_parent] = sim.simxSetObjectParent(clientID, target_handle, -1, 0, sim.simx_opmode_blocking)
+            
+%             [res_target_pos, target_pos] = sim.simxGetObjectPosition(clientID, res_target_handle, -1, sim.simx_opmode_streaming)
+            [res_target_setpos] = sim.simxSetObjectPosition(clientID, target_handle, -1, [-0.36 0.15 0.75], sim.simx_opmode_oneshot);
+            [res_target_setorien] = sim.simxSetObjectOrientation(clientID, target_handle, -1, [0 0 -pi], sim.simx_opmode_oneshot)
+            %}
+            
+            % % %             Setting of target dummy (If generate only target dummy)
+            [res_target_gen, dummyHandle] = sim.simxCreateDummy(clientID, 0.03, [], sim.simx_opmode_blocking)
+            [res_target_setpos] = sim.simxSetObjectPosition(clientID, dummyHandle, -1, [-0.36 0.15 0.75], sim.simx_opmode_oneshot);
+%             [res_target_setorien] = sim.simxSetObjectOrientation(clientID, dummyHandle, -1, [0 0 -pi], sim.simx_opmode_oneshot)
+            
+            % %     create rectangular on conveyor
+            [res_create_IK, retInts, retFloats, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
+                'ResizableFloor_5_25', ...
+                sim.sim_scripttype_childscript, ...
+                'create_IK_group', ...
+                [1,1,1], ... %   [color_flag(0=NULL,1=green),
+                [0, 0.9, 0.6, 0.1, 0.1, 0.05], ...  %   [posX, posY, posZ, sizeX, sizeY, sizeZ]
+                '', ...
+                [], ...
+                sim.simx_opmode_blocking);
+
+
 
             
             % % %             Genarate a conveyor
