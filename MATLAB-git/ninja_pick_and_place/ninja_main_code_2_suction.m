@@ -111,7 +111,7 @@ if(clientID>-1)
             [res_con_orientation, con_orientation] = vrep.simxGetObjectOrientation(clientID, con_handle, -1, vrep.simx_opmode_streaming)
             
             % get cube handle test
-            [res_cuboid8_handle, con_handle] = vrep.simxGetObjectHandle(clientID,'Cuboid9',vrep.simx_opmode_blocking)
+            [res_cuboid8_handle, cuboid8_handle] = vrep.simxGetObjectHandle(clientID,'Cuboid8',vrep.simx_opmode_blocking)
 
             
             moveL(clientID, motoman_target, fposition4,2);  % picking point
@@ -132,6 +132,9 @@ if(clientID>-1)
                 'Hello world!', ...
                 [], ...
                 vrep.simx_opmode_blocking);
+            
+%             [res_dum1_handle, dum1_handle] = vrep.simxGetObjectHandle(clientID,'suctionPadLoopClosureDummy1',vrep.simx_opmode_blocking)
+%             [returnCode] = simxSetObjectParent(clientID, dum1_handle, number parentObject, 1, vrep.simx_opmode_blocking)
             
             moveL(clientID, motoman_target, fposition3,2);
             moveL(clientID, motoman_target, fposition5,2);

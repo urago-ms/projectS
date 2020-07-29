@@ -198,11 +198,29 @@ string から int8 に変換できません。
 
                 >>
 
+                関数 'simxSetObjectParent' (タイプ'int32' の入力引数) が未定義です。
+
+                エラー: spawn_and_grasp (line 34)
+                            [res_target_parent] = simxSetObjectParent(clientID,
+                            target_handle, -1, 0, sim.simx_opmode_blocking)
+                            関数 'simxSetObjectParent' (タイプ'int32' の入力引数) が未定義です。
+
+           エラー: spawn_and_grasp (line 34)
+                       [res_target_parent] = simxSetObjectParent(clientID,
+                       target_handle, -1, 1, sim.simx_opmode_blocking)
 
 
 
+                       関数 'simxSetObjectParent' (タイプ'int32' の入力引数) が未定義です。
 
+                       エラー: spawn_and_grasp (line 34)
+                                   [res_target_parent] = simxSetObjectParent(clientID,
+                                   target_handle, -1, 'true', sim.simx_opmode_blocking)
+                                   関数 'simxSetObjectParent' (タイプ'int32' の入力引数) が未定義です。
 
+                                   エラー: spawn_and_grasp (line 34)
+                                               [res_target_parent] = simxSetObjectParent(clientID,
+                                               target_handle, -1, 'false', sim.simx_opmode_blocking)
 
 
 
@@ -213,3 +231,23 @@ string から int8 に変換できません。
             disp(fpositon6)
 
 >>
+
+1×3 の single 行ベクトル
+
+    0     0     0
+
+    関数または変数 'motoman_target' が未定義です。
+
+    エラー: spawn_and_grasp (line 154)
+                    moveL (clientID, motoman_target, fposition3, 2);
+                    関数 'simxGetObjectSelection' (タイプ'double' の入力引数) が未定義です。
+
+                    エラー: spawn_and_grasp (line 35)
+                                [res_target_handle2, target_handle2] =
+                                simxGetObjectSelection(clientID,
+                                sim.simx_opmode_blocking
+
+
+                                エラー: ファイル: spawn_and_grasp.m 行:35 列:48
+式が無効です。関数の呼び出しまたは変数のインデックス付けにはかっこを使用してくださ
+い。そうでない場合、区切り記号の不一致をチェックしてください。

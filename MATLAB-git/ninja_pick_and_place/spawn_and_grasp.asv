@@ -8,6 +8,8 @@
 % IMPORTANT: for each successful call to simxStart, there
 % should be a corresponding call to simxFinish at the end!
 
+
+
 function spawn_and_grasp()
 
     disp('Program started');
@@ -20,7 +22,7 @@ function spawn_and_grasp()
         disp('Connected to remote API server');
 
         % % %         Repeated creation and deletion of the device.
-        for count = 1:1
+        for count = 1:3
 
 
             % % % % %             Generate facilities using MATLAB functions % % % % %
@@ -37,7 +39,7 @@ function spawn_and_grasp()
             [res_tab_genetate, tab_handle] = sim.simxLoadModel(clientID,'customizable_table_with_create_cube_func.ttm', 0, sim.simx_opmode_blocking);
             [res_tab_setpos] = sim.simxSetObjectPosition(clientID, tab_handle, -1, [-0.6 0.65 0.45], sim.simx_opmode_oneshot);
 
-            pause(1);
+%             pause(5);
 
 
             % % % % %             Generate Objects using CoppeliaSim functions % % % % %
@@ -101,14 +103,6 @@ function spawn_and_grasp()
 
             % % % % % %             Execute tasks     % % % % % %
             
-            % let's define now the target positions needed
-            fposition1=[0.08,    0.6,    0.6,    0,  0,  0];    % [x, y, z, alpha, beta, gamma] first position
-            fposition2=[0.2,    0,      0.9,    0,  0,  0];
-            fposition3=[0.34999,0.1587, 0.63,    0, 0,  0];    % above pickup position
-            fposition4=[0.34999,0.1587, 0.561,    0,  0,  0];    % pickup position
-            fposition5=[-0.2,   0.27,   0.63,    0,  0,  0];    % above place position
-            fposition6=[-0.2,   0.27,   0.561,    0,  0,  0];    % placeposition
-            
             % % % Read the coordinates(position) of each device.
             % % %   [number returnCode,array position]=simxGetObjectPosition(number clientID,number objectHandle,number relativeToObjectHandle,number operationMode)
 %             [res_rob_handle, rob_handle] = sim.simxGetObjectHandle(clientID,'base_link_respondable',sim.simx_opmode_blocking)
@@ -122,32 +116,46 @@ function spawn_and_grasp()
             [res_con_pos, con_pos] = sim.simxGetObjectPosition(clientID, con_handle, -1, sim.simx_opmode_streaming)
             
             
+            
+            % let's define now the target positions needed
+            fposition1 = [0.08,    0.6,    0.6,    0,  0,  0];    % [x, y, z, alpha, beta, gamma] first position
+            fposition2 = [0.2,    0,      0.9,    0,  0,  0];
+            fposition3 = [0.34999,0.1587, 0.63,    0, 0,  0];    % above pickup position
+            fposition4 = [0.34999,0.1587, 0.561,    0,  0,  0];    % pickup position
+            fposition5 = [-0.2,   0.27,   0.63,    0,  0,  0];    % above place position
+            fposition6 = [tab_pos,    0,  0,  0];    % placeposition
+            
+            disp(fposition6)
+                        pause(5);
+
             % % % %             Read proximity sensor
             [res_sensor_handle, Proximity_sensor_handle] = sim.simxGetObjectHandle(clientID, 'Proximity_sensor', sim.simx_opmode_blocking);
-            [res_read_sensor, detectionState, detectedPoint, detectedObjectHandle, dddddd, ggg] = sim.simxReadProximitySensor(clientID, Proximity_sensor_handle, sim.simx_opmode_blocking);
+            [res_read_sensor, detectionState, detectedPoint, detectedObjectHandle] = sim.simxReadProximitySensor(clientID, Proximity_sensor_handle, sim.simx_opmode_streaming);
             
-            
-            disp('sensor state');
             disp(Proximity_sensor_handle);
+
+            disp('sensor state');
 
             disp(res_read_sensor);
             disp(detectionState);
             disp(detectedPoint);
             disp(detectedObjectHandle);
-                                    disp(cube0_handle);
-
-                        disp(dddddd);
-                                                disp(dddddd);
+            disp(cube0_handle);
+            
+%             disp(dddddd);
 
 
             if(detectionState > 0)
+                [res_cube0_pos, cube0_pos] = sim.simxGetObjectPosition(clientID, cube0_handle, -1, sim.simx_opmode_streaming)
                 
+                
+
             end
 
             
 
-            pause(3);
-
+            pause(5);
+%{
             % % %             Remove a cube
             [res_cube0_remove] = sim.simxRemoveObject(clientID, cube0_handle, sim.simx_opmode_blocking)
             [res_cube1_remove] = sim.simxRemoveObject(clientID, cube1_handle, sim.simx_opmode_blocking)
@@ -160,7 +168,7 @@ function spawn_and_grasp()
             [res_con_remove] = sim.simxRemoveModel(clientID, con_handle, sim.simx_opmode_blocking);
             % % %             Remove a table
             [res_con_remove] = sim.simxRemoveModel(clientID, tab_handle, sim.simx_opmode_blocking);
-
+%}
 
         end
 
