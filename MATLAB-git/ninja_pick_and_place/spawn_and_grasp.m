@@ -22,14 +22,19 @@ if (clientID>-1)
     disp('Connected to remote API server');
     
     % % %         Repeated creation and deletion of the device.
-    for count = 1:1
+    for count = 1:5
+        
+        % % % % %         Facility Position
+        tab_pos_2 = [-0.6, 0.65, 0.45];
+        rob_pos_2 = [-0.4, 0.25, 0.15];
+        
         
         
         % % % % %             Generate facilities using MATLAB functions % % % % %
         % % %             Genarate a robot
-        [res_rob_genetate, rob_handle] = sim.simxLoadModel(clientID,'motoman_HP3J_with_base_2.ttm', 0, sim.simx_opmode_blocking);
+        [res_rob_genetate, rob_handle] = sim.simxLoadModel(clientID,'motoman_HP3J_with_base_3.ttm', 0, sim.simx_opmode_blocking);
         %             [res_rob_genetate, rob_handle] = sim.simxLoadModel(clientID,'motoman_HP3J_with_base_and_targetDummy.ttm', 0, sim.simx_opmode_blocking);
-        [res_rob_setpos] = sim.simxSetObjectPosition(clientID, rob_handle, -1, [-0.4 0.25 0.15], sim.simx_opmode_oneshot);
+        [res_rob_setpos] = sim.simxSetObjectPosition(clientID, rob_handle, -1, rob_pos_2, sim.simx_opmode_oneshot);
         
         %{
             % % %             Setting of target dummy (If generate target dummy with robot)
@@ -78,13 +83,13 @@ if (clientID>-1)
         
         
         % % %             Genarate a conveyor
-        [res_con_genetate, con_handle] = sim.simxLoadModel(clientID,'customizable conveyor belt_03x1x05.ttm', 0, sim.simx_opmode_blocking);
+        [res_con_genetate, con_handle] = sim.simxLoadModel(clientID,'customizable_conveyor_belt_03x1x05_fix_sensorPos.ttm', 0, sim.simx_opmode_blocking);
         [res_con_setpos] = sim.simxSetObjectPosition(clientID, con_handle, -1, [0 0.5 0.45], sim.simx_opmode_oneshot);
         [res_con_setorien] = sim.simxSetObjectOrientation(clientID, con_handle, -1, [0 0 -pi/2], sim.simx_opmode_oneshot)
         
         % % %             Genarate a table
         [res_tab_genetate, tab_handle] = sim.simxLoadModel(clientID,'customizable_table_with_create_cube_func.ttm', 0, sim.simx_opmode_blocking);
-        [res_tab_setpos] = sim.simxSetObjectPosition(clientID, tab_handle, -1, [-0.6 0.65 0.45], sim.simx_opmode_oneshot);
+        [res_tab_setpos] = sim.simxSetObjectPosition(clientID, tab_handle, -1, tab_pos_2, sim.simx_opmode_oneshot);
         
 %                     pause(1);
         
@@ -153,10 +158,38 @@ if (clientID>-1)
             sim.sim_scripttype_childscript, ...
             'createcube_function', ...
             [0,1,1], ... %   [color_flag(0=NULL,1=green),
+            [tab_pos_2(1), tab_pos_2(2), tab_pos_2(3)+0.1, 0.05, 0.05, 0.05], ...  %   [posX, posY, posZ, sizeX, sizeY, sizeZ]
+            '', ...
+            [], ...
+            sim.simx_opmode_blocking);
+        
+        %{
+        % % % % %             Generate Objects using CoppeliaSim functions % % % % %
+        % % % %     create rectangular on conveyor
+        [res_cube_gen_0, retInts, retFloats, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
+            'ResizableFloor_5_25', ...
+            sim.sim_scripttype_childscript, ...
+            'createcube_function', ...
+            [1,1,1], ... %   [color_flag(0=NULL,1=green),
+            [0, 0.9, 0.6, 0.1, 0.1, 0.05], ...  %   [posX, posY, posZ, sizeX, sizeY, sizeZ]
+            '', ...
+            [], ...
+            sim.simx_opmode_blocking);
+        
+        disp('ressssssssssss');
+        disp(res_cube_gen_0);
+        
+        % % % %     create cube on table
+        [res_cube_gen_1, retInts, retFloats, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
+            'ResizableFloor_5_25', ...
+            sim.sim_scripttype_childscript, ...
+            'createcube_function', ...
+            [0,1,1], ... %   [color_flag(0=NULL,1=green),
             [-0.6 0.65 0.6, 0.05, 0.05, 0.05], ...  %   [posX, posY, posZ, sizeX, sizeY, sizeZ]
             '', ...
             [], ...
             sim.simx_opmode_blocking);
+            %}
         
         [res_cube0_handle, cube0_handle] = sim.simxGetObjectHandle(clientID,'Cuboid0', sim.simx_opmode_blocking);
         [res_cube1_handle, cube1_handle] = sim.simxGetObjectHandle(clientID,'Cuboid1', sim.simx_opmode_blocking);
@@ -167,10 +200,11 @@ if (clientID>-1)
         % let's define now the target positions needed
         fposition1 = [-0.36,    0.15,  0.75,    0,  0,  0];    % [x, y, z, alpha, beta, gamma] first position
 %         fposition2 = [0.2,    0,      0.9,    0,  0,  0];
-%         fposition3 = [0.34999,0.1587, 0.63,    0,   0,    0];    % above pickup position
-%         fposition4 = [0.34999,0.1587, 0.561,    0,  0,  0];    % pickup position
-        fposition5 = [tab_pos(1),	tab_pos(2),   tab_pos(3)+0.1,    0,  0,  0];    % above pickup position
-        fposition6 = [tab_pos(1),	tab_pos(2),   tab_pos(3)+0.05,    0,  0,  0];    % pickup position
+        fposition3 = [0, 0.52, 0.725,	0,	0,	0]    % above place position
+        fposition4 = [0, 0.52, 0.625,	0,	0,	0]    % place position
+        fposition5 = [tab_pos_2(1),	tab_pos_2(2),   0.725,    0,  0,  0];    % above pickup position
+%         fposition5 = [tab_pos_2(1),	tab_pos_2(2),   tab_pos_2(3)+0.1,    0,  0,  0];    % above pickup position
+        fposition6 = [tab_pos_2(1),	tab_pos_2(2),   tab_pos_2(3)+0.13,    0,  0,  0];    % pickup position
         
         disp(fposition6)
         pause(1);
@@ -206,19 +240,49 @@ if (clientID>-1)
 %                 sim.simx_opmode_blocking);
         
         
-        [res_cube0_pos, cube0_pos] = sim.simxGetObjectPosition(clientID, cube0_handle, -1, sim.simx_opmode_streaming)
+        [res_cube0_pos, cube0_pos] = sim.simxGetObjectPosition(clientID, cube0_handle, -1, sim.simx_opmode_streaming);
+        
+                [res_cube1_handle, cube1_handle] = sim.simxGetObjectHandle(clientID,'Cuboid1', sim.simx_opmode_blocking);
+
+        [res_cube0_pos, cube1_pos] = sim.simxGetObjectPosition(clientID, cube1_handle, -1, sim.simx_opmode_streaming)
+
 
 %         fposition4 = [cube0_pos(1), cube0_pos(2), cube0_pos(3)+0.05,	0,	0,	0]    % place position
 %         fposition3 = [cube0_pos(1), cube0_pos(2), cube0_pos(3)+0.1,	0,	0,	0]    % above place position
-        fposition4 = [0, 0.083, 0.625,	0,	0,	0]    % place position
-        fposition3 = [0, 0.083, 0.725,	0,	0,	0]    % above place position
+        
+       
+        moveL (clientID, TargetDummyHandle, fposition5, 8);
+        moveL (clientID, TargetDummyHandle, fposition6, 8);
+        
+        [res retInts retFloats retStrings retBuffer] = sim.simxCallScriptFunction(clientID, ...
+            'suctionPad', ...
+            sim.sim_scripttype_childscript, ...
+            'suck_object', ...
+            [0,0,1],[0.1,0.3,0.68], ...
+            'Hello world!', ...
+            [], ...
+            sim.simx_opmode_blocking);
+        
+        moveL (clientID, TargetDummyHandle, fposition5, 8);
 
-        fposition6 = [-0.6, 0.65, 0.65,    0,  0,  0];    % pickup position
+
+
+        moveL (clientID, TargetDummyHandle, fposition3, 8);
+        moveL (clientID, TargetDummyHandle, fposition4, 8);
         
+        [res retInts retFloats retStrings retBuffer] = sim.simxCallScriptFunction(clientID, ...
+            'suctionPad', ...
+            sim.sim_scripttype_childscript, ...
+            'release_object', ...
+            [0,0,1],[0.1,0.3,0.68], ...
+            'Hello world!', ...
+            [], ...
+            sim.simx_opmode_blocking);
         
-        moveL (clientID, TargetDummyHandle, fposition3, 4);
-        moveL (clientID, TargetDummyHandle, fposition4, 4);
-        moveL (clientID, TargetDummyHandle, fposition3, 4);
+        moveL (clientID, TargetDummyHandle, fposition3, 8);
+
+
+%         moveL (clientID, TargetDummyHandle, fposition3, 8);
 
         %{
         if(detectionState < 0)
@@ -269,8 +333,12 @@ if (clientID>-1)
         
         
         pause(1);
-        %{
-            % % %             Remove a cube
+%         %{
+
+            % % %             Remove a TargetDummy
+            [res_targetdummy_remove] = sim.simxRemoveObject(clientID, TargetDummyHandle, sim.simx_opmode_blocking)
+            
+            % % %             Remove cubes
             [res_cube0_remove] = sim.simxRemoveObject(clientID, cube0_handle, sim.simx_opmode_blocking)
             [res_cube1_remove] = sim.simxRemoveObject(clientID, cube1_handle, sim.simx_opmode_blocking)
 
@@ -279,10 +347,10 @@ if (clientID>-1)
             % % %             Remove a robot
             [res_rob_remove] = sim.simxRemoveModel(clientID, rob_handle, sim.simx_opmode_blocking);
             % % %             Remove a conveyor
-            [res_con_remove] = sim.simxRemoveModel(clientID, con_handle, sim.simx_opmode_blocking);
+%             [res_con_remove] = sim.simxRemoveModel(clientID, con_handle, sim.simx_opmode_blocking);
             % % %             Remove a table
             [res_con_remove] = sim.simxRemoveModel(clientID, tab_handle, sim.simx_opmode_blocking);
-        %}
+%         %}
         
     end
     
