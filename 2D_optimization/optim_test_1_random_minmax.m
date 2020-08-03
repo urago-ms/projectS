@@ -20,8 +20,8 @@ lim_y = 2000;  % space limit
 ml = 300; % manipulator base one side length
 pl = 400; % palette one side length
 
-link_1 = 500; % manipulator link1 length
-link_2 = 500; % manipulator link2 length
+link_1 = 262.5; % manipulator link1 length
+link_2 = 262.5; % manipulator link2 length
 
 cl_l = 1000;   % conveyor long side length
 cl_l_max = 1000;   % conveyor long side max length
@@ -81,7 +81,7 @@ close
 clc
 
 % Number of trials
-num_t = 1000000;
+num_t = 100;
 max_num_t = num_t;
 interval = 5000;
 
