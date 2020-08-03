@@ -21,8 +21,19 @@ clientID = sim.simxStart('127.0.0.1',19999,true,true,5000,5);
 if (clientID>-1)
     disp('Connected to remote API server');
     
+    
+    exeTime_array = zeros(20,1);
+    num_t = 0;
+    
+            % % %             Genarate a conveyor
+        [res_con_genetate, con_handle] = sim.simxLoadModel(clientID,'customizable_conveyor_belt_03x1x05_fix_sensorPos.ttm', 0, sim.simx_opmode_blocking);
+        [res_con_setpos] = sim.simxSetObjectPosition(clientID, con_handle, -1, [0 0.5 0.45], sim.simx_opmode_oneshot);
+        [res_con_setorien] = sim.simxSetObjectOrientation(clientID, con_handle, -1, [0 0 -pi/2], sim.simx_opmode_oneshot)
+   
+
     % % %         Repeated creation and deletion of the device.
-    for count = 1:5
+    for count = 1:10
+        num_t = num_t + 1;
         
         % % % % %         Facility Position
         tab_pos_2 = [-0.6, 0.65, 0.45];
@@ -51,6 +62,7 @@ if (clientID>-1)
         [res_target_gen, TargetDummyHandle] = sim.simxCreateDummy(clientID, 0.03, [], sim.simx_opmode_blocking);
 %         [res_target_parent] = sim.simxSetObjectParent(clientID, TargetDummyHandle, rob_handle, 0, sim.simx_opmode_blocking)
 
+%         [res_target_setpos] = sim.simxSetObjectPosition(clientID, TargetDummyHandle, rob_handle, [tab_pos_2(1),	tab_pos_2(2),   0.725], sim.simx_opmode_oneshot);
         [res_target_setpos] = sim.simxSetObjectPosition(clientID, TargetDummyHandle, rob_handle, [0.25, 0, 0.4], sim.simx_opmode_oneshot);
         %             [res_target_setorien] = sim.simxSetObjectOrientation(clientID, dummyHandle, -1, [0 0 -pi], sim.simx_opmode_oneshot)
 
@@ -82,11 +94,11 @@ if (clientID>-1)
         
         
         
-        % % %             Genarate a conveyor
-        [res_con_genetate, con_handle] = sim.simxLoadModel(clientID,'customizable_conveyor_belt_03x1x05_fix_sensorPos.ttm', 0, sim.simx_opmode_blocking);
-        [res_con_setpos] = sim.simxSetObjectPosition(clientID, con_handle, -1, [0 0.5 0.45], sim.simx_opmode_oneshot);
-        [res_con_setorien] = sim.simxSetObjectOrientation(clientID, con_handle, -1, [0 0 -pi/2], sim.simx_opmode_oneshot)
-        
+%         % % %             Genarate a conveyor
+%         [res_con_genetate, con_handle] = sim.simxLoadModel(clientID,'customizable_conveyor_belt_03x1x05_fix_sensorPos.ttm', 0, sim.simx_opmode_blocking);
+%         [res_con_setpos] = sim.simxSetObjectPosition(clientID, con_handle, -1, [0 0.5 0.45], sim.simx_opmode_oneshot);
+%         [res_con_setorien] = sim.simxSetObjectOrientation(clientID, con_handle, -1, [0 0 -pi/2], sim.simx_opmode_oneshot)
+%         
         % % %             Genarate a table
         [res_tab_genetate, tab_handle] = sim.simxLoadModel(clientID,'customizable_table_with_create_cube_func.ttm', 0, sim.simx_opmode_blocking);
         [res_tab_setpos] = sim.simxSetObjectPosition(clientID, tab_handle, -1, tab_pos_2, sim.simx_opmode_oneshot);
@@ -207,7 +219,7 @@ if (clientID>-1)
         fposition6 = [tab_pos_2(1),	tab_pos_2(2),   tab_pos_2(3)+0.13,    0,  0,  0];    % pickup position
         
         disp(fposition6)
-        pause(1);
+%         pause(1);
         
         
         % % % %             Read proximity sensor
@@ -249,8 +261,24 @@ if (clientID>-1)
 
 %         fposition4 = [cube0_pos(1), cube0_pos(2), cube0_pos(3)+0.05,	0,	0,	0]    % place position
 %         fposition3 = [cube0_pos(1), cube0_pos(2), cube0_pos(3)+0.1,	0,	0,	0]    % above place position
+
+
+% Timer start
+% tic
+        [res_time retInts_time retFloats_time retStrings retBuffer] = sim.simxCallScriptFunction(clientID, ...
+            'ResizableFloor_5_25', ...
+            sim.sim_scripttype_childscript, ...
+            'get_simtime', ...
+            [],[], ...
+            '', ...
+            [], ...
+            sim.simx_opmode_blocking);
         
-       
+        disp(res_time);
+        disp('time1');
+        disp(retFloats_time);
+
+
         moveL (clientID, TargetDummyHandle, fposition5, 8);
         moveL (clientID, TargetDummyHandle, fposition6, 8);
         
@@ -280,6 +308,29 @@ if (clientID>-1)
             sim.simx_opmode_blocking);
         
         moveL (clientID, TargetDummyHandle, fposition3, 8);
+        
+        
+        [res_time2 retInts_time2 retFloats_time2 retStrings retBuffer] = sim.simxCallScriptFunction(clientID, ...
+            'ResizableFloor_5_25', ...
+            sim.sim_scripttype_childscript, ...
+            'get_simtime', ...
+            [],[], ...
+            '', ...
+            [], ...
+            sim.simx_opmode_blocking);
+        
+        disp(retFloats_time2);
+        
+        exeTime = retFloats_time2 - retFloats_time
+        
+        exeTime_array(num_t,1) = exeTime;
+        disp(exeTime_array);
+
+
+
+% Timer stop
+% elapsedTime = toc
+
 
 
 %         moveL (clientID, TargetDummyHandle, fposition3, 8);
@@ -332,7 +383,7 @@ if (clientID>-1)
         
         
         
-        pause(1);
+%         pause(1);
 %         %{
 
             % % %             Remove a TargetDummy
@@ -353,6 +404,8 @@ if (clientID>-1)
 %         %}
         
     end
+                [res_con_remove] = sim.simxRemoveModel(clientID, con_handle, sim.simx_opmode_blocking);
+
     
     
     if (res_rob_genetate == sim.simx_return_ok)
