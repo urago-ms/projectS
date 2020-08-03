@@ -261,3 +261,9 @@ string から int8 に変換できません。
 エラー: ファイル: spawn_and_grasp.m 行:54 列:168
 式が無効です。関数の呼び出しまたは変数のインデックス付けにはかっこを使用してくださ
 い。そうでない場合、区切り記号の不一致をチェックしてください。
+
+
+関数または変数 'printf' が未定義です。
+
+エラー: optim_test_1_random_minmax_with_spawn_test2 (line 132)
+        printf('testtttttttttttttt');
