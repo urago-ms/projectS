@@ -98,6 +98,6 @@ xlabel('x','FontSize',24)
 %     file_name = strcat(file_name,id_num_st);
 %     file_name = strcat(file_name,'_InitialSol.pdf');
 
-saveas(gcf, sol_fig_path)
+saveas(gcf, sol_fig_path);
 
 end
