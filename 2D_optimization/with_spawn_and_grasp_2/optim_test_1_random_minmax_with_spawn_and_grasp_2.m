@@ -1,3 +1,6 @@
+
+
+% "optim_test_1_random_minmax_with_spawn_and_grasp_2.m"
 %clear
 
 % numnum = 10;
@@ -86,7 +89,7 @@ close
 clc
 
 % Number of trials
-num_t = 200;
+num_t = 10;
 max_num_t = num_t;
 interval = 5;
 
