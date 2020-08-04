@@ -1,4 +1,4 @@
-function sol_draw(file_name, cl_s, cl_l, ml, pl, m_max_range, m_min_range, p_pos_x, p_pos_y, m_pos_x, m_pos_y, c_pos_x, c_pos_y)
+function sol_draw(sol_fig_path, cl_s, cl_l, ml, pl, m_max_range, m_min_range, p_pos_x, p_pos_y, m_pos_x, m_pos_y, c_pos_x, c_pos_y)
 
 % % Delete all figure
 % close
@@ -97,6 +97,7 @@ xlabel('x','FontSize',24)
 %     file_name = strcat(time,'_');
 %     file_name = strcat(file_name,id_num_st);
 %     file_name = strcat(file_name,'_InitialSol.pdf');
-saveas(gcf,file_name)
+
+saveas(gcf, sol_fig_path)
 
 end
