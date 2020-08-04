@@ -107,108 +107,108 @@ best_min_angle_array = zeros(100000,1);
 tic
 
 % % % % while num_t > 0
+
+%%%%%% Manipulator position %%%%%%%%%%%%%%%%%%%%%%%%%%%
+while 1
+    %                 disp('test');
+    m_pos_x_s = -lim_x + (lim_x-(-lim_x))*rand;
+    m_pos_y_s = -lim_y + (lim_y-(-lim_y))*rand;
+    m_pos_x = round(m_pos_x_s);
+    m_pos_y = round(m_pos_y_s);
     
-    %%%%%% Manipulator position %%%%%%%%%%%%%%%%%%%%%%%%%%%
-    while 1
-        %                 disp('test');
-        m_pos_x_s = -lim_x + (lim_x-(-lim_x))*rand;
-        m_pos_y_s = -lim_y + (lim_y-(-lim_y))*rand;
-        m_pos_x = round(m_pos_x_s);
-        m_pos_y = round(m_pos_y_s);
+    
+    % The distance from the conveyor is within the movable range of the manipulator
+    if ((m_pos_x - c_pos_x)^2 + (m_pos_y - c_pos_y)^2 < m_max_range^2) && ((m_pos_x - c_pos_x)^2 + (m_pos_y - c_pos_y)^2 > m_min_range^2)
         
-        
-        % The distance from the conveyor is within the movable range of the manipulator
-        if ((m_pos_x - c_pos_x)^2 + (m_pos_y - c_pos_y)^2 < m_max_range^2) && ((m_pos_x - c_pos_x)^2 + (m_pos_y - c_pos_y)^2 > m_min_range^2)
+        % Whether to overlap with the conveyor
+        if (m_pos_x > (c_pos_x + 1/2*cl_s + 1/2*ml)) || (m_pos_x < (c_pos_x - 1/2*cl_s - 1/2*ml))   % If it does not overlap in the X-axis direction
+            m_pos_x;
+            m_pos_y;
+            break;
             
-            % Whether to overlap with the conveyor
-            if (m_pos_x > (c_pos_x + 1/2*cl_s + 1/2*ml)) || (m_pos_x < (c_pos_x - 1/2*cl_s - 1/2*ml))   % If it does not overlap in the X-axis direction
-                m_pos_x;
-                m_pos_y;
-                break;
-                
-            elseif (m_pos_y > (c_pos_y + 1/2*cl_l + 1/2*ml)) || (m_pos_y < (c_pos_y - 1/2*cl_l - 1/2*ml))   % If it does not overlap in the Y-axis direction
-                m_pos_x;
-                m_pos_y;
-                break;
-            else
-            end
+        elseif (m_pos_y > (c_pos_y + 1/2*cl_l + 1/2*ml)) || (m_pos_y < (c_pos_y - 1/2*cl_l - 1/2*ml))   % If it does not overlap in the Y-axis direction
+            m_pos_x;
+            m_pos_y;
+            break;
         else
         end
+    else
     end
+end
+
+
+%%%%%% Palette position %%%%%%%%%%%%%%%%%%%%%%%%%%%
+while 1
+    p_pos_x_s = -lim_x + (lim_x-(-lim_x))*rand;
+    p_pos_y_s = -lim_y + (lim_y-(-lim_y))*rand;
+    p_pos_x = round(p_pos_x_s);
+    p_pos_y = round(p_pos_y_s);
     
-    
-    %%%%%% Palette position %%%%%%%%%%%%%%%%%%%%%%%%%%%
-    while 1
-        p_pos_x_s = -lim_x + (lim_x-(-lim_x))*rand;
-        p_pos_y_s = -lim_y + (lim_y-(-lim_y))*rand;
-        p_pos_x = round(p_pos_x_s);
-        p_pos_y = round(p_pos_y_s);
+    % The distance from the conveyor is within the movable range of the manipulator
+    if (p_pos_x - c_pos_x)^2 + (p_pos_y - c_pos_y)^2 < (2*m_max_range)^2
         
-        % The distance from the conveyor is within the movable range of the manipulator
-        if (p_pos_x - c_pos_x)^2 + (p_pos_y - c_pos_y)^2 < (2*m_max_range)^2
+        % The distance from the manipulator is within the movable range of the manipulator
+        if ((m_pos_x - p_pos_x)^2 + (m_pos_y - p_pos_y)^2 < m_max_range^2) && ((m_pos_x - p_pos_x)^2 + (m_pos_y - p_pos_y)^2 > m_min_range^2)
             
-            % The distance from the manipulator is within the movable range of the manipulator
-            if ((m_pos_x - p_pos_x)^2 + (m_pos_y - p_pos_y)^2 < m_max_range^2) && ((m_pos_x - p_pos_x)^2 + (m_pos_y - p_pos_y)^2 > m_min_range^2)
+            % Whether to overlap with the palette
+            if (m_pos_x > (p_pos_x + 1/2*pl + 1/2*ml)) || (m_pos_x < (p_pos_x - 1/2*pl - 1/2*ml))   % If it does not overlap in the X-axis direction
                 
-                % Whether to overlap with the palette
-                if (m_pos_x > (p_pos_x + 1/2*pl + 1/2*ml)) || (m_pos_x < (p_pos_x - 1/2*pl - 1/2*ml))   % If it does not overlap in the X-axis direction  
+                % Whether to overlap with the conveyor
+                if (p_pos_x > (c_pos_x + 1/2*cl_s + 1/2*pl)) || (p_pos_x < (c_pos_x - 1/2*cl_s - 1/2*pl))   % If it does not overlap in the X-axis direction
+                    p_pos_x;
+                    p_pos_y;
+                    %                         disp('Decide the position of the palette1111');
+                    break;
                     
-                    % Whether to overlap with the conveyor
-                    if (p_pos_x > (c_pos_x + 1/2*cl_s + 1/2*pl)) || (p_pos_x < (c_pos_x - 1/2*cl_s - 1/2*pl))   % If it does not overlap in the X-axis direction
-                        p_pos_x;
-                        p_pos_y;
-%                         disp('Decide the position of the palette1111');
-                        break;
-                        
-                    elseif (p_pos_y > (c_pos_y + 1/2*cl_l + 1/2*pl)) || (p_pos_y < (c_pos_y - 1/2*cl_l - 1/2*pl))   % If it does not overlap in the Y-axis direction
-                        p_pos_x;
-                        p_pos_y;
-%                         disp('Decide the position of the palette2222');
-                        break;
-                    else
-                    end
-                    
-                elseif (m_pos_y > (p_pos_y + 1/2*pl + 1/2*ml)) || (m_pos_y < (p_pos_y - 1/2*pl - 1/2*ml))   % If it does not overlap in the Y-axis direction
-                    
-                    % Whether to overlap with the conveyor
-                    if (p_pos_x > (c_pos_x + 1/2*cl_s + 1/2*pl)) || (p_pos_x < (c_pos_x - 1/2*cl_s - 1/2*pl))   % If it does not overlap in the X-axis direction
-                        p_pos_x;
-                        p_pos_y;
-%                         disp('Decide the position of the palette1111');
-                        break;
-                        
-                    elseif (p_pos_y > (c_pos_y + 1/2*cl_l + 1/2*pl)) || (p_pos_y < (c_pos_y - 1/2*cl_l - 1/2*pl))   % If it does not overlap in the Y-axis direction
-                        p_pos_x;
-                        p_pos_y;
-%                         disp('Decide the position of the palette2222');
-                        break;
-                    else
-                    end
+                elseif (p_pos_y > (c_pos_y + 1/2*cl_l + 1/2*pl)) || (p_pos_y < (c_pos_y - 1/2*cl_l - 1/2*pl))   % If it does not overlap in the Y-axis direction
+                    p_pos_x;
+                    p_pos_y;
+                    %                         disp('Decide the position of the palette2222');
+                    break;
                 else
                 end
                 
+            elseif (m_pos_y > (p_pos_y + 1/2*pl + 1/2*ml)) || (m_pos_y < (p_pos_y - 1/2*pl - 1/2*ml))   % If it does not overlap in the Y-axis direction
+                
+                % Whether to overlap with the conveyor
+                if (p_pos_x > (c_pos_x + 1/2*cl_s + 1/2*pl)) || (p_pos_x < (c_pos_x - 1/2*cl_s - 1/2*pl))   % If it does not overlap in the X-axis direction
+                    p_pos_x;
+                    p_pos_y;
+                    %                         disp('Decide the position of the palette1111');
+                    break;
+                    
+                elseif (p_pos_y > (c_pos_y + 1/2*cl_l + 1/2*pl)) || (p_pos_y < (c_pos_y - 1/2*cl_l - 1/2*pl))   % If it does not overlap in the Y-axis direction
+                    p_pos_x;
+                    p_pos_y;
+                    %                         disp('Decide the position of the palette2222');
+                    break;
+                else
+                end
             else
             end
+            
         else
         end
+    else
     end
-    
-    
-    m_pos_optim = [m_pos_x, m_pos_y, m_pos_z]
-    p_pos_optim = [p_pos_x, p_pos_y, p_pos_z]
-    c_pos_optim = [c_pos_x, c_pos_y, c_pos_z]
-    
-    % % % %     %     close
-    % % % %     time = datestr(date,'yyyymmdd_HHMMSS');
-    % % % %     file_name = strcat(time,'_');
-    % % % %     file_name = strcat(file_name,id_num_st);
-    % % % %     file_name = strcat(file_name,'_Sol.png');
-    % % % %
-    % % % %     sol_draw_only_facility_position(file_name, cl_s, cl_l, ml, pl, m_max_range, m_min_range, p_pos_x, p_pos_y, m_pos_x, m_pos_y, c_pos_x, c_pos_y);
-    
-    
-    
-    %{
+end
+
+%     [mm] -> [m]
+m_pos_optim = [1/1000*m_pos_x, 1/1000*m_pos_y, 1/1000*m_pos_z]
+p_pos_optim = [1/1000*p_pos_x, 1/1000*p_pos_y, 1/1000*p_pos_z]
+c_pos_optim = [1/1000*c_pos_x, 1/1000*c_pos_y, 1/1000*c_pos_z]
+
+% % % %     %     close
+% % % %     time = datestr(date,'yyyymmdd_HHMMSS');
+% % % %     file_name = strcat(time,'_');
+% % % %     file_name = strcat(file_name,id_num_st);
+% % % %     file_name = strcat(file_name,'_Sol.png');
+% % % %
+% % % %     sol_draw_only_facility_position(file_name, cl_s, cl_l, ml, pl, m_max_range, m_min_range, p_pos_x, p_pos_y, m_pos_x, m_pos_y, c_pos_x, c_pos_y);
+
+
+
+%{
     if num_t == max_num_t    % Run only the first time
         % save Initial solution graph
         %         set(gca,'FontSize',15);
@@ -227,10 +227,10 @@ tic
         %         saveas(gcf,file_name)
         
     end
-    %}
-    
+%}
+
 % % % %     num_t = num_t - 1;
-% % % %     
+% % % %
 % % % % end
 
 
