@@ -267,3 +267,11 @@ string から int8 に変換できません。
 
 エラー: optim_test_1_random_minmax_with_spawn_test2 (line 132)
         printf('testtttttttttttttt');
+
+
+        >> random_research
+        エラー: ファイル: random_research.m 行:250 列:21
+        演算子の使用が無効です。
+        >> random_research
+エラー: ファイル: random_research.m 行:250 列:21
+演算子の使用が無効です。

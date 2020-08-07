@@ -18,30 +18,30 @@ sim = remApi('remoteApi'); % using the prototype file (remoteApiProto.m)
 sim.simxFinish(-1); % just in case, close all opened connections
 clientID = sim.simxStart('127.0.0.1',19999,true,true,5000,5);
 
+
 if (clientID>-1)
     disp('Connected to remote API server');
     
     
     exeTime_array = zeros(20,1);
-    num_t = 0;
+    num_t = 1;
     
     % % %             Genarate a conveyor
     [res_con_genetate, con_handle] = sim.simxLoadModel(clientID,'customizable_conveyor_belt_03x1x05_fix_sensorPos.ttm', 0, sim.simx_opmode_blocking);
     [res_con_setpos] = sim.simxSetObjectPosition(clientID, con_handle, -1, [0 0.5 0.45], sim.simx_opmode_oneshot);
-    [res_con_setorien] = sim.simxSetObjectOrientation(clientID, con_handle, -1, [0 0 -pi/2], sim.simx_opmode_oneshot)
+    [res_con_setorien] = sim.simxSetObjectOrientation(clientID, con_handle, -1, [0 0 -pi/2], sim.simx_opmode_oneshot);
     
     
     % % %         Repeated creation and deletion of the device.
     for count = 1:10
-        num_t = num_t + 1;
         
         % % % % %         Search Facility Position
         %         tab_pos_2 = [-0.6, 0.65, 0.45];
-%         rob_pos_2 = [-0.4, 0.25, 0.15];
-
-        [m_pos_optim, p_pos_optim, c_pos_optim] = random_research()
-                rob_pos_2 = [m_pos_optim(1), m_pos_optim(2), 0.15];
-        tab_pos_2 = [p_pos_optim(1), p_pos_optim(2), 0.45];
+        %         rob_pos_2 = [-0.4, 0.25, 0.15];
+        
+        [m_pos_random, p_pos_random, c_pos_random] = random_research()
+        rob_pos_2 = [m_pos_random(1), m_pos_random(2), 0.15];
+        tab_pos_2 = [p_pos_random(1), p_pos_random(2), 0.45];
         
         
         
@@ -216,13 +216,13 @@ if (clientID>-1)
             % let's define now the target positions needed
             fposition1 = [-0.36,    0.15,  0.75,    0,  0,  0];    % [x, y, z, alpha, beta, gamma] first position
             %         fposition2 = [0.2,    0,      0.9,    0,  0,  0];
-            fposition3 = [0, 0.52, 0.725,	0,	0,	0]    % above place position
-            fposition4 = [0, 0.52, 0.625,	0,	0,	0]    % place position
+            fposition3 = [0, 0.52, 0.725,	0,	0,	0];    % above place position
+            fposition4 = [0, 0.52, 0.625,	0,	0,	0];   % place position
             fposition5 = [tab_pos_2(1),	tab_pos_2(2),   0.725,    0,  0,  0];    % above pickup position
             %         fposition5 = [tab_pos_2(1),	tab_pos_2(2),   tab_pos_2(3)+0.1,    0,  0,  0];    % above pickup position
             fposition6 = [tab_pos_2(1),	tab_pos_2(2),   tab_pos_2(3)+0.13,    0,  0,  0];    % pickup position
             
-            disp(fposition6)
+%             disp(fposition6)
             %         pause(1);
             
             
@@ -230,15 +230,15 @@ if (clientID>-1)
             [res_sensor_handle, Proximity_sensor_handle] = sim.simxGetObjectHandle(clientID, 'Proximity_sensor', sim.simx_opmode_blocking);
             [res_read_sensor, detectionState, detectedPoint, detectedObjectHandle] = sim.simxReadProximitySensor(clientID, Proximity_sensor_handle, sim.simx_opmode_streaming);
             
-            disp(Proximity_sensor_handle);
-            
-            disp('sensor state');
-            
-            disp(res_read_sensor);
-            disp(detectionState);
-            disp(detectedPoint);
-            disp(detectedObjectHandle);
-            disp(cube0_handle);
+% % % %             disp(Proximity_sensor_handle);
+% % % %             
+% % % %             disp('sensor state');
+% % % %             
+% % % %             disp(res_read_sensor);
+% % % %             disp(detectionState);
+% % % %             disp(detectedPoint);
+% % % %             disp(detectedObjectHandle);
+% % % %             disp(cube0_handle);
             
             %             disp(dddddd);
             
@@ -260,7 +260,7 @@ if (clientID>-1)
             
             [res_cube1_handle, cube1_handle] = sim.simxGetObjectHandle(clientID,'Cuboid1', sim.simx_opmode_blocking);
             
-            [res_cube0_pos, cube1_pos] = sim.simxGetObjectPosition(clientID, cube1_handle, -1, sim.simx_opmode_streaming)
+            [res_cube0_pos, cube1_pos] = sim.simxGetObjectPosition(clientID, cube1_handle, -1, sim.simx_opmode_streaming);
             
             
             %         fposition4 = [cube0_pos(1), cube0_pos(2), cube0_pos(3)+0.05,	0,	0,	0]    % place position
@@ -278,9 +278,9 @@ if (clientID>-1)
                 [], ...
                 sim.simx_opmode_blocking);
             
-            disp(res_time);
-            disp('time1');
-            disp(retFloats_time);
+% % % %             disp(res_time);
+% % % %             disp('time1');
+% % % %             disp(retFloats_time);
             
             
             moveL (clientID, TargetDummyHandle, fposition5, 8);
@@ -323,12 +323,31 @@ if (clientID>-1)
                 [], ...
                 sim.simx_opmode_blocking);
             
-            disp(retFloats_time2);
+% % % %             disp(retFloats_time2);
             
-            exeTime = retFloats_time2 - retFloats_time
+            exeTime = retFloats_time2 - retFloats_time;
             
             exeTime_array(num_t,1) = exeTime;
             disp(exeTime_array);
+            
+            % % % % %             Update Minimum exetime
+            if num_t == 1   %% if first time
+                disp('UPDATE min_exetime');
+                repetition_rate = num_t;
+                min_exeTime = exeTime;
+                optim_tabpos = tab_pos_2;
+                optim_robpos = rob_pos_2;
+                
+            elseif exeTime < min_exeTime
+                disp('UPDATE min_exetime');
+                repetition_rate = num_t;
+                min_exeTime = exeTime;
+                optim_tabpos = tab_pos_2;
+                optim_robpos = rob_pos_2;
+                
+            else
+            end
+            
             
             
             
@@ -379,9 +398,6 @@ if (clientID>-1)
             %           [res_cube2_handle, cube2_handle] = sim.simxGetObjectHandle(clientID,'Cuboid2', sim.simx_opmode_blocking)
             
             
-            
-
-            
         end
             %}
             
@@ -391,11 +407,11 @@ if (clientID>-1)
             %         %{
             
             % % %             Remove a TargetDummy
-            [res_targetdummy_remove] = sim.simxRemoveObject(clientID, TargetDummyHandle, sim.simx_opmode_blocking)
+            [res_targetdummy_remove] = sim.simxRemoveObject(clientID, TargetDummyHandle, sim.simx_opmode_blocking);
             
             % % %             Remove cubes
-            [res_cube0_remove] = sim.simxRemoveObject(clientID, cube0_handle, sim.simx_opmode_blocking)
-            [res_cube1_remove] = sim.simxRemoveObject(clientID, cube1_handle, sim.simx_opmode_blocking)
+            [res_cube0_remove] = sim.simxRemoveObject(clientID, cube0_handle, sim.simx_opmode_blocking);
+            [res_cube1_remove] = sim.simxRemoveObject(clientID, cube1_handle, sim.simx_opmode_blocking);
             
             
             % % %             Remove model (Matlab function)  % % % % %
@@ -407,8 +423,16 @@ if (clientID>-1)
             [res_con_remove] = sim.simxRemoveModel(clientID, tab_handle, sim.simx_opmode_blocking);
             %         %}
             
+            num_t = num_t + 1;
     end
     [res_con_remove] = sim.simxRemoveModel(clientID, con_handle, sim.simx_opmode_blocking);
+    
+    fprintf('Optimized Table position: %f\n', optim_tabpos);
+    fprintf('Optimized Manipulator position: %f\n', optim_robpos);
+    fprintf('Repetition Rate %d\n', repetition_rate);
+    fprintf('Execute Time %d\n', min_exeTime);
+    
+    
     
     
     

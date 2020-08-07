@@ -1,4 +1,4 @@
-function [m_pos_random, p_pos_random, c_pos_random] = random_research()
+function [m_pos_optim, p_pos_ra, c_pos_random] = random_research()
 
 % old file name "optim_test_1_random_minmax_with_spawn_and_grasp_2.m"
 %clear
@@ -67,8 +67,8 @@ m_pos_z = 0;
 p_pos_z = 0;
 c_pos_z = 0;
 
-m_pos_random = [m_pos_x, m_pos_y, m_pos_z];
-p_pos_random = [p_pos_x, p_pos_y, p_pos_z];
+m_pos_optim = [m_pos_x, m_pos_y, m_pos_z];
+p_pos_optim = [p_pos_x, p_pos_y, p_pos_z];
 c_pos_random = [c_pos_x, c_pos_y, c_pos_z];
 
 
@@ -194,9 +194,9 @@ while 1
 end
 
 %     [mm] -> [m]
-m_pos_random = [1/1000*m_pos_x, 1/1000*m_pos_y, 1/1000*m_pos_z];
-p_pos_random = [1/1000*p_pos_x, 1/1000*p_pos_y, 1/1000*p_pos_z];
-c_pos_random = [1/1000*c_pos_x, 1/1000*c_pos_y, 1/1000*c_pos_z];
+m_pos_optim = [1/1000*m_pos_x, 1/1000*m_pos_y, 1/1000*m_pos_z]
+p_pos_optim = [1/1000*p_pos_x, 1/1000*p_pos_y, 1/1000*p_pos_z]
+c_pos_random = [1/1000*c_pos_x, 1/1000*c_pos_y, 1/1000*c_pos_z]
 
 % % % %     %     close
 % % % %     time = datestr(date,'yyyymmdd_HHMMSS');
