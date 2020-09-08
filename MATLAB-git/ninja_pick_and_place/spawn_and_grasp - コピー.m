@@ -11,7 +11,8 @@
 
 
 function spawn_and_grasp()
-
+% Timer start
+tic
 disp('Program started');
 % sim=remApi('remoteApi','extApi.h'); % using the header (requires a compiler)
 sim = remApi('remoteApi'); % using the prototype file (remoteApiProto.m)
@@ -22,7 +23,7 @@ if (clientID>-1)
     disp('Connected to remote API server');
     
     % % %         Repeated creation and deletion of the device.
-    for count = 1:2
+    for count = 1:100
         
         % % % % %         Facility Position
         tab_pos_2 = [-0.6, 0.65, 0.45];
@@ -407,6 +408,9 @@ end
 sim.delete(); % call the destructor!
 
 disp('Program ended');
+% Timer stop
+elapsedTime = toc
+
 % whos
 
 end

@@ -11,6 +11,9 @@
 
 
 function spawn_and_grasp()
+% Timer start
+tStart = tic
+
 
 disp('Program started');
 % sim=remApi('remoteApi','extApi.h'); % using the header (requires a compiler)
@@ -19,11 +22,12 @@ sim.simxFinish(-1); % just in case, close all opened connections
 clientID = sim.simxStart('127.0.0.1',19999,true,true,5000,5);
 
 
+
 if (clientID>-1)
     disp('Connected to remote API server');
     
     
-    exeTime_array = zeros(10,1);
+    exeTime_array = zeros(100000,1);
     num_t = 1;
     
     % % %             Genarate a conveyor
@@ -33,7 +37,7 @@ if (clientID>-1)
     
     
     % % %         Repeated creation and deletion of the device.
-    for count = 1:10
+    for count = 1:100
         
         % % % % %         Search Facility Position
         %         tab_pos_2 = [-0.6, 0.65, 0.45];
@@ -138,6 +142,28 @@ if (clientID>-1)
                     sim.simx_opmode_blocking);
         %}
         
+        
+        
+        
+        %{
+        % % % % % %             Execute tasks with function of coppeliasim     % % % % % %
+        [res_execute_task, retInts, retFloats, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
+            'ResizableFloor_5_25', ...
+            sim.sim_scripttype_childscript, ...
+            'execute_task', ...
+            [1,1,1], ... %   [color_flag(0=NULL,1=green),
+            [0, 0.9, 0.6, 0.1, 0.1, 0.05], ...  %   [posX, posY, posZ, sizeX, sizeY, sizeZ]
+            '', ...
+            [], ...
+            sim.simx_opmode_blocking);
+        %}
+
+        
+        
+        
+        
+        
+        
         % % % % % %             Execute tasks     % % % % % %
         
         % % % Read the coordinates(position) of each device.
@@ -166,7 +192,7 @@ if (clientID>-1)
             sim.simx_opmode_blocking);
         
         
-% % % %         disp(res_cube_gen_0);
+        % % % %         disp(res_cube_gen_0);
         
         % % % %     create cube on table
         [res_cube_gen_1, retInts, retFloats, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
@@ -222,7 +248,7 @@ if (clientID>-1)
             %         fposition5 = [tab_pos_2(1),	tab_pos_2(2),   tab_pos_2(3)+0.1,    0,  0,  0];    % above pickup position
             fposition6 = [tab_pos_2(1),	tab_pos_2(2),   tab_pos_2(3)+0.13,    0,  0,  0];    % pickup position
             
-%             disp(fposition6)
+            %             disp(fposition6)
             %         pause(1);
             
             
@@ -230,15 +256,15 @@ if (clientID>-1)
             [res_sensor_handle, Proximity_sensor_handle] = sim.simxGetObjectHandle(clientID, 'Proximity_sensor', sim.simx_opmode_blocking);
             [res_read_sensor, detectionState, detectedPoint, detectedObjectHandle] = sim.simxReadProximitySensor(clientID, Proximity_sensor_handle, sim.simx_opmode_streaming);
             
-% % % %             disp(Proximity_sensor_handle);
-% % % %             
-% % % %             disp('sensor state');
-% % % %             
-% % % %             disp(res_read_sensor);
-% % % %             disp(detectionState);
-% % % %             disp(detectedPoint);
-% % % %             disp(detectedObjectHandle);
-% % % %             disp(cube0_handle);
+            % % % %             disp(Proximity_sensor_handle);
+            % % % %
+            % % % %             disp('sensor state');
+            % % % %
+            % % % %             disp(res_read_sensor);
+            % % % %             disp(detectionState);
+            % % % %             disp(detectedPoint);
+            % % % %             disp(detectedObjectHandle);
+            % % % %             disp(cube0_handle);
             
             %             disp(dddddd);
             
@@ -278,9 +304,9 @@ if (clientID>-1)
                 [], ...
                 sim.simx_opmode_blocking);
             
-% % % %             disp(res_time);
-% % % %             disp('time1');
-% % % %             disp(retFloats_time);
+            % % % %             disp(res_time);
+            % % % %             disp('time1');
+            % % % %             disp(retFloats_time);
             
             
             moveL (clientID, TargetDummyHandle, fposition5, 8);
@@ -323,12 +349,12 @@ if (clientID>-1)
                 [], ...
                 sim.simx_opmode_blocking);
             
-% % % %             disp(retFloats_time2);
+            % % % %             disp(retFloats_time2);
             
-            exeTime = retFloats_time2 - retFloats_time;
+            exeTime = retFloats_time2 - retFloats_time
             
-            exeTime_array(num_t,1) = exeTime;
-% % % %             disp(exeTime_array);
+%             exeTime_array(num_t,1) = exeTime;
+            % % % %             disp(exeTime_array);
             
             % % % % %             Update Minimum exetime
             if num_t == 1   %% if first time
@@ -425,17 +451,26 @@ if (clientID>-1)
             
             num_t = num_t + 1;
     end
+    
+%     simulation pause
+    [res_sim_pause] = sim.simxPauseSimulation(clientID, sim.simx_opmode_oneshot);
+
+    
     [res_con_remove] = sim.simxRemoveModel(clientID, con_handle, sim.simx_opmode_blocking);
     
     fprintf('Optimized Table position:\n');
     disp(optim_tabpos);
     fprintf('Optimized Manipulator position:\n');
     disp(optim_robpos);
-%     fprintf('Optimized Manipulator position: %f\n', optim_robpos);
-    fprintf('Repetition Rate :%d\n', repetition_rate);
-    fprintf('Execute Time :%d\n', min_exeTime);
-    disp(exeTime_array);
-%         disp('exeTime_array');
+    %     fprintf('Optimized Manipulator position: %f\n', optim_robpos);
+    fprintf('Repetition Rate when Min Execute Time :%d\n', repetition_rate);
+    fprintf('Min Execute Time(sim time)[s] :%f\n', min_exeTime);
+%     disp(exeTime_array);
+
+    % Timer stop[s]
+    elapsedTime = toc(tStart);
+
+    fprintf('elapsedTime(real time)[s] :%f\n', elapsedTime);
 
     
     
@@ -457,6 +492,11 @@ end
 sim.delete(); % call the destructor!
 
 disp('Program ended');
+
+% % Timer stop[s]
+% elapsedTime = toc(tStart)
+
 % whos
 
 end
+
