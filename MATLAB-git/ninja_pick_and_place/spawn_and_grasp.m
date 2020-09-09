@@ -26,7 +26,9 @@ clientID = sim.simxStart('127.0.0.1',19999,true,true,5000,5);
 if (clientID>-1)
     disp('Connected to remote API server');
     
-    
+%     %	Simulation Start
+%    [res_sim_start] = sim.simxStartSimulation(clientID, sim.simx_opmode_oneshot);
+
     exeTime_array = zeros(100000,1);
     num_t = 1;
     
@@ -37,7 +39,7 @@ if (clientID>-1)
     
     
     % % %         Repeated creation and deletion of the device.
-    for count = 1:100
+    for count = 1:500
         
         % % % % %         Search Facility Position
         %         tab_pos_2 = [-0.6, 0.65, 0.45];
@@ -303,6 +305,15 @@ if (clientID>-1)
                 '', ...
                 [], ...
                 sim.simx_opmode_blocking);
+            
+%             [res_time retInts_time retFloats_time retStrings retBuffer] = sim.simxCallScriptFunction(clientID, ...
+%                 'ResizableFloor_5_25', ...
+%                 sim.sim_scripttype_childscript, ...
+%                 'get_simtime', ...
+%                 [0,0,0],[0,0,0], ...
+%                 'Hello world!', ...
+%                 [], ...
+%                 sim.simx_opmode_blocking);
             
             % % % %             disp(res_time);
             % % % %             disp('time1');
