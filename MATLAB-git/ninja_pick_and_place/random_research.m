@@ -80,7 +80,7 @@ m_hand_pos = zeros(1,2); % manipulator hand position
 
 % m_min_range = sqrt(link_1^2 + link_2^2 - 2*link_1*link_2*cos(pi - j2_max)); % manipulator min range
 m_min_range = 188; % manipulator min range
-m_max_range = 510;  % Maximum manipulator range531
+m_max_range = 495;  % Maximum manipulator range531
 
 
 g_initial_theta_1 = 0;

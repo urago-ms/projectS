@@ -244,9 +244,9 @@ if (clientID>-1)
             % let's define now the target positions needed
             fposition1 = [-0.36,    0.15,  0.75,    0,  0,  0];    % [x, y, z, alpha, beta, gamma] first position
             %         fposition2 = [0.2,    0,      0.9,    0,  0,  0];
-            fposition3 = [0, 0.52, 0.725,	0,	0,	0];    % above place position
+            fposition3 = [0, 0.52, 0.65,	0,	0,	0];    % above place position
             fposition4 = [0, 0.52, 0.625,	0,	0,	0];   % place position
-            fposition5 = [tab_pos_2(1),	tab_pos_2(2),   0.725,    0,  0,  0];    % above pickup position
+            fposition5 = [tab_pos_2(1),	tab_pos_2(2),   0.65,    0,  0,  0];    % above pickup position
             %         fposition5 = [tab_pos_2(1),	tab_pos_2(2),   tab_pos_2(3)+0.1,    0,  0,  0];    % above pickup position
             fposition6 = [tab_pos_2(1),	tab_pos_2(2),   tab_pos_2(3)+0.13,    0,  0,  0];    % pickup position
             
