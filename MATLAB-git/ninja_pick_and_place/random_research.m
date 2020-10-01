@@ -79,8 +79,8 @@ out_pos = [0 1000];    %outlet position
 m_hand_pos = zeros(1,2); % manipulator hand position
 
 % m_min_range = sqrt(link_1^2 + link_2^2 - 2*link_1*link_2*cos(pi - j2_max)); % manipulator min range
-m_min_range = 188; % manipulator min range
-m_max_range = 495;  % Maximum manipulator range531
+m_min_range = 188; % manipulator min range (radius)
+m_max_range = 495;  % Maximum manipulator range531 (radius)
 
 
 g_initial_theta_1 = 0;
@@ -249,7 +249,7 @@ file_name = strcat(file_name,'_Sol.png');
 
 sol_fig_path = strcat('C:\Users\mslab\github\projectS\MATLAB-git\ninja_pick_and_place\sol_fig\', file_name);
 
-sol_draw_only_facility_position(sol_fig_path, cl_s, cl_l, ml, pl, m_max_range, m_min_range, p_pos_x, p_pos_y, m_pos_x, m_pos_y, c_pos_x, c_pos_y);
+% sol_draw_only_facility_position(sol_fig_path, cl_s, cl_l, ml, pl, m_max_range, m_min_range, p_pos_x, p_pos_y, m_pos_x, m_pos_y, c_pos_x, c_pos_y);
 
 % saveas(gcf,file_name);
 
