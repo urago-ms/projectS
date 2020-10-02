@@ -35,7 +35,7 @@ if (clientID>-1)
     
     
     % % %         Repeated creation and deletion of the device.
-    for count = 1:5
+    for count = 1:500
         
 % % % % %         Display the number of repetitions in CoppeliaSim
         [res_print_repetition_rate, retInts, retFloats, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
