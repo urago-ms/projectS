@@ -33,11 +33,13 @@ if (clientID>-1)
     [res_con_setpos] = sim.simxSetObjectPosition(clientID, con_handle, -1, [0 0.5 0.45], sim.simx_opmode_oneshot);
     [res_con_setorien] = sim.simxSetObjectOrientation(clientID, con_handle, -1, [0 0 -pi/2], sim.simx_opmode_oneshot);
     
+    % % %     number of repetition
+    rep = 100;
     
     % % %         Repeated creation and deletion of the device.
-    for count = 1:100
+    for count = 1:rep
         
-% % % % %         Display the number of repetitions in CoppeliaSim
+        % % % % %         Display the number of repetitions in CoppeliaSim
         [res_print_repetition_rate, retInts, retFloats, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
             'ResizableFloor_5_25', ...
             sim.sim_scripttype_childscript, ...
@@ -128,17 +130,16 @@ if (clientID>-1)
         
         
         % let's define now the target positions needed
-        fposition1 = [-0.36,    0.15,  0.75,    0,  0,  0];    % [x, y, z, alpha, beta, gamma] first position
-        %         fposition2 = [0.2,    0,      0.9,    0,  0,  0];
         fposition3 = [0, 0.52, 0.65,	0,	0,	0];    % above place position
         fposition4 = [0, 0.52, 0.625,	0,	0,	0];   % place position
         fposition5 = [tab_pos_2(1),	tab_pos_2(2),   0.65,    0,  0,  0];    % above pickup position
-        %         fposition5 = [tab_pos_2(1),	tab_pos_2(2),   tab_pos_2(3)+0.1,    0,  0,  0];    % above pickup position
         fposition6 = [tab_pos_2(1),	tab_pos_2(2),   tab_pos_2(3)+0.13,    0,  0,  0];    % pickup position
         
         
         % Timer start
         % tic
+        
+        % % %         Get the simtime on coppeliasim
         [res_time, retInts_time, retFloats_time, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
             'ResizableFloor_5_25', ...
             sim.sim_scripttype_childscript, ...
@@ -184,7 +185,7 @@ if (clientID>-1)
         % % %             Move the end effector to position 4.
         moveL (clientID, TargetDummyHandle, fposition3, 8);
         
-        
+        % % %         Get the simtime on coppeliasim
         [res_time2, retInts_time2, retFloats_time2, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
             'ResizableFloor_5_25', ...
             sim.sim_scripttype_childscript, ...
@@ -198,7 +199,8 @@ if (clientID>-1)
         exeTime = retFloats_time2 - retFloats_time
         
         
-        % % % % %             Update Minimum exetime
+        % % %         Find the one with the shortest pick-and-place execution time among the generated placements.
+        % % %             Update Minimum exetime
         if num_t == 1   %% if first time
             disp('UPDATE min_exetime');
             repetition_rate = num_t;
