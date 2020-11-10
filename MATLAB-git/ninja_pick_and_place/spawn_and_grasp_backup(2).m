@@ -65,8 +65,8 @@ if (clientID>-1)
         % % % % %             Generate facilities using MATLAB functions % % % % %
         % % %             Genarate a robot
         [res_rob_genetate, rob_handle] = sim.simxLoadModel(clientID,'motoman_HP3J_with_base_JointsLimit2.ttm', 0, sim.simx_opmode_blocking);
-        %             [res_rob_genetate, rob_handle] = sim.simxLoadModel(clientID,'motoman_HP3J_with_base_and_targetDummy.ttm', 0, sim.simx_opmode_blocking);
         [res_rob_setpos] = sim.simxSetObjectPosition(clientID, rob_handle, -1, rob_pos_2, sim.simx_opmode_oneshot);
+%         disp(rob_handle);
         
         %{
             % % %             Setting of target dummy (If generate target dummy with robot)
@@ -81,13 +81,8 @@ if (clientID>-1)
         
         % % %             Setting of target dummy (If generate only target dummy)
         [res_target_gen, TargetDummyHandle] = sim.simxCreateDummy(clientID, 0.03, [], sim.simx_opmode_blocking);
-        %         [res_target_parent] = sim.simxSetObjectParent(clientID, TargetDummyHandle, rob_handle, 0, sim.simx_opmode_blocking)
-        
-        %         [res_target_setpos] = sim.simxSetObjectPosition(clientID, TargetDummyHandle, rob_handle, [tab_pos_2(1),	tab_pos_2(2),   0.725], sim.simx_opmode_oneshot);
         [res_target_setpos] = sim.simxSetObjectPosition(clientID, TargetDummyHandle, rob_handle, [0.25, 0, 0.4], sim.simx_opmode_oneshot);
-        %             [res_target_setorien] = sim.simxSetObjectOrientation(clientID, dummyHandle, -1, [0 0 -pi], sim.simx_opmode_oneshot)
-        
-        %                             pause(3);
+      
         
         % %     Set link dummy
         [res_tip_dummy_handle, tip_dummy_handle] = sim.simxGetObjectHandle(clientID,'tip', sim.simx_opmode_blocking);
@@ -124,7 +119,6 @@ if (clientID>-1)
         [res_tab_genetate, tab_handle] = sim.simxLoadModel(clientID,'customizable_table_with_create_cube_func.ttm', 0, sim.simx_opmode_blocking);
         [res_tab_setpos] = sim.simxSetObjectPosition(clientID, tab_handle, -1, tab_pos_2, sim.simx_opmode_oneshot);
         
-        %                     pause(1);
         
         
         
@@ -331,16 +325,27 @@ if (clientID>-1)
             % % % %             disp('time1');
             % % % %             disp(retFloats_time);
             
-                releasePath = createPath("releasePath",idlePos,idleOrient,releasePos,releaseOrient)
-                
-                [res retInts retFloats retStrings retBuffer] = sim.simxCallScriptFunction(clientID, ...
-                'suctionPad', ...
-                sim.sim_scripttype_childscript, ...
-                'suck_object', ...
-                [0,0,1],[0.1,0.3,0.68], ...
-                'Hello world!', ...
-                [], ...
-                sim.simx_opmode_blocking);
+            
+            
+%             
+%              -- Get handles and postions of dummies
+%     targetDummy = sim.getObjectHandle("Target")
+%     idlePos = sim.getObjectPosition(targetDummy,-1)
+%     idleOrient = sim.getObjectOrientation(targetDummy,-1)
+% 
+%     releasePosHandle = sim.getObjectHandle("releasePos")
+%     releasePos = sim.getObjectPosition(releasePosHandle,-1)
+%     releaseOrient = sim.getObjectOrientation(releasePosHandle,-1)+
+%                 releasePath = createPath("releasePath",idlePos,idleOrient,releasePos,releaseOrient)
+%                 
+%             [res retInts retFloats retStrings retBuffer] = sim.simxCallScriptFunction(clientID, ...
+%                 'suctionPad', ...
+%                 sim.sim_scripttype_childscript, ...
+%                 'suck_object', ...
+%                 [0,0,1],[0.1,0.3,0.68], ...
+%                 'Hello world!', ...
+%                 [], ...
+%                 sim.simx_opmode_blocking);
             
             
             moveL (clientID, TargetDummyHandle, fposition5, 8);
