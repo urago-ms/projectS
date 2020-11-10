@@ -43,7 +43,6 @@ if (clientID>-1)
     
     % % %         Repeated creation and deletion of the device.
     for count = 1:rep
-        
         % % % % %         Display the number of repetitions in CoppeliaSim
         [res_print_repetition_rate, retInts, retFloats, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
             'ResizableFloor_5_25', ...
@@ -60,27 +59,18 @@ if (clientID>-1)
         rob_pos_2 = [m_pos_random(1), m_pos_random(2), 0.15];
         tab_pos_2 = [p_pos_random(1), p_pos_random(2), 0.45];
         
-        
+
         
         % % % % %             Generate facilities using MATLAB functions % % % % %
         % % %             Genarate a robot
         [res_rob_genetate, rob_handle] = sim.simxLoadModel(clientID,'motoman_HP3J_with_base_JointsLimit2.ttm', 0, sim.simx_opmode_blocking);
         [res_rob_setpos] = sim.simxSetObjectPosition(clientID, rob_handle, -1, rob_pos_2, sim.simx_opmode_oneshot);
-        
-        %{
-            % % %             Setting of target dummy (If generate target dummy with robot)
-            [res_target_handle, target_handle] = sim.simxGetObjectHandle(clientID,'target', sim.simx_opmode_blocking)
-%             [res_target_handle2, target_handle2] = sim.simxGetObjectSelection(clientID, sim.simx_opmode_blocking)   % What handle are you getting?
-            [res_target_parent] = sim.simxSetObjectParent(clientID, target_handle, -1, 0, sim.simx_opmode_blocking)
-            
-%             [res_target_pos, target_pos] = sim.simxGetObjectPosition(clientID, res_target_handle, -1, sim.simx_opmode_streaming)
-            [res_target_setpos] = sim.simxSetObjectPosition(clientID, target_handle, -1, [-0.36 0.15 0.75], sim.simx_opmode_oneshot);
-            [res_target_setorien] = sim.simxSetObjectOrientation(clientID, target_handle, -1, [0 0 -pi], sim.simx_opmode_oneshot)
-        %}
+%         disp(rob_handle);
         
         % % %             Setting of target dummy (If generate only target dummy)
         [res_target_gen, TargetDummyHandle] = sim.simxCreateDummy(clientID, 0.03, [], sim.simx_opmode_blocking);
         [res_target_setpos] = sim.simxSetObjectPosition(clientID, TargetDummyHandle, rob_handle, [0.25, 0, 0.4], sim.simx_opmode_oneshot);
+%         disp(TargetDummyHandle);
       
         
         % %     Set link dummy
