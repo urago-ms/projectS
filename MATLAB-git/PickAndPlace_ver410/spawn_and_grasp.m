@@ -14,7 +14,7 @@ function spawn_and_grasp()
 % Timer start
 tStart = tic
 
-
+    
 disp('Program started');
 % sim=remApi('remoteApi','extApi.h'); % using the header (requires a compiler)
 sim = remApi('remoteApi'); % using the prototype file (remoteApiProto.m)
