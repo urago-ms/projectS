@@ -1,0 +1,1953 @@
+--------------
+     1
+
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   52.5500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6140    0.2650    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   166767
+
+   166788
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.8000
+
+UPDATE min_exetime
+--------------
+     1
+
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   68.7500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1530    0.5500    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   166818
+
+   166839
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+UPDATE min_exetime
+--------------
+     1
+
+     3
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   85.5000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.5850    0.3220    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   166869
+
+   166890
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+--------------
+     1
+
+     4
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   102
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6850    0.6200    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   166920
+
+   166941
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+UPDATE min_exetime
+--------------
+     1
+
+     5
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1067699486106
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+--------------
+     1
+
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   46.5500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1890    0.4140    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   167013
+
+   167034
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+UPDATE min_exetime
+--------------
+     1
+
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   62.6000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.5870    0.6540    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   167064
+
+   167085
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+--------------
+     1
+
+     3
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+exeTime_array
+{関数または変数 'exeTime_array' が未定義です。
+} 
+disp(exeTime_array);
+{関数または変数 'exeTime_array' が未定義です。
+} 
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1088703595802
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   45.9500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6010    0.2100    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   167157
+
+   167178
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   454
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0980    0.2160    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   167208
+
+   167229
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.8000
+
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   58.8000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6870    0.2810    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   167273
+
+   167294
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.8500
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('writematrix', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m', 134)" style="font-weight:bold">writematrix</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m',134,0)">line 134</a>)
+無効なパラメーター名: WriteMode。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spawn_and_grasp', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m', 388)" style="font-weight:bold">spawn_and_grasp</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m',388,0)">line 388</a>)
+        writematrix(exeTime_array,'exeTime_array.csv','WriteMode','append');} 
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1116408436231
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   96.1500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6410    0.7350    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   167338
+
+   167359
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.6000
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('writematrix', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m', 134)" style="font-weight:bold">writematrix</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m',134,0)">line 134</a>)
+無効なパラメーター名: WriteMode。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spawn_and_grasp', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m', 388)" style="font-weight:bold">spawn_and_grasp</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m',388,0)">line 388</a>)
+        writematrix(exeTime_array,'exeTime_array.csv','WriteMode','append');} 
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1116455216857
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  122.5500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1430    0.4450    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   167403
+
+   167424
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.4000
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('writematrix', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m', 134)" style="font-weight:bold">writematrix</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m',134,0)">line 134</a>)
+無効なパラメーター名: WriteMode。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spawn_and_grasp', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m', 388)" style="font-weight:bold">spawn_and_grasp</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m',388,0)">line 388</a>)
+        writematrix(exeTime_array,'exeTime_array.csv','WriteMode','append');} 
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1116482574624
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1118784873933
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   61.9000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1530    0.4160    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   167510
+
+   167531
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.8000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   78.6000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0880    0.4790    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   167561
+
+   167582
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   94.7500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6680    0.5070    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   167612
+
+   167633
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+     4
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  110.5000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.5720    0.5700    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   167663
+
+   167684
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+     5
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1119374536236
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   48.3500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.5780    0.3880    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   167756
+
+   167777
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.8000
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('writematrix', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m', 134)" style="font-weight:bold">writematrix</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m',134,0)">line 134</a>)
+引数の数が正しくありません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spawn_and_grasp', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m', 388)" style="font-weight:bold">spawn_and_grasp</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m',388,0)">line 388</a>)
+        writematrix(exeTime_array,'exeTime_array.csv','append');} 
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1119419222003
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   85.3500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1450    0.4100    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   167821
+
+   167842
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.4000
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('writematrix', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m', 134)" style="font-weight:bold">writematrix</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m',134,0)">line 134</a>)
+引数の数が正しくありません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spawn_and_grasp', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m', 388)" style="font-weight:bold">spawn_and_grasp</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m',388,0)">line 388</a>)
+        writematrix(exeTime_array,'exeTime_array.csv','append');} 
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1121424974631
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   51.8000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.5790    0.3080    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   167886
+
+   167907
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('writematrix', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m', 134)" style="font-weight:bold">writematrix</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m',134,0)">line 134</a>)
+無効なパラメーター名: WriteMode。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spawn_and_grasp', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m', 391)" style="font-weight:bold">spawn_and_grasp</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m',391,0)">line 391</a>)
+        writematrix(exeTime_array,'exeTime_array.csv','WriteMode','append');} 
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1121460173353
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   77.4000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1640    0.5830    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   167951
+
+   167972
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.4500
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('writematrix', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m', 134)" style="font-weight:bold">writematrix</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m',134,0)">line 134</a>)
+無効なパラメーター名: WriteMode。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spawn_and_grasp', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m', 391)" style="font-weight:bold">spawn_and_grasp</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m',391,0)">line 391</a>)
+        writematrix(exeTime_array,'exeTime_array.csv','WriteMode','append');} 
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1121489454449
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   91.4000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0650    0.6380    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   168016
+
+   168037
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.4500
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('writematrix', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m', 134)" style="font-weight:bold">writematrix</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m',134,0)">line 134</a>)
+無効なパラメーター名: WriteMode。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spawn_and_grasp', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m', 391)" style="font-weight:bold">spawn_and_grasp</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m',391,0)">line 391</a>)
+        writematrix(exeTime_array,'exeTime_array.csv','WriteMode','append');} 
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1121517378050
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+if system_dependent('IsDebugMode')==1, dbquit; end
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1122676167391
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   45.5000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.5530    0.4590    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   168095
+
+   168116
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.8000
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('writematrix', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m', 134)" style="font-weight:bold">writematrix</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m',134,0)">line 134</a>)
+無効なパラメーター名: WriteMode。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spawn_and_grasp', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m', 392)" style="font-weight:bold">spawn_and_grasp</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m',392,0)">line 392</a>)
+                writematrix(exeTime_array,'exeTime_array.csv','WriteMode','append');} 
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1123286263158
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   53.6500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0830    0.4790    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   168160
+
+   168181
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('writematrix', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m', 134)" style="font-weight:bold">writematrix</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m',134,0)">line 134</a>)
+引数の数が正しくありません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spawn_and_grasp', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m', 392)" style="font-weight:bold">spawn_and_grasp</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m',392,0)">line 392</a>)
+                writematrix(exeTime_array,'exeTime_array.csv','append');} 
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1124673541549
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  1.4458e+03
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6630    0.6740    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   168225
+
+   168246
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7001
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('writematrix', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m', 134)" style="font-weight:bold">writematrix</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m',134,0)">line 134</a>)
+無効なパラメーター名: WriteMode。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spawn_and_grasp', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m', 392)" style="font-weight:bold">spawn_and_grasp</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m',392,0)">line 392</a>)
+                writematrix(exeTime_array,'exeTime_array.csv','WriteMode','append')} 
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1127053388469
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   48.8500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1160    0.6780    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   168290
+
+   168311
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.8000
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('writematrix', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m', 134)" style="font-weight:bold">writematrix</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m',134,0)">line 134</a>)
+無効なパラメーター名: WriteMode。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spawn_and_grasp', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m', 394)" style="font-weight:bold">spawn_and_grasp</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m',394,0)">line 394</a>)
+                writematrix(exeTime_array,'exeTime_array.csv','WriteMode','append')} 
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1128182652317
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   46.1000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0610    0.2960    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   168355
+
+   168376
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('writematrix', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m', 134)" style="font-weight:bold">writematrix</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m',134,0)">line 134</a>)
+無効なパラメーター名: WriteMode。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spawn_and_grasp', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m', 394)" style="font-weight:bold">spawn_and_grasp</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m',394,0)">line 394</a>)
+                writematrix(exeTime_array,'exeTime_array.csv','WriteMode','append');} 
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1128443919381
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  304.9000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1000    0.2290    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   168420
+
+   168441
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('writematrix', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m', 134)" style="font-weight:bold">writematrix</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m',134,0)">line 134</a>)
+無効なパラメーター名: WriteMode。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spawn_and_grasp', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m', 394)" style="font-weight:bold">spawn_and_grasp</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m',394,0)">line 394</a>)
+                writematrix(exeTime_array,"exeTime_array.csv","WriteMode","append");} 
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1128485691650
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  326.9500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1570    0.6120    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   168485
+
+   168506
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.4000
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('writematrix', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m', 134)" style="font-weight:bold">writematrix</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m',134,0)">line 134</a>)
+無効なパラメーター名: WriteMode。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spawn_and_grasp', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m', 394)" style="font-weight:bold">spawn_and_grasp</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m',394,0)">line 394</a>)
+                writematrix(exeTime_array,"exeTime_array.csv","WriteMode","append");} 
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1129458732928
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  833.3000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6490    0.7060    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   168550
+
+   168571
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.4000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  839.1500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6500    0.5630    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   168601
+
+   168622
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.4000
+
+///////////////////////////////////////////////
+     3
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  845.4000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0970    0.5750    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   168652
+
+   168673
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.4000
+
+///////////////////////////////////////////////
+     4
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1132520057646
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  2.1973e+03
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6160    0.7620    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   168745
+
+   168766
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.4001
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  2.2034e+03
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0510    0.8440    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   168796
+
+   168817
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.3999
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  2.2091e+03
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.2040    0.5840    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   168847
+
+   168868
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.4001
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1140696650167
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  963.9000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.7400    0.5400    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   169005
+
+   169026
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.6500
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('writematrix', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m', 134)" style="font-weight:bold">writematrix</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m',134,0)">line 134</a>)
+無効なパラメーター名: WriteMode。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spawn_and_grasp', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m', 396)" style="font-weight:bold">spawn_and_grasp</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m',396,0)">line 396</a>)
+        writematrix(exeTime_array,'exeTime_array.csv','WriteMode','append');} 
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1150615995042
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   53.4000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1120    0.8170    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   169070
+
+   169091
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.6500
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('writematrix', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m', 134)" style="font-weight:bold">writematrix</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m',134,0)">line 134</a>)
+引数の数が正しくありません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spawn_and_grasp', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m', 396)" style="font-weight:bold">spawn_and_grasp</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m',396,0)">line 396</a>)
+        writematrix(exeTime_array,'exeTime_array.csv','-append');} 
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1150649562078
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   79.0500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1070    0.7530    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   169135
+
+   169156
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.4500
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('writematrix', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m', 134)" style="font-weight:bold">writematrix</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m',134,0)">line 134</a>)
+引数の数が正しくありません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spawn_and_grasp', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m', 396)" style="font-weight:bold">spawn_and_grasp</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m',396,0)">line 396</a>)
+        writematrix(exeTime_array,'exeTime_array.csv','-append');} 
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1151061824000
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   44.8500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.7150    0.6560    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   169200
+
+   169221
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('writematrix', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m', 134)" style="font-weight:bold">writematrix</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\iofun\writematrix.m',134,0)">line 134</a>)
+引数の数が正しくありません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spawn_and_grasp', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m', 396)" style="font-weight:bold">spawn_and_grasp</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m',396,0)">line 396</a>)
+        writematrix('exeTime_array.csv',
+        exeTime_array,'-append');
+
+原因:
+    文字ベクトル 'exeTime_array.csv' を変数の 1 つとしてもつ 1
+    行の table を作成しようとした可能性があります。テキスト データを
+    table に保存するには、文字配列ではなく、string 配列または文字ベ
+    クトルの cell 配列を使用してください。または、1 行の cell 配列
+    を作成してから CELL2TABLE を使用して table に変換してくださ
+    い。
+} 
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1151296970938
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  271.3000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.2090    0.6650    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   169265
+
+   169286
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.6000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  281.8000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6010    0.3320    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   169316
+
+   169337
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.6000
+
+///////////////////////////////////////////////
+     3
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  291.7500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.2400    0.5060    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   169367
+
+   169388
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.4500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     4
+
+if system_dependent('IsDebugMode')==1, dbquit; end

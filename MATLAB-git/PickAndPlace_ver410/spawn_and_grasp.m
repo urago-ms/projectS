@@ -29,7 +29,10 @@ if (clientID>-1)
     %     %	Simulation Start
     %    [res_sim_start] = sim.simxStartSimulation(clientID, sim.simx_opmode_oneshot);
     
-    exeTime_array = zeros(100000,1);
+    exeTime_array_2 = zeros(1000000,2);
+    exeTime_array = zeros(1,2);
+    
+    
     num_t = 1;
     
     % % %             Genarate a conveyor
@@ -37,22 +40,32 @@ if (clientID>-1)
     [res_con_setpos] = sim.simxSetObjectPosition(clientID, con_handle, -1, [0 0.5 0.45], sim.simx_opmode_oneshot);
     [res_con_setorien] = sim.simxSetObjectOrientation(clientID, con_handle, -1, [0 0 -pi/2], sim.simx_opmode_oneshot);
     
+    exeTime_array_cap = ["Repetition rate", "exeTime"];
+    writematrix(exeTime_array_cap,'exeTime_array.csv');
+    
     
     % % %     number of repetition
-    rep = 100000000;
+    rep = 1000000;
     
     % % %         Repeated creation and deletion of the device.
     for count = 1:rep
+        % % %         Enable logging
+        diary command_window.txt;
+        
+        disp("///////////////////////////////////////////////");
+        
         % % % % %         Display the number of repetitions in CoppeliaSim
         [res_print_repetition_rate, retPath, retFloats, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
             'ResizableFloor_5_25', ...
             sim.sim_scripttype_childscript, ...
             'print_repetition_rate', ...
-            [num_t], ...
+            [count], ...
             [], ...
             '', ...
             [], ...
             sim.simx_opmode_blocking);
+        
+        disp(count);
         
         
         [m_pos_random, p_pos_random, c_pos_random] = random_research();
@@ -76,6 +89,7 @@ if (clientID>-1)
         [res_target_setpos] = sim.simxSetObjectPosition(clientID, TargetDummyHandle, rob_handle, target_dummy_pos, sim.simx_opmode_oneshot);
         [res_target_setorien] = sim.simxSetObjectOrientation(clientID, TargetDummyHandle, rob_handle, target_dummy_orien, sim.simx_opmode_oneshot);
         
+        %         getObjectPosition and getObjectOrientation must be executed twice to get the value, for unknown reasons
         [res_idlePos, idlePos] = sim.simxGetObjectPosition(clientID, TargetDummyHandle, -1, sim.simx_opmode_streaming);
         [res_idlePos, idleOrient] = sim.simxGetObjectOrientation(clientID, TargetDummyHandle, -1, sim.simx_opmode_streaming);
         idlePosOrient = [idlePos, idleOrient]
@@ -242,6 +256,9 @@ if (clientID>-1)
             [], ...
             sim.simx_opmode_blocking);
         
+        disp(retFloats_time(1));
+        
+        
         
         
         %
@@ -322,8 +339,6 @@ if (clientID>-1)
         disp(TargetDummyHandle);
         disp(retPath56(1));
         
-        
-        
         %         moveL (clientID, TargetDummyHandle, fposition5, 8);
         %         moveL (clientID, TargetDummyHandle, fposition6, 8);
         
@@ -337,8 +352,6 @@ if (clientID>-1)
             sim.simx_opmode_blocking);
         
         %         moveL (clientID, TargetDummyHandle, fposition5, 8);
-        
-        
         
         %         moveL (clientID, TargetDummyHandle, fposition3, 8);
         %         moveL (clientID, TargetDummyHandle, fposition4, 8);
@@ -368,20 +381,36 @@ if (clientID>-1)
         
         exeTime = retFloats_time2 - retFloats_time
         
-        %             exeTime_array(num_t,1) = exeTime;
+        % % %         Save the relationship between "repetition rate" and "exeTime" to csv
+        %         exeTime_array_2(count, 1) = count;
+        %         exeTime_array_2(count, 2) = exeTime;
+        
+        exeTime_array(1, 1) = count;
+        exeTime_array(1, 2) = exeTime;
+        
+        
+        %         writematrix(exeTime_array_cap,'exeTime_array.csv');
+        %         writematrix(exeTime_array,'exeTime_array.csv','WriteMode','append');
+        
+        fileID = fopen('exeTime_array.csv');
+        dlmwrite('exeTime_array.csv', exeTime_array,'-append');
+        fclose(fileID);
+        
+        
+        %             exeTime_array(count,1) = exeTime;
         % % % %             disp(exeTime_array);
         
         % % % % %             Update Minimum exetime
-        if num_t == 1   %% if first time
+        if count == 1   %% if first time
             disp('UPDATE min_exetime');
-            repetition_rate = num_t;
+            repetition_rate = count;
             min_exeTime = exeTime;
             optim_tabpos = tab_pos_2;
             optim_robpos = rob_pos_2;
             
         elseif exeTime < min_exeTime
             disp('UPDATE min_exetime');
-            repetition_rate = num_t;
+            repetition_rate = count;
             min_exeTime = exeTime;
             optim_tabpos = tab_pos_2;
             optim_robpos = rob_pos_2;
@@ -483,7 +512,15 @@ if (clientID>-1)
         [res_con_remove] = sim.simxRemoveModel(clientID, tab_handle, sim.simx_opmode_blocking);
         %         %}
         
-        num_t = num_t + 1;
+        % % %         Disable logging
+        diary off
+        %         csvwrite('exeTime_array.csv', exeTime_array);
+        
+        % fileID = fopen('exeTime_array.csv','w');
+        % % fprintf(fileID,'%6s %12s\n','x','exp(x)');
+        % fprintf(fileID,'%6.2f %12.8f\n',A);
+        % fclose(fileID);
+        
     end
     
     %     simulation pause
