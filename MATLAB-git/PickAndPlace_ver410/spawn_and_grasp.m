@@ -29,11 +29,11 @@ if (clientID>-1)
     %     %	Simulation Start
     %    [res_sim_start] = sim.simxStartSimulation(clientID, sim.simx_opmode_oneshot);
     
-    exeTime_array_2 = zeros(1000000,2);
+%     exeTime_array_2 = zeros(1000000,2);
     exeTime_array = zeros(1,2);
     
     
-    num_t = 1;
+%     num_t = 1;
     
     % % %             Genarate a conveyor
     [res_con_genetate, con_handle] = sim.simxLoadModel(clientID,'customizable_conveyor_belt_03x1x05_fix_sensorPos.ttm', 0, sim.simx_opmode_blocking);

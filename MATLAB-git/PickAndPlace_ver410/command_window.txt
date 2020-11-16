@@ -1951,3 +1951,188 @@ UPDATE min_exetime
      4
 
 if system_dependent('IsDebugMode')==1, dbquit; end
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   68.1500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0800    0.8360    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   57
+
+   78
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.8500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   84.9000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.5630    0.6920    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   108
+
+   129
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.8500
+
+///////////////////////////////////////////////
+     3
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  101.6500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6740    0.5030    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   159
+
+   180
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.8000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     4
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  118.1500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.5590    0.6930    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   210
+
+   231
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     5
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  134.2500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1370    0.4280    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   261
+
+   282
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\remApi.m',1521,1)">1521 </a>        end
+if system_dependent('IsDebugMode')==1, dbquit; end
