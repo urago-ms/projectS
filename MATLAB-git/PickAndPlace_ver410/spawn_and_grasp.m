@@ -39,7 +39,7 @@ if (clientID>-1)
     
     
     % % %     number of repetition
-    rep = 30;
+    rep = 100000000;
     
     % % %         Repeated creation and deletion of the device.
     for count = 1:rep
@@ -107,7 +107,7 @@ if (clientID>-1)
             '', ...
             [], ...
             sim.simx_opmode_blocking);
-        pause(5);
+        pause(1);
         
         
         
