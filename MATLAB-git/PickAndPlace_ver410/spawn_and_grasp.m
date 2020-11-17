@@ -29,19 +29,22 @@ if (clientID>-1)
     %     %	Simulation Start
     %    [res_sim_start] = sim.simxStartSimulation(clientID, sim.simx_opmode_oneshot);
     
-%     exeTime_array_2 = zeros(1000000,2);
+    %     exeTime_array_2 = zeros(1000000,2);
     exeTime_array = zeros(1,2);
     
     
-%     num_t = 1;
+    %     num_t = 1;
     
     % % %             Genarate a conveyor
     [res_con_genetate, con_handle] = sim.simxLoadModel(clientID,'customizable_conveyor_belt_03x1x05_fix_sensorPos.ttm', 0, sim.simx_opmode_blocking);
     [res_con_setpos] = sim.simxSetObjectPosition(clientID, con_handle, -1, [0 0.5 0.45], sim.simx_opmode_oneshot);
     [res_con_setorien] = sim.simxSetObjectOrientation(clientID, con_handle, -1, [0 0 -pi/2], sim.simx_opmode_oneshot);
     
+    time = datestr(datetime,'yyyymmdd_HHMMSS');
+    file_name_csv = strcat(time, 'exeTime_array.csv');
+    
     exeTime_array_cap = ["Repetition rate", "exeTime"];
-    writematrix(exeTime_array_cap,'exeTime_array.csv');
+    writematrix(exeTime_array_cap, file_name_csv);
     
     
     % % %     number of repetition
@@ -388,12 +391,12 @@ if (clientID>-1)
         exeTime_array(1, 1) = count;
         exeTime_array(1, 2) = exeTime;
         
-        
         %         writematrix(exeTime_array_cap,'exeTime_array.csv');
         %         writematrix(exeTime_array,'exeTime_array.csv','WriteMode','append');
         
-        fileID = fopen('exeTime_array.csv');
-        dlmwrite('exeTime_array.csv', exeTime_array,'-append');
+        
+        fileID = fopen(file_name_csv);
+        dlmwrite(file_name_csv, exeTime_array,'-append');
         fclose(fileID);
         
         
