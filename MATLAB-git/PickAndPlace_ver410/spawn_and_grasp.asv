@@ -80,24 +80,17 @@ if (clientID>-1)
             [returnCode, signalValue] = sim.simxGetIntegerSignal(clientID, 'signalName', sim.simx_opmode_blocking);
             [nresult, info] = sim.simxGetInMessageInfo(clientID, sim.simx_headeroffset_server_state);
             
-            %             disp(info);
+%             disp(info);
             not_stopped = info(1) & 1;
             
-            if not_stopped
+            if not(not_stopped)
                 break;
             else
-                disp('not_stopped');
+                print('not_stopped");
             end
         end
         [res] = sim.simxSynchronousTrigger(clientID);
         [res_sim_start] = sim.simxStartSimulation(clientID, sim.simx_opmode_oneshot);
-        
-        for i = 1:30
-            [info] = sim.simxSynchronousTrigger(clientID);
-            [returnCode, info] = sim.simxGetPingTime(clientID);
-        end
-        
-        
         
         
         

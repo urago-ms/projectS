@@ -126266,3 +126266,2263 @@ exeTime =
 
     0.8000
 
+///////////////////////////////////////////////
+     4
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+     0     0     0     0     0
+
+  6 列
+
+     0
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   42972030328
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   47.5500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1640    0.2650    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   824
+
+   845
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.8000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+    62
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.2210    0.4200    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   875
+
+   896
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.6500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   76.0500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1370    0.4240    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   926
+
+   947
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.6500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   43.1500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6020    0.7010    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   991
+
+   1012
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   57.1000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1250    0.1790    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1042
+
+   1063
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   23.2500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 4 列
+
+    0.6630    0.3540    0.5500         0
+
+  5 列から 6 列
+
+         0   -1.5708
+
+   1107
+
+   1128
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.5000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   37.5500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 4 列
+
+   -0.0920    0.6750    0.5500         0
+
+  5 列から 6 列
+
+         0   -1.5708
+
+   1158
+
+   1179
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   38.6000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 4 列
+
+   -0.0940    0.7620    0.5500         0
+
+  5 列から 6 列
+
+         0   -1.5708
+
+   1223
+
+   1244
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.6000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   53.3000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 4 列
+
+   -0.0620    0.1210    0.5500         0
+
+  5 列から 6 列
+
+         0   -1.5708
+
+   1274
+
+   1295
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   47.6000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1370    0.4200    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1339
+
+   1360
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.8000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   57976372515
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   53.8500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0620    0.8480    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1404
+
+   1425
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   70.2500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1980    0.4690    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1455
+
+   1476
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   25.2500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0970    0.5360    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1520
+
+   1541
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.6500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+    41
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0630    0.5520    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1571
+
+   1592
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   41.7000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6170    0.7340    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1636
+
+   1657
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   112674909454
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  112.5500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6960    0.7090    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1729
+
+   1750
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  128.1500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.5950    0.1590    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1780
+
+   1801
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  143.9000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.5800    0.7090    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1831
+
+   1852
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+     4
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  159.3500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6850    0.7360    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1882
+
+   1903
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.6500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     5
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  174.6000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0600    0.6260    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1933
+
+   1954
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+     6
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  191.4500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0550    0.4780    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1984
+
+   2005
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+     7
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  207.9000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6910    0.3550    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2035
+
+   2056
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+     8
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   224
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.7440    0.5230    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2086
+
+   2107
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+     9
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  240.0500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0750    0.4890    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2137
+
+   2158
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+    10
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  256.6000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.7150    0.5900    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2188
+
+   2209
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.6500
+
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   54.9000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.2240    0.4070    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2253
+
+   2274
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   69.9000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6770    0.4750    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2304
+
+   2325
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+     3
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   85.6000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1860    0.3930    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2355
+
+   2376
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+     4
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  101.0500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0680    0.4700    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2406
+
+   2427
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.6500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     5
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  116.5000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6410    0.4920    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2457
+
+   2478
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.6500
+
+///////////////////////////////////////////////
+     6
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   114463189490
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   47.2000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6740    0.4510    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2550
+
+   2571
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   63.0500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1990    0.6350    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2601
+
+   2622
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.6000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   79.2500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1080    0.4040    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2652
+
+   2673
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+     4
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+    95
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.2130    0.6330    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2703
+
+   2724
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+     5
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  110.5000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0750    0.8190    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2754
+
+   2775
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.6500
+
+///////////////////////////////////////////////
+     6
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+{インデックスが配列要素数 (0) を超えています。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spawn_and_grasp', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m', 276)" style="font-weight:bold">spawn_and_grasp</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m',276,0)">line 276</a>)
+        disp(retFloats_time(1));
+} 
+e[1]=1
+ e[1]=1
+  ↑
+{エラー: 式が無効です。関数の呼び出しまたは変数のインデックス
+付けにはかっこを使用してください。そうでない場合、区切り記号
+の不一致をチェックしてください。
+} 
+e=zeros(1)
+
+e =
+
+     0
+
+e(1)
+
+ans =
+
+     0
+
+a = e(0) & 1
+{配列インデックスは正の整数または logical 値でなければなりま
+せん。
+} 
+a = 0 &1
+
+a =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   170288635140
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+{関数または変数 'e' が未定義です。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spawn_and_grasp', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m', 83)" style="font-weight:bold">spawn_and_grasp</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m',83,0)">line 83</a>)
+            not_stopped = e(1) & 1;
+} 
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   170747157208
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+{エラー: validateHandleToPrint
+印刷する Figure がありません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\graphics\printing\private\validate.m', 17)" style="font-weight:bold">validate</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\graphics\printing\private\validate.m',17,0)">line 17</a>)
+pj = validateHandleToPrint(pj);
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\graphics\printing\print.m', 67)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\graphics\printing\print.m',67,0)">line 67</a>)
+pj = validate( pj );
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spawn_and_grasp', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m', 88)" style="font-weight:bold">spawn_and_grasp</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m',88,0)">line 88</a>)
+                print("not_stopped");
+} 
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   171420135182
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+   1
+
+{エラー: validateHandleToPrint
+印刷する Figure がありません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\graphics\printing\private\validate.m', 17)" style="font-weight:bold">validate</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\graphics\printing\private\validate.m',17,0)">line 17</a>)
+pj = validateHandleToPrint(pj);
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\graphics\printing\print.m', 67)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\graphics\printing\print.m',67,0)">line 67</a>)
+pj = validate( pj );
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spawn_and_grasp', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m', 89)" style="font-weight:bold">spawn_and_grasp</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m',89,0)">line 89</a>)
+                print("not_stopped");
+} 
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   171990033509
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+{エラー: validateHandleToPrint
+印刷する Figure がありません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\graphics\printing\private\validate.m', 17)" style="font-weight:bold">validate</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\graphics\printing\private\validate.m',17,0)">line 17</a>)
+pj = validateHandleToPrint(pj);
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\graphics\printing\print.m', 67)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\graphics\printing\print.m',67,0)">line 67</a>)
+pj = validate( pj );
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spawn_and_grasp', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m', 89)" style="font-weight:bold">spawn_and_grasp</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m',89,0)">line 89</a>)
+                print('not_stopped');
+} 
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   172007389247
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+{エラー: validateHandleToPrint
+印刷する Figure がありません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\graphics\printing\private\validate.m', 17)" style="font-weight:bold">validate</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\graphics\printing\private\validate.m',17,0)">line 17</a>)
+pj = validateHandleToPrint(pj);
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\graphics\printing\print.m', 67)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\graphics\printing\print.m',67,0)">line 67</a>)
+pj = validate( pj );
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spawn_and_grasp', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m', 89)" style="font-weight:bold">spawn_and_grasp</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m',89,0)">line 89</a>)
+                print('not_stopped');
+} 
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   172135235973
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+not_stopped
+if system_dependent('IsDebugMode')==1, dbquit; end
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   177845288082
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  268.9000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1260    0.3600    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2903
+
+   2924
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+{インデックスが配列要素数 (0) を超えています。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spawn_and_grasp', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m', 304)" style="font-weight:bold">spawn_and_grasp</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\spawn_and_grasp.m',304,0)">line 304</a>)
+        disp(retFloats_time(1));
+} 
+spawn_and_grasp
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   183033407889
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   74.3000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6600    0.3070    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2996
+
+   3017
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+UPDATE min_exetime
