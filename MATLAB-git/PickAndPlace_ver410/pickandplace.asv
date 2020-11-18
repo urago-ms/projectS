@@ -65,21 +65,26 @@ if (clientID>-1)
     
     
     
-     while true
-            [returnCode, signalValue] = sim.simxGetIntegerSignal(clientID, 'signalName', sim.simx_opmode_blocking);
-            [nresult, info] = sim.simxGetInMessageInfo(clientID, sim.simx_headeroffset_server_state);
-            
-            %             disp(info);
-            not_stopped = info(1) & 1;
-            
-            if not_stopped
-                break;
-            else
-                disp('not_stopped');
-            end
-      end
-        [res] = sim.simxSynchronousTrigger(clientID);
-        [info] = sim.simxStartSimulation(clientID, sim.simx_opmode_oneshot);
+    %      while true
+    %             [returnCode, signalValue] = sim.simxGetIntegerSignal(clientID, 'signalName', sim.simx_opmode_blocking);
+    %             [nresult, info] = sim.simxGetInMessageInfo(clientID, sim.simx_headeroffset_server_state);
+    %
+    %             %             disp(info);
+    %             not_stopped = info(1) & 1;
+    %
+    %             if not_stopped
+    %                 break;
+    %             else
+    %                 disp('not_stopped');
+    %             end
+    %       end
+    %         [res] = sim.simxSynchronousTrigger(clientID);
+    %         [info] = sim.simxStartSimulation(clientID, sim.simx_opmode_oneshot);
+    
+    
+    
+    
+    
     
     
     
@@ -97,30 +102,51 @@ if (clientID>-1)
         
         
         
-%         while true
-%             [returnCode, signalValue] = sim.simxGetIntegerSignal(clientID, 'signalName', sim.simx_opmode_blocking);
-%             [nresult, info] = sim.simxGetInMessageInfo(clientID, sim.simx_headeroffset_server_state);
-%             
-%             %             disp(info);
-%             not_stopped = info(1) & 1;
-%             
-%             if not_stopped
-%                 break;
-%             else
-%                 disp('not_stopped');
-%             end
-%         end
-%         [res] = sim.simxSynchronousTrigger(clientID);
-%         [res_sim_start] = sim.simxStartSimulation(clientID, sim.simx_opmode_oneshot);
-%         
-%         for i = 1:30
-%             [info] = sim.simxSynchronousTrigger(clientID);
-%             [returnCode, info] = sim.simxGetPingTime(clientID);
-%         end
+        %         while true
+        %             [returnCode, signalValue] = sim.simxGetIntegerSignal(clientID, 'signalName', sim.simx_opmode_blocking);
+        %             [nresult, info] = sim.simxGetInMessageInfo(clientID, sim.simx_headeroffset_server_state);
+        %
+        %             %             disp(info);
+        %             not_stopped = info(1) & 1;
+        %
+        %             if not_stopped
+        %                 break;
+        %             else
+        %                 disp('not_stopped');
+        %             end
+        %         end
+        %         [res] = sim.simxSynchronousTrigger(clientID);
+        %         [res_sim_start] = sim.simxStartSimulation(clientID, sim.simx_opmode_oneshot);
+        %
+        %         for i = 1:30
+        %             [info] = sim.simxSynchronousTrigger(clientID);
+        %             [returnCode, info] = sim.simxGetPingTime(clientID);
+        %         end
         
-         [info] = sim.simxSynchronousTrigger(clientID);
-            [returnCode, info] = sim.simxGetPingTime(clientID);
+        %         [info] = sim.simxSynchronousTrigger(clientID);
+        %         [returnCode, info] = sim.simxGetPingTime(clientID);
         
+        
+        
+%         sim = remApi('remoteApi'); % using the prototype file (remoteApiProto.m)
+        sim.simxFinish(-1); % just in case, close all opened connections
+        clientID = sim.simxStart('127.0.0.1',19999,true,true,5000,5)
+
+        [res_sim_stop] = sim.simxStopSimulation(clientID, sim.simx_opmode_blocking);
+        
+        is_running = true;
+        while is_running
+            [error_code, ping_time] = sim.simxGetPingTime(clientID)
+            [error_code, server_state] = sim.simxGetInMessageInfo(clientID, sim.simx_headeroffset_server_state)
+            is_running = bitand(server_state,1)
+            
+            %             disp(ping_time);
+            %             disp(server_state);
+            %             disp(is_running);
+            
+        end
+        
+        [res] = sim.simxStartSimulation(clientID,sim.simx_opmode_blocking)
         
         
         
@@ -612,7 +638,8 @@ if (clientID>-1)
         %             pause(20);
         %             disp("tetetetete");
         %         end
-        [res_sim_stop] = sim.simxStopSimulation(clientID, sim.simx_opmode_oneshot);
+        %         [res_sim_stop] = sim.simxStopSimulation(clientID, sim.simx_opmode_oneshot);
+        
         
     end
     
