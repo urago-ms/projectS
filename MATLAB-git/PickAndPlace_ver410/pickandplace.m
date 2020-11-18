@@ -35,7 +35,7 @@ if (clientID>-1)
     
     
     [returnCode, signalValue] = sim.simxGetIntegerSignal(clientID, 'signalName', sim.simx_opmode_blocking);
-%     [returnCode] = sim.simxSynchronous(clientID, 1);
+    %     [returnCode] = sim.simxSynchronous(clientID, 1);
     
     
     
@@ -129,30 +129,30 @@ if (clientID>-1)
         %         sim = remApi('remoteApi'); % using the prototype file (remoteApiProto.m)
         
         [res_sim_stop] = sim.simxStopSimulation(clientID, sim.simx_opmode_blocking)
-        
-        
         is_running = true;
+        
         while is_running
-            [res_GetPing, ping_time] = sim.simxGetPingTime(clientID)
-            [res_GetInMes, server_state] = sim.simxGetInMessageInfo(clientID, sim.simx_headeroffset_server_state)
-            is_running = bitand(server_state,1)
+            [res_GetPing, ping_time] = sim.simxGetPingTime(clientID);
+            [res_GetInMes, server_state] = sim.simxGetInMessageInfo(clientID, sim.simx_headeroffset_server_state);
+            is_running = bitand(server_state,1);
             
             %             disp(ping_time);
             %             disp(server_state);
             %             disp(is_running);
             
         end
-%         pause(10);
-sim = remApi('remoteApi'); % using the prototype file (remoteApiProto.m)
+                [res_startSim] = sim.simxStartSimulation(clientID,sim.simx_opmode_blocking)
+%                                 pause(10);
 
-        sim.simxFinish(-1); % just in case, close all opened connections
-                        pause(20);
-
-        clientID = sim.simxStart('127.0.0.1',19999,true,true,5000,5)
-                pause(20);
-
-        [res_startSim] = sim.simxStartSimulation(clientID,sim.simx_opmode_blocking)
+        sim = remApi('remoteApi'); % using the prototype file (remoteApiProto.m)
         
+        sim.simxFinish(-1) % just in case, close all opened connections
+        
+        clientID = sim.simxStart('127.0.0.1',19999,true,true,10000,5)
+        
+        
+
+
         
         
         % % %         Enable logging
