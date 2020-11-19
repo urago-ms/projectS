@@ -9715,3 +9715,2823 @@ exeTime =
 
     0.7500
 
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+{インデックスが配列要素数 (0) を超えています。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace.m', 330)" style="font-weight:bold">pickandplace</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace.m',330,0)">line 330</a>)
+        disp(retFloats_time(1));
+} 
+pickandplace
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1722998783902
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+{関数 'simxSynchronous' (タイプ'double' の入力引数) が
+未定義です。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace.m', 30)" style="font-weight:bold">pickandplace</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace.m',30,0)">line 30</a>)
+ simxSynchronous(clientID, 1);
+} 
+pickandplace
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1723123244558
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+starttttt
+
+res_sim_stop =
+
+     0
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   0
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   0
+
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+{インデックスが配列要素数 (0) を超えています。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace.m', 322)" style="font-weight:bold">pickandplace</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace.m',322,0)">line 322</a>)
+        disp(retFloats_time(1));
+} 
+pickandplace
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1763401941094
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+{インデックスが配列要素数 (0) を超えています。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace.m', 271)" style="font-weight:bold">pickandplace</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace.m',271,0)">line 271</a>)
+            disp(retFloats_time(1));
+} 
+pickandplace
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1763990352325
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+{インデックスが配列要素数 (0) を超えています。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace.m', 271)" style="font-weight:bold">pickandplace</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace.m',271,0)">line 271</a>)
+            disp(retFloats_time(1));
+} 
+pickandplace
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1764356134997
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+    69
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6180    0.7510    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   678
+
+   699
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   84.7500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0860    0.2810    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   729
+
+   750
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.8000
+
+///////////////////////////////////////////////
+     3
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  100.5000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0730    0.5720    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   780
+
+   801
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.6500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     4
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  115.8500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1410    0.6330    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   831
+
+   852
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+     5
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  131.5500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.5830    0.2910    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   882
+
+   903
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   12.4500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1060    0.7490    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   947
+
+   968
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+     4
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   28.6000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0690    0.4710    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   998
+
+   1019
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+     6
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   43.7000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.7150    0.5890    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1049
+
+   1070
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.8000
+
+///////////////////////////////////////////////
+     8
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   58.5500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0950    0.4430    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1100
+
+   1121
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+    10
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   74.2500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0750    0.1480    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1151
+
+   1172
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+     3
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   12.5500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6760    0.4770    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1216
+
+   1237
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+     6
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   28.1000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6740    0.3090    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1267
+
+   1288
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+     9
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   44.1000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6410    0.5420    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1318
+
+   1339
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+    12
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   59.0500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1000    0.2460    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1369
+
+   1390
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+    15
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   73.7000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1020    0.2270    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1420
+
+   1441
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.6000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   13.5500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6000    0.5630    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1485
+
+   1506
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   29.1500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.2080    0.4840    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1536
+
+   1557
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+     3
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   44.4000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6310    0.5930    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1587
+
+   1608
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+     4
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   59.9000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6740    0.3350    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1638
+
+   1659
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     5
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   76.3000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0880    0.5420    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1689
+
+   1710
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.6500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   14.2500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0780    0.4120    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1754
+
+   1775
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+     4
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   30.9500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0940    0.4480    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1805
+
+   1826
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+     6
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   46.9500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.2200    0.3480    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1856
+
+   1877
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.6500
+
+///////////////////////////////////////////////
+     8
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   62.2500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.5540    0.5670    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1907
+
+   1928
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+    10
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+    78
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1670    0.4070    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   1958
+
+   1979
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+     3
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   13.7500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6910    0.4100    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2023
+
+   2044
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+     6
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   29.8000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6630    0.6740    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2074
+
+   2095
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+     9
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   46.3500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6280    0.6580    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2125
+
+   2146
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+    12
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   61.1500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.2070    0.4010    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2176
+
+   2197
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+    15
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   77.0500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6700    0.4540    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2227
+
+   2248
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  258.3000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6500    0.6290    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2292
+
+   2313
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  273.8500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.7260    0.5960    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2343
+
+   2364
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1775829029226
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+count_overall
+     1
+
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  247.8500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.5600    0.6130    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2436
+
+   2457
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  263.3500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1780    0.5650    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2487
+
+   2508
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+     3
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  279.1000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0570    0.7700    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2538
+
+   2559
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     4
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  295.0500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1430    0.5010    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2589
+
+   2610
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+     5
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  310.3000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6640    0.7400    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2640
+
+   2661
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  246.6500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.7200    0.4220    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2705
+
+   2726
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+     4
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  263.1500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0770    0.1830    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2756
+
+   2777
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+     6
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  279.1500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0960    0.3770    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2807
+
+   2828
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     8
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   294
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6370    0.2210    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2858
+
+   2879
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+    10
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  309.9500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1830    0.6640    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2909
+
+   2930
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+{関数または変数 'count_all' が未定義です。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace.m', 76)" style="font-weight:bold">pickandplace</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace.m',76,0)">line 76</a>)
+            if (count_all == 1)
+} 
+pickandplace
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1808310559403
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+count_overall
+     1
+
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  241.5000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0800    0.2490    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   2988
+
+   3009
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  257.2500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6090    0.2460    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   3039
+
+   3060
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.8000
+
+///////////////////////////////////////////////
+     3
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  272.7000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.7060    0.3320    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   3090
+
+   3111
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.8000
+
+///////////////////////////////////////////////
+     4
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  288.2000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1490    0.2120    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   3141
+
+   3162
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+     5
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  304.2500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0660    0.5940    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   3192
+
+   3213
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+    11
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  245.5500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.7200    0.3590    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   3257
+
+   3278
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+    12
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  261.0500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0930    0.1700    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   3308
+
+   3329
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+    13
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   277
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6410    0.2870    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   3359
+
+   3380
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.6500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+    14
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  292.8500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6250    0.7460    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   3410
+
+   3431
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+    15
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+  308.8500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.2300    0.4650    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   3461
+
+   3482
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.6500
+
+///////////////////////////////////////////////
+    16
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1826015782184
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+count_overall
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   14.1000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6230    0.4140    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   57
+
+   78
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   29.8500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6540    0.6720    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   108
+
+   129
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   45.1500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6510    0.5680    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   159
+
+   180
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     4
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   61.3000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.2010    0.6640    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   210
+
+   231
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+     5
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   76.9000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.5710    0.5180    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   261
+
+   282
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+     6
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   13.5500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1230    0.4440    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   326
+
+   347
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+     7
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   29.1500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.5960    0.1930    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   377
+
+   398
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.6000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     8
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   44.9000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1240    0.3540    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   428
+
+   449
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+     9
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   60.5500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.5630    0.8780    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   479
+
+   500
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.6000
+
+///////////////////////////////////////////////
+    10
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   76.2000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1350    0.5330    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   530
+
+   551
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+    11
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   13.6500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6870    0.3460    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   595
+
+   616
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+    12
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   29.9500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0800    0.8440    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   646
+
+   667
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+    13
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   45.3000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.5980    0.4650    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   697
+
+   718
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+    14
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   61.3500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6350    0.5950    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   748
+
+   769
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+    15
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   77.6500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.7170    0.3530    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   799
+
+   820
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+     1
+
+   12.8500
+
+   864
+
+   885
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   27.8500
+
+   915
+
+   936
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+   43.3000
+
+   966
+
+   987
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     4
+
+   59.5000
+
+   1017
+
+   1038
+
+///////////////////////////////////////////////
+     5
+
+   75.5500
+
+   1068
+
+   1089
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     6
+
+   13.9500
+
+   1133
+
+   1154
+
+///////////////////////////////////////////////
+     7
+
+   29.8000
+
+   1184
+
+   1205
+
+///////////////////////////////////////////////
+     8
+
+   46.2000
+
+   1235
+
+   1256
+
+///////////////////////////////////////////////
+     9
+
+   62.2000
+
+   1286
+
+   1307
+
+///////////////////////////////////////////////
+    10
+
+    78
+
+   1337
+
+   1358
+
+///////////////////////////////////////////////
+    11
+
+   13.3500
+
+   1402
+
+   1423
+
+///////////////////////////////////////////////
+    12
+
+   29.5000
+
+   1453
+
+   1474
+
+///////////////////////////////////////////////
+    13
+
+   45.3000
+
+   1504
+
+   1525
+
+///////////////////////////////////////////////
+    14
+
+   61.0500
+
+   1555
+
+   1576
+
+///////////////////////////////////////////////
+    15
+
+   76.1000
+
+   1606
+
+   1627
+
