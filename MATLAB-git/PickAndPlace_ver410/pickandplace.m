@@ -19,7 +19,7 @@ disp('Program started');
 % sim=remApi('remoteApi','extApi.h'); % using the header (requires a compiler)
 sim = remApi('remoteApi'); % using the prototype file (remoteApiProto.m)
 sim.simxFinish(-1); % just in case, close all opened connections
-clientID = sim.simxStart('127.0.0.1',19999,true,true,5000,5);
+clientID = sim.simxStart('127.0.0.1',19998,true,true,5000,5);
 
 % flag_sim = 0;
 
@@ -34,10 +34,11 @@ if (clientID>-1)
     
     
     
-    [returnCode, signalValue] = sim.simxGetIntegerSignal(clientID, 'signalName', sim.simx_opmode_blocking);
+%     [returnCode, signalValue] = sim.simxGetIntegerSignal(clientID, 'signalName', sim.simx_opmode_blocking);
     %     [returnCode] = sim.simxSynchronous(clientID, 1);
     
-    
+                            [res_startSim] = sim.simxStartSimulation(clientID,sim.simx_opmode_oneshot)
+
     
     
     %     %	Simulation Start
@@ -93,62 +94,26 @@ if (clientID>-1)
     % % %         Repeated creation and deletion of the device.
     for count = 1:rep
         
-        %         if (flag_sim == 1)
-        %             [res_sim_start] = sim.simxStartSimulation(clientID, sim.simx_opmode_oneshot);
-        %             flag_sim = 0;
-        %         end
+           
+pause(10);
+disp("starttttt");
         
-        
-        
-        %         while true
-        %             [returnCode, signalValue] = sim.simxGetIntegerSignal(clientID, 'signalName', sim.simx_opmode_blocking);
-        %             [nresult, info] = sim.simxGetInMessageInfo(clientID, sim.simx_headeroffset_server_state);
-        %
-        %             %             disp(info);
-        %             not_stopped = info(1) & 1;
-        %
-        %             if not_stopped
-        %                 break;
-        %             else
-        %                 disp('not_stopped');
-        %             end
-        %         end
-        %         [res] = sim.simxSynchronousTrigger(clientID);
-        %         [res_sim_start] = sim.simxStartSimulation(clientID, sim.simx_opmode_oneshot);
-        %
-        %         for i = 1:30
-        %             [info] = sim.simxSynchronousTrigger(clientID);
-        %             [returnCode, info] = sim.simxGetPingTime(clientID);
-        %         end
-        
-        %         [info] = sim.simxSynchronousTrigger(clientID);
-        %         [returnCode, info] = sim.simxGetPingTime(clientID);
-        
-        
-        
-        %         sim = remApi('remoteApi'); % using the prototype file (remoteApiProto.m)
-        
-        [res_sim_stop] = sim.simxStopSimulation(clientID, sim.simx_opmode_blocking)
+        [res_sim_stop] = sim.simxStopSimulation(clientID, sim.simx_opmode_oneshot)
         is_running = true;
         
         while is_running
             [res_GetPing, ping_time] = sim.simxGetPingTime(clientID);
-            [res_GetInMes, server_state] = sim.simxGetInMessageInfo(clientID, sim.simx_headeroffset_server_state);
-            is_running = bitand(server_state,1);
+            [res_GetInMes, server_state] = sim.simxGetInMessageInfo(clientID, sim.simx_headeroffset_server_state)
+            is_running = bitand(server_state,1)
             
             %             disp(ping_time);
             %             disp(server_state);
             %             disp(is_running);
             
         end
-                [res_startSim] = sim.simxStartSimulation(clientID,sim.simx_opmode_blocking)
+                [res_startSim] = sim.simxStartSimulation(clientID,sim.simx_opmode_oneshot)
 %                                 pause(10);
 
-        sim = remApi('remoteApi'); % using the prototype file (remoteApiProto.m)
-        
-        sim.simxFinish(-1) % just in case, close all opened connections
-        
-        clientID = sim.simxStart('127.0.0.1',19999,true,true,10000,5)
         
         
 

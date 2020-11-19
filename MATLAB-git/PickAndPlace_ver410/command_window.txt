@@ -5963,3 +5963,3755 @@ clientID =
 
     -1
 
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+{インデックスが配列要素数 (0) を超えています。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace.m', 365)" style="font-weight:bold">pickandplace</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace.m',365,0)">line 365</a>)
+        disp(retFloats_time(1));
+} 
+pickandplace
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1699772326164
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_sim_stop =
+
+     1
+
+
+res_startSim =
+
+     1
+
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+
+clientID =
+
+    -1
+
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+{インデックスが配列要素数 (0) を超えています。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace.m', 365)" style="font-weight:bold">pickandplace</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace.m',365,0)">line 365</a>)
+        disp(retFloats_time(1));
+} 
+pickandplace
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1700241651161
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_sim_stop =
+
+     1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+    -1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   0
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   0
+
+
+res_startSim =
+
+     1
+
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1707842548921
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Failed connecting to remote API server
+Program ended
+pickandplace
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1708925033754
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Failed connecting to remote API server
+Program ended
+pickandplace
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1709209248411
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_sim_stop =
+
+     1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   0
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   0
+
+
+res_startSim =
+
+     1
+
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+{インデックスが配列要素数 (0) を超えています。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace.m', 365)" style="font-weight:bold">pickandplace</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace.m',365,0)">line 365</a>)
+        disp(retFloats_time(1));
+} 
+pickandplace
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1710196693006
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     1
+
+starttttt
+
+res_sim_stop =
+
+     1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   0
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   0
+
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+{インデックスが配列要素数 (0) を超えています。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace.m', 369)" style="font-weight:bold">pickandplace</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace.m',369,0)">line 369</a>)
+        disp(retFloats_time(1));
+} 
+pickandplace
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1711281754780
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     1
+
+starttttt
+
+res_sim_stop =
+
+     1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   0
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   0
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace
+
+tStart =
+
+  <a href="matlab:helpPopup uint64" style="font-weight:bold">uint64</a>
+
+   1712807974250
+
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     1
+
+starttttt
+
+res_sim_stop =
+
+     1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1
+
+
+res_GetInMes =
+
+     1
+
+
+server_state =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   0
+
+
+is_running =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   0
+
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   12.1500
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.2230    0.5960    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   71
+
+   92
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.5500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   16.7000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6940    0.6060    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   122
+
+   143
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
+///////////////////////////////////////////////
+     3
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   14.9000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1640    0.3570    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   173
+
+   194
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+     4
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   13.9000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.2110    0.5200    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   224
+
+   245
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.9000
+
+///////////////////////////////////////////////
+     5
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   11.4000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1460    0.6270    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   275
+
+   296
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.6000
+
+///////////////////////////////////////////////
+     6
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   13.5000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.1730    0.4740    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   326
+
+   347
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7000
+
+///////////////////////////////////////////////
+     7
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+     0     0     0     0     0     0
+
+   13.8000
+
+
+idlePosOrient =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+    0.6310    0.5100    0.5500         0         0
+
+  6 列
+
+   -1.5708
+
+   377
+
+   398
+
+
+exeTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    0.7500
+
