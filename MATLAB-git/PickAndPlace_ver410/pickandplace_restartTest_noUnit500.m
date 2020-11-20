@@ -48,21 +48,21 @@ if (clientID>-1)
     simTime_array_cap = ["Repetition rate", "Coppelia_simTime[s]"];
     writematrix(simTime_array_cap, simTime_file_name_csv);
     
-    % % %     An array to store Time to Restart
-    %     time = datestr(datetime,'yyyymmdd_HHMMSS');
-    TimeToRestart_file_name_csv = strcat(time, 'TimeToRestart.csv');
-    
-    TimeToRestart_array_cap = ["count_overall", "TimeToRestart[s]"];
-    writematrix(TimeToRestart_array_cap, TimeToRestart_file_name_csv);
+% % % % %     % % %     An array to store Time to Restart
+% % % % %     %     time = datestr(datetime,'yyyymmdd_HHMMSS');
+% % % % %     TimeToRestart_file_name_csv = strcat(time, 'TimeToRestart.csv');
+% % % % %     
+% % % % %     TimeToRestart_array_cap = ["count_overall", "TimeToRestart[s]"];
+% % % % %     writematrix(TimeToRestart_array_cap, TimeToRestart_file_name_csv);
     
     
     % % %     The number of iterations is "rep_overall x rep"
-    rep_overall = 200000;
+%     rep_overall = 200000;
     % % %     "rep times" units
     rep = 200;
     
     % % %     Repetition overall
-    for count_overall = 1:rep_overall
+%     for count_overall = 1:rep_overall
         
         % % %             Genarate a conveyor
         [res_con_genetate, con_handle] = sim.simxLoadModel(clientID,'customizable_conveyor_belt_03x1x05_fix_sensorPos.ttm', 0, sim.simx_opmode_blocking);
@@ -87,11 +87,14 @@ if (clientID>-1)
             
             
             % % % % %         Display the number of repetitions in CoppeliaSim
-            if (count_overall == 1)
-                rep_rate = count;
-            else
-                rep_rate = (count_overall - 1)*rep + count;
-            end
+% % % % %             if (count_overall == 1)
+% % % % %                 rep_rate = count;
+% % % % %             else
+% % % % %                 rep_rate = (count_overall - 1)*rep + count;
+% % % % %             end
+            
+            
+            rep_rate = count;
             
             [res_print_repetition_rate, retPath, retFloats, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
                 'ResizableFloor_5_25', ...
@@ -317,7 +320,6 @@ if (clientID>-1)
             
             %                 [res_fpos5_DummyHandle, fpos5_DummyHandle] = sim.simxGetObjectHandle(clientID,'Dummy', sim.simx_opmode_blocking);
             
-            %{
             % % %         Create Path initialPos to fpos5
             [res retPathI5 retFloats retStrings retBuffer] = sim.simxCallScriptFunction(clientID, ...
                 'ResizableFloor_5_25', ...
@@ -400,8 +402,6 @@ if (clientID>-1)
                 [], ...
                 sim.simx_opmode_blocking);
             
-            
-            %}
             %         moveL (clientID, TargetDummyHandle, fposition3, 8);
             
             % % %         Get simtime
@@ -511,13 +511,13 @@ if (clientID>-1)
             [res_fpos6_DummyHandle_remove] = sim.simxRemoveObject(clientID, fpos6_DummyHandle, sim.simx_opmode_blocking);
             
             
-            %{
+            
             % % %         Remove Path
             [res_PathI5_remove] = sim.simxRemoveObject(clientID, retPathI5(1), sim.simx_opmode_blocking);
             [res_Path56_remove] = sim.simxRemoveObject(clientID, retPath56(1), sim.simx_opmode_blocking);
             [res_Path53_remove] = sim.simxRemoveObject(clientID, retPath53(1), sim.simx_opmode_blocking);
             [res_Path34_remove] = sim.simxRemoveObject(clientID, retPath34(1), sim.simx_opmode_blocking);
-            %}
+            
             
             
             % % %             Remove a TargetDummy
@@ -561,39 +561,39 @@ if (clientID>-1)
             
         end        % % %     Repetition in "rep times" units
         
-        TimeToRestart_tic = tic;
+% % % % %         TimeToRestart_tic = tic;
+% % % % %         
+% % % % %         % % % Restart simulation
+% % % % %         [res_sim_stop] = sim.simxStopSimulation(clientID, sim.simx_opmode_blocking)
+% % % % %         is_running = true;
+% % % % %         
+% % % % %         % Wait until the simulation is completely stopped
+% % % % %         while is_running
+% % % % %             [res_GetPing, ping_time] = sim.simxGetPingTime(clientID);
+% % % % %             [res_GetInMes, server_state] = sim.simxGetInMessageInfo(clientID, sim.simx_headeroffset_server_state);
+% % % % %             is_running = bitand(server_state,1);
+% % % % %         end
+% % % % %         pause(5);
+% % % % %         
+% % % % %         % % %         Do not StartSimulation on the last attempt
+% % % % %         if (rep_rate == rep*rep_overall)
+% % % % %         else
+% % % % %             [res_startSim] = sim.simxStartSimulation(clientID,sim.simx_opmode_blocking)
+% % % % %         end
+% % % % %         
+% % % % %         TimeToRestart_T = toc(TimeToRestart_tic);
+% % % % %         
+% % % % %         % % %         Save the relationship between "repetition rate" and "TimeToRestart" to csv
+% % % % %         TimeToRestart_array(1, 1) = count_overall;
+% % % % %         TimeToRestart_array(1, 2) = TimeToRestart_T;
+% % % % %         
+% % % % %         fileID = fopen(TimeToRestart_file_name_csv);
+% % % % %         dlmwrite(TimeToRestart_file_name_csv, TimeToRestart_array,'-append');
+% % % % %         fclose(fileID);
         
-        % % % Restart simulation
-        [res_sim_stop] = sim.simxStopSimulation(clientID, sim.simx_opmode_blocking)
-        is_running = true;
-        
-        % Wait until the simulation is completely stopped
-        while is_running
-            [res_GetPing, ping_time] = sim.simxGetPingTime(clientID);
-            [res_GetInMes, server_state] = sim.simxGetInMessageInfo(clientID, sim.simx_headeroffset_server_state);
-            is_running = bitand(server_state,1);
-        end
-        pause(5);
-        
-        % % %         Do not StartSimulation on the last attempt
-        if (rep_rate == rep*rep_overall)
-        else
-            [res_startSim] = sim.simxStartSimulation(clientID,sim.simx_opmode_blocking)
-        end
-        
-        TimeToRestart_T = toc(TimeToRestart_tic);
-        
-        % % %         Save the relationship between "repetition rate" and "TimeToRestart" to csv
-        TimeToRestart_array(1, 1) = count_overall;
-        TimeToRestart_array(1, 2) = TimeToRestart_T;
-        
-        fileID = fopen(TimeToRestart_file_name_csv);
-        dlmwrite(TimeToRestart_file_name_csv, TimeToRestart_array,'-append');
-        fclose(fileID);
         
         
-        
-    end            % % %     Repetition overall
+%     end            % % %     Repetition overall
     
     
     

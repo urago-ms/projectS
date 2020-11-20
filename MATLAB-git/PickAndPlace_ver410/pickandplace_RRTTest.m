@@ -59,7 +59,7 @@ if (clientID>-1)
     % % %     The number of iterations is "rep_overall x rep"
     rep_overall = 200000;
     % % %     "rep times" units
-    rep = 200;
+    rep = 500;
     
     % % %     Repetition overall
     for count_overall = 1:rep_overall
@@ -128,8 +128,8 @@ if (clientID>-1)
             [res_target_setorien] = sim.simxSetObjectOrientation(clientID, TargetDummyHandle, rob_handle, target_dummy_orien, sim.simx_opmode_oneshot);
             
             %         getObjectPosition and getObjectOrientation must be executed twice to get the value, for unknown reasons
-            [res_idlePos, idlePos] = sim.simxGetObjectPosition(clientID, TargetDummyHandle, -1, sim.simx_opmode_blocking);
-            [res_idlePos, idleOrient] = sim.simxGetObjectOrientation(clientID, TargetDummyHandle, -1, sim.simx_opmode_blocking);
+            [res_idlePos, idlePos] = sim.simxGetObjectPosition(clientID, TargetDummyHandle, -1, sim.simx_opmode_streaming);
+            [res_idlePos, idleOrient] = sim.simxGetObjectOrientation(clientID, TargetDummyHandle, -1, sim.simx_opmode_streaming);
             idlePosOrient = [idlePos, idleOrient];
             
             
@@ -173,12 +173,12 @@ if (clientID>-1)
             % % % Read the coordinates(position) of each device.
             % % %   [number returnCode,array position]=simxGetObjectPosition(number clientID,number objectHandle,number relativeToObjectHandle,number operationMode)
             %             [res_rob_handle, rob_handle] = sim.simxGetObjectHandle(clientID,'base_link_respondable',sim.simx_opmode_blocking)
-            [res_rob_pos, rob_pos] = sim.simxGetObjectPosition(clientID, rob_handle, -1, sim.simx_opmode_blocking);
+            [res_rob_pos, rob_pos] = sim.simxGetObjectPosition(clientID, rob_handle, -1, sim.simx_opmode_streaming);
             %         disp(rob_pos);
             
-            [res_tab_pos, tab_pos] = sim.simxGetObjectPosition(clientID, tab_handle, -1, sim.simx_opmode_blocking);
+            [res_tab_pos, tab_pos] = sim.simxGetObjectPosition(clientID, tab_handle, -1, sim.simx_opmode_streaming);
             
-            [res_con_pos, con_pos] = sim.simxGetObjectPosition(clientID, con_handle, -1, sim.simx_opmode_blocking);
+            [res_con_pos, con_pos] = sim.simxGetObjectPosition(clientID, con_handle, -1, sim.simx_opmode_streaming);
             
             
             % % % % %             Generate Objects using CoppeliaSim functions % % % % %
@@ -243,7 +243,7 @@ if (clientID>-1)
             
             % % % %             Read proximity sensor
             [res_sensor_handle, Proximity_sensor_handle] = sim.simxGetObjectHandle(clientID, 'Proximity_sensor', sim.simx_opmode_blocking);
-            [res_read_sensor, detectionState, detectedPoint, detectedObjectHandle] = sim.simxReadProximitySensor(clientID, Proximity_sensor_handle, sim.simx_opmode_blocking);
+            [res_read_sensor, detectionState, detectedPoint, detectedObjectHandle] = sim.simxReadProximitySensor(clientID, Proximity_sensor_handle, sim.simx_opmode_streaming);
             
             % % % %             disp(Proximity_sensor_handle);
             % % % %
@@ -267,11 +267,11 @@ if (clientID>-1)
             %                 sim.simx_opmode_blocking);
             
             
-            [res_cube0_pos, cube0_pos] = sim.simxGetObjectPosition(clientID, cube0_handle, -1, sim.simx_opmode_blocking);
+            [res_cube0_pos, cube0_pos] = sim.simxGetObjectPosition(clientID, cube0_handle, -1, sim.simx_opmode_streaming);
             
             [res_cube1_handle, cube1_handle] = sim.simxGetObjectHandle(clientID,'Cuboid1', sim.simx_opmode_blocking);
             
-            [res_cube0_pos, cube1_pos] = sim.simxGetObjectPosition(clientID, cube1_handle, -1, sim.simx_opmode_blocking);
+            [res_cube0_pos, cube1_pos] = sim.simxGetObjectPosition(clientID, cube1_handle, -1, sim.simx_opmode_streaming);
             
             
             %         fposition4 = [cube0_pos(1), cube0_pos(2), cube0_pos(3)+0.05,	0,	0,	0]    % place position
@@ -311,13 +311,12 @@ if (clientID>-1)
             
             %         [res_targetDummy_handle, targetDummy_handle] = sim.simxGetObjectHandle(clientID,'Dummy', sim.simx_opmode_blocking);
             
-            [res_idlePos, idlePos] = sim.simxGetObjectPosition(clientID, TargetDummyHandle, -1, sim.simx_opmode_blocking);
-            [res_idlePos, idleOrient] = sim.simxGetObjectOrientation(clientID, TargetDummyHandle, -1, sim.simx_opmode_blocking);
+            [res_idlePos, idlePos] = sim.simxGetObjectPosition(clientID, TargetDummyHandle, -1, sim.simx_opmode_streaming);
+            [res_idlePos, idleOrient] = sim.simxGetObjectOrientation(clientID, TargetDummyHandle, -1, sim.simx_opmode_streaming);
             idlePosOrient = [idlePos, idleOrient];
             
             %                 [res_fpos5_DummyHandle, fpos5_DummyHandle] = sim.simxGetObjectHandle(clientID,'Dummy', sim.simx_opmode_blocking);
             
-            %{
             % % %         Create Path initialPos to fpos5
             [res retPathI5 retFloats retStrings retBuffer] = sim.simxCallScriptFunction(clientID, ...
                 'ResizableFloor_5_25', ...
@@ -400,8 +399,6 @@ if (clientID>-1)
                 [], ...
                 sim.simx_opmode_blocking);
             
-            
-            %}
             %         moveL (clientID, TargetDummyHandle, fposition3, 8);
             
             % % %         Get simtime
@@ -511,13 +508,13 @@ if (clientID>-1)
             [res_fpos6_DummyHandle_remove] = sim.simxRemoveObject(clientID, fpos6_DummyHandle, sim.simx_opmode_blocking);
             
             
-            %{
+            
             % % %         Remove Path
             [res_PathI5_remove] = sim.simxRemoveObject(clientID, retPathI5(1), sim.simx_opmode_blocking);
             [res_Path56_remove] = sim.simxRemoveObject(clientID, retPath56(1), sim.simx_opmode_blocking);
             [res_Path53_remove] = sim.simxRemoveObject(clientID, retPath53(1), sim.simx_opmode_blocking);
             [res_Path34_remove] = sim.simxRemoveObject(clientID, retPath34(1), sim.simx_opmode_blocking);
-            %}
+            
             
             
             % % %             Remove a TargetDummy
