@@ -41,8 +41,8 @@ if (clientID>-1)
     exeTime_array_cap = ["Repetition rate", "exeTime[s]"];
     writematrix(exeTime_array_cap, exeTime_file_name_csv);
     
-     % % %     An array to store the processing time per session(Coppeliasim, Objective function)
-%     time = datestr(datetime,'yyyymmdd_HHMMSS');
+    % % %     An array to store the processing time per session(Coppeliasim, Objective function)
+    %     time = datestr(datetime,'yyyymmdd_HHMMSS');
     simTime_file_name_csv = strcat(time, 'simTime_array.csv');
     
     simTime_array_cap = ["Repetition rate", "Coppelia_simTime[s]"];
@@ -58,6 +58,9 @@ if (clientID>-1)
     
     % % %     The number of iterations is "rep_overall x rep"
     rep_overall = 200000;
+    % % %     "rep times" units
+    rep = 500;
+    
     % % %     Repetition overall
     for count_overall = 1:rep_overall
         
@@ -69,8 +72,7 @@ if (clientID>-1)
         
         
         
-        % % %     "rep times" units
-        rep = 500;
+        
         
         % % %     Repetition in "rep times" units
         % % %         Repeated creation and deletion of the device.
