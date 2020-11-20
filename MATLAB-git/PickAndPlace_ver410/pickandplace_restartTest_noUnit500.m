@@ -59,7 +59,7 @@ if (clientID>-1)
     % % %     The number of iterations is "rep_overall x rep"
 %     rep_overall = 200000;
     % % %     "rep times" units
-    rep = 200;
+    rep = 100000000;
     
     % % %     Repetition overall
 %     for count_overall = 1:rep_overall

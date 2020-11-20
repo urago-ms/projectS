@@ -64663,3 +64663,17 @@ UPDATE min_exetime
 
    369096
 
+///////////////////////////////////////////////
+     7
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_restartTest_noUnit500
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
