@@ -64681,3 +64681,138 @@ res_startSim =
      1
 
 if system_dependent('IsDebugMode')==1, dbquit; end
+///////////////////////////////////////////////
+     1
+
+   36.3000
+
+   57
+
+   78
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   49.8000
+
+   108
+
+   129
+
+///////////////////////////////////////////////
+     3
+
+   63.7500
+
+   159
+
+   180
+
+///////////////////////////////////////////////
+     4
+
+   78.4500
+
+   210
+
+   231
+
+///////////////////////////////////////////////
+     5
+
+   93.8500
+
+   261
+
+   282
+
+///////////////////////////////////////////////
+     1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+    11
+
+   368
+
+   389
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   24.6500
+
+   419
+
+   440
+
+UPDATE min_exetime
+if system_dependent('IsDebugMode')==1, dbcont; end
+///////////////////////////////////////////////
+     3
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+   79.8000
+
+   470
+
+   491
+
+UPDATE min_exetime
+if system_dependent('IsDebugMode')==1, dbcont; end
+///////////////////////////////////////////////
+     4
+
+  100.2500
+
+   521
+
+   542
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+if system_dependent('IsDebugMode')==1, dbcont; end
+     5
+
+  122.3500
+
+   572
+
+   593
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+///////////////////////////////////////////////
+     1
+
+   13.1500
+
+   637
+
+   658
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   28.8000
+
+   688
+
+   709
+
+UPDATE min_exetime
+if system_dependent('IsDebugMode')==1, dbcont; end
