@@ -64677,3 +64677,7 @@ res_startSim =
 
      0
 
+///////////////////////////////////////////////
+     1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
