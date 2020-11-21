@@ -64816,3 +64816,39 @@ UPDATE min_exetime
 
 UPDATE min_exetime
 if system_dependent('IsDebugMode')==1, dbcont; end
+///////////////////////////////////////////////
+     3
+
+   52.7500
+
+   739
+
+   760
+
+UPDATE min_exetime
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_restartTest_2
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   10.6500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   24.8000
+
+///////////////////////////////////////////////
+     3
+
+if system_dependent('IsDebugMode')==1, dbquit; end
