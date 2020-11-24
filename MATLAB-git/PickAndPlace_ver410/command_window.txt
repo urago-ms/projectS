@@ -177664,3 +177664,5391 @@ UPDATE min_exetime
 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_restartTest_2', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_restartTest_2.m', 294)" style="font-weight:bold">pickandplace_restartTest_2</a>
 (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_restartTest_2.m',294,0)">line 294</a>)
             disp(retFloats_time(1));} 
+///////////////////////////////////////////////
+     1
+
+    24
+
+   57
+
+   78
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   27.9000
+
+   108
+
+   129
+
+///////////////////////////////////////////////
+     3
+
+   31.8000
+
+   159
+
+   180
+
+///////////////////////////////////////////////
+     4
+
+   35.5500
+
+   210
+
+   231
+
+///////////////////////////////////////////////
+     5
+
+   39.1000
+
+   261
+
+   282
+
+///////////////////////////////////////////////
+     6
+
+   42.9000
+
+   312
+
+   333
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     7
+
+   46.5000
+
+   363
+
+   384
+
+///////////////////////////////////////////////
+     8
+
+   50.2500
+
+   414
+
+   435
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     9
+
+   53.3500
+
+   465
+
+   486
+
+///////////////////////////////////////////////
+    10
+
+   57.1000
+
+   516
+
+   537
+
+///////////////////////////////////////////////
+    11
+
+   60.6000
+
+   567
+
+   588
+
+///////////////////////////////////////////////
+    12
+
+    64
+
+   618
+
+   639
+
+///////////////////////////////////////////////
+    13
+
+   67.5000
+
+   669
+
+   690
+
+///////////////////////////////////////////////
+    14
+
+<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\remApi.m',1892,1)">1892 </a>        end
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   12.1500
+
+   762
+
+   783
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   27.8000
+
+   813
+
+   834
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+   43.3500
+
+   864
+
+   885
+
+///////////////////////////////////////////////
+     4
+
+   58.6000
+
+   915
+
+   936
+
+///////////////////////////////////////////////
+     5
+
+   74.2500
+
+   966
+
+   987
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     6
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+{インデックスが配列要素数 (0) を超えています。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 294)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',294,0)">line 294</a>)
+            disp(retFloats_time(1));
+} 
+pickandplace_restartTest_2
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   10.5500
+
+   99
+
+   120
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   25.2500
+
+   150
+
+   171
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+   39.6500
+
+   201
+
+   222
+
+///////////////////////////////////////////////
+     4
+
+   54.3000
+
+   252
+
+   273
+
+UPDATE min_exetime
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+    9.6000
+
+   317
+
+   338
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   24.1500
+
+   368
+
+   389
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+   38.5500
+
+   419
+
+   440
+
+///////////////////////////////////////////////
+     4
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   12.2500
+
+   512
+
+   533
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ne')" style="font-weight:bold"> ~= </a>
+string と double の比較はサポートされていません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('remApi/simxCallScriptFunction', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\remApi.m', 2081)" style="font-weight:bold">remApi/simxCallScriptFunction</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\remApi.m',2081,0)">line 2081</a>)
+                if (inStrings(length(inStrings))~=0)
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 243)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',243,0)">line 243</a>)
+            [res_time retInts_time retFloats_time
+            retStrings retBuffer] =
+            sim.simxCallScriptFunction(clientID, ...
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   11.3000
+
+   666
+
+   687
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   27.2000
+
+   717
+
+   738
+
+///////////////////////////////////////////////
+     3
+
+   41.7500
+
+   768
+
+   789
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     4
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+  295.2000
+
+   819
+
+   840
+
+///////////////////////////////////////////////
+     5
+
+  311.5500
+
+   870
+
+   891
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+///////////////////////////////////////////////
+     6
+
+  341.3500
+
+   921
+
+   942
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+  108.1500
+
+   986
+
+   1007
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   10.7000
+
+   1159
+
+   1180
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+  427.6500
+
+   1374
+
+   1395
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+  435.9500
+
+   1425
+
+   1446
+
+///////////////////////////////////////////////
+     3
+
+  446.7500
+
+   1476
+
+   1497
+
+///////////////////////////////////////////////
+     4
+
+<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',167,1)">167 </a>            [res_tab_genetate, tab_handle] = sim.simxLoadModel(clientID,'customizable_table_with_create_cube_func.ttm', 0, sim.simx_opmode_blocking);
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   12.9000
+
+   1569
+
+   1590
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   29.3500
+
+   1620
+
+   1641
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+    46
+
+   1671
+
+   1692
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     4
+
+   63.1500
+
+   1722
+
+   1743
+
+///////////////////////////////////////////////
+     5
+
+   80.3000
+
+   1773
+
+   1794
+
+///////////////////////////////////////////////
+     6
+
+   97.3500
+
+   1824
+
+   1845
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     7
+
+  114.7000
+
+   1875
+
+   1896
+
+///////////////////////////////////////////////
+     8
+
+  131.5500
+
+   1926
+
+   1947
+
+///////////////////////////////////////////////
+     9
+
+  149.1000
+
+   1977
+
+   1998
+
+///////////////////////////////////////////////
+    10
+
+  166.3000
+
+   2028
+
+   2049
+
+///////////////////////////////////////////////
+    11
+
+  183.2500
+
+   2079
+
+   2100
+
+///////////////////////////////////////////////
+    12
+
+  200.5500
+
+   2130
+
+   2151
+
+///////////////////////////////////////////////
+    13
+
+  217.1500
+
+   2181
+
+   2202
+
+///////////////////////////////////////////////
+    14
+
+  233.6500
+
+   2232
+
+   2253
+
+///////////////////////////////////////////////
+    15
+
+   251
+
+   2283
+
+   2304
+
+///////////////////////////////////////////////
+    16
+
+  268.4500
+
+   2334
+
+   2355
+
+///////////////////////////////////////////////
+    17
+
+  285.8500
+
+   2385
+
+   2406
+
+///////////////////////////////////////////////
+    18
+
+  303.1500
+
+   2436
+
+   2457
+
+///////////////////////////////////////////////
+    19
+
+  319.2500
+
+   2487
+
+   2508
+
+///////////////////////////////////////////////
+    20
+
+  335.8000
+
+   2538
+
+   2559
+
+///////////////////////////////////////////////
+     1
+
+   12.5000
+
+   2603
+
+   2624
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   28.9000
+
+   2654
+
+   2675
+
+///////////////////////////////////////////////
+     3
+
+   45.0500
+
+   2705
+
+   2726
+
+///////////////////////////////////////////////
+     4
+
+   60.8500
+
+   2756
+
+   2777
+
+///////////////////////////////////////////////
+     5
+
+   76.9000
+
+   2807
+
+   2828
+
+///////////////////////////////////////////////
+     6
+
+   93.0500
+
+   2858
+
+   2879
+
+///////////////////////////////////////////////
+     7
+
+  109.5000
+
+   2909
+
+   2930
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     8
+
+  126.7500
+
+   2960
+
+   2981
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     9
+
+  144.0500
+
+   3011
+
+   3032
+
+///////////////////////////////////////////////
+    10
+
+  161.3500
+
+   3062
+
+   3083
+
+///////////////////////////////////////////////
+    11
+
+  177.7000
+
+   3113
+
+   3134
+
+///////////////////////////////////////////////
+    12
+
+  194.6000
+
+   3164
+
+   3185
+
+///////////////////////////////////////////////
+    13
+
+  211.2500
+
+   3215
+
+   3236
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+    14
+
+  228.4500
+
+   3266
+
+   3287
+
+///////////////////////////////////////////////
+    15
+
+  245.1000
+
+   3317
+
+   3338
+
+///////////////////////////////////////////////
+    16
+
+  261.8500
+
+   3368
+
+   3389
+
+///////////////////////////////////////////////
+    17
+
+  278.6000
+
+   3419
+
+   3440
+
+///////////////////////////////////////////////
+    18
+
+  296.3000
+
+   3470
+
+   3491
+
+///////////////////////////////////////////////
+    19
+
+  312.5000
+
+   3521
+
+   3542
+
+///////////////////////////////////////////////
+    20
+
+  328.8000
+
+   3572
+
+   3593
+
+///////////////////////////////////////////////
+    21
+
+  344.8000
+
+   3623
+
+   3644
+
+///////////////////////////////////////////////
+    22
+
+  361.0500
+
+   3674
+
+   3695
+
+///////////////////////////////////////////////
+    23
+
+  378.0500
+
+   3725
+
+   3746
+
+///////////////////////////////////////////////
+    24
+
+  394.6500
+
+   3776
+
+   3797
+
+///////////////////////////////////////////////
+    25
+
+  411.9000
+
+   3827
+
+   3848
+
+///////////////////////////////////////////////
+    26
+
+  429.2000
+
+   3878
+
+   3899
+
+///////////////////////////////////////////////
+    27
+
+  446.1500
+
+   3929
+
+   3950
+
+///////////////////////////////////////////////
+    28
+
+  463.4000
+
+   3980
+
+   4001
+
+///////////////////////////////////////////////
+    29
+
+  479.6000
+
+   4031
+
+   4052
+
+///////////////////////////////////////////////
+    30
+
+  495.7500
+
+   4082
+
+   4103
+
+///////////////////////////////////////////////
+    31
+
+  511.9000
+
+   4133
+
+   4154
+
+///////////////////////////////////////////////
+    32
+
+   528
+
+   4184
+
+   4205
+
+///////////////////////////////////////////////
+    33
+
+  544.0500
+
+   4235
+
+   4256
+
+///////////////////////////////////////////////
+    34
+
+  560.4500
+
+   4286
+
+   4307
+
+///////////////////////////////////////////////
+    35
+
+  576.9000
+
+   4337
+
+   4358
+
+///////////////////////////////////////////////
+    36
+
+  592.4999
+
+   4388
+
+   4409
+
+///////////////////////////////////////////////
+    37
+
+  609.0500
+
+   4439
+
+   4460
+
+///////////////////////////////////////////////
+    38
+
+  625.7000
+
+   4490
+
+   4511
+
+///////////////////////////////////////////////
+    39
+
+  642.2000
+
+   4541
+
+   4562
+
+///////////////////////////////////////////////
+    40
+
+  658.2500
+
+   4592
+
+   4613
+
+///////////////////////////////////////////////
+     1
+
+   13.1000
+
+   4657
+
+   4678
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   29.9000
+
+   4708
+
+   4729
+
+///////////////////////////////////////////////
+     3
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+    14
+
+   1160
+
+   1181
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   30.2000
+
+   1211
+
+   1232
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+   47.1000
+
+   1262
+
+   1283
+
+///////////////////////////////////////////////
+     4
+
+   63.2500
+
+   1313
+
+   1334
+
+///////////////////////////////////////////////
+     5
+
+   78.1500
+
+   1364
+
+   1385
+
+///////////////////////////////////////////////
+     6
+
+   95.1000
+
+   1415
+
+   1436
+
+///////////////////////////////////////////////
+     7
+
+  109.9000
+
+   1466
+
+   1487
+
+///////////////////////////////////////////////
+     8
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+    13
+
+   1559
+
+   1580
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   29.5000
+
+   1610
+
+   1631
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+   45.7500
+
+   1661
+
+   1682
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   12.5500
+
+   1726
+
+   1747
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+    29
+
+   1777
+
+   1798
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.4000
+
+   1870
+
+   1891
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   29.8000
+
+   1921
+
+   1942
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   12.9500
+
+   1986
+
+   2007
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   29.6000
+
+   2037
+
+   2058
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+   46.9500
+
+   2088
+
+   2109
+
+///////////////////////////////////////////////
+     4
+
+<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',167,1)">167 </a>            [res_tab_genetate, tab_handle] = sim.simxLoadModel(clientID,'customizable_table_with_create_cube_func.ttm', 0, sim.simx_opmode_blocking);
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.2000
+
+   2181
+
+   2202
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   29.2500
+
+   2232
+
+   2253
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+   45.3500
+
+   2283
+
+   2304
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     4
+
+   60.0500
+
+   2334
+
+   2355
+
+///////////////////////////////////////////////
+     5
+
+   75.6000
+
+   2385
+
+   2406
+
+///////////////////////////////////////////////
+     6
+
+   91.8500
+
+   2436
+
+   2457
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     7
+
+   108
+
+   2487
+
+   2508
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     8
+
+  124.1000
+
+   2538
+
+   2559
+
+///////////////////////////////////////////////
+     9
+
+  140.3000
+
+   2589
+
+   2610
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+    10
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   12.4500
+
+   2682
+
+   2703
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   28.7500
+
+   2733
+
+   2754
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+   44.6500
+
+   2784
+
+   2805
+
+///////////////////////////////////////////////
+     4
+
+   60.4000
+
+   2835
+
+   2856
+
+///////////////////////////////////////////////
+     5
+
+   75.9500
+
+   2886
+
+   2907
+
+///////////////////////////////////////////////
+     6
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+{インデックスが配列要素数 (0) を超えています。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 320)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',320,0)">line 320</a>)
+            disp(retFloats_time(1));
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   12.5500
+
+   179
+
+   200
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   28.5500
+
+   230
+
+   251
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+   43.0500
+
+   281
+
+   302
+
+///////////////////////////////////////////////
+     4
+
+   59.3500
+
+   332
+
+   353
+
+///////////////////////////////////////////////
+     5
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   12.8000
+
+   425
+
+   446
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   29.4000
+
+   476
+
+   497
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+   45.7000
+
+   527
+
+   548
+
+///////////////////////////////////////////////
+     4
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+{インデックスが配列要素数 (0) を超えています。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 321)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',321,0)">line 321</a>)
+            disp(retFloats_time(1));
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+{インデックスが配列要素数 (0) を超えています。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 321)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',321,0)">line 321</a>)
+            disp(retFloats_time(1));
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+{インデックスが配列要素数 (0) を超えています。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 321)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',321,0)">line 321</a>)
+            disp(retFloats_time(1));
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+{インデックスが配列要素数 (0) を超えています。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 321)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',321,0)">line 321</a>)
+            disp(retFloats_time(1));
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+{関数または変数 'rob_handle' が未定義です。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 127)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',127,0)">line 127</a>)
+                [rob_handle, tab_handle],[], ...
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+{インデックスが配列要素数 (0) を超えています。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 338)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',338,0)">line 338</a>)
+            disp(retFloats_time(1));
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+{インデックスが配列要素数 (0) を超えています。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 338)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',338,0)">line 338</a>)
+            disp(retFloats_time(1));
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+{インデックスが配列要素数 (0) を超えています。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 348)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',348,0)">line 348</a>)
+            disp(retFloats_time(1));
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.3500
+
+   1073
+
+   1081
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   29.3000
+
+   1124
+
+   1132
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+   45.8000
+
+   1175
+
+   1183
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     4
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+    12
+
+   1281
+
+   1289
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   24.2500
+
+   1332
+
+   1340
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+   33.7500
+
+   1383
+
+   1391
+
+///////////////////////////////////////////////
+     4
+
+   43.4000
+
+   1434
+
+   1442
+
+///////////////////////////////////////////////
+     5
+
+   54.6500
+
+   1485
+
+   1493
+
+///////////////////////////////////////////////
+     6
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+    13
+
+   1591
+
+   1599
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+    28
+
+   1642
+
+   1650
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+   43.2500
+
+   1693
+
+   1701
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     4
+
+   58.2000
+
+   1744
+
+   1752
+
+///////////////////////////////////////////////
+     5
+
+    73
+
+   1795
+
+   1803
+
+///////////////////////////////////////////////
+     6
+
+   88.2000
+
+   1846
+
+   1854
+
+///////////////////////////////////////////////
+     7
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   14.6000
+
+   1958
+
+   1966
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   31.4500
+
+   2009
+
+   2017
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+   44.9500
+
+   2060
+
+   2068
+
+///////////////////////////////////////////////
+     4
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.5500
+
+   2168
+
+   2176
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   29.6500
+
+   2219
+
+   2227
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.1500
+
+   2326
+
+   2334
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   24.0500
+
+   2377
+
+   2385
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+   38.7000
+
+   2428
+
+   2436
+
+///////////////////////////////////////////////
+     4
+
+   50.4000
+
+   2479
+
+   2487
+
+///////////////////////////////////////////////
+     5
+
+    67
+
+   2530
+
+   2538
+
+///////////////////////////////////////////////
+     6
+
+    83
+
+   2581
+
+   2589
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+remApi
+{入力引数が不足しています。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('remApi', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\remApi.m', 752)" style="font-weight:bold">remApi</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\remApi.m',752,0)">line 752</a>)
+            obj.libName = libname;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   12.8500
+
+   2647
+
+   2655
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   29.2000
+
+   2698
+
+   2706
+
+///////////////////////////////////////////////
+     3
+
+   45.6000
+
+   2749
+
+   2757
+
+///////////////////////////////////////////////
+     4
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   14.4500
+
+   2855
+
+   2863
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+{インデックスが配列要素数 (0) を超えています。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 348)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',348,0)">line 348</a>)
+            disp(retFloats_time(1));
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+{インデックスが配列要素数 (0) を超えています。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 348)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',348,0)">line 348</a>)
+            disp(retFloats_time(1));
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+{インデックスが配列要素数 (0) を超えています。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 348)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',348,0)">line 348</a>)
+            disp(retFloats_time(1));
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   12.6500
+
+   72
+
+   80
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   14.4000
+
+UPDATE min_exetime
+{関数または変数 'retPathI5' が未定義です。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 588)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',588,0)">line 588</a>)
+            [res_PathI5_remove] =
+            sim.simxRemoveObject(clientID,
+            retPathI5(1), sim.simx_opmode_blocking);
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.8500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   29.4500
+
+///////////////////////////////////////////////
+     3
+
+   45.5000
+
+///////////////////////////////////////////////
+     4
+
+   60.3000
+
+///////////////////////////////////////////////
+     5
+
+   74.8000
+
+///////////////////////////////////////////////
+     6
+
+   89.3500
+
+///////////////////////////////////////////////
+     7
+
+  104.6000
+
+///////////////////////////////////////////////
+     8
+
+   120
+
+///////////////////////////////////////////////
+     9
+
+  133.8000
+
+///////////////////////////////////////////////
+    10
+
+  148.1500
+
+///////////////////////////////////////////////
+    11
+
+  162.1000
+
+///////////////////////////////////////////////
+    12
+
+  175.8500
+
+///////////////////////////////////////////////
+    13
+
+  190.1500
+
+///////////////////////////////////////////////
+    14
+
+  205.2000
+
+///////////////////////////////////////////////
+    15
+
+  221.2500
+
+///////////////////////////////////////////////
+    16
+
+  236.7000
+
+///////////////////////////////////////////////
+    17
+
+  251.2500
+
+///////////////////////////////////////////////
+    18
+
+  266.0500
+
+///////////////////////////////////////////////
+    19
+
+  281.1000
+
+///////////////////////////////////////////////
+    20
+
+  295.6500
+
+///////////////////////////////////////////////
+    21
+
+  309.7000
+
+///////////////////////////////////////////////
+    22
+
+  323.9500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+    23
+
+  337.7500
+
+///////////////////////////////////////////////
+    24
+
+  352.9000
+
+///////////////////////////////////////////////
+    25
+
+  366.8500
+
+///////////////////////////////////////////////
+    26
+
+  380.9000
+
+///////////////////////////////////////////////
+    27
+
+  395.2000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+    28
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.0500
+
+{関数または変数 'Dummy' が未定義です。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 370)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',370,0)">line 370</a>)
+            [res retInts target1Pose retStrings
+            retBuffer] =
+            sim.simxCallScriptFunction(clientID, ...
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.5000
+
+{関数または変数 'robotHandle' が未定義です。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 402)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',402,0)">line 402</a>)
+    inInts =
+    [robotHandle,collisionChecking,minConfigsForIkPath,minConfigsForPathPlanningPath,maxConfigsForDesiredPose,maxTrialsForConfigSearch,searchCount];} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   12.6000
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 403)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',403,0)">line 403</a>)
+    inFloats = robotInitialState + target1Pose +
+    approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   12.9000
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 403)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',403,0)">line 403</a>)
+    inFloats =
+    robotInitialState+target1Pose+approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.7000
+
+
+robotInitialState =
+
+     []
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 406)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',406,0)">line 406</a>)
+    inFloats = robotInitialState + target1Pose +
+    approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.8000
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 409)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',409,0)">line 409</a>)
+    inFloats = robotInitialState + target1Pose +
+    approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.8500
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 409)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',409,0)">line 409</a>)
+    inFloats = robotInitialState + target1Pose +
+    approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.6000
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 409)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',409,0)">line 409</a>)
+    inFloats = robotInitialState + target1Pose +
+    approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.1500
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 409)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',409,0)">line 409</a>)
+    inFloats = robotInitialState + target1Pose +
+    approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.0500
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 409)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',409,0)">line 409</a>)
+    inFloats = robotInitialState + target1Pose +
+    approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   12.8000
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 409)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',409,0)">line 409</a>)
+    inFloats = robotInitialState + target1Pose +
+    approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.0500
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 409)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',409,0)">line 409</a>)
+    inFloats = robotInitialState + target1Pose +
+    approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.3000
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 409)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',409,0)">line 409</a>)
+    inFloats = robotInitialState + target1Pose +
+    approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   12.9500
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 409)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',409,0)">line 409</a>)
+    inFloats = robotInitialState + target1Pose +
+    approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   12.9000
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 409)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',409,0)">line 409</a>)
+    inFloats = robotInitialState + target1Pose +
+    approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   44.6000
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 409)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',409,0)">line 409</a>)
+    inFloats = robotInitialState + target1Pose +
+    approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   12.2000
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 409)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',409,0)">line 409</a>)
+    inFloats = robotInitialState + target1Pose +
+    approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.8000
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 409)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',409,0)">line 409</a>)
+    inFloats = robotInitialState + target1Pose +
+    approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   12.5000
+
+
+robotInitialState =
+
+     []
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 410)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',410,0)">line 410</a>)
+    inFloats = robotInitialState + target1Pose +
+    approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   12.2000
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 410)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',410,0)">line 410</a>)
+    inFloats = robotInitialState + target1Pose +
+    approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   12.7000
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 410)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',410,0)">line 410</a>)
+    inFloats = robotInitialState + target1Pose +
+    approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.1500
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 410)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',410,0)">line 410</a>)
+    inFloats = robotInitialState + target1Pose +
+    approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.1000
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 410)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',410,0)">line 410</a>)
+    inFloats = robotInitialState + target1Pose +
+    approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.6500
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 410)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',410,0)">line 410</a>)
+    inFloats = robotInitialState + target1Pose +
+    approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   12.6000
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 410)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',410,0)">line 410</a>)
+    inFloats = robotInitialState + target1Pose +
+    approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.5000
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 410)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',410,0)">line 410</a>)
+    inFloats = robotInitialState + target1Pose +
+    approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   12.7500
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 410)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',410,0)">line 410</a>)
+    inFloats = robotInitialState + target1Pose +
+    approachVector;
+} 
+///////////////////////////////////////////////
+     1
+
+   18.8500
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 410)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',410,0)">line 410</a>)
+            inFloats = robotInitialState + target1Pose +
+            approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.3500
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 410)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',410,0)">line 410</a>)
+            inFloats = robotInitialState + target1Pose +
+            approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+  265.4500
+
+
+target1Pose =
+
+     []
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 411)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',411,0)">line 411</a>)
+            inFloats = robotInitialState + target1Pose +
+            approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.3000
+
+
+target1Pose =
+
+     []
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 411)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',411,0)">line 411</a>)
+            inFloats = robotInitialState + target1Pose +
+            approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   12.6500
+
+
+target1Pose =
+
+     []
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 411)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',411,0)">line 411</a>)
+            inFloats = robotInitialState + target1Pose +
+            approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+{インデックスが配列要素数 (0) を超えています。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 348)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',348,0)">line 348</a>)
+            disp(retFloats_time(1));
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.0500
+
+
+target1Pose =
+
+     []
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 411)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',411,0)">line 411</a>)
+            inFloats = robotInitialState + target1Pose +
+            approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   11.8000
+
+
+target1Pose =
+
+     []
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 411)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',411,0)">line 411</a>)
+            inFloats = robotInitialState + target1Pose +
+            approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.6500
+
+
+target1Pose =
+
+     []
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 411)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',411,0)">line 411</a>)
+            inFloats = robotInitialState + target1Pose +
+            approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   53.6000
+
+
+target1Pose =
+
+     []
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 411)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',411,0)">line 411</a>)
+            inFloats = robotInitialState + target1Pose +
+            approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+    12
+
+
+target1Pose =
+
+     []
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 411)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',411,0)">line 411</a>)
+            inFloats = robotInitialState + target1Pose +
+            approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   12.5500
+
+
+TargetDummyHandle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   851
+
+
+target1Pose =
+
+     []
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 411)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',411,0)">line 411</a>)
+            inFloats = robotInitialState + target1Pose +
+            approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   14.1500
+
+
+TargetDummyHandle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   912
+
+
+target1Pose =
+
+     []
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 411)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',411,0)">line 411</a>)
+            inFloats = robotInitialState + target1Pose +
+            approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   12.5000
+
+
+TargetDummyHandle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   973
+
+
+target1Pose =
+
+     []
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 411)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',411,0)">line 411</a>)
+            inFloats = robotInitialState + target1Pose +
+            approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.2500
+
+
+TargetDummyHandle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1034
+
+
+target1Pose =
+
+     []
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 411)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',411,0)">line 411</a>)
+            inFloats = robotInitialState + target1Pose +
+            approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   12.8000
+
+
+TargetDummyHandle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1095
+
+
+target1Pose =
+
+     []
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 411)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',411,0)">line 411</a>)
+            inFloats = robotInitialState + target1Pose +
+            approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.3000
+
+
+TargetDummyHandle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1156
+
+
+target1Pose =
+
+     []
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 411)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',411,0)">line 411</a>)
+            inFloats = robotInitialState + target1Pose +
+            approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.3500
+
+
+TargetDummyHandle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1217
+
+
+res =
+
+     1
+
+
+retInts =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+retStrings =
+
+     []
+
+
+retBuffer =
+
+     []
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+     []
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 414)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',414,0)">line 414</a>)
+            inFloats = robotInitialState + target1Pose +
+            approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   14.1500
+
+
+TargetDummyHandle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1278
+
+
+res =
+
+     0
+
+
+retInts =
+
+     []
+
+
+target1Pose =
+
+  1×12 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0000    1.0000         0    0.7410   -1.0000
+
+  6 列から 10 列
+
+   -0.0000         0    0.5200         0         0
+
+  11 列から 12 列
+
+    1.0000    0.5500
+
+
+retStrings =
+
+     []
+
+
+retBuffer =
+
+     []
+
+
+robotInitialState =
+
+     []
+
+
+target1Pose =
+
+  1×12 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 5 列
+
+   -0.0000    1.0000         0    0.7410   -1.0000
+
+  6 列から 10 列
+
+   -0.0000         0    0.5200         0         0
+
+  11 列から 12 列
+
+    1.0000    0.5500
+
+
+approachVector =
+
+     0     0     1
+
+{エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 414)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',414,0)">line 414</a>)
+            inFloats = robotInitialState + target1Pose +
+            approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   12.8500
+
+
+robotInitialState =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+    0.0123   -0.0310   -2.4039   -3.1394   -0.7313    0.0102
+
+
+robotInitialState =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+    0.0123   -0.0310   -2.4039   -3.1394   -0.7313    0.0102
+
+
+target1Pose =
+
+  1×12 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 7 列
+
+   -0.0000    1.0000         0   -0.1500   -1.0000   -0.0000         0
+
+  8 列から 12 列
+
+    0.5600         0         0    1.0000    0.5500
+
+
+approachVector =
+
+     0     0     1
+
+{行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 413)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',413,0)">line 413</a>)
+            inFloats = robotInitialState + target1Pose + approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+  780.4500
+
+
+robotInitialState =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+   -0.0941   -1.5708   -0.4859    1.6257   -0.0180   -0.1192
+
+
+target1Pose =
+
+  1×12 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 8 列
+
+   -0.0000    1.0000         0    0.5850   -1.0000   -0.0000         0    0.4690
+
+  9 列から 12 列
+
+         0         0    1.0000    0.5500
+
+
+approachVector =
+
+     0     0     1
+
+{行列の次元は一致しなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 412)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',412,0)">line 412</a>)
+            inFloats = robotInitialState + target1Pose + approachVector;
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   12.3000
+
+
+robotInitialState =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+    0.0123   -0.0309   -2.4040   -3.1393   -0.7310    0.0100
+
+
+target1Pose =
+
+  1×12 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 8 列
+
+   -0.0000    1.0000         0    0.6500   -1.0000   -0.0000         0    0.7690
+
+  9 列から 12 列
+
+         0         0    1.0000    0.5500
+
+
+approachVector =
+
+     0     0     1
+
+
+inFloats =
+
+  1×21 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 8 列
+
+    0.0123   -0.0309   -2.4040   -3.1393   -0.7310    0.0100   -0.0000    1.0000
+
+  9 列から 16 列
+
+         0    0.6500   -1.0000   -0.0000         0    0.7690         0         0
+
+  17 列から 21 列
+
+    1.0000    0.5500         0         0    1.0000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   29.1000
+
+
+robotInitialState =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+    0.0124   -0.0312   -2.4036   -3.1396   -0.7318    0.0105
+
+
+target1Pose =
+
+  1×12 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 8 列
+
+   -0.0000    1.0000         0   -0.0770   -1.0000   -0.0000         0    0.3330
+
+  9 列から 12 列
+
+         0         0    1.0000    0.5500
+
+
+approachVector =
+
+     0     0     1
+
+
+inFloats =
+
+  1×21 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 8 列
+
+    0.0124   -0.0312   -2.4036   -3.1396   -0.7318    0.0105   -0.0000    1.0000
+
+  9 列から 16 列
+
+         0   -0.0770   -1.0000   -0.0000         0    0.3330         0         0
+
+  17 列から 21 列
+
+    1.0000    0.5500         0         0    1.0000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+   44.8500
+
+
+robotInitialState =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+    0.0124   -0.0312   -2.4037   -3.1396   -0.7317    0.0104
+
+
+target1Pose =
+
+  1×12 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 8 列
+
+   -0.0000    1.0000         0    0.5860   -1.0000   -0.0000         0    0.6190
+
+  9 列から 12 列
+
+         0         0    1.0000    0.5500
+
+
+approachVector =
+
+     0     0     1
+
+
+inFloats =
+
+  1×21 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 8 列
+
+    0.0124   -0.0312   -2.4037   -3.1396   -0.7317    0.0104   -0.0000    1.0000
+
+  9 列から 16 列
+
+         0    0.5860   -1.0000   -0.0000         0    0.6190         0         0
+
+  17 列から 21 列
+
+    1.0000    0.5500         0         0    1.0000
+
+///////////////////////////////////////////////
+     4
+
+   59.6500
+
+
+robotInitialState =
+
+  1×6 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+    0.0123   -0.0311   -2.4038   -3.1395   -0.7315    0.0103
+
+
+target1Pose =
+
+  1×12 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 8 列
+
+   -0.0000    1.0000         0    0.6940   -1.0000   -0.0000         0    0.5320
+
+  9 列から 12 列
+
+         0         0    1.0000    0.5500
+
+
+approachVector =
+
+     0     0     1
+
+
+inFloats =
+
+  1×21 の <a href="matlab:helpPopup single" style="font-weight:bold">single</a> 行ベクトル
+
+  1 列から 8 列
+
+    0.0123   -0.0311   -2.4038   -3.1395   -0.7315    0.0103   -0.0000    1.0000
+
+  9 列から 16 列
+
+         0    0.6940   -1.0000   -0.0000         0    0.5320         0         0
+
+  17 列から 21 列
+
+    1.0000    0.5500         0         0    1.0000
+
+///////////////////////////////////////////////
+     5
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+    13
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+  261.5500
+
+///////////////////////////////////////////////
+     3
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   12.8500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   30.1500
+
+///////////////////////////////////////////////
+     3
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   12.8500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+{エラー: <a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',422,21)">ファイル: pickandplace_RRTTest.m 行:422 列:21
+</a>式が無効です。関数の呼び出しまたは変数のインデックス付けにはかっこを使用してください。そうでない場
+合、区切り記号の不一致をチェックしてください。
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.3500
+
+{配列インデックスは正の整数または logical 値でなければなりません。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 420)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',420,0)">line 420</a>)
+        part1StateCnt = retInts(0)
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+{インデックスが配列要素数 (0) を超えています。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 348)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',348,0)">line 348</a>)
+            disp(retFloats_time(1));
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+    8.2000
+
+
+part1StateCnt =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   0
+
+
+part2StateCnt =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   0
+
+
+path1 =
+
+  1×0 の空の <a href="matlab:helpPopup double" style="font-weight:bold">double</a> 行ベクトル
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   24.5500
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   14.2000
+
+{関数または変数 'retInt' が未定義です。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 435)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',435,0)">line
+435</a>)
+        line1Handle = retInt(1);
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   48.2500
+
+{関数または変数 'retInt' が未定義です。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pickandplace_RRTTest', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m', 435)" style="font-weight:bold">pickandplace_RRTTest</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',435,0)">line
+435</a>)
+        line1Handle = retInt(1);
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+  261.4000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+  268.5000
+
+///////////////////////////////////////////////
+     3
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+{エラー: <a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',465,46)">ファイル:
+pickandplace_RRTTest.m 行:465 列:46
+</a>式が無効です。関数の呼び出しまたは変数のイン
+デックス付けにはかっこを使用してください。そ
+うでない場合、区切り記号の不一致をチェックし
+てください。
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.3000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   28.9500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+   45.4500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     4
+
+   61.8000
+
+///////////////////////////////////////////////
+     5
+
+   76.9500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     6
+
+   92.9500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     7
+
+  109.5500
+
+///////////////////////////////////////////////
+     8
+
+   126
+
+///////////////////////////////////////////////
+     9
+
+   140
+
+///////////////////////////////////////////////
+    10
+
+  153.9500
+
+///////////////////////////////////////////////
+    11
+
+  170.2500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+    12
+
+  186.3500
+
+///////////////////////////////////////////////
+    13
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   11.8000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   28.1000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+   44.5000
+
+///////////////////////////////////////////////
+     4
+
+   60.2500
+
+///////////////////////////////////////////////
+     5
+
+   76.9000
+
+///////////////////////////////////////////////
+     6
+
+   92.4000
+
+///////////////////////////////////////////////
+     7
+
+  108.5000
+
+///////////////////////////////////////////////
+     8
+
+  123.6500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     9
+
+  140.2500
+
+///////////////////////////////////////////////
+    10
+
+  156.3000
+
+///////////////////////////////////////////////
+    11
+
+  171.2000
+
+///////////////////////////////////////////////
+    12
+
+  187.0500
+
+///////////////////////////////////////////////
+    13
+
+  202.4500
+
+///////////////////////////////////////////////
+    14
+
+  217.5500
+
+///////////////////////////////////////////////
+    15
+
+  233.1500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+    16
+
+  248.4000
+
+///////////////////////////////////////////////
+    17
+
+  263.3500
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.7500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   29.2000
+
+///////////////////////////////////////////////
+     3
+
+   45.4500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     4
+
+   60.8000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     5
+
+   76.8000
+
+///////////////////////////////////////////////
+     6
+
+   93.5000
+
+///////////////////////////////////////////////
+     7
+
+  109.3000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     8
+
+  125.2000
+
+///////////////////////////////////////////////
+     9
+
+  141.6000
+
+///////////////////////////////////////////////
+    10
+
+  158.3500
+
+///////////////////////////////////////////////
+    11
+
+  175.1500
+
+///////////////////////////////////////////////
+    12
+
+  192.1500
+
+///////////////////////////////////////////////
+    13
+
+   208
+
+///////////////////////////////////////////////
+    14
+
+  223.6500
+
+///////////////////////////////////////////////
+    15
+
+  239.9500
+
+///////////////////////////////////////////////
+    16
+
+  256.5000
+
+///////////////////////////////////////////////
+    17
+
+  271.8500
+
+///////////////////////////////////////////////
+    18
+
+  287.3500
+
+///////////////////////////////////////////////
+    19
+
+   303
+
+///////////////////////////////////////////////
+    20
+
+  318.2500
+
+///////////////////////////////////////////////
+    21
+
+  334.6000
+
+///////////////////////////////////////////////
+    22
+
+  350.6500
+
+<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\remApi.m',2108,1)">2108 </a>            outIntCnt_ = variousIntsOut(1);
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   14.4000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+    31
+
+///////////////////////////////////////////////
+     3
+
+   46.1000
+
+///////////////////////////////////////////////
+     4
+
+   62.5500
+
+///////////////////////////////////////////////
+     5
+
+   78.2500
+
+///////////////////////////////////////////////
+     6
+
+   94.9000
+
+///////////////////////////////////////////////
+     7
+
+  111.3000
+
+///////////////////////////////////////////////
+     8
+
+  127.0500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     9
+
+  142.5000
+
+///////////////////////////////////////////////
+    10
+
+   157
+
+///////////////////////////////////////////////
+    11
+
+   173
+
+///////////////////////////////////////////////
+    12
+
+  188.8500
+
+///////////////////////////////////////////////
+    13
+
+  203.5500
+
+///////////////////////////////////////////////
+    14
+
+  218.9500
+
+///////////////////////////////////////////////
+    15
+
+  234.1000
+
+///////////////////////////////////////////////
+    16
+
+  249.8500
+
+///////////////////////////////////////////////
+    17
+
+  265.7000
+
+///////////////////////////////////////////////
+    18
+
+  280.3500
+
+///////////////////////////////////////////////
+    19
+
+  292.1500
+
+///////////////////////////////////////////////
+    20
+
+  303.1000
+
+///////////////////////////////////////////////
+    21
+
+  317.9000
+
+///////////////////////////////////////////////
+    22
+
+   332
+
+///////////////////////////////////////////////
+    23
+
+  347.8500
+
+///////////////////////////////////////////////
+    24
+
+  362.9500
+
+///////////////////////////////////////////////
+    25
+
+  377.4500
+
+///////////////////////////////////////////////
+    26
+
+  393.3500
+
+///////////////////////////////////////////////
+    27
+
+  409.2000
+
+///////////////////////////////////////////////
+    28
+
+  424.2000
+
+///////////////////////////////////////////////
+    29
+
+  440.1500
+
+///////////////////////////////////////////////
+    30
+
+  455.5500
+
+///////////////////////////////////////////////
+    31
+
+  470.8000
+
+///////////////////////////////////////////////
+    32
+
+  486.2000
+
+///////////////////////////////////////////////
+    33
+
+  499.1500
+
+///////////////////////////////////////////////
+    34
+
+  512.4000
+
+///////////////////////////////////////////////
+    35
+
+  527.7000
+
+///////////////////////////////////////////////
+    36
+
+  543.1000
+
+///////////////////////////////////////////////
+    37
+
+  558.0500
+
+///////////////////////////////////////////////
+    38
+
+  572.0500
+
+///////////////////////////////////////////////
+    39
+
+  587.1500
+
+///////////////////////////////////////////////
+    40
+
+  601.5001
+

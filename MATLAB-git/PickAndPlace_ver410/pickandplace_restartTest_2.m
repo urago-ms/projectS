@@ -83,7 +83,7 @@ if (clientID>-1)
             diary command_window.txt;
             disp("///////////////////////////////////////////////");
             
-            exeTime_tic = tic;
+%             exeTime_tic = tic;
             
             
             % % % % %         Display the number of repetitions in CoppeliaSim
@@ -280,7 +280,7 @@ if (clientID>-1)
             
             % % %             Execute pick and place  % % % % % % % % % % % %
             % Timer start
-            % tic
+            exeTime_tic = tic;
             % % %         Get simtime
             [res_time retInts_time retFloats_time retStrings retBuffer] = sim.simxCallScriptFunction(clientID, ...
                 'ResizableFloor_5_25', ...
@@ -291,7 +291,7 @@ if (clientID>-1)
                 [], ...
                 sim.simx_opmode_blocking);
             
-            disp(retFloats_time(1));
+%             disp(retFloats_time(1));
             
             
             
@@ -417,6 +417,8 @@ if (clientID>-1)
             % % % %             disp(retFloats_time2);
             
             simTime = retFloats_time2 - retFloats_time;
+                        exeTime_T = toc(exeTime_tic);
+
             
             % % %         Save the relationship between "repetition rate" and "simTime" to csv
             simTime_array(1, 1) = rep_rate;
@@ -435,14 +437,14 @@ if (clientID>-1)
             
             % % % % %             Update Minimum exetime
             if rep_rate == 1   %% if first time
-                disp('UPDATE min_exetime');
+                disp('UPDATE min_simtime');
                 repetition_rate = rep_rate;
                 min_simTime = simTime;
                 optim_tabpos = tab_pos_2;
                 optim_robpos = rob_pos_2;
                 
             elseif simTime < min_simTime
-                disp('UPDATE min_exetime');
+                disp('UPDATE min_simtime');
                 repetition_rate = rep_rate;
                 min_simTime = simTime;
                 optim_tabpos = tab_pos_2;
@@ -546,7 +548,7 @@ if (clientID>-1)
             % fprintf(fileID,'%6.2f %12.8f\n',A);
             % fclose(fileID);
             
-            exeTime_T = toc(exeTime_tic);
+%             exeTime_T = toc(exeTime_tic);
             
             % % %         Save the relationship between "repetition rate" and "exeTime" to csv
             exeTime_array(1, 1) = rep_rate;
