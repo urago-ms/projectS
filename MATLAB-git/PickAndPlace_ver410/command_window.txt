@@ -183052,3 +183052,210 @@ UPDATE min_exetime
 
   601.5001
 
+///////////////////////////////////////////////
+     1
+
+UPDATE min_simtime
+///////////////////////////////////////////////
+     2
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+///////////////////////////////////////////////
+     3
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+///////////////////////////////////////////////
+     4
+
+///////////////////////////////////////////////
+     5
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+///////////////////////////////////////////////
+     6
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+///////////////////////////////////////////////
+     7
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+///////////////////////////////////////////////
+     8
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_restartTest_2
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_restartTest_2
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.6500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   26.8000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+   40.2500
+
+///////////////////////////////////////////////
+     4
+
+   56.5500
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.7000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.1500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   29.8000
+
+///////////////////////////////////////////////
+     3
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+///////////////////////////////////////////////
+     1
+
+    33
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   49.9000
+
+///////////////////////////////////////////////
+     3
+
+   67.7500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     4
+
+   85.5500
+
+///////////////////////////////////////////////
+     5
+
+  102.4500
+
+<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\remApi.m',1514,1)">1514 </a>        end
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   11.2500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   28.3000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+   43.3500
+
+///////////////////////////////////////////////
+     4
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_restartTest_2
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+

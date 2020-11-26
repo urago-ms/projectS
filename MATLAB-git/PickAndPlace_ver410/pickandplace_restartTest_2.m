@@ -240,7 +240,7 @@ if (clientID>-1)
             
             
             
-            
+%             pause(10);
             % % % %             Read proximity sensor
             [res_sensor_handle, Proximity_sensor_handle] = sim.simxGetObjectHandle(clientID, 'Proximity_sensor', sim.simx_opmode_blocking);
             [res_read_sensor, detectionState, detectedPoint, detectedObjectHandle] = sim.simxReadProximitySensor(clientID, Proximity_sensor_handle, sim.simx_opmode_blocking);
@@ -580,6 +580,7 @@ if (clientID>-1)
         % % %         Do not StartSimulation on the last attempt
         if (rep_rate == rep*rep_overall)
         else
+            pause(1);
             [res_startSim] = sim.simxStartSimulation(clientID,sim.simx_opmode_blocking)
         end
         
