@@ -183259,3 +183259,4364 @@ res_startSim =
 
      0
 
+///////////////////////////////////////////////
+     1
+
+if system_dependent('IsDebugMode')==1, dbquit all; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   14.0500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   30.8500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   14.4000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   30.8000
+
+///////////////////////////////////////////////
+     3
+
+   43.2500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     4
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   14.2500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   31.2000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+   47.0500
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     4
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+{エラー: <a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\pickandplace_RRTTest.m',465,46)">ファイル:
+pickandplace_RRTTest.m 行:465
+列:46
+</a>式が無効です。関数の呼び出しまたは変数のイ
+ンデックス付けにはかっこを使用してくださ
+い。そうでない場合、区切り記号の不一致をチ
+ェックしてください。
+} 
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   14.7000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+   31.8000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+   48.7000
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+uiopen('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\random_research.m',1)
+uiopen('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\20201126OMPLtest.m',1)
+uiopen('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201126.m',1)
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   14.9000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1349
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1349
+
+   12.7000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1396
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1396
+
+   28.9000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1443
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1443
+
+   44.9500
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1504
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1504
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1505
+
+   14.7000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1551
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1551
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1552
+
+   31.1000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     3
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1598
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1598
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1599
+
+   46.8500
+
+///////////////////////////////////////////////
+     4
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1645
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1645
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1646
+
+   63.2000
+
+///////////////////////////////////////////////
+     5
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1692
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1692
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1693
+
+   79.6500
+
+///////////////////////////////////////////////
+     6
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1739
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1739
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1740
+
+   96.3500
+
+///////////////////////////////////////////////
+     7
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1786
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1786
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1787
+
+  113.6000
+
+///////////////////////////////////////////////
+     8
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1833
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1833
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1834
+
+  130.5000
+
+///////////////////////////////////////////////
+     9
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1880
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1880
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1881
+
+  146.4000
+
+///////////////////////////////////////////////
+    10
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1927
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1927
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1928
+
+  162.8000
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_RRTTest
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1988
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1988
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1989
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   1990
+
+   80.4000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     2
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2035
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2035
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2036
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2037
+
+  161.3500
+
+///////////////////////////////////////////////
+     3
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2082
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2082
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2083
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2084
+
+  242.7000
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+     4
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2129
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2129
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2130
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2131
+
+  323.5000
+
+///////////////////////////////////////////////
+     5
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2176
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2176
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2177
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2178
+
+  404.2000
+
+///////////////////////////////////////////////
+     6
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2223
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2223
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2224
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2225
+
+  485.1000
+
+///////////////////////////////////////////////
+     7
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2270
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2270
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2271
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2272
+
+  565.8500
+
+///////////////////////////////////////////////
+     8
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2317
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2317
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2318
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2319
+
+  648.1000
+
+///////////////////////////////////////////////
+     9
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2364
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2364
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2365
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2366
+
+  729.9000
+
+///////////////////////////////////////////////
+    10
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2411
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2411
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2412
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2413
+
+  813.4500
+
+///////////////////////////////////////////////
+    11
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2458
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2458
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2459
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2460
+
+  896.2500
+
+///////////////////////////////////////////////
+    12
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2505
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2505
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2506
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2507
+
+  978.7500
+
+///////////////////////////////////////////////
+    13
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2552
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2552
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2553
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2554
+
+  1.0613e+03
+
+///////////////////////////////////////////////
+    14
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2599
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2599
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2600
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2601
+
+  1.1446e+03
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+    15
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2646
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2646
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2647
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2648
+
+  1.2271e+03
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+    16
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2693
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2693
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2694
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2695
+
+  1.3104e+03
+
+///////////////////////////////////////////////
+    17
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2740
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2740
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2741
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2742
+
+  1.3938e+03
+
+///////////////////////////////////////////////
+    18
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2787
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2787
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2788
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2789
+
+  1.4778e+03
+
+///////////////////////////////////////////////
+    19
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2834
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2834
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2835
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2836
+
+  1.5606e+03
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+    20
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2881
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2881
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2882
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2883
+
+        1644
+
+///////////////////////////////////////////////
+    21
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2928
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2928
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2929
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2930
+
+  1.7275e+03
+
+///////////////////////////////////////////////
+    22
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2975
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2975
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2976
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   2977
+
+  1.8113e+03
+
+///////////////////////////////////////////////
+    23
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3022
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3022
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3023
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3024
+
+  1.8948e+03
+
+///////////////////////////////////////////////
+    24
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3069
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3069
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3070
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3071
+
+  1.9775e+03
+
+///////////////////////////////////////////////
+    25
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3116
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3116
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3117
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3118
+
+  2.0606e+03
+
+///////////////////////////////////////////////
+    26
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3163
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3163
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3164
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3165
+
+  2.1441e+03
+
+///////////////////////////////////////////////
+    27
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3210
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3210
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3211
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3212
+
+  2.2268e+03
+
+///////////////////////////////////////////////
+    28
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3257
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3257
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3258
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3259
+
+  2.3076e+03
+
+///////////////////////////////////////////////
+    29
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3304
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3304
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3305
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3306
+
+  2.3898e+03
+
+///////////////////////////////////////////////
+    30
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3351
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3351
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3352
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3353
+
+  2.4734e+03
+
+///////////////////////////////////////////////
+    31
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3398
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3398
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3399
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3400
+
+  2.5560e+03
+
+///////////////////////////////////////////////
+    32
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3445
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3445
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3446
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3447
+
+  2.6364e+03
+
+///////////////////////////////////////////////
+    33
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3492
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3492
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3493
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3494
+
+  2.7189e+03
+
+///////////////////////////////////////////////
+    34
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3539
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3539
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3540
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3541
+
+  2.8008e+03
+
+///////////////////////////////////////////////
+    35
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3586
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3586
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3587
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3588
+
+  2.8828e+03
+
+///////////////////////////////////////////////
+    36
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3633
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3633
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3634
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3635
+
+  2.9640e+03
+
+///////////////////////////////////////////////
+    37
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3680
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3680
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3681
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3682
+
+        3045
+
+///////////////////////////////////////////////
+    38
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3727
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3727
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3728
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3729
+
+  3.1256e+03
+
+///////////////////////////////////////////////
+    39
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3774
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3774
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3775
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3776
+
+  3.2072e+03
+
+///////////////////////////////////////////////
+    40
+
+
+rob_handle =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3821
+
+
+rob_handle_2 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3821
+
+
+rob_handle_3 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3822
+
+
+rob_handle_4 =
+
+  <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a>
+
+   3823
+
+  3.2875e+03
+
+///////////////////////////////////////////////
+     1
+
+{関数または変数 'tab_pos_2' が未定義
+です。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('OMPLtest20201126', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201126.m', 230)" style="font-weight:bold">OMPLtest20201126</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201126.m',230,0)">line
+230</a>)
+            [res_cube_gen_1,
+            retCubeHandle,
+            retFloats,
+            retStrings,
+            retBuffer] =
+            sim.simxCallScriptFunction(clientID,
+            ...
+} 
+OMPLtest20201126
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+{関数または変数 'tab_pos_2' が未定義
+です。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('OMPLtest20201126', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201126.m', 121)" style="font-weight:bold">OMPLtest20201126</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201126.m',121,0)">line
+121</a>)
+            [res_tab_setpos] =
+            sim.simxSetObjectPosition(clientID,
+            tab_handle, -1,
+            tab_pos_2,
+            sim.simx_opmode_oneshot);} 
+OMPLtest20201126
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.5000
+
+UPDATE min_exetime
+{関数または変数 'rob_pos_2' が未定義
+です。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('OMPLtest20201126', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201126.m', 635)" style="font-weight:bold">OMPLtest20201126</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201126.m',635,0)">line
+635</a>)
+                optim_robpos =
+                rob_pos_2;
+} 
+OMPLtest20201126
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   15.0500
+
+///////////////////////////////////////////////
+     2
+
+   42.5000
+
+///////////////////////////////////////////////
+     3
+
+if system_dependent('IsDebugMode')==1, dbquit all; end
+OMPLtest20201126
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+    14
+
+///////////////////////////////////////////////
+     2
+
+   25.2500
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201126
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+  579.5001
+
+///////////////////////////////////////////////
+     2
+
+  590.8000
+
+///////////////////////////////////////////////
+     3
+
+  601.3000
+
+///////////////////////////////////////////////
+     4
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201126
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   14.6500
+
+///////////////////////////////////////////////
+     2
+
+   31.0500
+
+///////////////////////////////////////////////
+     3
+
+   48.7500
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201126
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   14.9500
+
+///////////////////////////////////////////////
+     2
+
+    31
+
+///////////////////////////////////////////////
+     3
+
+   49.1000
+
+///////////////////////////////////////////////
+     4
+
+   64.6500
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201126
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   13.6500
+
+///////////////////////////////////////////////
+     2
+
+   32.2000
+
+<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\remApi.m',2108,1)">2108 </a>            outIntCnt_ = variousIntsOut(1);
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201126
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+    1.4500
+
+///////////////////////////////////////////////
+     2
+
+    4.1000
+
+///////////////////////////////////////////////
+     3
+
+    6.9000
+
+///////////////////////////////////////////////
+     4
+
+    9.6000
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201126
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+    1.5500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+    16     1   100   400    10
+
+  6 列から 7 列
+
+   300     2
+
+///////////////////////////////////////////////
+     2
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201126
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+    1.1000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     2
+
+    3.8000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     3
+
+    6.4500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201126
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+    1.5000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     2
+
+    4.6500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     3
+
+    7.7500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     4
+
+   11.1000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     5
+
+   14.3500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     6
+
+   17.6000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     7
+
+   20.4500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     8
+
+   23.2000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     9
+
+   26.4500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    10
+
+   29.5000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    11
+
+   32.5000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    12
+
+   35.6000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    13
+
+   38.7500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    14
+
+   41.9500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    15
+
+   45.2500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    16
+
+   48.5000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    17
+
+   51.8000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    18
+
+    55
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    19
+
+   58.2000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    20
+
+   61.3500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    21
+
+   64.7000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    22
+
+   67.9500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    23
+
+   71.1000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    24
+
+   74.3500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    25
+
+   76.9500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    26
+
+   80.1000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    27
+
+   83.1000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    28
+
+   86.1000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    29
+
+   89.1500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    30
+
+   91.9500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    31
+
+   94.6000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    32
+
+   97.6500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    33
+
+  100.6500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201126
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+    1.1500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     2
+
+    4.0500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     3
+
+    6.7000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     4
+
+    9.5000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     5
+
+    12
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     6
+
+   14.4500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     7
+
+   17.2000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     8
+
+   19.8000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     9
+
+   22.5500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    10
+
+   25.2500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    11
+
+   27.9500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    12
+
+   30.5000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    13
+
+   33.2000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    14
+
+   35.8500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    15
+
+   38.4000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    16
+
+   41.1000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    17
+
+   43.8500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    18
+
+   46.5000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    19
+
+   49.1000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    20
+
+   51.9500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    21
+
+   54.4000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    22
+
+   57.1500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    23
+
+   59.8000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    24
+
+   62.6000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    25
+
+   65.2500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    26
+
+   67.9500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    27
+
+   70.5500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    28
+
+   73.4500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    29
+
+   76.1500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    30
+
+   78.7000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    31
+
+   81.3500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    32
+
+   83.9000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    33
+
+   86.6500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    34
+
+   89.3000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    35
+
+   92.1000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    36
+
+   94.6000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    37
+
+   97.2500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    38
+
+   99.9500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    39
+
+  102.3500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    40
+
+  105.2500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     1
+
+    1.4500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     2
+
+    4.3000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     3
+
+     7
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     4
+
+    9.7000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     5
+
+   12.7000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     6
+
+   15.3500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     7
+
+   18.1500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     8
+
+   21.0500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     9
+
+   23.9500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    10
+
+   26.8000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    11
+
+   29.7500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    12
+
+   32.4000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    13
+
+   35.4000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    14
+
+   38.1500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    15
+
+   40.9500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    16
+
+   43.9000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    17
+
+   46.5000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    18
+
+   49.2000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    19
+
+   52.1000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    20
+
+   54.7500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    21
+
+   57.5500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    22
+
+   60.4500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    23
+
+   63.1500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    24
+
+   65.7500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    25
+
+   68.7000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    26
+
+   71.4000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    27
+
+   74.1000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    28
+
+   77.1000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    29
+
+   79.8000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    30
+
+   82.6500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    16     1   100   400    10   300     2
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201126
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+    1.4500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     2
+
+    4.7500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     3
+
+    8.1500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     4
+
+   11.6000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     5
+
+   14.9500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     6
+
+   18.2500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     7
+
+   21.8000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     8
+
+   25.2000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     9
+
+   28.7000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    10
+
+    32
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    11
+
+   35.4500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201126
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+    1.6000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     2
+
+    4.8500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     3
+
+    8.3500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     4
+
+   12.1500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     5
+
+   16.0500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     6
+
+   19.8000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     7
+
+   23.2500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     8
+
+    27
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     9
+
+   30.6000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201126
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+    1.4500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     2
+
+    5.1000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     3
+
+    8.8000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     4
+
+   12.3500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     5
+
+   16.0500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     6
+
+   19.8500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     7
+
+   23.6000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201126
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+    1.7500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     2
+
+    5.5000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     3
+
+    9.4000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     4
+
+   13.1000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201126
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+    1.2000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     2
+
+    5.1500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     3
+
+    8.8000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     4
+
+   12.5000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     5
+
+   16.4000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     6
+
+   20.4000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     7
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201126
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+    1.5000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     2
+
+    5.3000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     3
+
+    8.7500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     4
+
+   12.5000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     5
+
+   16.1000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     6
+
+   19.7500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     7
+
+   23.5500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     8
+
+   27.2500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     9
+
+   30.8000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201126
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+    1.5500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     2
+
+    5.4000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     3
+
+    9.0500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     4
+
+   12.7000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     5
+
+   16.4500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     6
+
+   20.1500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     7
+
+   23.8000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     8
+
+   27.4500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     9
+
+   31.2000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201126
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+    1.5500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     2
+
+    5.4000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     3
+
+    9.0500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     4
+
+   12.7500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     5
+
+   16.5000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     6
+
+   20.4000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     7
+
+   24.1000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     8
+
+   27.9000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     9
+
+   31.4500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    10
+
+   35.1000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    11
+
+   38.7000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+    12
+
+   42.3000
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201126
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+    1.6000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     2
+
+    5.4000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     3
+
+    9.2000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     4
+
+   12.9000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+

@@ -64,10 +64,10 @@ if (clientID>-1)
     % % %     Repetition overall
     for count_overall = 1:rep_overall
         
-        % % %             Genarate a conveyor
-        [res_con_genetate, con_handle] = sim.simxLoadModel(clientID,'customizable_conveyor_belt_03x1x05_fix_sensorPos.ttm', 0, sim.simx_opmode_blocking);
-        [res_con_setpos] = sim.simxSetObjectPosition(clientID, con_handle, -1, [0 0.5 0.45], sim.simx_opmode_oneshot);
-        [res_con_setorien] = sim.simxSetObjectOrientation(clientID, con_handle, -1, [0 0 -pi/2], sim.simx_opmode_oneshot);
+% % %         % % %             Genarate a conveyor
+% % %         [res_con_genetate, con_handle] = sim.simxLoadModel(clientID,'customizable_conveyor_belt_03x1x05_fix_sensorPos.ttm', 0, sim.simx_opmode_blocking);
+% % %         [res_con_setpos] = sim.simxSetObjectPosition(clientID, con_handle, -1, [0 0.5 0.45], sim.simx_opmode_oneshot);
+% % %         [res_con_setorien] = sim.simxSetObjectOrientation(clientID, con_handle, -1, [0 0 -pi/2], sim.simx_opmode_oneshot);
         
         
         
@@ -106,16 +106,20 @@ if (clientID>-1)
             disp(rep_rate);
             
             
-            [m_pos_random, p_pos_random, c_pos_random] = random_research();
-            rob_pos_2 = [m_pos_random(1), m_pos_random(2), 0.15];
-            tab_pos_2 = [p_pos_random(1), p_pos_random(2), 0.45];
+% % %             [m_pos_random, p_pos_random, c_pos_random] = random_research();
+% % %             rob_pos_2 = [m_pos_random(1), m_pos_random(2), 0.15];
+% % %             tab_pos_2 = [p_pos_random(1), p_pos_random(2), 0.45];
             
             
             
             % % % % %             Generate facilities using MATLAB functions % % % % %
             % % %             Genarate a table
-            [res_tab_genetate, tab_handle] = sim.simxLoadModel(clientID,'customizable_table_with_create_cube_func.ttm', 0, sim.simx_opmode_blocking);
-            [res_tab_setpos] = sim.simxSetObjectPosition(clientID, tab_handle, -1, tab_pos_2, sim.simx_opmode_oneshot);
+% % %             [res_tab_genetate, tab_handle] = sim.simxLoadModel(clientID,'customizable_table_with_create_cube_func.ttm', 0, sim.simx_opmode_blocking);
+% % %             [res_tab_setpos] = sim.simxSetObjectPosition(clientID, tab_handle, -1, tab_pos_2, sim.simx_opmode_oneshot);
+
+            [res_get_tab_handle, tab_handle] = sim.simxGetObjectHandle(clientID,'customizableTable', sim.simx_opmode_blocking);
+            [res_tab_getpos, tab_pos_2] = sim.simxGetObjectPosition(clientID, tab_handle, -1, sim.simx_opmode_oneshot);
+
             
             
             %
@@ -133,21 +137,13 @@ if (clientID>-1)
             
             
             
-            % % %             Genarate a robot
-            [res_rob_genetate, rob_handle] = sim.simxLoadModel(clientID,'motoman_HP3J_with_base_JointsLimit4.ttm', 0, sim.simx_opmode_blocking);
-            [res_rob_setpos] = sim.simxSetObjectPosition(clientID, rob_handle, -1, rob_pos_2, sim.simx_opmode_oneshot);
-            %         disp(rob_handle);
-%             [res_get_rob_handle_2, rob_handle_2] = sim.simxGetObjectHandle(clientID,'Cuboid', sim.simx_opmode_blocking);
-%             [res_get_rob_handle_2, rob_handle_3] = sim.simxGetObjectHandle(clientID,'base_link_respondable', sim.simx_opmode_blocking);
-%                         [res_get_rob_handle_2, rob_handle_4] = sim.simxGetObjectHandle(clientID,'1', sim.simx_opmode_blocking);
-% 
-% 
-%             rob_handle
-%             rob_handle_2
-%             rob_handle_3
-%             rob_handle_4
-%             pause(5);
+            [res_get_rob_handle, rob_handle] = sim.simxGetObjectHandle(clientID,'Cuboid', sim.simx_opmode_blocking);
 
+            
+            % % %             Genarate a robot
+% % %             [res_rob_genetate, rob_handle] = sim.simxLoadModel(clientID,'motoman_HP3J_with_base_JointsLimit4.ttm', 0, sim.simx_opmode_blocking);
+% % %             [res_rob_setpos] = sim.simxSetObjectPosition(clientID, rob_handle, -1, rob_pos_2, sim.simx_opmode_oneshot);
+            %         disp(rob_handle);
             
             % % %             Setting of target dummy (If generate only target dummy)
             target_dummy_pos = [0.25, 0, 0.4];
@@ -211,13 +207,13 @@ if (clientID>-1)
             % % % Read the coordinates(position) of each device.
             % % %   [number returnCode,array position]=simxGetObjectPosition(number clientID,number objectHandle,number relativeToObjectHandle,number operationMode)
             %             [res_rob_handle, rob_handle] = sim.simxGetObjectHandle(clientID,'base_link_respondable',sim.simx_opmode_blocking)
-            [res_rob_pos, rob_pos] = sim.simxGetObjectPosition(clientID, rob_handle, -1, sim.simx_opmode_streaming);
-            %         disp(rob_pos);
-            
-            [res_tab_pos, tab_pos] = sim.simxGetObjectPosition(clientID, tab_handle, -1, sim.simx_opmode_streaming);
-            
-            [res_con_pos, con_pos] = sim.simxGetObjectPosition(clientID, con_handle, -1, sim.simx_opmode_streaming);
-            
+% % %             [res_rob_pos, rob_pos] = sim.simxGetObjectPosition(clientID, rob_handle, -1, sim.simx_opmode_streaming);
+% % %             %         disp(rob_pos);
+% % %             
+% % %             [res_tab_pos, tab_pos] = sim.simxGetObjectPosition(clientID, tab_handle, -1, sim.simx_opmode_streaming);
+% % %             
+% % %             [res_con_pos, con_pos] = sim.simxGetObjectPosition(clientID, con_handle, -1, sim.simx_opmode_streaming);
+% % %             
             
             % % % % %             Generate Objects using CoppeliaSim functions % % % % %
             % % % %     create rectangular on conveyor
@@ -630,23 +626,23 @@ if (clientID>-1)
             %             simTime_array(count,1) = simTime;
             % % % %             disp(simTime_array);
             
-            % % % % %             Update Minimum exetime
-            if rep_rate == 1   %% if first time
-                disp('UPDATE min_exetime');
-                repetition_rate = rep_rate;
-                min_simTime = simTime;
-                optim_tabpos = tab_pos_2;
-                optim_robpos = rob_pos_2;
-                
-            elseif simTime < min_simTime
-                disp('UPDATE min_exetime');
-                repetition_rate = rep_rate;
-                min_simTime = simTime;
-                optim_tabpos = tab_pos_2;
-                optim_robpos = rob_pos_2;
-                
-            else
-            end
+% % %             % % % % %             Update Minimum exetime
+% % %             if rep_rate == 1   %% if first time
+% % %                 disp('UPDATE min_exetime');
+% % %                 repetition_rate = rep_rate;
+% % %                 min_simTime = simTime;
+% % %                 optim_tabpos = tab_pos_2;
+% % %                 optim_robpos = rob_pos_2;
+% % %                 
+% % %             elseif simTime < min_simTime
+% % %                 disp('UPDATE min_exetime');
+% % %                 repetition_rate = rep_rate;
+% % %                 min_simTime = simTime;
+% % %                 optim_tabpos = tab_pos_2;
+% % %                 optim_robpos = rob_pos_2;
+% % %                 
+% % %             else
+% % %             end
             
             % Timer stop
             % elapsedTime = toc
@@ -701,12 +697,12 @@ if (clientID>-1)
             %         %{
             
             
-            % % %         Remove dummy
-            [res_fpos3_DummyHandle_remove] = sim.simxRemoveObject(clientID, fpos3_DummyHandle, sim.simx_opmode_blocking);
-            [res_fpos4_DummyHandle_remove] = sim.simxRemoveObject(clientID, fpos4_DummyHandle, sim.simx_opmode_blocking);
-            [res_fpos5_DummyHandle_remove] = sim.simxRemoveObject(clientID, fpos5_DummyHandle, sim.simx_opmode_blocking);
-            [res_fpos6_DummyHandle_remove] = sim.simxRemoveObject(clientID, fpos6_DummyHandle, sim.simx_opmode_blocking);
-            
+% % %             % % %         Remove dummy
+% % %             [res_fpos3_DummyHandle_remove] = sim.simxRemoveObject(clientID, fpos3_DummyHandle, sim.simx_opmode_blocking);
+% % %             [res_fpos4_DummyHandle_remove] = sim.simxRemoveObject(clientID, fpos4_DummyHandle, sim.simx_opmode_blocking);
+% % %             [res_fpos5_DummyHandle_remove] = sim.simxRemoveObject(clientID, fpos5_DummyHandle, sim.simx_opmode_blocking);
+% % %             [res_fpos6_DummyHandle_remove] = sim.simxRemoveObject(clientID, fpos6_DummyHandle, sim.simx_opmode_blocking);
+% % %             
             
             
             % % % % %             % % %         Remove Path
@@ -717,21 +713,21 @@ if (clientID>-1)
             
             
             
-            % % %             Remove a TargetDummy
-            [res_targetdummy_remove] = sim.simxRemoveObject(clientID, TargetDummyHandle, sim.simx_opmode_blocking);
-            
-            % % %             Remove cubes
-            [res_cube0_remove] = sim.simxRemoveObject(clientID, cube0_handle, sim.simx_opmode_blocking);
-            [res_cube1_remove] = sim.simxRemoveObject(clientID, cube1_handle, sim.simx_opmode_blocking);
-            
-            
-            % % %             Remove model (Matlab function)  % % % % %
-            % % %             Remove a robot
-            [res_rob_remove] = sim.simxRemoveModel(clientID, rob_handle, sim.simx_opmode_blocking);
-            % % %             Remove a conveyor
-            %             [res_con_remove] = sim.simxRemoveModel(clientID, con_handle, sim.simx_opmode_blocking);
-            % % %             Remove a table
-            [res_con_remove] = sim.simxRemoveModel(clientID, tab_handle, sim.simx_opmode_blocking);
+% % %             % % %             Remove a TargetDummy
+% % %             [res_targetdummy_remove] = sim.simxRemoveObject(clientID, TargetDummyHandle, sim.simx_opmode_blocking);
+% % %             
+% % %             % % %             Remove cubes
+% % %             [res_cube0_remove] = sim.simxRemoveObject(clientID, cube0_handle, sim.simx_opmode_blocking);
+% % %             [res_cube1_remove] = sim.simxRemoveObject(clientID, cube1_handle, sim.simx_opmode_blocking);
+% % %             
+% % %             
+% % %             % % %             Remove model (Matlab function)  % % % % %
+% % %             % % %             Remove a robot
+% % %             [res_rob_remove] = sim.simxRemoveModel(clientID, rob_handle, sim.simx_opmode_blocking);
+% % %             % % %             Remove a conveyor
+% % %             %             [res_con_remove] = sim.simxRemoveModel(clientID, con_handle, sim.simx_opmode_blocking);
+% % %             % % %             Remove a table
+% % %             [res_con_remove] = sim.simxRemoveModel(clientID, tab_handle, sim.simx_opmode_blocking);
             %         %}
             
             % % %         Disable logging
@@ -746,12 +742,12 @@ if (clientID>-1)
             exeTime_T = toc(exeTime_tic);
             
             % % %         Save the relationship between "repetition rate" and "exeTime" to csv
-            exeTime_array(1, 1) = rep_rate;
-            exeTime_array(1, 2) = exeTime_T;
-            
-            fileID = fopen(exeTime_file_name_csv);
-            dlmwrite(exeTime_file_name_csv, exeTime_array,'-append');
-            fclose(fileID);
+% % %             exeTime_array(1, 1) = rep_rate;
+% % %             exeTime_array(1, 2) = exeTime_T;
+% % %             
+% % %             fileID = fopen(exeTime_file_name_csv);
+% % %             dlmwrite(exeTime_file_name_csv, exeTime_array,'-append');
+% % %             fclose(fileID);
             
             
             
@@ -760,34 +756,34 @@ if (clientID>-1)
         
         TimeToRestart_tic = tic;
         
-        % % % Restart simulation
-        [res_sim_stop] = sim.simxStopSimulation(clientID, sim.simx_opmode_blocking)
-        is_running = true;
-        
-        % Wait until the simulation is completely stopped
-        while is_running
-            [res_GetPing, ping_time] = sim.simxGetPingTime(clientID);
-            [res_GetInMes, server_state] = sim.simxGetInMessageInfo(clientID, sim.simx_headeroffset_server_state);
-            is_running = bitand(server_state,1);
-        end
-        %         pause(5);
-        
-        % % %         Do not StartSimulation on the last attempt
-        if (rep_rate == rep*rep_overall)
-        else
-            [res_startSim] = sim.simxStartSimulation(clientID,sim.simx_opmode_blocking)
-        end
-        
-        TimeToRestart_T = toc(TimeToRestart_tic);
-        
-        % % %         Save the relationship between "repetition rate" and "TimeToRestart" to csv
-        TimeToRestart_array(1, 1) = count_overall;
-        TimeToRestart_array(1, 2) = TimeToRestart_T;
-        
-        fileID = fopen(TimeToRestart_file_name_csv);
-        dlmwrite(TimeToRestart_file_name_csv, TimeToRestart_array,'-append');
-        fclose(fileID);
-        
+% % %         % % % Restart simulation
+% % %         [res_sim_stop] = sim.simxStopSimulation(clientID, sim.simx_opmode_blocking)
+% % %         is_running = true;
+% % %         
+% % %         % Wait until the simulation is completely stopped
+% % %         while is_running
+% % %             [res_GetPing, ping_time] = sim.simxGetPingTime(clientID);
+% % %             [res_GetInMes, server_state] = sim.simxGetInMessageInfo(clientID, sim.simx_headeroffset_server_state);
+% % %             is_running = bitand(server_state,1);
+% % %         end
+% % %         %         pause(5);
+% % %         
+% % %         % % %         Do not StartSimulation on the last attempt
+% % %         if (rep_rate == rep*rep_overall)
+% % %         else
+% % %             [res_startSim] = sim.simxStartSimulation(clientID,sim.simx_opmode_blocking)
+% % %         end
+% % %         
+% % %         TimeToRestart_T = toc(TimeToRestart_tic);
+% % %         
+% % %         % % %         Save the relationship between "repetition rate" and "TimeToRestart" to csv
+% % %         TimeToRestart_array(1, 1) = count_overall;
+% % %         TimeToRestart_array(1, 2) = TimeToRestart_T;
+% % %         
+% % %         fileID = fopen(TimeToRestart_file_name_csv);
+% % %         dlmwrite(TimeToRestart_file_name_csv, TimeToRestart_array,'-append');
+% % %         fclose(fileID);
+% % %         
         
         
     end            % % %     Repetition overall

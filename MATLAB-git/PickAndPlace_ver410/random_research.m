@@ -21,7 +21,7 @@ lim_x = 1000;  % space limit
 lim_y = 2000;  % space limit
 
 ml = 300; % manipulator base one side length
-pl = 400; % palette one side length
+pl = 500; % palette one side length
 
 link_1 = 260; % manipulator link1 length
 link_2 = 260; % manipulator link2 length
