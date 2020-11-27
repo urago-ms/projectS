@@ -187620,3 +187620,137 @@ inInts =
 
     99     1   100   400    10   300     2
 
+///////////////////////////////////////////////
+     5
+
+   16.6500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201126
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+    1.8000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+///////////////////////////////////////////////
+     2
+
+    5.7500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    99     1   100   400    10   300     2
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_restartTest_2
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+UPDATE min_simtime
+///////////////////////////////////////////////
+     2
+
+///////////////////////////////////////////////
+     3
+
+///////////////////////////////////////////////
+     4
+
+UPDATE min_simtime
+///////////////////////////////////////////////
+     5
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_restartTest_2
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+UPDATE min_simtime
+///////////////////////////////////////////////
+     2
+
+UPDATE min_simtime
+///////////////////////////////////////////////
+     3
+
+///////////////////////////////////////////////
+     4
+
+///////////////////////////////////////////////
+     5
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_restartTest_2
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+UPDATE min_simtime
+///////////////////////////////////////////////
+     2
+
+///////////////////////////////////////////////
+     3
+
+UPDATE min_simtime
+///////////////////////////////////////////////
+     4
+
+///////////////////////////////////////////////
+     5
+
+///////////////////////////////////////////////
+     6
+
