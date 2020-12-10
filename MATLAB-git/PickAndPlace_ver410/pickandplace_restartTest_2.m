@@ -414,7 +414,8 @@ if (clientID>-1)
                 '', ...
                 [], ...
                 sim.simx_opmode_blocking);
-            
+           
+            pause(5); 
             % % % %             disp(retFloats_time2);
             
             simTime = retFloats_time2 - retFloats_time;

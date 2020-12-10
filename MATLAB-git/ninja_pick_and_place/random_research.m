@@ -208,7 +208,7 @@ c_pos_random = [1/1000*c_pos_x, 1/1000*c_pos_y, 1/1000*c_pos_z];
 
 
 
-%{
+% %{
     if num_t == max_num_t    % Run only the first time
         % save Initial solution graph
         %         set(gca,'FontSize',15);
@@ -227,7 +227,7 @@ c_pos_random = [1/1000*c_pos_x, 1/1000*c_pos_y, 1/1000*c_pos_z];
         %         saveas(gcf,file_name)
         
     end
-%}
+% %}
 
 % % % %     num_t = num_t - 1;
 % % % %
@@ -254,16 +254,16 @@ sol_fig_path = strcat('C:\Users\mslab\github\projectS\MATLAB-git\ninja_pick_and_
 % saveas(gcf,file_name);
 
 
-%%%%% Save csv %%%%%%%%%%%%
-% time = datestr(date,'yyyymmdd_HHMMSS');
-% file_name_csv = strcat(time,'_');
-% file_name_csv = strcat(file_name_csv,id_num_st);
-% file_name_csv = strcat(file_name_csv,'_');
-% max_num_t_str = num2str(max_num_t);
+%%%% Save csv %%%%%%%%%%%%
+time = datestr(date,'yyyymmdd_HHMMSS');
+file_name_csv = strcat(time,'_');
+file_name_csv = strcat(file_name_csv,id_num_st);
+file_name_csv = strcat(file_name_csv,'_');
+max_num_t_str = num2str(max_num_t);
 
-% file_name_csv = strcat(file_name_csv,max_num_t_str);
-% file_name_csv = strcat(file_name_csv,'best_min_angle.csv');
-% csvwrite(file_name_csv,best_min_angle_array)
+file_name_csv = strcat(file_name_csv,max_num_t_str);
+file_name_csv = strcat(file_name_csv,'best_min_angle.csv');
+csvwrite(file_name_csv,best_min_angle_array)
 
 
 % % Annotation of graph
@@ -283,9 +283,9 @@ sol_fig_path = strcat('C:\Users\mslab\github\projectS\MATLAB-git\ninja_pick_and_
 
 
 % numnum = numnum - 1;
-% end
-%
+end
+
 % ave = rad2deg(sum / numnum_max)
 
-end
+% end
 
