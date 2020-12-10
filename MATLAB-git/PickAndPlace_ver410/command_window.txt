@@ -218383,3 +218383,86 @@ inInts =
 
     45     1   100   400    10   300     2
 
+///////////////////////////////////////////////
+     2
+
+   79.1500
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    45     1   100   400    10   300     2
+
+
+exeTime_pahtT =
+
+    3.0525
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    45     1   100   400    10   300     2
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201209_KUKA
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+   52.5000
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    45     1   100   400    10   300     1
+
+
+exeTime_pahtT =
+
+    2.0455
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    45     1   100   400    10   300     1
+
+///////////////////////////////////////////////
+     2
+
+   107
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    45     1   100   400    10   300     1
+
+
+exeTime_pahtT =
+
+    3.4787
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+    45     1   100   400    10   300     1
+

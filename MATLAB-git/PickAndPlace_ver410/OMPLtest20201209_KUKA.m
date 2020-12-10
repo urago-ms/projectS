@@ -500,7 +500,7 @@ if (clientID>-1)
             approachVector = [0,0,0.1];      % often a linear approach is required. This should also be part of the calculations when selecting an appropriate state for a given pose
             maxConfigsForDesiredPose = 10; % we will try to find 10 different states corresponding to the goal pose and order them according to distance from initial state
             maxTrialsForConfigSearch = 300;    % a parameter needed for finding appropriate goal states
-            searchCount = 2;       % how many times OMPL will run for a given task
+            searchCount = 1;       % how many times OMPL will run for a given task
             minConfigsForPathPlanningPath = 400;   % interpolation states for the OMPL path
             minConfigsForIkPath = 100; % interpolation states for the linear approach path
             collisionChecking = 1; % whether collision checking is on or off
