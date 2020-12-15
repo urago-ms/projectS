@@ -37,8 +37,6 @@ if (clientID>-1)
     % % %     An array to store the processing time per session (Matlab Time)
     time = datestr(datetime,'yyyymmdd_HHMMSS');
     exeTime_file_name_csv = strcat(time, 'exeTime_array.csv');
-        exeTime_file_name_csv = strcat('C:\Users\mslab\Desktop\PickAndPlace_ver410_csv\',exeTime_file_name_csv);
-
     
     exeTime_array_cap = ["Repetition rate", "exeTime[s]"];
     writematrix(exeTime_array_cap, exeTime_file_name_csv);
@@ -82,10 +80,10 @@ if (clientID>-1)
             
             
             % % %         Enable logging
-            %             diary command_window.txt;
+%             diary command_window.txt;
             disp("///////////////////////////////////////////////");
             
-            %             exeTime_tic = tic;
+%             exeTime_tic = tic;
             
             
             % % % % %         Display the number of repetitions in CoppeliaSim
@@ -110,8 +108,8 @@ if (clientID>-1)
             
             [m_pos_random, p_pos_random, c_pos_random] = random_research();
             rob_pos_2 = [m_pos_random(1), m_pos_random(2), 0.1];
-            %                         rob_pos_2 = [m_pos_random(1), m_pos_random(2), 0.15];
-            
+%                         rob_pos_2 = [m_pos_random(1), m_pos_random(2), 0.15];
+
             tab_pos_2 = [p_pos_random(1), p_pos_random(2), 0.75];
             
             
@@ -123,50 +121,50 @@ if (clientID>-1)
             %         disp(rob_handle);
             
             % % %             Setting of target dummy (If generate only target dummy)
-            %             target_dummy_pos = [0.25, 0, 0.4];
-            target_dummy_pos = [1, 0, 0.4];
-            
-            %             target_dummy_orien = [0, 0, -pi/2];
+%             target_dummy_pos = [0.25, 0, 0.4];
+                        target_dummy_pos = [1, 0, 0.4];
+
+%             target_dummy_orien = [0, 0, -pi/2];
             target_dummy_orien = [0, pi, 0];
-            
+
             target_dummy_PosOrien = [target_dummy_pos, target_dummy_orien];
             
-            % % % % %             [res_target_gen, TargetDummyHandle] = sim.simxCreateDummy(clientID, 0.03, [], sim.simx_opmode_blocking);
-            % % % % %             [res_target_setpos] = sim.simxSetObjectPosition(clientID, TargetDummyHandle, rob_handle, target_dummy_pos, sim.simx_opmode_oneshot);
-            % % % % %             [res_target_setorien] = sim.simxSetObjectOrientation(clientID, TargetDummyHandle, rob_handle, target_dummy_orien, sim.simx_opmode_oneshot);
-            % % % % %
-            % % % % %             %         getObjectPosition and getObjectOrientation must be executed twice to get the value, for unknown reasons
-            % % % % %             [res_idlePos, idlePos] = sim.simxGetObjectPosition(clientID, TargetDummyHandle, -1, sim.simx_opmode_blocking);
-            % % % % %             [res_idlePos, idleOrient] = sim.simxGetObjectOrientation(clientID, TargetDummyHandle, -1, sim.simx_opmode_blocking);
-            % % % % %             idlePosOrient = [idlePos, idleOrient];
+% % % % %             [res_target_gen, TargetDummyHandle] = sim.simxCreateDummy(clientID, 0.03, [], sim.simx_opmode_blocking);
+% % % % %             [res_target_setpos] = sim.simxSetObjectPosition(clientID, TargetDummyHandle, rob_handle, target_dummy_pos, sim.simx_opmode_oneshot);
+% % % % %             [res_target_setorien] = sim.simxSetObjectOrientation(clientID, TargetDummyHandle, rob_handle, target_dummy_orien, sim.simx_opmode_oneshot);
+% % % % %             
+% % % % %             %         getObjectPosition and getObjectOrientation must be executed twice to get the value, for unknown reasons
+% % % % %             [res_idlePos, idlePos] = sim.simxGetObjectPosition(clientID, TargetDummyHandle, -1, sim.simx_opmode_blocking);
+% % % % %             [res_idlePos, idleOrient] = sim.simxGetObjectOrientation(clientID, TargetDummyHandle, -1, sim.simx_opmode_blocking);
+% % % % %             idlePosOrient = [idlePos, idleOrient];
             
             
             %         disp(TargetDummyHandle);
             
             
-            % % % % %             % %     Set link dummy
-            % % % % %             [res_tip_dummy_handle, tip_dummy_handle] = sim.simxGetObjectHandle(clientID,'tip', sim.simx_opmode_blocking);
-            % % % % %             [res_set_link_dummy, retPath, retFloats, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
-            % % % % %                 'ResizableFloor_5_25', ...
-            % % % % %                 sim.sim_scripttype_childscript, ...
-            % % % % %                 'set_link_dummy', ...
-            % % % % %                 [tip_dummy_handle, TargetDummyHandle], ...
-            % % % % %                 [], ...
-            % % % % %                 '', ...
-            % % % % %                 [], ...
-            % % % % %                 sim.simx_opmode_blocking);
-            % % % % %
-            % % % % %             % %     create IK group
-            % % % % %             [res_create_IK, retPath, retFloats, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
-            % % % % %                 'ResizableFloor_5_25', ...
-            % % % % %                 sim.sim_scripttype_childscript, ...
-            % % % % %                 'create_IK_group', ...
-            % % % % %                 [], ...
-            % % % % %                 [], ...
-            % % % % %                 '', ...
-            % % % % %                 [], ...
-            % % % % %                 sim.simx_opmode_blocking);
-            % % % % %             pause(1);
+% % % % %             % %     Set link dummy
+% % % % %             [res_tip_dummy_handle, tip_dummy_handle] = sim.simxGetObjectHandle(clientID,'tip', sim.simx_opmode_blocking);
+% % % % %             [res_set_link_dummy, retPath, retFloats, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
+% % % % %                 'ResizableFloor_5_25', ...
+% % % % %                 sim.sim_scripttype_childscript, ...
+% % % % %                 'set_link_dummy', ...
+% % % % %                 [tip_dummy_handle, TargetDummyHandle], ...
+% % % % %                 [], ...
+% % % % %                 '', ...
+% % % % %                 [], ...
+% % % % %                 sim.simx_opmode_blocking);
+% % % % %             
+% % % % %             % %     create IK group
+% % % % %             [res_create_IK, retPath, retFloats, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
+% % % % %                 'ResizableFloor_5_25', ...
+% % % % %                 sim.sim_scripttype_childscript, ...
+% % % % %                 'create_IK_group', ...
+% % % % %                 [], ...
+% % % % %                 [], ...
+% % % % %                 '', ...
+% % % % %                 [], ...
+% % % % %                 sim.simx_opmode_blocking);
+% % % % %             pause(1);
             
             
             
@@ -226,8 +224,8 @@ if (clientID>-1)
             % let's define now the target positions needed
             fposition1 = [-0.36,    0.15,  0.75,    0,  0,  0];    % [x, y, z, alpha, beta, gamma] first position
             %         fposition2 = [0.2,    0,      0.9,    0,  0,  0];
-            fposition3 = [0, 0.62, 1,	0,	0,	0];    % above place position
-            fposition4 = [0, 0.62, 0.9,	0,	0,	0];   % place position
+            fposition3 = [0, 0.62, 1.5,	0,	0,	0];    % above place position
+            fposition4 = [0, 0.62, 0.85,	0,	0,	0];   % place position
             fposition5 = [tab_pos_2(1),	tab_pos_2(2),   1,    0,  0,  0];    % above pickup position
             %         fposition5 = [tab_pos_2(1),	tab_pos_2(2),   tab_pos_2(3)+0.1,    0,  0,  0];    % above pickup position
             fposition6 = [tab_pos_2(1),	tab_pos_2(2),   tab_pos_2(3)+0.13,    0,  0,  0];    % pickup position
@@ -239,27 +237,27 @@ if (clientID>-1)
             
             [res_fpos4_DummyHandle, fpos4_DummyHandle] = sim.simxCreateDummy(clientID, 0.03, [], sim.simx_opmode_blocking);
             [res_fpos4_setpos] = sim.simxSetObjectPosition(clientID, fpos4_DummyHandle, -1, [fposition4(1), fposition4(2), fposition4(3)], sim.simx_opmode_oneshot);
-            [res_fpos4_Dummy_setorien] = sim.simxSetObjectOrientation(clientID, fpos4_DummyHandle, rob_handle, target_dummy_orien, sim.simx_opmode_oneshot);
-            
+                        [res_fpos4_setpos] = sim.simxSetObjectPosition(clientID, fpos4_DummyHandle, -1, target_dummy_orien, sim.simx_opmode_oneshot);
+
             [res_fpos5_DummyHandle, fpos5_DummyHandle] = sim.simxCreateDummy(clientID, 0.03, [], sim.simx_opmode_blocking);
             [res_fpos5_setpos] = sim.simxSetObjectPosition(clientID, fpos5_DummyHandle, -1, [fposition5(1), fposition5(2), fposition5(3)], sim.simx_opmode_oneshot);
-            [res_fpos5_Dummy_setorien] = sim.simxSetObjectOrientation(clientID, fpos5_DummyHandle, rob_handle, target_dummy_orien, sim.simx_opmode_oneshot);
-            
+                        [res_fpos5_Dummy_setorien] = sim.simxSetObjectOrientation(clientID, fpos5_DummyHandle, rob_handle, target_dummy_orien, sim.simx_opmode_oneshot);
+
             [res_fpos6_DummyHandle, fpos6_DummyHandle] = sim.simxCreateDummy(clientID, 0.03, [], sim.simx_opmode_blocking);
             [res_fpos6_setpos] = sim.simxSetObjectPosition(clientID, fpos6_DummyHandle, -1, [fposition6(1), fposition6(2), fposition6(3)], sim.simx_opmode_oneshot);
-            [res_fpos6_Dummy_setorien] = sim.simxSetObjectOrientation(clientID, fpos6_DummyHandle, rob_handle, target_dummy_orien, sim.simx_opmode_oneshot);
+                        [res_fpos6_Dummy_setorien] = sim.simxSetObjectOrientation(clientID, fpos6_DummyHandle, rob_handle, target_dummy_orien, sim.simx_opmode_oneshot);
+
+             % % %         Rename Dummy
+                        [res_time retInts_time retFloats_time retStrings retBuffer] = sim.simxCallScriptFunction(clientID, ...
+                            'ResizableFloor_5_25', ...
+                            sim.sim_scripttype_childscript, ...
+                            'rename_object', ...
+                            [fpos3_DummyHandle, fpos4_DummyHandle, fpos5_DummyHandle, fpos6_DummyHandle],[], ...
+                            'fpos3_Dummy', ...
+                            [], ...
+                            sim.simx_opmode_blocking);
             
-            % % %         Rename Dummy
-            [res_time retInts_time retFloats_time retStrings retBuffer] = sim.simxCallScriptFunction(clientID, ...
-                'ResizableFloor_5_25', ...
-                sim.sim_scripttype_childscript, ...
-                'rename_object', ...
-                [fpos3_DummyHandle, fpos4_DummyHandle, fpos5_DummyHandle, fpos6_DummyHandle],[], ...
-                'fpos3_Dummy', ...
-                [], ...
-                sim.simx_opmode_blocking);
-            
-            %             pause(10);
+%             pause(10);
             % % % %             Read proximity sensor
             [res_sensor_handle, Proximity_sensor_handle] = sim.simxGetObjectHandle(clientID, 'Proximity_sensor', sim.simx_opmode_blocking);
             [res_read_sensor, detectionState, detectedPoint, detectedObjectHandle] = sim.simxReadProximitySensor(clientID, Proximity_sensor_handle, sim.simx_opmode_blocking);
@@ -310,7 +308,7 @@ if (clientID>-1)
                 [], ...
                 sim.simx_opmode_blocking);
             
-            %             disp(retFloats_time(1));
+%             disp(retFloats_time(1));
             
             
             
@@ -330,9 +328,9 @@ if (clientID>-1)
             
             %         [res_targetDummy_handle, targetDummy_handle] = sim.simxGetObjectHandle(clientID,'Dummy', sim.simx_opmode_blocking);
             
-            % % % % %             [res_idlePos, idlePos] = sim.simxGetObjectPosition(clientID, TargetDummyHandle, -1, sim.simx_opmode_blocking);
-            % % % % %             [res_idlePos, idleOrient] = sim.simxGetObjectOrientation(clientID, TargetDummyHandle, -1, sim.simx_opmode_blocking);
-            % % % % %             idlePosOrient = [idlePos, idleOrient];
+% % % % %             [res_idlePos, idlePos] = sim.simxGetObjectPosition(clientID, TargetDummyHandle, -1, sim.simx_opmode_blocking);
+% % % % %             [res_idlePos, idleOrient] = sim.simxGetObjectOrientation(clientID, TargetDummyHandle, -1, sim.simx_opmode_blocking);
+% % % % %             idlePosOrient = [idlePos, idleOrient];
             
             %                 [res_fpos5_DummyHandle, fpos5_DummyHandle] = sim.simxGetObjectHandle(clientID,'Dummy', sim.simx_opmode_blocking);
             
@@ -433,13 +431,13 @@ if (clientID>-1)
                 '', ...
                 [], ...
                 sim.simx_opmode_blocking);
-            
-            pause(3);
+           
+            pause(3); 
             % % % %             disp(retFloats_time2);
             
             simTime = retFloats_time2 - retFloats_time;
-            exeTime_T = toc(exeTime_tic);
-            
+                        exeTime_T = toc(exeTime_tic);
+
             
             % % %         Save the relationship between "repetition rate" and "simTime" to csv
             simTime_array(1, 1) = rep_rate;
@@ -543,8 +541,8 @@ if (clientID>-1)
             %}
             
             
-            % % % % %             % % %             Remove a TargetDummy
-            % % % % %             [res_targetdummy_remove] = sim.simxRemoveObject(clientID, TargetDummyHandle, sim.simx_opmode_blocking);
+% % % % %             % % %             Remove a TargetDummy
+% % % % %             [res_targetdummy_remove] = sim.simxRemoveObject(clientID, TargetDummyHandle, sim.simx_opmode_blocking);
             
             % % %             Remove cubes
             [res_cube0_remove] = sim.simxRemoveObject(clientID, cube0_handle, sim.simx_opmode_blocking);
@@ -561,7 +559,7 @@ if (clientID>-1)
             %         %}
             
             % % %         Disable logging
-            %             diary off
+%             diary off
             %         csvwrite('simTime_array.csv', simTime_array);
             
             % fileID = fopen('simTime_array.csv','w');
@@ -569,7 +567,7 @@ if (clientID>-1)
             % fprintf(fileID,'%6.2f %12.8f\n',A);
             % fclose(fileID);
             
-            %             exeTime_T = toc(exeTime_tic);
+%             exeTime_T = toc(exeTime_tic);
             
             % % %         Save the relationship between "repetition rate" and "exeTime" to csv
             exeTime_array(1, 1) = rep_rate;
@@ -596,7 +594,7 @@ if (clientID>-1)
             [res_GetInMes, server_state] = sim.simxGetInMessageInfo(clientID, sim.simx_headeroffset_server_state);
             is_running = bitand(server_state,1);
         end
-        %         pause(5);
+%         pause(5);
         
         % % %         Do not StartSimulation on the last attempt
         if (rep_rate == rep*rep_overall)
