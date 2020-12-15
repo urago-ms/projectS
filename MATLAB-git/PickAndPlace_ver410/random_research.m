@@ -17,19 +17,19 @@ orange = '[0.9300 0.4431 0.1804]';
 d_green = '[0.4660 0.6740 0.1880]';
 % d_green = [0.4660 0.6740 0.1880];
 
-lim_x = 1000;  % space limit
-lim_y = 2000;  % space limit
+lim_x = 2000;  % space limit
+lim_y = 4000;  % space limit
 
-ml = 300; % manipulator base one side length
+ml = 800; % manipulator base one side length
 pl = 500; % palette one side length
 
 link_1 = 260; % manipulator link1 length
 link_2 = 260; % manipulator link2 length
 
-cl_l = 1000;   % conveyor long side length
+cl_l = 2000;   % conveyor long side length
 cl_l_max = 1000;   % conveyor long side max length
 cl_l_min = 500;   % conveyor long side min length
-cl_s = 300;   % conveyor short side length
+cl_s = 600;   % conveyor short side length
 
 % m_pos = zeros(1,2); % manipulator position
 % p_pos = zeros(1,2); % palette position
@@ -79,8 +79,13 @@ out_pos = [0 1000];    %outlet position
 m_hand_pos = zeros(1,2); % manipulator hand position
 
 % m_min_range = sqrt(link_1^2 + link_2^2 - 2*link_1*link_2*cos(pi - j2_max)); % manipulator min range
-m_min_range = 188; % manipulator min range (radius)
-m_max_range = 495;  % Maximum manipulator range531 (radius)
+% % % % motoman HP3J
+% m_min_range = 188; % manipulator min range (radius)
+% m_max_range = 495;  % Maximum manipulator range531 (radius)
+
+m_min_range = 593; % manipulator min range (radius)
+m_max_range = 2051;  % Maximum manipulator range531 (radius)
+
 
 
 g_initial_theta_1 = 0;
