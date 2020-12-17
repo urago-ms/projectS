@@ -15381,3 +15381,3750 @@ UPDATE min_simtime
      4
 
 if system_dependent('IsDebugMode')==1, dbquit; end
+///////////////////////////////////////////////
+     1
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+    45     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+
+exeTime_pahtT =
+
+    4.2277
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+    45     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     2
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+    45     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     3
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+    45     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     4
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+    45     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     5
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+    45     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     6
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+    45     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     7
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+    45     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     8
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+    45     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_restartTest_2_kuka
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+     0     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+UPDATE min_simtime
+///////////////////////////////////////////////
+     2
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2038      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+UPDATE min_simtime
+///////////////////////////////////////////////
+     3
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2085      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+UPDATE min_simtime
+///////////////////////////////////////////////
+     4
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2132      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     5
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2179      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     6
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2226      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     7
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2273      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     8
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_restartTest_2_kuka
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+     0     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+UPDATE min_simtime
+///////////////////////////////////////////////
+     2
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2450      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+UPDATE min_simtime
+///////////////////////////////////////////////
+     3
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2497      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     4
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2544      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     5
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2591      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     6
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2638      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+UPDATE min_simtime
+///////////////////////////////////////////////
+     7
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2685      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     8
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2732      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+UPDATE min_simtime
+///////////////////////////////////////////////
+     9
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2779      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    10
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2826      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    11
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2873      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    12
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2920      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    13
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+pickandplace_restartTest_2_kuka
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+     0     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+UPDATE min_simtime
+///////////////////////////////////////////////
+     2
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+    34     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+UPDATE min_simtime
+///////////////////////////////////////////////
+     3
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+    81     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+UPDATE min_simtime
+///////////////////////////////////////////////
+     4
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   128     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     5
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+uiopen('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201209_ABB.m',1)
+OMPLtest20201209_ABB
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+{関数または変数 'Genarate' が未定義で
+す。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('OMPLtest20201209_ABB', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201209_ABB.m', 116)" style="font-weight:bold">OMPLtest20201209_ABB</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201209_ABB.m',116,0)">line
+116</a>)
+                        Genarate
+                        a table
+} 
+OMPLtest20201209_ABB
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   304     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     2
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   351     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     3
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   398     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     4
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   445     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     5
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   492     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     6
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   539     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     7
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   586     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     8
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   633     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201209_ABB
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   694     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     2
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   742     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     3
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   790     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     4
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   838     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     5
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201209_ABB
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   942     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     2
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   990     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     3
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   1038      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     4
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   1086      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201209_ABB
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   1148      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     2
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   1196      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     3
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   1244      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     4
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   1292      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     5
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   1340      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     6
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   1388      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     7
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   1436      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     8
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   1484      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     9
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   1532      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    10
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   1580      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    11
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   1628      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    12
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   1676      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    13
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   1724      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    14
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   1772      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    15
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   1820      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    16
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201209_ABB
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   1930      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     2
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   1978      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     3
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2026      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     4
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2074      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     5
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2122      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     6
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2170      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     7
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2218      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     8
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2266      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     9
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2314      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    10
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2362      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    11
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2410      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    12
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2458      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    13
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2506      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    14
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2554      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    15
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2602      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    16
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2650      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    17
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2698      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    18
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2746      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201209_ABB
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2808      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     2
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   2856      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201209_ABB
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+{関数または変数 'TargetDummyHandle'
+が未定義です。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('OMPLtest20201209_ABB', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201209_ABB.m', 208)" style="font-weight:bold">OMPLtest20201209_ABB</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201209_ABB.m',208,0)">line
+208</a>)
+            [res_idlePos,
+            idlePos] =
+            sim.simxGetObjectPosition(clientID,
+            TargetDummyHandle,
+            -1,
+            sim.simx_opmode_streaming);} 
+OMPLtest20201209_ABB
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+{関数または変数 'TargetDummyHandle'
+が未定義です。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('OMPLtest20201209_ABB', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201209_ABB.m', 451)" style="font-weight:bold">OMPLtest20201209_ABB</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201209_ABB.m',451,0)">line
+451</a>)
+            [res, retInts,
+            TargetDummyPose,
+            retStrings,
+            retBuffer] =
+            sim.simxCallScriptFunction(clientID,
+            ...
+} 
+OMPLtest20201209_ABB
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   3034      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+{関数または変数 'TargetDummyHandle'
+が未定義です。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('OMPLtest20201209_ABB', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201209_ABB.m', 968)" style="font-weight:bold">OMPLtest20201209_ABB</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201209_ABB.m',968,0)">line
+968</a>)
+            [res_targetdummy_remove]
+            =
+            sim.simxRemoveObject(clientID,
+            TargetDummyHandle,
+            sim.simx_opmode_blocking);} 
+OMPLtest20201209_ABB
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   3095      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     2
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   3142      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     3
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   3189      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     4
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   3236      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     5
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   3283      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     6
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   3330      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     7
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   3377      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     8
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   3424      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201209_ABB
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   3485      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     2
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   3532      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     3
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   3579      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     4
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   3626      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     5
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   3673      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     6
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   3720      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     7
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   3767      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     8
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   3814      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     9
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   3861      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    10
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   3908      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    11
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   3955      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    12
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   4002      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    13
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   4049      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    14
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   4096      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    15
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   4143      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    16
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   4190      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    17
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   4237      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    18
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   4284      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    19
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   4331      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    20
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   4378      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    21
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   4425      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    22
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   4472      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    23
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   4519      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    24
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   4566      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    25
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   4613      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    26
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   4660      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    27
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   4707      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    28
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   4754      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    29
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   4801      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    30
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   4848      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    31
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   4895      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    32
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   4942      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    33
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   4989      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    34
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   5036      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    35
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   5083      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    36
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   5130      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    37
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   5177      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    38
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   5224      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    39
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   5271      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    40
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   5318      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    41
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   5365      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    42
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   5412      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    43
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   5459      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    44
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   5506      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    45
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   5553      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201209_ABB
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   5614      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     2
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   5661      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     3
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   5708      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     4
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   5755      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     5
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   5802      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201209_ABB
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   5863      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     2
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   5910      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     3
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   5957      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     4
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   6004      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     5
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   6051      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     6
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   6098      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     7
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   6145      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     8
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   6192      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     9
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   6239      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    10
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   6286      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    11
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   6333      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    12
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   6380      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    13
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   6427      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    14
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   6474      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    15
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   6521      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    16
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   6568      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    17
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   6615      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    18
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   6662      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    19
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   6709      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    20
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   6756      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    21
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   6803      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    22
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   6850      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    23
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   6897      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    24
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   6944      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    25
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   6991      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+    26
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201209_ABB
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   7099      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     2
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   7146      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     3
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   7193      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     4
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   7240      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     5
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   7287      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     6
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   7334      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201209_ABB
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   7423      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     2
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   7470      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     3
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   7517      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     4
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   7564      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     5
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   7611      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     6
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   7658      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     7
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201209_ABB
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   7761      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     2
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   7808      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     3
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   7855      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+///////////////////////////////////////////////
+     4
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 4 列
+
+   7902      1    100    200
+
+  5 列から 7 列
+
+     10    300      1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201209_ABB
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+    74     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     2
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   121     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     3
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   168     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     4
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   215     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201209_ABB
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   276     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     2
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   323     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     3
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   370     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201209_ABB
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   459     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     2
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   506     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     3
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   553     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     4
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   600     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     5
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   647     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     6
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   694     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     7
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201209_ABB
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+{関数または変数 'rob_handle' が未定義
+です。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('OMPLtest20201209_ABB', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201209_ABB.m', 151)" style="font-weight:bold">OMPLtest20201209_ABB</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201209_ABB.m',151,0)">line
+151</a>)
+                [res_CreateCollec
+                retInts_CreateCollec
+                retFloats_CreateCollec
+                retStrings
+                retBuffer] =
+                sim.simxCallScriptFunction(clientID,
+                ...
+} 
+OMPLtest20201209_ABB
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+{関数または変数 'rob_handle' が未定義
+です。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('OMPLtest20201209_ABB', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201209_ABB.m', 323)" style="font-weight:bold">OMPLtest20201209_ABB</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201209_ABB.m',323,0)">line
+323</a>)
+            [res_fpos3_Dummy_setorien]
+            =
+            sim.simxSetObjectOrientation(clientID,
+            fpos3_DummyHandle,
+            rob_handle,
+            target_dummy_orien,
+            sim.simx_opmode_oneshot);} 
+OMPLtest20201209_ABB
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+{関数または変数 'rob_handle' が未定義
+です。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('OMPLtest20201209_ABB', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201209_ABB.m', 500)" style="font-weight:bold">OMPLtest20201209_ABB</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201209_ABB.m',500,0)">line
+500</a>)
+            [res, retInts,
+            robotInitialState,
+            retStrings,
+            retBuffer] =
+            sim.simxCallScriptFunction(clientID,
+            ...
+} 
+OMPLtest20201209_ABB
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+{関数または変数 'rob_handle' が未定義
+です。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('OMPLtest20201209_ABB', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201209_ABB.m', 527)" style="font-weight:bold">OMPLtest20201209_ABB</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201209_ABB.m',527,0)">line
+527</a>)
+            inInts = [rob_handle,
+            collisionChecking,
+            minConfigsForIkPath,
+            minConfigsForPathPlanningPath,
+            maxConfigsForDesiredPose,
+            maxTrialsForConfigSearch,
+            searchCount]
+} 
+uiopen('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201209_ABB_copy.m',1)
+OMPLtest20201209_ABB_copy
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   404     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     2
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+     0     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     3
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   944     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     4
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   944     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     5
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+   944     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     6
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201209_ABB_copy
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+     1
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+    19     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+
+exeTime_pahtT =
+
+    4.0946
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+    19     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     2
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+     0     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
+///////////////////////////////////////////////
+     3
+
+
+inInts =
+
+  1×7 の <a href="matlab:helpPopup int32" style="font-weight:bold">int32</a> 行ベクトル
+
+  1 列から 5 列
+
+    93     1   100   200    10
+
+  6 列から 7 列
+
+   300     1
+
