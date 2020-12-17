@@ -83,7 +83,7 @@ if (clientID>-1)
             diary command_window.txt;
             disp("///////////////////////////////////////////////");
             
-%             exeTime_tic = tic;
+            %             exeTime_tic = tic;
             
             
             % % % % %         Display the number of repetitions in CoppeliaSim
@@ -106,10 +106,15 @@ if (clientID>-1)
             disp(rep_rate);
             
             
-            [m_pos_random, p_pos_random, c_pos_random] = random_research();
-            rob_pos_2 = [m_pos_random(1), m_pos_random(2), 0.15];
-            tab_pos_2 = [p_pos_random(1), p_pos_random(2), 0.45];
-            
+        
+                [m_pos_random, p_pos_random, c_pos_random] = random_research();
+                rob_pos_2 = [m_pos_random(1), m_pos_random(2), 0.15];
+                tab_pos_2 = [p_pos_random(1), p_pos_random(2), 0.45];
+                
+                rob_pos_current = rob_pos_2;
+                tab_pos_current = tab_pos_2;
+                
+          
             
             
             % % % % %             Generate facilities using MATLAB functions % % % % %
@@ -240,7 +245,7 @@ if (clientID>-1)
             
             
             
-%             pause(10);
+            %             pause(10);
             % % % %             Read proximity sensor
             [res_sensor_handle, Proximity_sensor_handle] = sim.simxGetObjectHandle(clientID, 'Proximity_sensor', sim.simx_opmode_blocking);
             [res_read_sensor, detectionState, detectedPoint, detectedObjectHandle] = sim.simxReadProximitySensor(clientID, Proximity_sensor_handle, sim.simx_opmode_blocking);
@@ -291,7 +296,7 @@ if (clientID>-1)
                 [], ...
                 sim.simx_opmode_blocking);
             
-%             disp(retFloats_time(1));
+            %             disp(retFloats_time(1));
             
             
             
@@ -414,13 +419,13 @@ if (clientID>-1)
                 '', ...
                 [], ...
                 sim.simx_opmode_blocking);
-           
-            pause(5); 
+            
+            pause(5);
             % % % %             disp(retFloats_time2);
             
             simTime = retFloats_time2 - retFloats_time;
-                        exeTime_T = toc(exeTime_tic);
-
+            exeTime_T = toc(exeTime_tic);
+            
             
             % % %         Save the relationship between "repetition rate" and "simTime" to csv
             simTime_array(1, 1) = rep_rate;
@@ -550,7 +555,7 @@ if (clientID>-1)
             % fprintf(fileID,'%6.2f %12.8f\n',A);
             % fclose(fileID);
             
-%             exeTime_T = toc(exeTime_tic);
+            %             exeTime_T = toc(exeTime_tic);
             
             % % %         Save the relationship between "repetition rate" and "exeTime" to csv
             exeTime_array(1, 1) = rep_rate;
@@ -577,7 +582,7 @@ if (clientID>-1)
             [res_GetInMes, server_state] = sim.simxGetInMessageInfo(clientID, sim.simx_headeroffset_server_state);
             is_running = bitand(server_state,1);
         end
-%         pause(5);
+        %         pause(5);
         
         % % %         Do not StartSimulation on the last attempt
         if (rep_rate == rep*rep_overall)
