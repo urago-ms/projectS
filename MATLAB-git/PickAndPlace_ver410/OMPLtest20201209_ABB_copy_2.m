@@ -56,6 +56,8 @@ if (clientID>-1)
     writematrix(TimeToRestart_array_cap, TimeToRestart_file_name_csv);
     
     
+    rob_init_JointPos = [0, 0, 0, 0, 90, 0];
+    
     % % %     The number of iterations is "rep_overall x rep"
     rep_overall = 1;
     % % %     "rep times" units
@@ -151,6 +153,13 @@ if (clientID>-1)
             [res_rob_handle, rob_handle] = sim.simxGetObjectHandle(clientID,'Cuboid', sim.simx_opmode_blocking);
             [res_rob_setpos] = sim.simxSetObjectPosition(clientID, rob_handle, -1, rob_pos_2, sim.simx_opmode_oneshot);
             
+            % % %             Get rob joint handle
+            [res_J1_handle, J1_handle] = sim.simxGetObjectHandle(clientID,'1', sim.simx_opmode_blocking);
+            [res_J2_handle, J2_handle] = sim.simxGetObjectHandle(clientID,'2', sim.simx_opmode_blocking);
+            [res_J3_handle, J3_handle] = sim.simxGetObjectHandle(clientID,'3', sim.simx_opmode_blocking);
+            [res_J4_handle, J4_handle] = sim.simxGetObjectHandle(clientID,'4', sim.simx_opmode_blocking);
+            [res_J5_handle, J5_handle] = sim.simxGetObjectHandle(clientID,'5', sim.simx_opmode_blocking);
+            [res_J6_handle, J6_handle] = sim.simxGetObjectHandle(clientID,'6', sim.simx_opmode_blocking);
             
             
             
@@ -328,10 +337,10 @@ if (clientID>-1)
             fposition3 = [rectangular_pos(1), rectangular_pos(2), 1.2,	0,	0,	0];    % above place position
             fposition4 = [rectangular_pos(1), rectangular_pos(2), 1,	0,	0,	0];   % place position
             
-            fposition3 = [Psensor_pos(1)-0.3, Psensor_pos(2), 1.2,	0,	0,	0];    % above place position
-            fposition4 = [Psensor_pos(1)-0.3, Psensor_pos(2), 1,	0,	0,	0];   % place position
+            fposition3 = [Psensor_pos(1)-0.3, Psensor_pos(2), 0.98,	0,	0,	0];    % above place position
+            fposition4 = [Psensor_pos(1)-0.3, Psensor_pos(2), 0.9,	0,	0,	0];   % place position
             
-            fposition5 = [tab_pos_2(1),	tab_pos_2(2),   1.2,    0,  0,  0];    % above pickup position
+            fposition5 = [tab_pos_2(1),	tab_pos_2(2),   0.98,    0,  0,  0];    % above pickup position
             %         fposition5 = [tab_pos_2(1),	tab_pos_2(2),   tab_pos_2(3)+0.1,    0,  0,  0];    % above pickup position
             fposition6 = [tab_pos_2(1),	tab_pos_2(2),   tab_pos_2(3)+0.1,    0,  0,  0];    % pickup position
             
@@ -420,7 +429,7 @@ if (clientID>-1)
             % Timer start
             % tic
             % % %         Get simtime
-            [res_time retInts_time retFloats_time retStrings retBuffer] = sim.simxCallScriptFunction(clientID, ...
+            [res_time, retInts_time, retFloats_time, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
                 'ResizableFloor_5_25', ...
                 sim.sim_scripttype_childscript, ...
                 'get_simtime', ...
@@ -529,6 +538,7 @@ if (clientID>-1)
             % % % % %             approachVector = [0,0,1];      % often a linear approach is required. This should also be part of the calculations when selecting an appropriate state for a given pose
             approachVector = [0,0,0.1];      % often a linear approach is required. This should also be part of the calculations when selecting an appropriate state for a given pose
             approachVector_0 = [0,0,0];      % often a linear approach is required. This should also be part of the calculations when selecting an appropriate state for a given pose
+            approachVector_up = [0,0,-0.1];      % often a linear approach is required. This should also be part of the calculations when selecting an appropriate state for a given pose
             
             maxConfigsForDesiredPose = 10; % we will try to find 10 different states corresponding to the goal pose and order them according to distance from initial state
             maxTrialsForConfigSearch = 300;    % a parameter needed for finding appropriate goal states
@@ -543,7 +553,7 @@ if (clientID>-1)
             
             % % %          Do the path planning here (between a start state and a goal pose, including a linear approach phase):
             inInts = [rob_handle, collisionChecking, minConfigsForIkPath, minConfigsForPathPlanningPath, maxConfigsForDesiredPose, maxTrialsForConfigSearch, searchCount]
-            inFloats = horzcat(robotInitialState, fpos5_DummyPose, approachVector_0);
+            inFloats = horzcat(robotInitialState, fpos5_DummyPose, approachVector, approachVector_up);
             %             inFloats = horzcat(robotInitialState, target3Pose, target1Pose);
             
             %                         inFloats = horzcat(robotInitialState, TargetDummyPose);
@@ -639,7 +649,7 @@ if (clientID>-1)
                 approachVector2 = [0,0,-0.1];
                 
                 inInts = [rob_handle, collisionChecking, minConfigsForIkPath, minConfigsForPathPlanningPath, maxConfigsForDesiredPose, maxTrialsForConfigSearch, searchCount]
-                inFloats = horzcat(robotCurrentConfig, fpos6_DummyPose, approachVector_0);
+                inFloats = horzcat(robotCurrentConfig, fpos3_DummyPose, approachVector_0);
                 % inFloats = horzcat(robotCurrentConfig, target3Pose, target1Pose);
                 
                 
@@ -703,6 +713,17 @@ if (clientID>-1)
                         '', ...
                         [], ...
                         sim.simx_opmode_blocking);
+                    
+                    
+                    % % %             Remove path
+                    %                     [res retPath retFloats retStrings retBuffer] = sim.simxCallScriptFunction(clientID, ...
+                    %                         'remoteApiCommandServer', ...
+                    %                         sim.sim_scripttype_childscript, ...
+                    %                         'removeLine', ...
+                    %                         [line1Handle],[], ...
+                    %                         '', ...
+                    %                         [], ...
+                    %                         sim.simx_opmode_blocking);
                     
                 end
                 
@@ -865,7 +886,7 @@ if (clientID>-1)
             %         moveL (clientID, TargetDummyHandle, fposition3, 8);
             
             % % %         Get simtime
-            [res_time2 retInts_time2 retFloats_time2 retStrings retBuffer] = sim.simxCallScriptFunction(clientID, ...
+            [res_time2, retInts_time2, retFloats_time2, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
                 'ResizableFloor_5_25', ...
                 sim.sim_scripttype_childscript, ...
                 'get_simtime', ...
@@ -876,42 +897,42 @@ if (clientID>-1)
             
             % % % %             disp(retFloats_time2);
             
-            simTime = retFloats_time2 - retFloats_time;
+            simTime = retFloats_time2(1) - retFloats_time(1);
             %                         exeTime_T = toc(exeTime_tic);
             
             
-            % % %             % % %         Save the relationship between "repetition rate" and "simTime" to csv
-            % % %             simTime_array(1, 1) = rep_rate;
-            % % %             simTime_array(1, 2) = simTime;
-            % % %
-            % % %             %         writematrix(simTime_array_cap,'simTime_array.csv');
-            % % %             %         writematrix(simTime_array,'simTime_array.csv','WriteMode','append');
-            % % %
-            % % %             fileID = fopen(simTime_file_name_csv);
-            % % %             dlmwrite(simTime_file_name_csv, simTime_array,'-append');
-            % % %             fclose(fileID);
+            % % %         Save the relationship between "repetition rate" and "simTime" to csv
+            simTime_array(1, 1) = rep_rate;
+            simTime_array(1, 2) = simTime;
+            
+            %         writematrix(simTime_array_cap,'simTime_array.csv');
+            %         writematrix(simTime_array,'simTime_array.csv','WriteMode','append');
+            
+            fileID = fopen(simTime_file_name_csv);
+            dlmwrite(simTime_file_name_csv, simTime_array,'-append');
+            fclose(fileID);
             
             
-            %             simTime_array(count,1) = simTime;
+            simTime_array(count,1) = simTime;
             % % % %             disp(simTime_array);
             
-            % % %             % % % % %             Update Minimum exetime
-            % % %             if rep_rate == 1   %% if first time
-            % % %                 disp('UPDATE min_exetime');
-            % % %                 repetition_rate = rep_rate;
-            % % %                 min_simTime = simTime;
-            % % %                 optim_tabpos = tab_pos_2;
-            % % %                 optim_robpos = rob_pos_2;
-            % % %
-            % % %             elseif simTime < min_simTime
-            % % %                 disp('UPDATE min_exetime');
-            % % %                 repetition_rate = rep_rate;
-            % % %                 min_simTime = simTime;
-            % % %                 optim_tabpos = tab_pos_2;
-            % % %                 optim_robpos = rob_pos_2;
-            % % %
-            % % %             else
-            % % %             end
+            % % % % %             Update Minimum exetime
+            if rep_rate == 1   %% if first time
+                disp('UPDATE min_exetime');
+                repetition_rate = rep_rate;
+                min_simTime = simTime;
+                optim_tabpos = tab_pos_2;
+                optim_robpos = rob_pos_2;
+                
+            elseif simTime < min_simTime
+                disp('UPDATE min_exetime');
+                repetition_rate = rep_rate;
+                min_simTime = simTime;
+                optim_tabpos = tab_pos_2;
+                optim_robpos = rob_pos_2;
+                
+            else
+            end
             
             % Timer stop
             % elapsedTime = toc
@@ -921,11 +942,7 @@ if (clientID>-1)
         if(detectionState < 0)
             
         else
-            
-            % % %             Remove a cube
-            [res_cube0_remove] = sim.simxRemoveObject(clientID, cube0_handle, sim.simx_opmode_blocking);
-            [res_cube1_remove] = sim.simxRemoveObject(clientID, cube1_handle, sim.simx_opmode_blocking);
-            
+          
             % % % % %             Generate Objects using CoppeliaSim functions % % % % %
             % % % %     create rectangular on conveyor
             [res_cube_gen_0, retInts, retFloats, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
@@ -992,11 +1009,19 @@ if (clientID>-1)
             
             % % %             Remove model (Matlab function)  % % % % %
             % % %             Remove a robot
-%             [res_rob_remove] = sim.simxRemoveModel(clientID, rob_handle, sim.simx_opmode_blocking);
+            %             [res_rob_remove] = sim.simxRemoveModel(clientID, rob_handle, sim.simx_opmode_blocking);
             % % %             Remove a conveyor
             %             [res_con_remove] = sim.simxRemoveModel(clientID, con_handle, sim.simx_opmode_blocking);
             % % %             Remove a table
             [res_con_remove] = sim.simxRemoveModel(clientID, tab_handle, sim.simx_opmode_blocking);
+            
+            % % %             init robot joint position
+            [res_init_rob_J1_pos] = sim.simxSetJointPosition(clientID, J1_handle, rob_init_JointPos(1), sim.simx_opmode_oneshot);
+            [res_init_rob_J2_pos] = sim.simxSetJointPosition(clientID, J2_handle, rob_init_JointPos(2), sim.simx_opmode_oneshot);
+            [res_init_rob_J3_pos] = sim.simxSetJointPosition(clientID, J3_handle, rob_init_JointPos(3), sim.simx_opmode_oneshot);
+            [res_init_rob_J4_pos] = sim.simxSetJointPosition(clientID, J4_handle, rob_init_JointPos(4), sim.simx_opmode_oneshot);
+            [res_init_rob_J5_pos] = sim.simxSetJointPosition(clientID, J5_handle, rob_init_JointPos(5), sim.simx_opmode_oneshot);
+            [res_init_rob_J6_pos] = sim.simxSetJointPosition(clientID, J6_handle, rob_init_JointPos(6), sim.simx_opmode_oneshot);
             
             % % %         Disable logging
             diary off
@@ -1009,19 +1034,19 @@ if (clientID>-1)
             
             exeTime_T = toc(exeTime_tic);
             
-            % % %         Save the relationship between "repetition rate" and "exeTime" to csv
-            % % %             exeTime_array(1, 1) = rep_rate;
-            % % %             exeTime_array(1, 2) = exeTime_T;
-            % % %
-            % % %             fileID = fopen(exeTime_file_name_csv);
-            % % %             dlmwrite(exeTime_file_name_csv, exeTime_array,'-append');
-            % % %             fclose(fileID);
+            % % %                     Save the relationship between "repetition rate" and "exeTime" to csv
+            exeTime_array(1, 1) = rep_rate;
+            exeTime_array(1, 2) = exeTime_T;
+            
+            fileID = fopen(exeTime_file_name_csv);
+            dlmwrite(exeTime_file_name_csv, exeTime_array,'-append');
+            fclose(fileID);
             
             
             
         end        % % %     Repetition in "rep times" units
         
-        TimeToRestart_tic = tic;
+        %         TimeToRestart_tic = tic;
         
         % % %         % % % Restart simulation
         % % %         [res_sim_stop] = sim.simxStopSimulation(clientID, sim.simx_opmode_blocking)
@@ -1074,7 +1099,7 @@ if (clientID>-1)
     %     disp(simTime_array);
     
     % Timer stop[s]
-    elapsedTime = toc(tStart);
+    elapsedTime = toc(tStart)
     
     fprintf('elapsedTime(real time)[s] :%f\n', elapsedTime);
     
