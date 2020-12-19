@@ -5,7 +5,7 @@ function sol_draw(file_name, cl_s, cl_l, ml, pl, m_max_range, m_min_range, p_pos
 
 %%%%%%%%%%%%%%% Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Draw palette range %%%%%%%%%%%%%%%%%%%%%%%%%%
-axis([-2000 2000 -2000 2000])
+axis([-4000 4000 -4000 4000])
 pbaspect([1 1 1])
 
 % center
@@ -28,7 +28,7 @@ plot(x2,y,'red','LineWidth',1.5)
 
 
 % Draw conveyor range %%%%%%%%%%%%%%%%%%%%%%%%%%
-axis([-2000 2000 -2000 2000])
+axis([-4000 4000 -4000 4000])
 pbaspect([1 1 1])
 
 % center
@@ -54,7 +54,7 @@ plot(x2,y,'Color','green','LineWidth',1.5)
 
 
 % Draw manipulator range %%%%%%%%%%%%%%%%%%%%%%%%%%
-axis([-2000 2000 -2000 2000])
+axis([-4000 4000 -4000 4000])
 pbaspect([1 1 1])
 
 % center
