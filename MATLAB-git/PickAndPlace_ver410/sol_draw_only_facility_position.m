@@ -97,6 +97,7 @@ xlabel('x','FontSize',24)
 %     file_name = strcat(time,'_');
 %     file_name = strcat(file_name,id_num_st);
 %     file_name = strcat(file_name,'_InitialSol.pdf');
+
 saveas(gcf,file_name)
 
 end
