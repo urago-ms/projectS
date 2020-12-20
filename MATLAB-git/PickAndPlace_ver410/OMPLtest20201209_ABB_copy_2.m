@@ -59,9 +59,9 @@ if (clientID>-1)
     rob_init_JointPos = [0, 0, 0, 0, 90, 0];
     
     % % %     The number of iterations is "rep_overall x rep"
-    rep_overall = 1;
+    rep_overall = 1000;
     % % %     "rep times" units
-    rep = 1000;
+    rep = 5000;
     
     % % %     Repetition overall
     for count_overall = 1:rep_overall
