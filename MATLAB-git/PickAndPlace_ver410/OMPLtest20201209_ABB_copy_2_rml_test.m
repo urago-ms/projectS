@@ -82,7 +82,7 @@ if (clientID>-1)
             
             
             % % %         Enable logging
-            diary command_window.txt;
+%             diary command_window.txt;
             disp("///////////////////////////////////////////////");
             
             exeTime_tic = tic;
@@ -556,6 +556,7 @@ if (clientID>-1)
             
                       
             pause(10)
+
 %                 % % %              Wait until the end of the movement:
 %                 runningPath = true;
 %                 while runningPath
@@ -716,7 +717,7 @@ if (clientID>-1)
             [res_init_rob_J6_pos] = sim.simxSetJointPosition(clientID, J6_handle, rob_init_JointPos(6), sim.simx_opmode_oneshot);
             
             % % %         Disable logging
-            diary off
+%             diary off
             %         csvwrite('simTime_array.csv', simTime_array);
             
             % fileID = fopen('simTime_array.csv','w');
