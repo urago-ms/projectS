@@ -1,5 +1,5 @@
-%%%%%%%%%% plot all results%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%clear
+function [pos_local] = neighborhood_coordinates(pos_current, neighbour_step)
+
 
 %rng(0,'twister');   % randam number initialization
 rng('shuffle','twister');
@@ -69,8 +69,8 @@ m_min_range = sqrt(link_1^2 + link_2^2 - 2*link_1*link_2*cos(pi - j2_max)); % ma
 g_initial_theta_1 = 0;
 
 
-neighbour_step = 50;
-neighbour_step_small = 5;
+% neighbour_step = 50;
+% neighbour_step_small = 5;
 
 search_range = 9;
 
@@ -185,16 +185,17 @@ end
 % Delete all figure
 % close
 
-gomi = 'tttttttttttttttttttttttttttttttttttttttt'
-m_pos_x
-m_pos_y
+% gomi = 'tttttttttttttttttttttttttttttttttttttttt'
+% m_pos_x
+% m_pos_y
+% 
+% 
+% time = datestr(date,'yyyymmdd_HHMMSS');
+% file_name = strcat(time,'_');
+% file_name = strcat(file_name,id_num_st);
+% file_name = strcat(file_name,'_InitialSol.png');
 
-
-time = datestr(date,'yyyymmdd_HHMMSS');
-file_name = strcat(time,'_');
-file_name = strcat(file_name,id_num_st);
-file_name = strcat(file_name,'_InitialSol.png');
-
+%{
 % sol_draw_3(file_name, cl_s, cl_l, ml, pl, link_1, link_2, m_min_range, p_pos_x, p_pos_y, m_pos_x, m_pos_y, c_pos_x, c_pos_y)
 % 
 % %%%%%%%%%%%%%%% Current Position IK %%%%%%%%%%%%%%%%%%%%%%
@@ -541,6 +542,8 @@ file_name = strcat(file_name,'_InitialPosture.png');
 saveas(gcf,file_name)
 %     end
 
+%}
+
 
 %     num_t = num_t - 1;
 
@@ -637,6 +640,7 @@ while 1
             
             if constraint_flag == 0
                 
+                %{
                 %%%%%%%%%%%%%%% Current Position IK %%%%%%%%%%%%%%%%%%%%%%
                 %%%%% Inverse kinematics Solution 1 %%%%%%%%%%%%
                 cos_alpha = (-((p_pos_x - m_pos_x)^2 + (p_pos_y - m_pos_y)^2) + link_1^2 + link_2^2) / (2*link_1*link_2);    % () of (2*link_1*link_2) is necessary
@@ -784,11 +788,13 @@ while 1
                 max_8 = max(from_2_to_2_b);
                 
                 min_angle = min([max_1 max_2 max_3 max_4 max_5 max_6 max_7 max_8]);
+                %}
+                
                 
                 
                 %%%%% Objective Function of 9 Neighbourhood (Min-Max) %%%%%%%%%%%%
                 neighbour_num = max_side_length_y + 1 - side_length_y + (3*(max_side_length_x - side_length_x));
-                o_function(neighbour_num,1) = min_angle;
+%                 o_function(neighbour_num,1) = min_angle;
                 
                 %%%%% Manipulator Position of 9 Neighbourhood %%%%%%%%%%%%
                 %             neighbour_p_pos(neighbour_num,1) = p_pos_x;
@@ -798,10 +804,10 @@ while 1
                 neighbour_m_pos(neighbour_num,2) = m_pos_y;
                 
                 
-                time = datestr(date,'yyyymmdd_HHMMSS');
-                file_name = strcat(time,'_');
-                file_name = strcat(file_name,id_num_st);
-                file_name = strcat(file_name,'_InitialSol_mani_neighbour.png');
+%                 time = datestr(date,'yyyymmdd_HHMMSS');
+%                 file_name = strcat(time,'_');
+%                 file_name = strcat(file_name,id_num_st);
+%                 file_name = strcat(file_name,'_InitialSol_mani_neighbour.png');
                 
                 %                 sol_draw_3(file_name, cl_s, cl_l, ml, pl, link_1, link_2, m_min_range, p_pos_x, p_pos_y, m_pos_x, m_pos_y, c_pos_x, c_pos_y)
                 
@@ -810,7 +816,7 @@ while 1
                 
                 %%%%% Objective Function of 9 Neighbourhood (Min-Max) %%%%%%%%%%%%
                 neighbour_num = max_side_length_y + 1 - side_length_y + (3*(max_side_length_x - side_length_x));
-                o_function(neighbour_num,1) = 9999;
+%                 o_function(neighbour_num,1) = 9999;
                 
                 %%%%% Manipulator Position of 9 Neighbourhood %%%%%%%%%%%%
                 %             neighbour_p_pos(neighbour_num,1) = 9999;
@@ -869,6 +875,8 @@ while 1
             
             close
             
+            %{
+           
             %%%%%%%%%%%%%%% Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
             % Draw palette range %%%%%%%%%%%%%%%%%%%%%%%%%%
             axis([-2000 2000 -2000 2000])
@@ -1282,6 +1290,7 @@ while 1
             else
                 best_angle_axis = 'J1';
             end
+            %}
             
             % Timer stop
             % elapsedTime = toc
@@ -1297,19 +1306,19 @@ while 1
             %             str = {strcat('J1 axis:',j1_direction),strcat('J2 axis:',j2_direction),strcat(best_angle_axis),strcat(round_best_min_angle,'[deg]'),strcat(elapsedTime_str,'[sec]')};
             %             annotation('textbox',dim,'FontSize',15,'String',str,'FitBoxToText','on')
             
-            % save Solution graph
-            set(gca,'FontSize',15);
-            ylabel('y','FontSize',24)
-            xlabel('x','FontSize',24)
-            
-            halfway_count_str = num2str(halfway_count);
-            time = datestr(date,'yyyymmdd_HHMMSS');
-            file_name = strcat(time,'_');
-            file_name = strcat(file_name,id_num_st);
-            file_name = strcat(file_name,'_');
-            file_name = strcat(file_name,halfway_count_str);
-            file_name = strcat(file_name,'_mani_halfway_Sol.png');
-            saveas(gcf,file_name)
+%             % save Solution graph
+%             set(gca,'FontSize',15);
+%             ylabel('y','FontSize',24)
+%             xlabel('x','FontSize',24)
+%             
+%             halfway_count_str = num2str(halfway_count);
+%             time = datestr(date,'yyyymmdd_HHMMSS');
+%             file_name = strcat(time,'_');
+%             file_name = strcat(file_name,id_num_st);
+%             file_name = strcat(file_name,'_');
+%             file_name = strcat(file_name,halfway_count_str);
+%             file_name = strcat(file_name,'_mani_halfway_Sol.png');
+%             saveas(gcf,file_name)
             
             
             
@@ -1452,6 +1461,7 @@ while 1
             
             
             if constraint_flag == 0
+                %{
                 %%%%%%%%%%%%%%% Current Position IK %%%%%%%%%%%%%%%%%%%%%%
                 %%%%% Inverse kinematics Solution 1 %%%%%%%%%%%%
                 cos_alpha = (-((p_pos_x - optimized_m_pos_x)^2 + (p_pos_y - optimized_m_pos_y)^2) + link_1^2 + link_2^2) / (2*link_1*link_2);    % () of (2*link_1*link_2) is necessary
@@ -1605,6 +1615,8 @@ while 1
                 neighbour_num = max_side_length_y + 1 - side_length_y + (3*(max_side_length_x - side_length_x));
                 o_function(neighbour_num,1) = min_angle;
                 
+                %}
+                
                 %%%%% Manipulator Position of 9 Neighbourhood %%%%%%%%%%%%
                 %             neighbour_p_pos(neighbour_num,1) = p_pos_x;
                 %             neighbour_p_pos(neighbour_num,2) = p_pos_y;
@@ -1692,7 +1704,7 @@ while 1
             
             
             close
-            
+            %{
             %%%%%%%%%%%%%%% Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
             % Draw palette range %%%%%%%%%%%%%%%%%%%%%%%%%%
             axis([-2000 2000 -2000 2000])
@@ -2135,7 +2147,7 @@ while 1
             file_name = strcat(file_name,'_palette_halfway_Sol.png');
             saveas(gcf,file_name)
             
-            
+            %}
             
             
             
@@ -2186,6 +2198,7 @@ elapsedTime = toc;
 
 
 close
+%{
 
 %%%%%%%%%%%%%%% Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Draw palette range %%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -2625,4 +2638,4 @@ file_name = strcat(time,'_');
 file_name = strcat(file_name,id_num_st);
 file_name = strcat(file_name,'_Sol.png');
 saveas(gcf,file_name)
-
+%}

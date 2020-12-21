@@ -95,6 +95,8 @@ if (clientID>-1)
                 rep_rate = (count_overall - 1)*rep + count;
             end
             
+
+            
             [res_print_repetition_rate, retPath, retFloats, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
                 'ResizableFloor_5_25', ...
                 sim.sim_scripttype_childscript, ...
@@ -285,7 +287,7 @@ if (clientID>-1)
             
             % % % % %             Generate Objects using CoppeliaSim functions % % % % %
             
-            [res_con_getpos, con_pos] = sim.simxGetObjectPosition(clientID, con_handle, -1, sim.simx_opmode_blocking)
+            [res_con_getpos, con_pos] = sim.simxGetObjectPosition(clientID, con_handle, -1, sim.simx_opmode_blocking);
             % % % %     create rectangular on conveyor
             [res_cube_gen_0, retRectangularHandle, retFloats, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
                 'ResizableFloor_5_25', ...
@@ -301,7 +303,7 @@ if (clientID>-1)
             % % % %         disp(res_cube_gen_0);
             
             
-            [res_tab_getpos, tab_pos_2] = sim.simxGetObjectPosition(clientID, tab_handle, -1, sim.simx_opmode_blocking)
+            [res_tab_getpos, tab_pos_2] = sim.simxGetObjectPosition(clientID, tab_handle, -1, sim.simx_opmode_blocking);
             % % % %     create cube on table
             [res_cube_gen_1, retCubeHandle, retFloats, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
                 'ResizableFloor_5_25', ...
@@ -552,7 +554,7 @@ if (clientID>-1)
             pathTime_tic = tic;
             
             % % %          Do the path planning here (between a start state and a goal pose, including a linear approach phase):
-            inInts = [rob_handle, collisionChecking, minConfigsForIkPath, minConfigsForPathPlanningPath, maxConfigsForDesiredPose, maxTrialsForConfigSearch, searchCount]
+            inInts = [rob_handle, collisionChecking, minConfigsForIkPath, minConfigsForPathPlanningPath, maxConfigsForDesiredPose, maxTrialsForConfigSearch, searchCount];
             inFloats = horzcat(robotInitialState, fpos5_DummyPose, approachVector, approachVector_up);
             %             inFloats = horzcat(robotInitialState, target3Pose, target1Pose);
             
@@ -598,7 +600,8 @@ if (clientID>-1)
                     [], ...
                     sim.simx_opmode_oneshot_wait);
                 
-                exeTime_pahtT = toc(pathTime_tic)
+                rep_rate
+                exeTime_pathT = toc(pathTime_tic)
                 
                 
                 % % %              Wait until the end of the movement:
@@ -648,7 +651,7 @@ if (clientID>-1)
                 % % %          Do the path planning here (between a start state and a goal pose, including a linear approach phase):
                 approachVector2 = [0,0,-0.1];
                 
-                inInts = [rob_handle, collisionChecking, minConfigsForIkPath, minConfigsForPathPlanningPath, maxConfigsForDesiredPose, maxTrialsForConfigSearch, searchCount]
+                inInts = [rob_handle, collisionChecking, minConfigsForIkPath, minConfigsForPathPlanningPath, maxConfigsForDesiredPose, maxTrialsForConfigSearch, searchCount];
                 inFloats = horzcat(robotCurrentConfig, fpos3_DummyPose, approachVector_0);
                 % inFloats = horzcat(robotCurrentConfig, target3Pose, target1Pose);
                 
