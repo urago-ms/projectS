@@ -337,10 +337,10 @@ if (clientID>-1)
             fposition3 = [rectangular_pos(1), rectangular_pos(2), 1.2,	0,	0,	0];    % above place position
             fposition4 = [rectangular_pos(1), rectangular_pos(2), 1,	0,	0,	0];   % place position
             
-            fposition3 = [Psensor_pos(1)-0.3, Psensor_pos(2), 1,	0,	0,	0];    % above place position
+            fposition3 = [Psensor_pos(1)-0.3, Psensor_pos(2), 0.98,	0,	0,	0];    % above place position
             fposition4 = [Psensor_pos(1)-0.3, Psensor_pos(2), 0.9,	0,	0,	0];   % place position
             
-            fposition5 = [tab_pos_2(1),	tab_pos_2(2),   1,    0,  0,  0];    % above pickup position
+            fposition5 = [tab_pos_2(1),	tab_pos_2(2),   0.98,    0,  0,  0];    % above pickup position
             %         fposition5 = [tab_pos_2(1),	tab_pos_2(2),   tab_pos_2(3)+0.1,    0,  0,  0];    % above pickup position
             fposition6 = [tab_pos_2(1),	tab_pos_2(2),   tab_pos_2(3)+0.1,    0,  0,  0];    % pickup position
             
@@ -921,7 +921,7 @@ if (clientID>-1)
             fclose(fileID);
             
             
-            simTime_array(count,1) = simTime;
+% % %             simTime_array(count,1) = simTime;
             % % % %             disp(simTime_array);
             
             % % % % %             Update Minimum exetime

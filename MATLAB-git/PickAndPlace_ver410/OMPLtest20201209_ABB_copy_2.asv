@@ -59,9 +59,9 @@ if (clientID>-1)
     rob_init_JointPos = [0, 0, 0, 0, 90, 0];
     
     % % %     The number of iterations is "rep_overall x rep"
-    rep_overall = 1;
+    rep_overall = 1000;
     % % %     "rep times" units
-    rep = 1000;
+    rep = 5000;
     
     % % %     Repetition overall
     for count_overall = 1:rep_overall
@@ -340,7 +340,7 @@ if (clientID>-1)
             fposition3 = [Psensor_pos(1)-0.3, Psensor_pos(2), 0.98,	0,	0,	0];    % above place position
             fposition4 = [Psensor_pos(1)-0.3, Psensor_pos(2), 0.9,	0,	0,	0];   % place position
             
-            fposition5 = [tab_pos_2(1),	tab_pos_2(2),   0.98,    0,  0,  0];    % above pickup position
+            fposition5 = [tab_pos_2(1),	tab_pos_2(2),   0.99,    0,  0,  0];    % above pickup position
             %         fposition5 = [tab_pos_2(1),	tab_pos_2(2),   tab_pos_2(3)+0.1,    0,  0,  0];    % above pickup position
             fposition6 = [tab_pos_2(1),	tab_pos_2(2),   tab_pos_2(3)+0.1,    0,  0,  0];    % pickup position
             
@@ -429,7 +429,7 @@ if (clientID>-1)
             % Timer start
             % tic
             % % %         Get simtime
-            [res_time retInts_time retFloats_time retStrings retBuffer] = sim.simxCallScriptFunction(clientID, ...
+            [res_time, retInts_time, retFloats_time, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
                 'ResizableFloor_5_25', ...
                 sim.sim_scripttype_childscript, ...
                 'get_simtime', ...
@@ -674,7 +674,7 @@ if (clientID>-1)
                         [], ...
                         sim.simx_opmode_oneshot_wait);
                     
-                    line1Handle = retInts(1);
+                    line2Handle = retInts(1);
                     
                     % % %          Make the robot follow the path:
                     [res, retInts, retFloats, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
@@ -715,12 +715,20 @@ if (clientID>-1)
                         sim.simx_opmode_blocking);
                     
                     
-                         % % %             Remove path
+                    % % %             Remove path
                     [res retPath retFloats retStrings retBuffer] = sim.simxCallScriptFunction(clientID, ...
                         'remoteApiCommandServer', ...
                         sim.sim_scripttype_childscript, ...
                         'removeLine', ...
                         [line1Handle],[], ...
+                        '', ...
+                        [], ...
+                        sim.simx_opmode_blocking);
+                    [res retPath retFloats retStrings retBuffer] = sim.simxCallScriptFunction(clientID, ...
+                        'remoteApiCommandServer', ...
+                        sim.sim_scripttype_childscript, ...
+                        'removeLine', ...
+                        [line2Handle],[], ...
                         '', ...
                         [], ...
                         sim.simx_opmode_blocking);
@@ -886,7 +894,7 @@ if (clientID>-1)
             %         moveL (clientID, TargetDummyHandle, fposition3, 8);
             
             % % %         Get simtime
-            [res_time2 retInts_time2 retFloats_time2 retStrings retBuffer] = sim.simxCallScriptFunction(clientID, ...
+            [res_time2, retInts_time2, retFloats_time2, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
                 'ResizableFloor_5_25', ...
                 sim.sim_scripttype_childscript, ...
                 'get_simtime', ...
@@ -897,42 +905,42 @@ if (clientID>-1)
             
             % % % %             disp(retFloats_time2);
             
-            simTime = retFloats_time2 - retFloats_time;
+            simTime = retFloats_time2(1) - retFloats_time(1);
             %                         exeTime_T = toc(exeTime_tic);
             
             
-                        % % %         Save the relationship between "repetition rate" and "simTime" to csv
-                        simTime_array(1, 1) = rep_rate;
-                        simTime_array(1, 2) = simTime;
+            % % %         Save the relationship between "repetition rate" and "simTime" to csv
+            simTime_array(1, 1) = rep_rate;
+            simTime_array(1, 2) = simTime;
             
-                        %         writematrix(simTime_array_cap,'simTime_array.csv');
-                        %         writematrix(simTime_array,'simTime_array.csv','WriteMode','append');
+            %         writematrix(simTime_array_cap,'simTime_array.csv');
+            %         writematrix(simTime_array,'simTime_array.csv','WriteMode','append');
             
-                        fileID = fopen(simTime_file_name_csv);
-                        dlmwrite(simTime_file_name_csv, simTime_array,'-append');
-                        fclose(fileID);
+            fileID = fopen(simTime_file_name_csv);
+            dlmwrite(simTime_file_name_csv, simTime_array,'-append');
+            fclose(fileID);
             
             
-                        simTime_array(count,1) = simTime;
+            simTime_array(count,1) = simTime;
             % % % %             disp(simTime_array);
             
-                        % % % % %             Update Minimum exetime
-                        if rep_rate == 1   %% if first time
-                            disp('UPDATE min_exetime');
-                            repetition_rate = rep_rate;
-                            min_simTime = simTime;
-                            optim_tabpos = tab_pos_2;
-                            optim_robpos = rob_pos_2;
-            
-                        elseif simTime < min_simTime
-                            disp('UPDATE min_exetime');
-                            repetition_rate = rep_rate;
-                            min_simTime = simTime;
-                            optim_tabpos = tab_pos_2;
-                            optim_robpos = rob_pos_2;
-            
-                        else
-                        end
+            % % % % %             Update Minimum exetime
+            if rep_rate == 1   %% if first time
+                disp('UPDATE min_exetime');
+                repetition_rate = rep_rate;
+                min_simTime = simTime;
+                optim_tabpos = tab_pos_2;
+                optim_robpos = rob_pos_2;
+                
+            elseif simTime < min_simTime
+                disp('UPDATE min_exetime');
+                repetition_rate = rep_rate;
+                min_simTime = simTime;
+                optim_tabpos = tab_pos_2;
+                optim_robpos = rob_pos_2;
+                
+            else
+            end
             
             % Timer stop
             % elapsedTime = toc
@@ -1034,19 +1042,19 @@ if (clientID>-1)
             
             exeTime_T = toc(exeTime_tic);
             
-            % % %         Save the relationship between "repetition rate" and "exeTime" to csv
-            % % %             exeTime_array(1, 1) = rep_rate;
-            % % %             exeTime_array(1, 2) = exeTime_T;
-            % % %
-            % % %             fileID = fopen(exeTime_file_name_csv);
-            % % %             dlmwrite(exeTime_file_name_csv, exeTime_array,'-append');
-            % % %             fclose(fileID);
+            % % %                     Save the relationship between "repetition rate" and "exeTime" to csv
+            exeTime_array(1, 1) = rep_rate;
+            exeTime_array(1, 2) = exeTime_T;
+            
+            fileID = fopen(exeTime_file_name_csv);
+            dlmwrite(exeTime_file_name_csv, exeTime_array,'-append');
+            fclose(fileID);
             
             
             
         end        % % %     Repetition in "rep times" units
         
-%         TimeToRestart_tic = tic;
+        %         TimeToRestart_tic = tic;
         
         % % %         % % % Restart simulation
         % % %         [res_sim_stop] = sim.simxStopSimulation(clientID, sim.simx_opmode_blocking)
@@ -1099,7 +1107,7 @@ if (clientID>-1)
     %     disp(simTime_array);
     
     % Timer stop[s]
-    elapsedTime = toc(tStart);
+    elapsedTime = toc(tStart)
     
     fprintf('elapsedTime(real time)[s] :%f\n', elapsedTime);
     
