@@ -209,7 +209,7 @@ file_name = strcat(time,'_');
 file_name = strcat(file_name,id_num_st);
 file_name = strcat(file_name,'_Sol.png');
 
-% sol_draw_only_facility_position(file_name, cl_s, cl_l, ml, pl, m_max_range, m_min_range, p_pos_x, p_pos_y, m_pos_x, m_pos_y, c_pos_x, c_pos_y)
+ sol_draw_only_facility_position(file_name, cl_s, cl_l, ml, pl, m_max_range, m_min_range, p_pos_x, p_pos_y, m_pos_x, m_pos_y, c_pos_x, c_pos_y)
 
 end
 

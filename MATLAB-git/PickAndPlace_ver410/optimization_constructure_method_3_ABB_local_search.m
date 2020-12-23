@@ -632,7 +632,7 @@ while 1
                 else
                     constraint_flag = 1;
                 end
-            else
+            elses
                 constraint_flag = 1;
             end
             %         end

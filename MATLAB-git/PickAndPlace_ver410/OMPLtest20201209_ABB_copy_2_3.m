@@ -56,9 +56,17 @@ if (clientID>-1)
     writematrix(TimeToRestart_array_cap, TimeToRestart_file_name_csv);
     
     
+    m_pos_current = zeros(1, 3);
+    p_pos_current = zeros(1, 3);
+    c_pos_current = zeros(1, 3);
+    
+    neighbour_step = 0.01;
+    
+    
+    
     rob_init_JointPos = [0, 0, 0, 0, 90, 0];
     
-    % % %     The number of iteratio    ns is "rep_overall x rep"
+    % % %     The number of iterations is "rep_overall x rep"
     rep_overall = 1000;
     % % %     "rep times" units
     rep = 5000;
@@ -71,6 +79,9 @@ if (clientID>-1)
         [res_con_setpos] = sim.simxSetObjectPosition(clientID, con_handle, -1, [0 1 0.75], sim.simx_opmode_oneshot);
         [res_con_setorien] = sim.simxSetObjectOrientation(clientID, con_handle, -1, [0 0 -pi/2], sim.simx_opmode_oneshot);
         
+        c_pos_current = [0, 1, 0.75]
+        
+        
         
         
         % % %     Repetition in "rep times" units
@@ -79,7 +90,7 @@ if (clientID>-1)
             
             
             % % %         Enable logging
-            diary command_window.txt;
+%             diary command_window.txt;
             disp("///////////////////////////////////////////////");
             
             exeTime_tic = tic;
@@ -106,12 +117,19 @@ if (clientID>-1)
             
             disp(rep_rate);
             
+            
             % % %                         Determine layout
-%             if rep_rate == 1
+            if rep_rate == 1
                 [m_pos_random, p_pos_random, c_pos_random] = random_research();
                 rob_pos_2 = [m_pos_random(1), m_pos_random(2), 0.1];
                 tab_pos_2 = [p_pos_random(1), p_pos_random(2), 0.75];
-%             end
+%                 pause(10)
+            else
+                
+                m_pos_local = neighborhood_coordinates23(m_pos_current, p_pos_current, c_pos_current, neighbour_step)
+%                 pause(1)
+            end
+            
             
             
             
@@ -120,7 +138,7 @@ if (clientID>-1)
             [res_tab_genetate, tab_handle] = sim.simxLoadModel(clientID,'customizable_table_with_create_cube_func_05_05_08.ttm', 0, sim.simx_opmode_blocking);
             [res_tab_setpos] = sim.simxSetObjectPosition(clientID, tab_handle, -1, tab_pos_2, sim.simx_opmode_oneshot);
             
-            
+            p_pos_current = tab_pos_2
             
             
             %             [res_get_tab_handle, tab_handle] = sim.simxGetObjectHandle(clientID,'customizableTable', sim.simx_opmode_blocking);
@@ -153,6 +171,8 @@ if (clientID>-1)
             % % %             Move robot position
             [res_rob_handle, rob_handle] = sim.simxGetObjectHandle(clientID,'Cuboid', sim.simx_opmode_blocking);
             [res_rob_setpos] = sim.simxSetObjectPosition(clientID, rob_handle, -1, rob_pos_2, sim.simx_opmode_oneshot);
+            
+            m_pos_current = rob_pos_2
             
             % % %             Get rob joint handle
             [res_J1_handle, J1_handle] = sim.simxGetObjectHandle(clientID,'1', sim.simx_opmode_blocking);
@@ -1034,7 +1054,7 @@ if (clientID>-1)
             [res_init_rob_J6_pos] = sim.simxSetJointPosition(clientID, J6_handle, rob_init_JointPos(6), sim.simx_opmode_oneshot);
             
             % % %         Disable logging
-            diary off
+%             diary off
             %         csvwrite('simTime_array.csv', simTime_array);
             
             % fileID = fopen('simTime_array.csv','w');

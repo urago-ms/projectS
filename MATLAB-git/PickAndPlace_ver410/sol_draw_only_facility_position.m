@@ -1,7 +1,15 @@
 function sol_draw(file_name, cl_s, cl_l, ml, pl, m_max_range, m_min_range, p_pos_x, p_pos_y, m_pos_x, m_pos_y, c_pos_x, c_pos_y)
+% p_pos_x
+% p_pos_y
+% m_pos_x
+% m_pos_y
+% c_pos_x
+% c_pos_y
 
 % % Delete all figure
 % close
+% clc
+disp('Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%');
 
 %%%%%%%%%%%%%%% Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Draw palette range %%%%%%%%%%%%%%%%%%%%%%%%%%
