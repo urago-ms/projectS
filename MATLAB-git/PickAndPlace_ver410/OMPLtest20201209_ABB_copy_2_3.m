@@ -141,26 +141,11 @@ if (clientID>-1)
             p_pos_current = tab_pos_2;
             
             
-            %             [res_get_tab_handle, tab_handle] = sim.simxGetObjectHandle(clientID,'customizableTable', sim.simx_opmode_blocking);
-            %             [res_tab_getpos, tab_pos_2] = sim.simxGetObjectPosition(clientID, tab_handle, -1, sim.simx_opmode_blocking)
-            
-            
-            %
-            %             % % % Create Collection environment
-            %             [res_CreateCollec retInts_CreateCollec retFloats_CreateCollec retStrings retBuffer] = sim.simxCallScriptFunction(clientID, ...
-            %                 'ResizableFloor_5_25', ...
-            %                 sim.sim_scripttype_childscript, ...
-            %                 'createCollection', ...
-            %                 [tab_handle],[], ...
-            %                 '', ...
-            %                 [], ...
-            %                 sim.simx_opmode_blocking);
-            % %             pause(10);
             
             
             
             
-            %             [res_get_rob_handle, rob_handle] = sim.simxGetObjectHandle(clientID,'Cuboid', sim.simx_opmode_blocking);
+            
             
             
             % % %                         Genarate a robot
@@ -199,57 +184,11 @@ if (clientID>-1)
             end
             
             
-            
-            
-            
-            
-            
-            
-            % % %             Setting of target dummy (If generate only target dummy)
-            % % % % %             target_dummy_pos = [0.25, 0, 0.4];
-            % % % % %             target_dummy_orien = [0, 0, -pi/2];
-            
             target_dummy_pos = [1, 0, 0.4];
             target_dummy_orien = [0, pi, 0];
-            
-            
             target_dummy_PosOrien = [target_dummy_pos, target_dummy_orien];
             
-            % % % % %             [res_target_gen, TargetDummyHandle] = sim.simxCreateDummy(clientID, 0.03, [], sim.simx_opmode_blocking);
-            % % % % %             [res_target_setpos] = sim.simxSetObjectPosition(clientID, TargetDummyHandle, rob_handle, target_dummy_pos, sim.simx_opmode_oneshot);
-            % % % % %             [res_target_setorien] = sim.simxSetObjectOrientation(clientID, TargetDummyHandle, rob_handle, target_dummy_orien, sim.simx_opmode_oneshot);
             
-            
-            % % % % %             % % %             Change parent
-            % % % % %             [res retPath retFloats retStrings retBuffer] = sim.simxCallScriptFunction(clientID, ...
-            % % % % %                 'ResizableFloor_5_25', ...
-            % % % % %                 sim.sim_scripttype_childscript, ...
-            % % % % %                 'change_parent', ...
-            % % % % %                 [],[], ...
-            % % % % %                 '', ...
-            % % % % %                 [], ...
-            % % % % %                 sim.simx_opmode_blocking);
-            
-            
-            % % %                         Add to Collection
-            % % % % %             [res_CreateCollec retInts_CreateCollec retFloats_CreateCollec retStrings retBuffer] = sim.simxCallScriptFunction(clientID, ...
-            % % % % %                 'ResizableFloor_5_25', ...
-            % % % % %                 sim.sim_scripttype_childscript, ...
-            % % % % %                 'addCollection', ...
-            % % % % %                 [TargetDummyHandle],[], ...
-            % % % % %                 '', ...
-            % % % % %                 [], ...
-            % % % % %                 sim.simx_opmode_blocking);
-            
-            
-            
-            %         getObjectPosition and getObjectOrientation must be executed twice to get the value, for unknown reasons
-            % % %             [res_idlePos, idlePos] = sim.simxGetObjectPosition(clientID, TargetDummyHandle, -1, sim.simx_opmode_streaming);
-            % % %             [res_idlePos, idleOrient] = sim.simxGetObjectOrientation(clientID, TargetDummyHandle, -1, sim.simx_opmode_streaming);
-            % % %             idlePosOrient = [idlePos, idleOrient];
-            
-            
-            %         disp(TargetDummyHandle);
             
             
             
@@ -291,11 +230,6 @@ if (clientID>-1)
             
             [res_sensor_handle, Proximity_sensor_handle] = sim.simxGetObjectHandle(clientID, 'Proximity_sensor', sim.simx_opmode_blocking);
             [res_Psensor_getpos, Psensor_pos] = sim.simxGetObjectPosition(clientID, Proximity_sensor_handle, -1, sim.simx_opmode_blocking);
-            
-            
-            
-            %             [res_con_getpos, con_pos] = sim.simxGetObjectPosition(clientID, con_handle, -1, sim.simx_opmode_oneshot);
-            
             
             
             
@@ -343,56 +277,6 @@ if (clientID>-1)
                 'fpos3_Dummy', ...
                 [], ...
                 sim.simx_opmode_blocking);
-            
-            
-            % % % %             Read proximity sensor
-            %             [res_sensor_handle, Proximity_sensor_handle] = sim.simxGetObjectHandle(clientID, 'Proximity_sensor', sim.simx_opmode_blocking);
-            %             [res_read_sensor, detectionState, detectedPoint, detectedObjectHandle] = sim.simxReadProximitySensor(clientID, Proximity_sensor_handle, sim.simx_opmode_streaming);
-            
-            % % % %             disp(Proximity_sensor_handle);
-            % % % %
-            % % % %             disp('sensor state');
-            % % % %
-            % % % %             disp(res_read_sensor);
-            % % % %             disp(detectionState);
-            % % % %             disp(detectedPoint);
-            % % % %             disp(detectedObjectHandle);
-            % % % %             disp(cube0_handle);
-            
-            %              % % % %     Psensor
-            %             [res_cube_gen_0, retInts, retFloats, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
-            %                 'ResizableFloor_5_25', ...
-            %                 sim.sim_scripttype_childscript, ...
-            %                 'read_Psensor', ...
-            %                 [1,1,1], ... %   [color_flag(0=NULL,1=green),
-            %                 [0, 0.9, 0.6, 0.1, 0.1, 0.05], ...  %   [posX, posY, posZ, sizeX, sizeY, sizeZ]
-            %                 '', ...
-            %                 [], ...
-            %                 sim.simx_opmode_blocking);
-            
-            %
-            %             [res_cube0_pos, cube0_pos] = sim.simxGetObjectPosition(clientID, cube0_handle, -1, sim.simx_opmode_streaming);
-            %
-            %             [res_cube1_handle, cube1_handle] = sim.simxGetObjectHandle(clientID,'Cuboid1', sim.simx_opmode_blocking);
-            %
-            %             [res_cube0_pos, cube1_pos] = sim.simxGetObjectPosition(clientID, cube1_handle, -1, sim.simx_opmode_streaming);
-            
-            
-            %         fposition4 = [cube0_pos(1), cube0_pos(2), cube0_pos(3)+0.05,	0,	0,	0]    % place position
-            %         fposition3 = [cube0_pos(1), cube0_pos(2), cube0_pos(3)+0.1,	0,	0,	0]    % above place position
-            
-            
-            
-            
-            
-            % % %             Execute pick and place  % % % % % % % % % % % %
-            % % %             Move the endeffector toward the top of the table. (Not included in work time)
-            % Timer start
-            % tic
-            
-            
-            %                         exeTime_tic = tic;
-            %             disp(retFloats_time(1));
             
             
             
@@ -486,34 +370,44 @@ if (clientID>-1)
                 [], ...
                 sim.simx_opmode_oneshot_wait);
             
+            rep_rate
             
-            % % %     Some parameters:
-            % % % % %             approachVector = [0,0,1];      % often a linear approach is required. This should also be part of the calculations when selecting an appropriate state for a given pose
-            approachVector = [0,0,0.1];      % often a linear approach is required. This should also be part of the calculations when selecting an appropriate state for a given pose
-            approachVector_0 = [0,0,0];      % often a linear approach is required. This should also be part of the calculations when selecting an appropriate state for a given pose
-            approachVector_up = [0,0,-0.1];      % often a linear approach is required. This should also be part of the calculations when selecting an appropriate state for a given pose
+% % %             OMPL_MotionPlanning
+            [simTime] = OMPL_MotionPlanning(clientID, sim, robotInitialState, rob_handle, fpos3_DummyPose, fpos4_DummyPose, fpos5_DummyPose, fpos6_DummyPose);
+
+            %{
             
-            maxConfigsForDesiredPose = 10; % we will try to find 10 different states corresponding to the goal pose and order them according to distance from initial state
-            maxTrialsForConfigSearch = 300;    % a parameter needed for finding appropriate goal states
-            searchCount = 1;       % how many times OMPL will run for a given task
-            minConfigsForPathPlanningPath = 200;   % interpolation states for the OMPL path
-            minConfigsForIkPath = 100; % interpolation states for the linear approach path
-            collisionChecking = 1; % whether collision checking is on or off
+%             % % %     Some parameters:
+%             % % % % %             approachVector = [0,0,1];      % often a linear approach is required. This should also be part of the calculations when selecting an appropriate state for a given pose
+%             approachVector = [0,0,0.1];      % often a linear approach is required. This should also be part of the calculations when selecting an appropriate state for a given pose
+%             approachVector_0 = [0,0,0];      % often a linear approach is required. This should also be part of the calculations when selecting an appropriate state for a given pose
+%             approachVector_up = [0,0,-0.1];      % often a linear approach is required. This should also be part of the calculations when selecting an appropriate state for a given pose
+%             
+%             maxConfigsForDesiredPose = 10; % we will try to find 10 different states corresponding to the goal pose and order them according to distance from initial state
+%             maxTrialsForConfigSearch = 300;    % a parameter needed for finding appropriate goal states
+%             searchCount = 1;       % how many times OMPL will run for a given task
+%             minConfigsForPathPlanningPath = 200;   % interpolation states for the OMPL path
+%             minConfigsForIkPath = 100; % interpolation states for the linear approach path
+%             collisionChecking = 1; % whether collision checking is on or off
             
             
             
-            pathTime_tic = tic;
             
-            % % %          Do the path planning here (between a start state and a goal pose, including a linear approach phase):
-            inInts = [rob_handle, collisionChecking, minConfigsForIkPath, minConfigsForPathPlanningPath, maxConfigsForDesiredPose, maxTrialsForConfigSearch, searchCount];
-            inFloats = horzcat(robotInitialState, fpos5_DummyPose, approachVector, approachVector_up);
-            %             inFloats = horzcat(robotInitialState, target3Pose, target1Pose);
+%             % % %          Do the path planning here (between a start state and a goal pose, including a linear approach phase):
+%             inInts = [rob_handle, collisionChecking, minConfigsForIkPath, minConfigsForPathPlanningPath, maxConfigsForDesiredPose, maxTrialsForConfigSearch, searchCount];
+%             inFloats = horzcat(robotInitialState, fpos5_DummyPose, approachVector, approachVector_up);
+%             %             inFloats = horzcat(robotInitialState, target3Pose, target1Pose);
+%             %                         inFloats = horzcat(robotInitialState, TargetDummyPose);
             
-            %                         inFloats = horzcat(robotInitialState, TargetDummyPose);
+% % %             % % %          Do the path planning 2 here (between a start state and a goal pose, including a linear approach phase):
+% % %             approachVector2 = [0,0,-0.1];
+% % %             inInts_2 = [rob_handle, collisionChecking, minConfigsForIkPath, minConfigsForPathPlanningPath, maxConfigsForDesiredPose, maxTrialsForConfigSearch, searchCount];
+% % %             inFloats_2 = horzcat(robotCurrentConfig, fpos3_DummyPose, approachVector_0);
+% % %             % inFloats = horzcat(robotCurrentConfig, target3Pose, target1Pose);
             
-            %     res,retInts,path,retStrings,retBuffer=sim.simxCallScriptFunction(clientID,'remoteApiCommandServer',sim.sim_scripttype_childscript,'findPath_goalIsPose',inInts,inFloats,[],emptyBuff,sim.simx_opmode_oneshot_wait)
             
-            [res retInts path retStrings retBuffer] = sim.simxCallScriptFunction(clientID, ...
+            
+            [res, retInts, path, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
                 'remoteApiCommandServer', ...
                 sim.sim_scripttype_childscript, ...
                 'findPath_goalIsPose', ...
@@ -522,15 +416,15 @@ if (clientID>-1)
                 [], ...
                 sim.simx_opmode_oneshot_wait);
             
-            if (res==0) && length(path)>0
+            if (res==0) && ~isempty(path)
                 % % %          The path could be in 2 parts: a path planning path, and a linear approach path:
-%                 part1StateCnt = retInts(1);
-%                 part2StateCnt = retInts(2);
-%                 path1 = path(1:part1StateCnt*6);
+                %                 part1StateCnt = retInts(1);
+                %                 part2StateCnt = retInts(2);
+                %                 path1 = path(1:part1StateCnt*6);
                 
                 
                 % % %                Visualize the first path:
-                [res retInts retFloats retStrings retBuffer] = sim.simxCallScriptFunction(clientID, ...
+                [res, retInts, retFloats, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
                     'remoteApiCommandServer', ...
                     sim.sim_scripttype_childscript, ...
                     'visualizePath', ...
@@ -551,8 +445,8 @@ if (clientID>-1)
                     [], ...
                     sim.simx_opmode_oneshot_wait);
                 
-                rep_rate
-                exeTime_pathT = toc(pathTime_tic)
+                
+%                 exeTime_pathT = toc(pathTime_tic)
                 
                 
                 % % %              Wait until the end of the movement:
@@ -572,7 +466,7 @@ if (clientID>-1)
                     runningPath = retInts(1) == 1;
                 end
                 
-%                 path2 = path(part1StateCnt*6:end);
+                %                 path2 = path(part1StateCnt*6:end);
                 
                 % % %             Suck objects
                 [res retPath retFloats retStrings retBuffer] = sim.simxCallScriptFunction(clientID, ...
@@ -625,7 +519,7 @@ if (clientID>-1)
                     [], ...
                     sim.simx_opmode_oneshot_wait);
                 
-                if (res==0) && length(path)>0
+                if (res==0) && ~isempty(path)
                     
                     % % %                Visualize the first path:
                     [res, retInts, retFloats, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
@@ -702,53 +596,14 @@ if (clientID>-1)
                 
                 
                 
-                % % % % %
                 % % % % %                                 % % %      Visualize the second path (the linear approach):
-                % % % % %                                 %         res,retInts,retFloats,retStrings,retBuffer=sim.simxCallScriptFunction(clientID,'remoteApiCommandServer',sim.sim_scripttype_childscript,'visualizePath',[robotHandle,0,255,0],path2,[],emptyBuff,sim.simx_opmode_oneshot_wait)
-                % % % % %
-                % % % % %                                 [res retInts retFloats retStrings retBuffer] = sim.simxCallScriptFunction(clientID, ...
-                % % % % %                                     'remoteApiCommandServer', ...
-                % % % % %                                     sim.sim_scripttype_childscript, ...
-                % % % % %                                     'visualizePath', ...
-                % % % % %                                     [rob_handle,0,255,0],path2, ...
-                % % % % %                                     '', ...
-                % % % % %                                     [], ...
-                % % % % %                                     sim.simx_opmode_oneshot_wait);
-                % % % % %
-                % % % % %                                 line2Handle = retInts(1);
-                % % % % %
-                % % % % %                                 % % %          Make the robot follow the path:
-                % % % % %                                 [res retInts retFloats retStrings retBuffer] = sim.simxCallScriptFunction(clientID, ...
-                % % % % %                                     'remoteApiCommandServer', ...
-                % % % % %                                     sim.sim_scripttype_childscript, ...
-                % % % % %                                     'runThroughPath', ...
-                % % % % %                                     [rob_handle],path2, ...
-                % % % % %                                     '', ...
-                % % % % %                                     [], ...
-                % % % % %                                     sim.simx_opmode_oneshot_wait);
-                
-                
                 % % % % %                 % % %              Wait until the end of the movement:
-                % % % % %                 runningPath = true;
-                % % % % %                 while runningPath
-                % % % % %                     %                     res,retInts,retFloats,retStrings,retBuffer=sim.simxCallScriptFunction(clientID,'remoteApiCommandServer',sim.sim_scripttype_childscript,'isRunningThroughPath',[robotHandle],[],[],emptyBuff,sim.simx_opmode_oneshot_wait)
-                % % % % %
-                % % % % %                     [res retInts retFloats retStrings retBuffer] = sim.simxCallScriptFunction(clientID, ...
-                % % % % %                         'remoteApiCommandServer', ...
-                % % % % %                         sim.sim_scripttype_childscript, ...
-                % % % % %                         'isRunningThroughPath', ...
-                % % % % %                         [rob_handle],[], ...
-                % % % % %                         '', ...
-                % % % % %                         [], ...
-                % % % % %                         sim.simx_opmode_oneshot_wait);
-                % % % % %
-                % % % % %                     runningPath = retInts(1) == 1;
-                % % % % %                 end
-           
+                
+                
                 
                 
             end
-   
+            
             
             % % %         Get simtime (Finish)
             [res_time2, retInts_time2, retFloats_time2, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
@@ -764,6 +619,8 @@ if (clientID>-1)
             
             simTime = retFloats_time2(1) - retFloats_time(1);
             %                         exeTime_T = toc(exeTime_tic);
+            %}
+            
             
             
             % % %         Save the relationship between "repetition rate" and "simTime" to csv
