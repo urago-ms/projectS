@@ -62,6 +62,8 @@ if (clientID>-1)
     
     neighbour_step = 10;
     
+    local_num = 9;
+    
     
     
     rob_init_JointPos = [0, 0, 0, 0, 90, 0];
@@ -373,7 +375,7 @@ if (clientID>-1)
             rep_rate
             
 % % %             OMPL_MotionPlanning
-            [simTime] = OMPL_MotionPlanning(clientID, sim, robotInitialState, rob_handle, fpos3_DummyPose, fpos4_DummyPose, fpos5_DummyPose, fpos6_DummyPose);
+            [simTime] = rob_OMPL_MotionPlanning(clientID, sim, robotInitialState, rob_handle, fpos3_DummyPose, fpos4_DummyPose, fpos5_DummyPose, fpos6_DummyPose);
 
             %{
             

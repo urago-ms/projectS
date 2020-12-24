@@ -1,4 +1,4 @@
-function [simTime] = OMPL_MotionPlanning(clientID, sim, robotInitialState, rob_handle, fpos3_DummyPose, fpos4_DummyPose, fpos5_DummyPose, fpos6_DummyPose)
+function [simTime] = rob_OMPL_MotionPlanning(clientID, sim, robotInitialState, rob_handle, fpos3_DummyPose, fpos4_DummyPose, fpos5_DummyPose, fpos6_DummyPose)
 
             % % %     Some parameters:
             % % % % %             approachVector = [0,0,1];      % often a linear approach is required. This should also be part of the calculations when selecting an appropriate state for a given pose
