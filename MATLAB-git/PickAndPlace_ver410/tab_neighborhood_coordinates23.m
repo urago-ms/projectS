@@ -60,11 +60,11 @@ id_num_st = num2str(id_num);
 
 %%%%%%%%%%%%%%%%%%%%% tab Local Search %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-optimized_m_pos_x = 1000*m_pos_current(1);
-optimized_m_pos_y = 1000*m_pos_current(2);
+optimized_m_pos_x = 1000*m_pos_current(1)
+optimized_m_pos_y = 1000*m_pos_current(2)
 
-current_p_pos_x = 1000*p_pos_current(1);
-current_p_pos_y = 1000*p_pos_current(2);
+current_p_pos_x = 1000*p_pos_current(1)
+current_p_pos_y = 1000*p_pos_current(2)
 
 
 
@@ -100,7 +100,7 @@ while side_length_x > 0
         constraint_flag = 0; % reset
         
         %%%%%% Palette new position %%%%%%%%%%%%%%%%%%%%%%%%%%%
-        if (optimized_m_pos_x - p_pos_x)^2 + (optimized_m_pos_y - p_pos_y)^2 < (link_1 + link_2)^2 &&  ((optimized_m_pos_x - p_pos_x)^2 + (optimized_m_pos_y - p_pos_y)^2 > m_min_range^2)
+        if (optimized_m_pos_x - p_pos_x)^2 + (optimized_m_pos_y - p_pos_y)^2 < m_max_range^2 &&  ((optimized_m_pos_x - p_pos_x)^2 + (optimized_m_pos_y - p_pos_y)^2 > m_min_range^2)
             
             % Whether to overlap with the palette
             if (optimized_m_pos_x > (p_pos_x + 1/2*pl + 1/2*ml)) || (optimized_m_pos_x < (p_pos_x - 1/2*pl - 1/2*ml))   % If it does not overlap in the X-axis direction
