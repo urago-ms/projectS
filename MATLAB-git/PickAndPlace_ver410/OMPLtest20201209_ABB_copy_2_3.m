@@ -477,6 +477,7 @@ if (clientID>-1)
                     sim.simx_opmode_blocking);
                 
                 
+                
                 % % % %         disp(res_cube_gen_0);
                 
                 
