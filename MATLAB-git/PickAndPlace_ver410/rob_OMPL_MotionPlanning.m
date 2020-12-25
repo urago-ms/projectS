@@ -61,7 +61,7 @@ function [simTime] = rob_OMPL_MotionPlanning(clientID, sim, robotInitialState, r
                     [], ...
                     sim.simx_opmode_oneshot_wait);
                 
-                exeTime_pathT = toc(pathTime_tic)
+                exeTime_pathT = toc(pathTime_tic);
                 
                 
                 % % %              Wait until the end of the movement:

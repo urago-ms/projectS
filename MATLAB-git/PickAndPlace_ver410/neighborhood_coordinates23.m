@@ -1,8 +1,8 @@
 function [neighbour_m_pos] = neighborhood_coordinates23(m_pos_current, p_pos_current, c_pos_current, neighbour_step)
 
-% Delete all figure
-close
-clc
+% % Delete all figure
+% close
+% clc
 
 %rng(0,'twister');   % randam number initialization
 rng('shuffle','twister');
@@ -202,7 +202,7 @@ c_pos_x = 1000*c_pos_x;
 c_pos_y = 1000*c_pos_y;
 
 
-% sol_draw_only_facility_position(file_name, cl_s, cl_l, ml, pl, m_max_range, m_min_range, p_pos_x, p_pos_y, m_pos_x, m_pos_y, c_pos_x, c_pos_y);
+sol_draw_only_facility_position(file_name, cl_s, cl_l, ml, pl, m_max_range, m_min_range, p_pos_x, p_pos_y, m_pos_x, m_pos_y, c_pos_x, c_pos_y);
 
 end
 

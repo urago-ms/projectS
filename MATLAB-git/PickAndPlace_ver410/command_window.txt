@@ -1,0 +1,486 @@
+///////////////////////////////////////////////
+First time rep_rate == 0
+Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+simTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    2.0900
+
+
+initial_simTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    2.0900
+
+UPDATE min_exetime
+///////////////////////////////////////////////
+Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+simTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    2.0901
+
+
+initial_simTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    2.0901
+
+First time rep_rate == 0
+Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%
+<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\remApi.m',2108,1)">2108 </a>            outIntCnt_ = variousIntsOut(1);
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201209_ABB_copy_2_3
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+simTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    2.0900
+
+
+initial_simTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    2.0900
+
+{関数または変数 'local' が未定義です。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('OMPLtest20201209_ABB_copy_2_3', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201209_ABB_copy_2_3.m', 391)" style="font-weight:bold">OMPLtest20201209_ABB_copy_2_3</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201209_ABB_copy_2_3.m',391,0)">line 391</a>)
+            if local == 1
+} 
+OMPLtest20201209_ABB_copy_2_3
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+simTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    2.0800
+
+
+initial_simTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    2.0800
+
+Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+m_pos_local =
+
+    1.4680   -0.0190
+    1.4680   -0.0090
+    1.4680    0.0010
+    1.4780   -0.0190
+    1.4780   -0.0090
+    1.4780    0.0010
+    1.4880   -0.0190
+    1.4880   -0.0090
+    1.4880    0.0010
+
+
+simTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    2.0700
+
+///////////////////////////////////////////////
+Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+simTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    2.0900
+
+
+initial_simTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    2.0900
+
+Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+m_pos_local =
+
+    1.3780    0.2700
+    1.3780    0.2800
+    1.3780    0.2900
+    1.3880    0.2700
+    1.3880    0.2800
+    1.3880    0.2900
+    1.3980    0.2700
+    1.3980    0.2800
+    1.3980    0.2900
+
+
+simTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    2.0900
+
+///////////////////////////////////////////////
+Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+simTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    2.0700
+
+
+initial_simTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    2.0700
+
+Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+m_pos_local =
+
+   -1.0500    2.3210
+   -1.0500    2.3310
+   -1.0500    2.3410
+   -1.0400    2.3210
+   -1.0400    2.3310
+   -1.0400    2.3410
+   -1.0300    2.3210
+   -1.0300    2.3310
+   -1.0300    2.3410
+
+
+simTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    2.0900
+
+///////////////////////////////////////////////
+Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+simTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    2.0700
+
+
+initial_simTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    2.0700
+
+Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+m_pos_local =
+
+   1.0e+03 *
+
+    9.9990    9.9990
+    9.9990    9.9990
+    9.9990    9.9990
+    0.0008    0.0021
+    0.0008    0.0022
+    0.0008    0.0022
+    0.0008    0.0021
+    0.0008    0.0022
+    0.0008    0.0022
+
+{関数または変数 'm_pos_x' が未定義です。
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tab_neighborhood_coordinates23', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\tab_neighborhood_coordinates23.m', 195)" style="font-weight:bold">tab_neighborhood_coordinates23</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\tab_neighborhood_coordinates23.m',195,0)">line
+195</a>)
+m_pos_x = 1000*m_pos_x;
+
+エラー: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('OMPLtest20201209_ABB_copy_2_3', 'C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201209_ABB_copy_2_3.m', 398)" style="font-weight:bold">OMPLtest20201209_ABB_copy_2_3</a> (<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201209_ABB_copy_2_3.m',398,0)">line 398</a>)
+                p_pos_local =
+                tab_neighborhood_coordinates23(m_pos_current,
+                p_pos_current, c_pos_current,
+                neighbour_step)
+} 
+OMPLtest20201209_ABB_copy_2_3
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+simTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    2.0700
+
+
+initial_simTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    2.0700
+
+Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+m_pos_local =
+
+    1.2150    0.3770
+    1.2150    0.4270
+    1.2150    0.4770
+    1.2650    0.3770
+    1.2650    0.4270
+    1.2650    0.4770
+    1.3150    0.3770
+    1.3150    0.4270
+    1.3150    0.4770
+
+Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+p_pos_local =
+
+        9999        9999
+        9999        9999
+        9999        9999
+        9999        9999
+        9999        9999
+        9999        9999
+        9999        9999
+        9999        9999
+        9999        9999
+
+<a href="matlab: opentoline('C:\Users\mslab\github\projectS\MATLAB-git\PickAndPlace_ver410\OMPLtest20201209_ABB_copy_2_3.m',400,1)">400 </a>            end
+if system_dependent('IsDebugMode')==1, dbquit; end
+OMPLtest20201209_ABB_copy_2_3
+Program started
+Note: always make sure you use the corresponding remoteApi library
+(i.e. 32bit Matlab will not work with 64bit remoteApi, and vice-versa)
+Connected to remote API server
+
+res_startSim =
+
+     0
+
+///////////////////////////////////////////////
+Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+simTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    2.0900
+
+
+initial_simTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    2.0900
+
+Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+m_pos_local =
+
+   -0.9070    1.3340
+   -0.9070    1.3840
+   -0.9070    1.4340
+   -0.8570    1.3340
+   -0.8570    1.3840
+   -0.8570    1.4340
+   -0.8070    1.3340
+   -0.8070    1.3840
+   -0.8070    1.4340
+
+44444sssssssssssssfalaggggggggg
+44444sssssssssssssfalaggggggggg
+44444sssssssssssssfalaggggggggg
+44444sssssssssssssfalaggggggggg
+44444sssssssssssssfalaggggggggg
+44444sssssssssssssfalaggggggggg
+44444sssssssssssssfalaggggggggg
+44444sssssssssssssfalaggggggggg
+44444sssssssssssssfalaggggggggg
+Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+p_pos_local =
+
+        9999        9999
+        9999        9999
+        9999        9999
+        9999        9999
+        9999        9999
+        9999        9999
+        9999        9999
+        9999        9999
+        9999        9999
+
+
+simTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    2.1000
+
+///////////////////////////////////////////////
+Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+simTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    2.0800
+
+
+initial_simTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    2.0800
+
+falaggggggggg33
+falaggggggggg33
+falaggggggggg33
+falaggggggggg33
+Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+m_pos_local =
+
+   1.0e+03 *
+
+    0.0015    0.0014
+    0.0015    0.0014
+    9.9990    9.9990
+    0.0016    0.0014
+    0.0016    0.0014
+    9.9990    9.9990
+    0.0016    0.0014
+    9.9990    9.9990
+    9.9990    9.9990
+
+44444sssssssssssssfalaggggggggg
+44444sssssssssssssfalaggggggggg
+44444sssssssssssssfalaggggggggg
+44444sssssssssssssfalaggggggggg
+44444sssssssssssssfalaggggggggg
+44444sssssssssssssfalaggggggggg
+44444sssssssssssssfalaggggggggg
+44444sssssssssssssfalaggggggggg
+44444sssssssssssssfalaggggggggg
+Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+p_pos_local =
+
+        9999        9999
+        9999        9999
+        9999        9999
+        9999        9999
+        9999        9999
+        9999        9999
+        9999        9999
+        9999        9999
+        9999        9999
+
+
+simTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    2.0900
+
+///////////////////////////////////////////////
+Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+simTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    2.0900
+
+
+initial_simTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    2.0900
+
+Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+m_pos_local =
+
+    0.0570   -0.8570
+    0.0570   -0.7570
+    0.0570   -0.6570
+    0.1570   -0.8570
+    0.1570   -0.7570
+    0.1570   -0.6570
+    0.2570   -0.8570
+    0.2570   -0.7570
+    0.2570   -0.6570
+
+44444sssssssssssssfalaggggggggg
+44444sssssssssssssfalaggggggggg
+44444sssssssssssssfalaggggggggg
+44444sssssssssssssfalaggggggggg
+44444sssssssssssssfalaggggggggg
+44444sssssssssssssfalaggggggggg
+44444sssssssssssssfalaggggggggg
+44444sssssssssssssfalaggggggggg
+44444sssssssssssssfalaggggggggg
+Solution plot %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+p_pos_local =
+
+        9999        9999
+        9999        9999
+        9999        9999
+        9999        9999
+        9999        9999
+        9999        9999
+        9999        9999
+        9999        9999
+        9999        9999
+
+
+simTime =
+
+  <a href="matlab:helpPopup single" style="font-weight:bold">single</a>
+
+    2.0700
+
