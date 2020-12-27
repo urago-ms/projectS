@@ -1,4 +1,4 @@
-function [m_pos_random, p_pos_random, c_pos_random] = random_research()
+function [m_pos_random, p_pos_random, c_pos_random] = random_research(cl_l, cl_s, ml, pl, m_min_range, m_max_range)
 
 % old file name "optim_test_1_random_minmax_with_spawn_and_grasp_2.m"
 %clear
@@ -20,14 +20,14 @@ d_green = '[0.4660 0.6740 0.1880]';
 lim_x = 2000;  % space limit
 lim_y = 4000;  % space limit
 
-ml = 800; % manipulator base one side length
-pl = 500; % palette one side length
+% % % ml = 800; % manipulator base one side length
+% % % pl = 500; % palette one side length
 
 % link_1 = 260; % manipulator link1 length
 % link_2 = 260; % manipulator link2 length
 
-cl_l = 2000;   % conveyor long side length
-cl_s = 600;   % conveyor short side length
+% % % cl_l = 2000;   % conveyor long side length
+% % % cl_s = 600;   % conveyor short side length
 % cl_l_max = 1000;   % conveyor long side max length
 % cl_l_min = 500;   % conveyor long side min length
 
@@ -37,8 +37,8 @@ cl_s = 600;   % conveyor short side length
 %c_pos = [0 0.5];
 
 
-omega_1 = 375;  % Max velocity of J1 axis[deg/s]
-omega_2 = 375;  % Max velocity of J2 axis[deg/s]
+% omega_1 = 375;  % Max velocity of J1 axis[deg/s]
+% omega_2 = 375;  % Max velocity of J2 axis[deg/s]
 
 % only for 120deg
 % range_max = link_1 + link_2;  % Maximum manipulator range
@@ -59,9 +59,9 @@ m_pos_z = 0;
 p_pos_z = 0;
 c_pos_z = 0;
 
-m_pos_random = [m_pos_x, m_pos_y, m_pos_z];
-p_pos_random = [p_pos_x, p_pos_y, p_pos_z];
-c_pos_random = [c_pos_x, c_pos_y, c_pos_z];
+% m_pos_random = [m_pos_x, m_pos_y, m_pos_z];
+% p_pos_random = [p_pos_x, p_pos_y, p_pos_z];
+% c_pos_random = [c_pos_x, c_pos_y, c_pos_z];
 
 
 
@@ -75,12 +75,12 @@ m_hand_pos = zeros(1,2); % manipulator hand position
 % m_min_range = 188; % manipulator min range (radius)
 % m_max_range = 495;  % Maximum manipulator range531 (radius)
 
-m_min_range = 593; % manipulator min range (radius)
-m_max_range = 2051;  % Maximum manipulator range531 (radius)
+% % % m_min_range = 593; % manipulator min range (radius)
+% % % m_max_range = 2051;  % Maximum manipulator range531 (radius)
 
 
 
-g_initial_theta_1 = 0;
+% g_initial_theta_1 = 0;
 
 % Figure ID
 date = datetime;

@@ -17,7 +17,7 @@ tStart = tic;
 
 disp('Program started');
 % sim=remApi('remoteApi','extApi.h'); % using the header (requires a compiler)
-sim = remApi('remoteApi'); % using the prototype file (remoteApiProto.m)
+sim = remApi('remoteApi'); % using the prootype file (remoteApiProto.m)
 sim.simxFinish(-1); % just in case, close all opened connections
 clientID = sim.simxStart('127.0.0.1',19998,true,true,5000,5);
 
@@ -28,6 +28,15 @@ if (clientID>-1)
     disp('Connected to remote API server');
     % % %     Simulation Start
     [res_startSim] = sim.simxStartSimulation(clientID,sim.simx_opmode_blocking)
+    
+    cl_l = 2000;   % conveyor long side length
+    cl_s = 600;   % conveyor short side length
+    ml = 800; % manipulator base one side length
+    pl = 500; % palette one side length
+    m_min_range = 593; % manipulator min range (radius)
+    m_max_range = 2051;  % Maximum manipulator range531 (radius)
+           
+    
     
     %     exeTime_array_2 = zeros(1000000,2);
     exeTime_array = zeros(1,2);
@@ -121,7 +130,7 @@ if (clientID>-1)
     
     
     % % %                         Determine layout
-    [m_pos_random, p_pos_random, c_pos_random] = random_research();
+    [m_pos_random, p_pos_random, c_pos_random] = random_research(cl_l, cl_s, ml, pl, m_min_range, m_max_range);
     rob_pos_2 = [m_pos_random(1), m_pos_random(2), 0.1];
     tab_pos_2 = [p_pos_random(1), p_pos_random(2), 0.75];
     
@@ -752,12 +761,12 @@ if (clientID>-1)
                 m_pos_current(1) = m_pos_local(min_index, 1);
                 m_pos_current(2) = m_pos_local(min_index, 2);
                 
-                cl_l = 2000;   % conveyor long side length
-                cl_s = 600;   % conveyor short side length
-                ml = 800; % manipulator base one side length
-                pl = 500; % palette one side length
-                m_min_range = 593; % manipulator min range (radius)
-                m_max_range = 2051;  % Maximum manipulator range531 (radius)
+%                 cl_l = 2000;   % conveyor long side length
+%                 cl_s = 600;   % conveyor short side length
+%                 ml = 800; % manipulator base one side length
+%                 pl = 500; % palette one side length
+%                 m_min_range = 593; % manipulator min range (radius)
+%                 m_max_range = 2051;  % Maximum manipulator range531 (radius)
                 
                 sol_draw_only_facility_position('file_name', cl_s, cl_l, ml, pl, m_max_range, m_min_range, 1000*p_pos_current(1), 1000*p_pos_current(2), 1000*m_pos_current(1), 1000*m_pos_current(2), 1000*c_pos_current(1), 1000*c_pos_current(2));
                 
@@ -1149,12 +1158,12 @@ if (clientID>-1)
                 p_pos_current(1) = p_pos_local(min_index, 1);
                 p_pos_current(2) = p_pos_local(min_index, 2);
                 
-                cl_l = 2000;   % conveyor long side length
-                cl_s = 600;   % conveyor short side length
-                ml = 800; % manipulator base one side length
-                pl = 500; % palette one side length
-                m_min_range = 593; % manipulator min range (radius)
-                m_max_range = 2051;  % Maximum manipulator range531 (radius)
+%                 cl_l = 2000;   % conveyor long side length
+%                 cl_s = 600;   % conveyor short side length
+%                 ml = 800; % manipulator base one side length
+%                 pl = 500; % palette one side length
+%                 m_min_range = 593; % manipulator min range (radius)
+%                 m_max_range = 2051;  % Maximum manipulator range531 (radius)
                 
                 sol_draw_only_facility_position('file_name', cl_s, cl_l, ml, pl, m_max_range, m_min_range, 1000*p_pos_current(1), 1000*p_pos_current(2), 1000*m_pos_current(1), 1000*m_pos_current(2), 1000*c_pos_current(1), 1000*c_pos_current(2));
                 
@@ -1168,12 +1177,12 @@ if (clientID>-1)
         
     end
                     
-                cl_l = 2000;   % conveyor long side length
-                cl_s = 600;   % conveyor short side length
-                ml = 800; % manipulator base one side length
-                pl = 500; % palette one side length
-                m_min_range = 593; % manipulator min range (radius)
-                m_max_range = 2051;  % Maximum manipulator range531 (radius)
+%                 cl_l = 2000;   % conveyor long side length
+%                 cl_s = 600;   % conveyor short side length
+%                 ml = 800; % manipulator base one side length
+%                 pl = 500; % palette one side length
+%                 m_min_range = 593; % manipulator min range (radius)
+%                 m_max_range = 2051;  % Maximum manipulator range531 (radius)
 
     
     sol_draw_only_facility_position('final_sol_file_name.png', cl_s, cl_l, ml, pl, m_max_range, m_min_range, 1000*p_pos_current(1), 1000*p_pos_current(2), 1000*m_pos_current(1), 1000*m_pos_current(2), 1000*c_pos_current(1), 1000*c_pos_current(2));
