@@ -23,26 +23,34 @@ lim_y = 4000;  % space limit
 ml = 800; % manipulator base one side length
 pl = 500; % palette one side length
 
-% link_1 = 260; % manipulator link1 length
-% link_2 = 260; % manipulator link2 length
+link_1 = 260; % manipulator link1 length
+link_2 = 260; % manipulator link2 length
 
 cl_l = 2000;   % conveyor long side length
+cl_l_max = 1000;   % conveyor long side max length
+cl_l_min = 500;   % conveyor long side min length
 cl_s = 600;   % conveyor short side length
-% cl_l_max = 1000;   % conveyor long side max length
-% cl_l_min = 500;   % conveyor long side min length
 
 % m_pos = zeros(1,2); % manipulator position
 % p_pos = zeros(1,2); % palette position
 % c_pos = zeros(1,2); % conveyor position
 %c_pos = [0 0.5];
 
+theta_1 = 0;    % Initial angle of J1 axis
+theta_2 = 0;    % Initial angle of J2 axis
+
+phi_1 = 0;    % Target angle of J1 axis
+phi_2 = 0;    % Target angle of J2 axis
+
+j1_max = pi;    % Maximum angle of J1 axis
+j2_max = 2/3*pi;    % Maximum angle of J2 axis
 
 omega_1 = 375;  % Max velocity of J1 axis[deg/s]
 omega_2 = 375;  % Max velocity of J2 axis[deg/s]
 
 % only for 120deg
-% range_max = link_1 + link_2;  % Maximum manipulator range
-% range_min = link_1;  % Minimum manipulator range
+range_max = link_1 + link_2;  % Maximum manipulator range
+range_min = link_1;  % Minimum manipulator range
 
 
 

@@ -50,10 +50,10 @@ if (clientID>-1)
     
     % % %     An array to store Time to Restart
     %     time = datestr(datetime,'yyyymmdd_HHMMSS');
-    TimeToRestart_file_name_csv = strcat(time, 'TimeToRestart.csv');
+%     TimeToRestart_file_name_csv = strcat(time, 'TimeToRestart.csv');
     
-    TimeToRestart_array_cap = ["count_overall", "TimeToRestart[s]"];
-    writematrix(TimeToRestart_array_cap, TimeToRestart_file_name_csv);
+%     TimeToRestart_array_cap = ["count_overall", "TimeToRestart[s]"];
+%     writematrix(TimeToRestart_array_cap, TimeToRestart_file_name_csv);
     
     
     m_pos_current = zeros(1, 3);
@@ -377,6 +377,7 @@ if (clientID>-1)
     
     
     for Num = 1:2
+% % %         Loop for determining the position of the manipulator
         while 1
             for local_num = 1:local_iteration_num
                 % % %              display rep_rate
@@ -734,6 +735,7 @@ if (clientID>-1)
                 rep_rate = rep_rate + 1
                 
             end
+            
             m_pos_local_simTime
             
             [local_min_simTime, min_index] = min(m_pos_local_simTime);
