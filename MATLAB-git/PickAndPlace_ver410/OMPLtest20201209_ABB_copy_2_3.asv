@@ -94,7 +94,7 @@ if (clientID>-1)
     % % %     "rep times" units
     rep = 5000;
     
-    rep_rate = 1;
+    rep_rate = 0;
     
     % % %     Repetition overall
     %     for count_overall = 1:rep_overall
@@ -138,9 +138,7 @@ if (clientID>-1)
     initial_tab_pos = tab_pos_2;
     
     
-        m_pos_current = rob_pos_2;
-    p_pos_current = tab_pos_2;
-
+    
     
     
     
@@ -157,9 +155,9 @@ if (clientID>-1)
     % % %             Generate facilities using MATLAB functions % % % % %
     % % %                         Genarate a table
     [res_tab_genetate, tab_handle] = sim.simxLoadModel(clientID,'customizable_table_with_create_cube_func_05_05_08.ttm', 0, sim.simx_opmode_blocking);
-    [res_tab_setpos] = sim.simxSetObjectPosition(clientID, tab_handle, -1, tab_pos_2, sim.simx_opmode_oneshot);
+    [res_tab_setpos] = sim.simxSetObjectPosition(clientID, tab_handle, -1, , sim.simx_opmode_oneshot);
     
-    p_pos_current = tab_pos_2;
+    p_pos_current = ;
     
     % % %             Get rob joint handle
     [res_J1_handle, J1_handle] = sim.simxGetObjectHandle(clientID,'1', sim.simx_opmode_blocking);
@@ -209,7 +207,7 @@ if (clientID>-1)
     % % % %         disp(res_cube_gen_0);
     
     
-    [res_tab_getpos, tab_pos_2] = sim.simxGetObjectPosition(clientID, tab_handle, -1, sim.simx_opmode_blocking);
+    [res_tab_getpos, ] = sim.simxGetObjectPosition(clientID, tab_handle, -1, sim.simx_opmode_blocking);
     % % % %     create cube on table
     [res_cube_gen_1, retCubeHandle, retFloats, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
         'ResizableFloor_5_25', ...
@@ -377,13 +375,9 @@ if (clientID>-1)
     
     
     for Num = 1:2
-        
 % % %         Loop for determining the position of the manipulator
         while 1
-            
-% % %             local search
             for local_num = 1:local_iteration_num
-%                 rep_rate = rep_rate + 1;
                 % % %              display rep_rate
                 [res_print_repetition_rate, retPath, retFloats, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
                     'ResizableFloor_5_25', ...
@@ -399,7 +393,7 @@ if (clientID>-1)
                 
                 % % %                         Determine layout
                 if local_num == 1
-                    m_pos_local = rob_neighborhood_coordinates23(m_pos_current, p_pos_current, c_pos_current, neighbour_step)
+                    m_pos_local = neighborhood_coordinates23(m_pos_current, p_pos_current, c_pos_current, neighbour_step)
                     %                 rep_flag = 1;
                     %             disp('After the second time')
                     %                 pause(1)
@@ -435,8 +429,6 @@ if (clientID>-1)
                     % % %                         Genarate a table
                     [res_tab_genetate, tab_handle] = sim.simxLoadModel(clientID,'customizable_table_with_create_cube_func_05_05_08.ttm', 0, sim.simx_opmode_blocking);
                     [res_tab_setpos] = sim.simxSetObjectPosition(clientID, tab_handle, -1, tab_pos_2, sim.simx_opmode_oneshot);
-                    
-                    tab_handle
                     
                                     p_pos_current = tab_pos_2;
                     
@@ -806,7 +798,7 @@ if (clientID>-1)
                 
                 % % %                         Determine layout
                 if local_num == 1
-                    %                 m_pos_local = rob_neighborhood_coordinates23(m_pos_current, p_pos_current, c_pos_current, neighbour_step)
+                    %                 m_pos_local = neighborhood_coordinates23(m_pos_current, p_pos_current, c_pos_current, neighbour_step)
                     %                 rep_flag = 1;
                     %             disp('After the second time')
                     %                 pause(1)

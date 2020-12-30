@@ -1,4 +1,4 @@
-function [neighbour_m_pos] = neighborhood_coordinates23(m_pos_current, p_pos_current, c_pos_current, neighbour_step)
+function [neighbour_m_pos] = rob_neighborhood_coordinates23(m_pos_current, p_pos_current, c_pos_current, neighbour_step)
 
 % % Delete all figure
 % close

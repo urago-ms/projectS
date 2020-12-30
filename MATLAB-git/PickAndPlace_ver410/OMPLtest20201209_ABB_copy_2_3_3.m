@@ -393,7 +393,7 @@ if (clientID>-1)
                 
                 % % %                         Determine layout
                 if local_num == 1
-                    m_pos_local = neighborhood_coordinates23(m_pos_current, p_pos_current, c_pos_current, neighbour_step)
+                    m_pos_local = rob_neighborhood_coordinates23(m_pos_current, p_pos_current, c_pos_current, neighbour_step)
                     %                 rep_flag = 1;
                     %             disp('After the second time')
                     %                 pause(1)
@@ -798,7 +798,7 @@ if (clientID>-1)
                 
                 % % %                         Determine layout
                 if local_num == 1
-                    %                 m_pos_local = neighborhood_coordinates23(m_pos_current, p_pos_current, c_pos_current, neighbour_step)
+                    %                 m_pos_local = rob_neighborhood_coordinates23(m_pos_current, p_pos_current, c_pos_current, neighbour_step)
                     %                 rep_flag = 1;
                     %             disp('After the second time')
                     %                 pause(1)
