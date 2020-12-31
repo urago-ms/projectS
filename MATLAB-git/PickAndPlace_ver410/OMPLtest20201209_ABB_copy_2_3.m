@@ -142,7 +142,7 @@ if (clientID>-1)
     
     
     
- 
+    
     
     
     for Num = 1:2
@@ -168,7 +168,7 @@ if (clientID>-1)
                 
                 % % %                         Determine layout
                 if local_num == 1
-% % %                     Get the coordinates of the manipulator's neighborhood.
+                    % % %                     Get the coordinates of the manipulator's neighborhood.
                     m_pos_local = rob_neighborhood_coordinates23(m_pos_current, p_pos_current, c_pos_current, neighbour_step)
                     %                 rep_flag = 1;
                     %             disp('After the second time')
@@ -406,24 +406,24 @@ if (clientID>-1)
                     if local_num == 5
                         initial_simTime = simTime;
                     end
-                   
+                    
                 else
-% % %                 if flag_9999 == 1
-                     simTime = 9999;
+                    % % %                 if flag_9999 == 1
+                    simTime = 9999;
                     flag_9999 = 0;
                 end
                 
                 
                 %                 m_pos_local_simTime(local_num, 1) = local_num;
                 
-%                 % % %                 After the second time
-%                 if flag_9999 == 1
-%                     simTime = 9999;
-%                     flag_9999 = 0;
-%                 end
+                %                 % % %                 After the second time
+                %                 if flag_9999 == 1
+                %                     simTime = 9999;
+                %                     flag_9999 = 0;
+                %                 end
                 
                 m_pos_local_simTime(local_num, 1) = simTime;
-
+                
                 
                 %         writematrix(simTime_array_cap,'simTime_array.csv');
                 %         writematrix(simTime_array,'simTime_array.csv','WriteMode','append');
@@ -1023,6 +1023,17 @@ if (clientID>-1)
     %     else
     %         fprintf('Remote function call failed\n');
     %     end
+    
+    % % %     Stop simulation
+    [res_sim_stop] = sim.simxStopSimulation(clientID, sim.simx_opmode_blocking)
+    is_running = true;
+    
+    % Wait until the simulation is completely stopped
+    while is_running
+        [res_GetPing, ping_time] = sim.simxGetPingTime(clientID);
+        [res_GetInMes, server_state] = sim.simxGetInMessageInfo(clientID, sim.simx_headeroffset_server_state);
+        is_running = bitand(server_state,1);
+    end
     
     
     % Now close the connection to CoppeliaSim:
