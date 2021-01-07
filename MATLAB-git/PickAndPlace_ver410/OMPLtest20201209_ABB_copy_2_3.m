@@ -1027,7 +1027,6 @@ if (clientID>-1)
     % % %     Stop simulation
     [res_sim_stop] = sim.simxStopSimulation(clientID, sim.simx_opmode_blocking)
     is_running = true;
-    
     % Wait until the simulation is completely stopped
     while is_running
         [res_GetPing, ping_time] = sim.simxGetPingTime(clientID);
