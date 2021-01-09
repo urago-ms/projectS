@@ -221,8 +221,6 @@ if (res==0) && ~isempty(path)
             [], ...
             sim.simx_opmode_blocking);
         
-    else
-        disp("2 NOT (res==0) && ~isempty(path)");
     end
     
     
@@ -230,7 +228,7 @@ if (res==0) && ~isempty(path)
     % % % % %                 % % %              Wait until the end of the movement:
     
 else
-    disp("1 NOT (res==0) && ~isempty(path)");
+    disp("(res==0) && ~isempty(path)");
 end
 
 
