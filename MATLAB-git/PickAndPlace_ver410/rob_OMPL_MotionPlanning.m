@@ -222,7 +222,9 @@ if (res==0) && ~isempty(path)
             sim.simx_opmode_blocking);
         
     else
+        % % %         If the path was not generated successfully
         disp("2 NOT (res==0) && ~isempty(path)");
+        simTime = 9999;
     end
     
     
@@ -230,7 +232,9 @@ if (res==0) && ~isempty(path)
     % % % % %                 % % %              Wait until the end of the movement:
     
 else
+    % % %         If the path was not generated successfully
     disp("1 NOT (res==0) && ~isempty(path)");
+    simTime = 9999;
 end
 
 
