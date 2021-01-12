@@ -36,6 +36,10 @@ if (clientID>-1)
     m_min_range = 593; % manipulator min range (radius)
     m_max_range = 2051;  % Maximum manipulator range531 (radius)
     
+       m_min_range = 680; % manipulator min range (radius)
+    m_max_range = 2552;  % Maximum manipulator range531 (radius)
+    
+    %-135suru
     
     
     %     exeTime_array_2 = zeros(1000000,2);
