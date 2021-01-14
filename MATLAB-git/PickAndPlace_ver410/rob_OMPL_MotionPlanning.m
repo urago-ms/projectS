@@ -15,7 +15,9 @@ collisionChecking = 1; % whether collision checking is on or off
 
 % % %          Do the path planning here (between a start state and a goal pose, including a linear approach phase):
 inInts = [rob_handle, collisionChecking, minConfigsForIkPath, minConfigsForPathPlanningPath, maxConfigsForDesiredPose, maxTrialsForConfigSearch, searchCount];
-inFloats = horzcat(robotInitialState, fpos5_DummyPose, approachVector, approachVector_up);
+% inFloats = horzcat(robotInitialState, fpos5_DummyPose, approachVector, approachVector_up);
+inFloats = horzcat(robotInitialState, fpos5_DummyPose, approachVector_0);
+
 %             inFloats = horzcat(robotInitialState, target3Pose, target1Pose);
 %                         inFloats = horzcat(robotInitialState, TargetDummyPose);
 
