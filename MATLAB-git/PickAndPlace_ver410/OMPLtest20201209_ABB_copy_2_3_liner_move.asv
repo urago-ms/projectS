@@ -36,7 +36,7 @@ if (clientID>-1)
     m_min_range = 593; % manipulator min range (radius)
     m_max_range = 2051;  % Maximum manipulator range531 (radius)
     
-    m_min_range = 680; % manipulator min range (radius)
+       m_min_range = 680; % manipulator min range (radius)
     m_max_range = 2552;  % Maximum manipulator range531 (radius)
     
     %-135suru
@@ -74,7 +74,7 @@ if (clientID>-1)
     c_pos_current = zeros(1, 3);
     
     neighbour_step = 200;
-    neighbour_step_l = 20;
+    neighbour_step_l = 50;
     
     
     local_iteration_num = 9;
@@ -405,33 +405,22 @@ if (clientID>-1)
                     
                     
                     % % %             OMPL_MotionPlanning
-                    %                     [simTime] = rob_OMPL_MotionPlanning(clientID, sim, robotInitialState, rob_handle, fpos3_DummyPose, fpos4_DummyPose, fpos5_DummyPose, fpos6_DummyPose);
+                    [simTime] = rob_OMPL_MotionPlanning(clientID, sim, robotInitialState, rob_handle, fpos3_DummyPose, fpos4_DummyPose, fpos5_DummyPose, fpos6_DummyPose);
                     
-                    % % %                     RML_MotionPlanning
+% % %                     RML_MotionPlanning
                     [res, retInts, robotInitialState, retStrings, retBuffer] = sim.simxCallScriptFunction(clientID, ...
                         'Cuboid', ...
                         sim.sim_scripttype_childscript, ...
                         'rml_MotionPlanning', ...
-                        [rob_handle, fpos3_DummyHandle, fpos4_DummyHandle, fpos5_DummyHandle, fpos6_DummyHandle], ...
-                        [], ...
+                        [rob_handle],[], ...
                         '', ...
                         [], ...
                         sim.simx_opmode_oneshot_wait);
+
+
                     
                     
-                    % Wait until the simulation is completely stopped
-                    is_running = true;
-                    while is_running
-                        [res_GetPing, ping_time] = sim.simxGetPingTime(clientID);
-                        [res_GetInMes, server_state] = sim.simxGetInMessageInfo(clientID, sim.simx_headeroffset_server_state);
-                        is_running = bitand(server_state,1);
-                    end
-                    
-                    simTime = 0;
-                    
-                    
-                    
-                    % % %                     local_num 5 == current pos
+% % %                     local_num 5 == current pos
                     if local_num == 5
                         initial_simTime = simTime;
                     end
