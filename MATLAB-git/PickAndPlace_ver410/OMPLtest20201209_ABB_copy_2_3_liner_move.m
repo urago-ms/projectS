@@ -73,7 +73,7 @@ if (clientID>-1)
     p_pos_current = zeros(1, 3);
     c_pos_current = zeros(1, 3);
     
-    neighbour_step = 200;
+    neighbour_step = 100;
     neighbour_step_l = 20;
     
     
