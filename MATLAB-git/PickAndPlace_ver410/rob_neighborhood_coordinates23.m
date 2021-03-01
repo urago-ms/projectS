@@ -31,7 +31,7 @@ cl_s = 600;   % conveyor short side length
 m_min_range = 593; % manipulator min range (radius)
 m_max_range = 2051;  % Maximum manipulator range531 (radius)
 
-
+% % % [m] -> [mm]
 c_pos_x = 1000*c_pos_current(1);
 c_pos_y = 1000*c_pos_current(2);
 
@@ -150,6 +150,7 @@ while side_length_x > 0
             % % %                 Store the coordinates of the vicinity of the device
             neighbour_num = max_side_length_y + 1 - side_length_y + (3*(max_side_length_x - side_length_x));
             
+            % % % [mm] -> [m]
             neighbour_m_pos(neighbour_num,1) = 1/1000*m_pos_x;
             neighbour_m_pos(neighbour_num,2) = 1/1000*m_pos_y;
             
@@ -194,6 +195,7 @@ file_name = strcat(file_name,'_m_local.png');
 % c_pos_x = 1000*c_pos_x;
 % c_pos_y = 1000*c_pos_y;
 
+% % % [m] -> [mm]
 p_pos_x = 1000*p_pos_x;
 p_pos_y = 1000*p_pos_y;
 m_pos_x = 1000*m_pos_x;
